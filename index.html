@@ -28,7 +28,6 @@
     <h1>EU ESG 규제 모니터링</h1>
     <p>현대차그룹 등 완성차에 납품하는 자동차부품사를 위한 EU 규제 실무 대시보드 — 시행 일정, 최신 동향, 규제별 적용 수준 판별</p>
     <div class="gen-line" id="genLine"></div>
-    <div class="hstats" id="hstats"></div>
   </div>
 </div>
 
@@ -77,7 +76,7 @@
       <h2>규제별 현황</h2>
       <span class="n">카드를 누르면 규제별 상세 페이지로 이동합니다 · <span class="alertpill" style="vertical-align:1px">확인 N</span> 채택·연기·시행 등 상태 변화 신호가 있는 기사</span>
     </div>
-    <div id="regGrid"></div>
+    <div class="grid" id="regGrid"></div>
   </section>
 
   <section class="blk" id="newsPrev">
@@ -109,21 +108,6 @@
   const { data, now, DAY, REGS, esc, fmtDate, colorOf, LV, P } = E;
 
   E.navInit();
-
-  /* ── 히어로 요약 지표: 클릭하면 해당 섹션으로 이동 ── */
-  (function () {
-    const nearest = REGS.filter(r => r.dday !== null && r.dday > 0)
-      .sort((a, b) => a.dday - b.dday)[0];
-    document.getElementById("hstats").innerHTML =
-      (E.alertTotal
-        ? '<a class="hstat hot" href="#alerts"><b>' + E.alertTotal + '건</b><span>확인 필요 — 규제 상태 변화 신호</span></a>'
-        : '<a class="hstat" href="#regs"><b>이상 없음</b><span>이번 주 상태 변화 신호</span></a>') +
-      (nearest
-        ? '<a class="hstat" href="#cal"><b>D-' + nearest.dday + "</b><span>다음 시행 — " +
-          esc(nearest.abbr) + " " + esc(nearest.keyLabel) + "</span></a>"
-        : "") +
-      '<a class="hstat" href="weekly.html"><b>' + E.newTotal + '건</b><span>이번 주 수집 기사 — 주간 동향</span></a>';
-  })();
 
   /* ── 시행 캘린더 ── */
   function renderCal() {
@@ -169,41 +153,18 @@
         esc(r.abbr) + "</a>").join("");
   }
 
-  /* ── 규제 카드: 상황별 그룹으로 표시 ── */
-  function cardGroups() {
-    const byD = (a, b) => ((a.dday === null ? 9e5 : a.dday) - (b.dday === null ? 9e5 : b.dday));
+  /* ── 규제 카드 ── */
+  function shownRegs() {
+    let list = REGS.slice();
     if (E.isSet()) {
-      // 프로필 설정 시: 적용 수준별 그룹
-      const by = { direct: [], indirect: [], watch: [], low: [] };
-      REGS.forEach(r => by[r.ap.lv].push(r));
-      Object.values(by).forEach(a => a.sort(byD));
-      return [
-        ["직접 적용", "우리 회사가 의무 주체", by.direct, "var(--urgent)"],
-        ["간접 영향", "고객사 요구로 대응 필요", by.indirect, "var(--warn)"],
-        ["주시 필요", "협상 경과에 따라 영향 변동", by.watch, "var(--brand)"],
-        P.hideLow ? null : ["관련 낮음", "현재 취급 품목·거래 기준", by.low, "var(--idle)"],
-      ].filter(Boolean);
+      if (P.hideLow) list = list.filter(r => r.ap.lv !== "low");
+      list.sort((a, b) => (LV[a.ap.lv].rank - LV[b.ap.lv].rank) ||
+        ((a.dday === null ? 9e5 : a.dday) - (b.dday === null ? 9e5 : b.dday)));
     }
-    // 기본: 시행 단계별 그룹
-    const soon = REGS.filter(r => r.dday !== null && r.dday > 0 && r.dday <= 180).sort(byD);
-    const later = REGS.filter(r => r.dday !== null && r.dday > 180).sort(byD);
-    const wip = REGS.filter(r => r.cls === "wip");
-    const live = REGS.filter(r => !soon.includes(r) && !later.includes(r) && !wip.includes(r));
-    return [
-      ["시행 임박", "6개월 이내 — 지금 준비해야 합니다", soon, "var(--urgent)"],
-      ["시행 예정", "일정 확정 — 준비 기간 확보 가능", later, "var(--warn)"],
-      ["시행 중", "이미 의무가 진행 중", live, "var(--ok)"],
-      ["입법·협상 중", "확정 전 — 경과 주시", wip, "var(--idle)"],
-    ];
+    return list;
   }
   function renderCards() {
-    document.getElementById("regGrid").innerHTML = cardGroups()
-      .filter(g => g[2].length)
-      .map(([t, sub, list, c]) =>
-        '<div class="ggroup"><div class="ggh" style="--gc:' + c + '"><i></i>' + t +
-        '<span>' + list.length + "개 · " + sub + "</span></div>" +
-        '<div class="grid">' + list.map(card).join("") + "</div></div>")
-      .join("");
+    document.getElementById("regGrid").innerHTML = shownRegs().map(card).join("");
   }
   function card(r) {
       const col = colorOf(r);
