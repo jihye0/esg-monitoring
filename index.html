@@ -1,0 +1,382 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EU ESG 규제 모니터링 | K-Mobility 브릿지 재단</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="wrap nav-in">
+    <a class="brand" href="index.html">
+      <div class="mark" aria-hidden="true"></div>
+      <div class="bname">K-Mobility 브릿지 재단</div>
+    </a>
+    <div class="navlinks">
+      <a href="#cal" class="hide-m">시행 캘린더</a>
+      <a href="#regs" class="hide-m">규제 현황</a>
+      <a href="weekly.html" id="navNews">주간 동향</a>
+    </div>
+  </div>
+</nav>
+
+<div class="phead">
+  <div class="wrap">
+    <div class="tagline">ESG REGULATORY WATCH</div>
+    <h1>EU ESG 규제 모니터링</h1>
+    <p>현대차그룹 등 완성차에 납품하는 자동차부품사를 위한 EU 규제 실무 대시보드 — 시행 일정, 최신 동향, 규제별 적용 수준 판별</p>
+    <div class="gen-line" id="genLine"></div>
+    <div class="hstats" id="hstats"></div>
+  </div>
+</div>
+
+<div class="wrap" style="padding-top:36px">
+  <section class="blk" id="alerts" hidden>
+    <div class="shead"><h2>확인 필요 동향</h2><span class="n" id="alertNote"></span></div>
+    <div class="alist" id="alertList"></div>
+  </section>
+
+  <section class="blk" id="brief" hidden>
+    <div class="shead"><h2>재단 브리핑 · 권고</h2><span class="n" id="briefDate"></span></div>
+    <div class="brief" id="briefList"></div>
+  </section>
+
+  <section class="pf" id="profile">
+    <div class="pf-h">
+      <h2>우리 회사 기준으로 보기</h2>
+      <span class="n">규모·거래 형태·품목을 선택하면 아래 규제 전체가 우리 회사 기준(직접 적용/간접 영향)으로 재정렬됩니다</span>
+    </div>
+    <div class="pf-row">
+      <span class="pf-k">기업 규모</span>
+      <div class="seg" id="segSize"></div>
+    </div>
+    <div class="pf-row">
+      <span class="pf-k">EU 시장 관계</span>
+      <div class="seg" id="segRoute"></div>
+    </div>
+    <div class="pf-row">
+      <span class="pf-k">취급 품목</span>
+      <div class="seg" id="segGoods"></div>
+    </div>
+    <div class="pf-foot">
+      <span class="pf-sum" id="pfSum"></span>
+      <label class="pf-tog" id="pfTogWrap" hidden>
+        <input type="checkbox" id="pfHide"> 관련 낮은 규제 숨기기
+      </label>
+      <button class="pf-reset" id="pfReset" hidden>선택 초기화</button>
+    </div>
+  </section>
+
+  <section class="blk" id="cal">
+    <div class="shead"><h2>규제 시행 캘린더</h2><span class="n" id="calNote"></span></div>
+    <div class="cal">
+      <div class="cal-scroll"><div class="cal-in" id="calIn"></div></div>
+      <div class="cal-live" id="calLive"></div>
+    </div>
+  </section>
+
+  <section class="blk" id="regs">
+    <div class="shead">
+      <h2>규제별 현황</h2>
+      <span class="n">카드를 누르면 규제별 상세 페이지로 이동합니다 · <span class="alertpill" style="vertical-align:1px">확인 N</span> 채택·연기·시행 등 상태 변화 신호가 있는 기사</span>
+    </div>
+    <div id="regGrid"></div>
+  </section>
+
+  <section class="blk" id="newsPrev">
+    <div class="shead">
+      <h2>최근 동향</h2><span class="n" id="prevNote"></span>
+      <a class="seelink" href="weekly.html">주차별로 보기 →</a>
+    </div>
+    <div id="prevList"></div>
+    <a class="seeall" href="weekly.html" id="prevMore"></a>
+  </section>
+</div>
+
+<footer>
+  <div class="wrap">
+    <div class="fl">수집 출처</div>
+    <ul id="srcList"></ul>
+    <div class="fn">
+      K-Mobility 브릿지 재단 · ESG 규제 대응 &nbsp;|&nbsp;
+      규제 시행 일정은 2026년 7월 기준이며 EU Omnibus 협상 결과에 따라 변동될 수 있습니다.
+    </div>
+  </div>
+</footer>
+
+<script src="assets/data.js"></script>
+<script src="assets/common.js"></script>
+<script>
+(function () {
+  const E = window.ESG;
+  const { data, now, DAY, REGS, esc, fmtDate, colorOf, LV, P } = E;
+
+  E.navInit();
+
+  /* ── 히어로 요약 지표: 클릭하면 해당 섹션으로 이동 ── */
+  (function () {
+    const nearest = REGS.filter(r => r.dday !== null && r.dday > 0)
+      .sort((a, b) => a.dday - b.dday)[0];
+    document.getElementById("hstats").innerHTML =
+      (E.alertTotal
+        ? '<a class="hstat hot" href="#alerts"><b>' + E.alertTotal + '건</b><span>확인 필요 — 규제 상태 변화 신호</span></a>'
+        : '<a class="hstat" href="#regs"><b>이상 없음</b><span>이번 주 상태 변화 신호</span></a>') +
+      (nearest
+        ? '<a class="hstat" href="#cal"><b>D-' + nearest.dday + "</b><span>다음 시행 — " +
+          esc(nearest.abbr) + " " + esc(nearest.keyLabel) + "</span></a>"
+        : "") +
+      '<a class="hstat" href="weekly.html"><b>' + E.newTotal + '건</b><span>이번 주 수집 기사 — 주간 동향</span></a>';
+  })();
+
+  /* ── 시행 캘린더 ── */
+  function renderCal() {
+    const upcoming = REGS.filter(r => r.dday !== null && r.dday > 0).sort((a, b) => a.dday - b.dday);
+    const tStart = now.getTime();
+    const tEnd = new Date(Math.max(...upcoming.map(r => new Date(r.key + "T00:00:00")))).getTime() + 90 * DAY;
+    const pos = t => ((t - tStart) / (tEnd - tStart)) * 100;
+    let cal = '<div class="track"><div class="today"><b>오늘</b></div>';
+    for (let y = now.getFullYear() + 1; y <= new Date(tEnd).getFullYear(); y++) {
+      const p = pos(new Date(y + "-01-01T00:00:00").getTime());
+      if (p > 2 && p < 99) cal += '<div class="yr" style="left:' + p.toFixed(2) + '%">' + y + "</div>";
+    }
+    upcoming.forEach((r, i) => {
+      const p = pos(new Date(r.key + "T00:00:00").getTime());
+      const col = colorOf(r);
+      const row = i % 2;
+      let cls = p < 9 ? " edge-l" : (p > 91 ? " edge-r" : "");
+      if (r.ap && r.ap.lv === "low") cls += " dim";
+      cal += '<div class="mk' + cls + '" style="left:' + p.toFixed(2) + "%;--mkc:" + col.c + ";--mkw:" + col.w + '">' +
+        "<i></i>" +
+        '<div class="stem" style="height:' + (row ? 54 : 20) + 'px"></div>' +
+        '<div class="lab" style="top:' + (row ? 76 : 42) + 'px">' +
+          '<b><a href="reg.html?id=' + r.id + '">' + esc(r.abbr) + "</a></b>" +
+          "<span>" + r.key.slice(2).replace(/-/g, ".") + " " + esc(r.keyLabel) + "</span>" +
+          "<em>D-" + r.dday + "</em>" +
+        "</div></div>";
+    });
+    cal += "</div>";
+    const el = document.getElementById("calIn");
+    el.innerHTML = cal;
+    el.style.paddingBottom = "150px";
+    document.getElementById("calNote").textContent =
+      "오늘부터 " + new Date(tEnd).getFullYear() + "년까지 · 시행일 확정된 " + upcoming.length + "개 규제" +
+      (E.isSet() ? " (관련 낮은 규제는 흐리게 표시)" : "");
+    const dimC = r => (r.ap && r.ap.lv === "low") ? " dim" : "";
+    document.getElementById("calLive").innerHTML =
+      '<span class="lk">이미 시행 중</span>' +
+      REGS.filter(r => r.cls === "live").map(r =>
+        '<a class="lc' + dimC(r) + '" href="reg.html?id=' + r.id + '">' + esc(r.abbr) + "</a>").join("") +
+      '<span class="lk" style="color:var(--idle);margin-left:8px">입법 중</span>' +
+      REGS.filter(r => r.cls === "wip").map(r =>
+        '<a class="lc' + dimC(r) + '" href="reg.html?id=' + r.id + '" style="background:var(--idle-wash);color:var(--ink-2)">' +
+        esc(r.abbr) + "</a>").join("");
+  }
+
+  /* ── 규제 카드: 상황별 그룹으로 표시 ── */
+  function cardGroups() {
+    const byD = (a, b) => ((a.dday === null ? 9e5 : a.dday) - (b.dday === null ? 9e5 : b.dday));
+    if (E.isSet()) {
+      // 프로필 설정 시: 적용 수준별 그룹
+      const by = { direct: [], indirect: [], watch: [], low: [] };
+      REGS.forEach(r => by[r.ap.lv].push(r));
+      Object.values(by).forEach(a => a.sort(byD));
+      return [
+        ["직접 적용", "우리 회사가 의무 주체", by.direct, "var(--urgent)"],
+        ["간접 영향", "고객사 요구로 대응 필요", by.indirect, "var(--warn)"],
+        ["주시 필요", "협상 경과에 따라 영향 변동", by.watch, "var(--brand)"],
+        P.hideLow ? null : ["관련 낮음", "현재 취급 품목·거래 기준", by.low, "var(--idle)"],
+      ].filter(Boolean);
+    }
+    // 기본: 시행 단계별 그룹
+    const soon = REGS.filter(r => r.dday !== null && r.dday > 0 && r.dday <= 180).sort(byD);
+    const later = REGS.filter(r => r.dday !== null && r.dday > 180).sort(byD);
+    const wip = REGS.filter(r => r.cls === "wip");
+    const live = REGS.filter(r => !soon.includes(r) && !later.includes(r) && !wip.includes(r));
+    return [
+      ["시행 임박", "6개월 이내 — 지금 준비해야 합니다", soon, "var(--urgent)"],
+      ["시행 예정", "일정 확정 — 준비 기간 확보 가능", later, "var(--warn)"],
+      ["시행 중", "이미 의무가 진행 중", live, "var(--ok)"],
+      ["입법·협상 중", "확정 전 — 경과 주시", wip, "var(--idle)"],
+    ];
+  }
+  function renderCards() {
+    document.getElementById("regGrid").innerHTML = cardGroups()
+      .filter(g => g[2].length)
+      .map(([t, sub, list, c]) =>
+        '<div class="ggroup"><div class="ggh" style="--gc:' + c + '"><i></i>' + t +
+        '<span>' + list.length + "개 · " + sub + "</span></div>" +
+        '<div class="grid">' + list.map(card).join("") + "</div></div>")
+      .join("");
+  }
+  function card(r) {
+      const col = colorOf(r);
+      const ap = r.ap, lv = ap ? LV[ap.lv] : null;
+      const top3 = r.pool.slice(0, 3);
+      const href = "reg.html?id=" + r.id;
+      const li = x => '<li>' +
+        (x.alert ? '<span class="isalert" title="' + esc(x.alert) + '">확인</span>' : "") +
+        '<span class="d">' + (x.date ? x.date.slice(5, 10).replace("-", ".") : "") +
+        '</span><a href="' + esc(x.link) + '" target="_blank" rel="noopener">' + esc(x.title) + "</a></li>";
+      return '<article class="rc' + (ap && ap.lv === "low" ? " dim" : "") +
+        '" style="--rcc:' + col.c + ";--rcw:" + col.w + (lv ? ";--lvc:" + lv.c + ";--lvw:" + lv.w : "") + '">' +
+        '<div class="rc-top">' +
+          '<div class="rc-r1"><div class="rc-abbr"><a href="' + href + '">' + esc(r.abbr) + "</a></div>" +
+          '<div class="rc-badges">' +
+            (r.alertN ? '<span class="alertpill">확인 ' + r.alertN + "</span>" : "") +
+            (lv ? '<span class="lv">' + lv.t + "</span>"
+                : (r.dday !== null && r.dday > 0 ? '<span class="dday">D-' + r.dday + "</span>" : "")) +
+          "</div></div>" +
+          '<div class="rc-name">' + esc(r.name) + "</div>" +
+          '<div class="rc-stat"><i></i>' + esc(r.status) +
+            (lv && r.dday !== null && r.dday > 0 ? ' <span class="dday" style="margin-left:auto">D-' + r.dday + "</span>" : "") +
+          "</div>" +
+          (ap ? '<div class="why"><b>' + lv.t + "</b> · " + esc(ap.why) + "</div>" : "") +
+          '<p class="rc-desc">' + esc(r.desc) + "</p>" +
+          '<div class="rc-meta">' + esc(r.timeline) + '<br><a href="' + esc(r.link) +
+            '" target="_blank" rel="noopener">' + esc(r.linkLabel) + " ↗</a></div>" +
+        "</div>" +
+        '<div class="rc-news"><div class="nh"><span>관련 동향 ' + r.pool.length + "건</span>" +
+          (r.alertN ? "<em>확인 필요 " + r.alertN + "건</em>" : "") + "</div>" +
+          (r.pool.length
+            ? "<ul>" + top3.map(li).join("") + "</ul>"
+            : '<div class="none">최근 수집된 관련 기사가 없습니다.</div>') +
+          '<a class="rc-more" href="' + href + '">상세 페이지 · 전체 동향 ' + r.pool.length + "건 →</a>" +
+        "</div></article>";
+  }
+
+  /* ── 프로필 컨트롤 ── */
+  function seg(elId, opts, get, set) {
+    const el = document.getElementById(elId);
+    el.innerHTML = opts.map(([v, t]) =>
+      '<button data-v="' + v + '">' + esc(t) + "</button>").join("");
+    el.addEventListener("click", e => {
+      const b = e.target.closest("button");
+      if (!b) return;
+      set(b.dataset.v);
+      E.saveP(); applyProfile();
+    });
+    el._sync = () => [...el.children].forEach(b => b.classList.toggle("on", get(b.dataset.v)));
+    return el;
+  }
+  const segSize  = seg("segSize", E.SIZES, v => P.size === v, v => { P.size = P.size === v ? null : v; });
+  const segRoute = seg("segRoute", E.ROUTES, v => P.route === v, v => { P.route = P.route === v ? null : v; });
+  const segGoods = seg("segGoods", E.GOODS, v => P.goods.has(v),
+    v => { P.goods.has(v) ? P.goods.delete(v) : P.goods.add(v); });
+
+  const pfHide = document.getElementById("pfHide");
+  pfHide.addEventListener("change", () => { P.hideLow = pfHide.checked; E.saveP(); applyProfile(); });
+  document.getElementById("pfReset").addEventListener("click", () => {
+    P.size = null; P.route = null; P.goods.clear(); P.hideLow = false;
+    pfHide.checked = false; E.saveP(); applyProfile();
+  });
+
+  function applyProfile() {
+    [segSize, segRoute, segGoods].forEach(s => s._sync());
+    E.assess();
+    renderCal(); renderCards();
+    const on = E.isSet();
+    document.getElementById("pfTogWrap").hidden = !on;
+    document.getElementById("pfReset").hidden = !(P.size || P.route || P.goods.size);
+    const sum = document.getElementById("pfSum");
+    if (!on) {
+      sum.className = "pf-hint";
+      sum.textContent = "기업 규모와 EU 시장 관계를 선택하면 규제별로 직접 적용인지 고객사를 통한 간접 영향인지 판별해 드립니다.";
+    } else {
+      const n = { direct:0, indirect:0, watch:0, low:0 };
+      REGS.forEach(r => n[r.ap.lv]++);
+      sum.className = "pf-sum";
+      sum.innerHTML = "선택 조건 기준 &nbsp;" +
+        '<span class="s-direct">직접 적용 <b>' + n.direct + "</b>건</span> &nbsp;·&nbsp; " +
+        '<span class="s-indirect">간접 영향 <b>' + n.indirect + "</b>건</span> &nbsp;·&nbsp; " +
+        '<span class="s-watch">주시 <b>' + n.watch + "</b>건</span> &nbsp;·&nbsp; " +
+        "관련 낮음 <b>" + n.low + "</b>건";
+    }
+  }
+  pfHide.checked = P.hideLow;
+  applyProfile();
+
+  /* ── 재단 브리핑·권고 (comments.json 최신 항목) ── */
+  const CB = { "주의": "cb-warn", "권고": "cb-rec", "참고": "cb-info" };
+  const latestC = (data.comments || [])[0];
+  if (latestC && latestC.points && latestC.points.length) {
+    document.getElementById("brief").hidden = false;
+    document.getElementById("briefDate").textContent =
+      latestC.date + " · K-Mobility 브릿지 재단이 이번 주 동향에서 부품업계가 챙길 것을 짚습니다";
+    document.getElementById("briefList").innerHTML = latestC.points.map(p => {
+      const reg = p.tag ? REGS.find(r => r.tag === p.tag) : null;
+      return '<div class="bi">' +
+        (p.type ? '<span class="cb ' + (CB[p.type] || "cb-info") + '">' + esc(p.type) + "</span>" : "") +
+        "<b>" + esc(p.title) + "</b><span>" + esc(p.body) + "</span>" +
+        (reg ? '<a class="bi-reg" href="reg.html?id=' + reg.id + '">' + esc(reg.abbr) + " 규제 상세 →</a>" : "") +
+        "</div>";
+    }).join("");
+  }
+
+  /* ── 확인 필요 동향 (전 규제 통합, 사유 라벨과 함께) ── */
+  const alertArts = [], seenA = new Set();
+  REGS.forEach(r => r.pool.forEach(x => {
+    if (!x.alert || seenA.has(x.link)) return;
+    seenA.add(x.link);
+    alertArts.push({ ...x, reg: r.abbr, regId: r.id });
+  }));
+  alertArts.sort((a, b) => (b.date || "").localeCompare(a.date || ""));
+  if (alertArts.length) {
+    const sec = document.getElementById("alerts");
+    sec.hidden = false;
+    document.getElementById("alertNote").textContent =
+      "총 " + alertArts.length + "건 · 채택·연기·시행 등 규제 상태 변화 신호가 감지된 기사";
+    const CUT = 6;
+    const row = x =>
+      '<a class="arow" href="' + esc(x.link) + '" target="_blank" rel="noopener">' +
+        '<span class="a-reason">' + esc(x.alert) + "</span>" +
+        '<span class="a-body"><span class="t">' + esc(x.title) + "</span>" +
+        '<span class="m"><b>' + esc(x.reg) + "</b> · " + fmtDate(x.date) +
+        (x.src ? " · " + esc(x.src) : "") + "</span></span></a>";
+    const list = document.getElementById("alertList");
+    list.innerHTML = alertArts.slice(0, CUT).map(row).join("") +
+      (alertArts.length > CUT
+        ? '<button class="a-more" id="aMore">' + (alertArts.length - CUT) + "건 더 보기 ▾</button>" : "");
+    const mb = document.getElementById("aMore");
+    if (mb) mb.addEventListener("click", () => {
+      list.innerHTML = alertArts.map(row).join("");
+    });
+  }
+
+  /* ── 최신 뉴스 미리보기 (상위 6건, 최신순) ── */
+  const sorted = data.items.slice().sort((a, b) => (b.date || "").localeCompare(a.date || ""));
+  const prev = sorted.slice(0, 6);
+  document.getElementById("prevNote").textContent = "총 " + data.items.length + "건 중 최근 6건";
+  document.getElementById("prevList").innerHTML = prev.map(it => {
+    const s = E.srcById[it.source] || { name: it.source };
+    const t = it.title_ko || it.title;
+    return '<article class="card">' +
+      '<div class="meta">' +
+      (it.alert ? '<span class="isalert">확인 · ' + esc(it.alert) + "</span>" : "") +
+      '<span class="badge ' + (E.EU.has(it.source) ? "eu" : "media") + '">' + esc(s.name) +
+      '</span><span class="date">' + fmtDate(it.date) + "</span></div>" +
+      '<h3><a href="' + esc(it.link) + '" target="_blank" rel="noopener">' + esc(t) + "</a></h3>" +
+      (it.summary_ko || it.summary ? "<p>" + esc(it.summary_ko || it.summary) + "</p>" : "") +
+      "</article>";
+  }).join("");
+  document.getElementById("prevMore").textContent =
+    "주간 동향에서 주차별로 모아보기 →";
+
+  /* ── 스크롤 스파이 ── */
+  const links = [...document.querySelectorAll('.navlinks a[href^="#"]')];
+  const secs = links.map(a => document.querySelector(a.getAttribute("href")));
+  const io = new IntersectionObserver(es => {
+    es.forEach(e => {
+      if (e.isIntersecting) {
+        links.forEach(l => l.classList.remove("act"));
+        const i = secs.indexOf(e.target);
+        if (i > -1) links[i].classList.add("act");
+      }
+    });
+  }, { rootMargin: "-70px 0px -70% 0px" });
+  secs.forEach(s => s && io.observe(s));
+})();
+</script>
+</body>
+</html>

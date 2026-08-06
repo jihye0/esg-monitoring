@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>주간 동향 | EU ESG 규제 모니터링</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="wrap nav-in">
+    <a class="brand" href="index.html">
+      <div class="mark" aria-hidden="true"></div>
+      <div class="bname">K-Mobility 브릿지 재단</div>
+    </a>
+    <div class="navlinks">
+      <a href="index.html#cal" class="hide-m">시행 캘린더</a>
+      <a href="index.html#regs" class="hide-m">규제 현황</a>
+      <a href="weekly.html" id="navNews" class="act">주간 동향</a>
+    </div>
+  </div>
+</nav>
+
+<div class="phead">
+  <div class="wrap">
+    <div class="tagline">ESG REGULATORY WATCH</div>
+    <h1>주간 동향</h1>
+    <p>매주 수집된 규제 뉴스를 주차별로 정리했습니다. 주차 탭을 누르면 그 주의 동향이 규제별로 표시됩니다.</p>
+    <div class="gen-line" id="genLine"></div>
+  </div>
+</div>
+
+<div class="wrap" style="padding-top:30px; padding-bottom:42px">
+  <div class="wtabs-wrap">
+    <div class="wtabs" id="wtabs"></div>
+    <select class="wold" id="wold" aria-label="이전 주차 선택"><option value="">이전 주차…</option></select>
+  </div>
+
+  <div class="wk-head">
+    <h2 id="wkTitle"></h2>
+    <span class="n" id="wkNote"></span>
+    <div class="acts">
+      <button class="btn2 primary" id="copyBtn">메일용으로 복사</button>
+      <button class="btn2" id="dlBtn">HTML 파일 저장</button>
+    </div>
+  </div>
+
+  <div id="wkContent"></div>
+  <p class="wk-note">「메일용으로 복사」 후 Outlook 등 메일 작성 화면에 붙여넣으면 뉴스레터 서식이 유지됩니다.
+    HTML 파일은 발송 도구 업로드나 보관용입니다.</p>
+</div>
+
+<footer>
+  <div class="wrap">
+    <div class="fl">수집 출처</div>
+    <ul id="srcList"></ul>
+    <div class="fn">
+      K-Mobility 브릿지 재단 · ESG 규제 대응 &nbsp;|&nbsp;
+      규제 시행 일정은 2026년 7월 기준이며 EU Omnibus 협상 결과에 따라 변동될 수 있습니다.
+    </div>
+  </div>
+</footer>
+
+<script src="assets/data.js"></script>
+<script src="assets/common.js"></script>
+<script>
+(function () {
+  const E = window.ESG;
+  const { data, REGS, esc, fmtDate } = E;
+  E.navInit();
+
+  /* ── 기사 통합 (소스 수집 + 규제 전용 검색, 링크 기준 중복 제거) ── */
+  const arts = [], seenL = new Set();
+  (data.regnews || []).forEach(x => {
+    if (!x.date || seenL.has(x.link)) return; seenL.add(x.link);
+    arts.push({ date:x.date, link:x.link, title:x.title_ko || x.title, orig:x.title,
+                src:x.media || "뉴스 검색", tag:x.tag, summary:"", alert:x.alert || null });
+  });
+  (data.items || []).forEach(it => {
+    if (!it.date || seenL.has(it.link)) return; seenL.add(it.link);
+    arts.push({ date:it.date, link:it.link, title:it.title_ko || it.title, orig:it.title,
+                src:(E.srcById[it.source] || { name: it.source }).name,
+                tag:it.tags[0] || null, summary:it.summary_ko || "", alert:it.alert || null });
+  });
+
+  /* ── 주차 계산 (월요일 시작) ── */
+  function monOf(d) {
+    const dt = new Date(d); dt.setHours(0, 0, 0, 0);
+    dt.setDate(dt.getDate() - (dt.getDay() + 6) % 7);
+    return dt;
+  }
+  const iso = dt => dt.getFullYear() + "-" +
+    String(dt.getMonth() + 1).padStart(2, "0") + "-" + String(dt.getDate()).padStart(2, "0");
+  function labelOf(mon) {
+    const wk = Math.floor((mon.getDate() - 1) / 7) + 1;
+    const sun = new Date(mon); sun.setDate(mon.getDate() + 6);
+    return {
+      short: (mon.getMonth() + 1) + "월 " + wk + "주차",
+      title: mon.getFullYear() + "년 " + (mon.getMonth() + 1) + "월 " + wk + "주차",
+      range: (mon.getMonth() + 1) + "." + mon.getDate() + " – " + (sun.getMonth() + 1) + "." + sun.getDate(),
+    };
+  }
+
+  const byWeek = {};
+  arts.forEach(a => {
+    const k = iso(monOf(a.date));
+    (byWeek[k] = byWeek[k] || []).push(a);
+  });
+  /* 최근 6개월만 (구글 뉴스가 간혹 아주 오래된 기사를 반환) */
+  const weeks = Object.keys(byWeek).sort().reverse()
+    .filter(k => (E.now - new Date(k + "T00:00:00")) < 190 * E.DAY);
+  if (!weeks.length) {
+    document.getElementById("wkContent").innerHTML = '<div class="empty">수집된 기사가 없습니다.</div>';
+    return;
+  }
+
+  /* ── 탭 (최근 8주) + 이전 주차 셀렉트 ── */
+  const TABN = 8;
+  const tabWeeks = weeks.slice(0, TABN);
+  const oldWeeks = weeks.slice(TABN);
+  const tabsEl = document.getElementById("wtabs");
+  tabsEl.innerHTML = tabWeeks.map(k => {
+    const L = labelOf(new Date(k + "T00:00:00"));
+    const hasAlert = byWeek[k].some(a => a.alert);
+    return '<button data-k="' + k + '" title="' + L.range + " · " + byWeek[k].length + '건">' +
+      L.short + (hasAlert ? '<span class="wdot" title="확인 필요 있음"></span>' : "") + "</button>";
+  }).join("");
+  const oldSel = document.getElementById("wold");
+  if (oldWeeks.length) {
+    oldWeeks.forEach(k => {
+      const L = labelOf(new Date(k + "T00:00:00"));
+      const o = document.createElement("option");
+      o.value = k;
+      o.textContent = L.title + " (" + byWeek[k].length + "건)";
+      oldSel.appendChild(o);
+    });
+  } else oldSel.hidden = true;
+
+  let cur = tabWeeks[0];
+  tabsEl.addEventListener("click", e => {
+    const b = e.target.closest("button");
+    if (!b) return;
+    cur = b.dataset.k; oldSel.value = ""; render();
+  });
+  oldSel.addEventListener("change", () => {
+    if (oldSel.value) { cur = oldSel.value; render(); }
+  });
+
+  const regByTag = {};
+  REGS.forEach(r => regByTag[r.tag] = r);
+
+  /* 재단 브리핑: 주차(월요일 키)별로 매칭 */
+  const CB = { "주의": "cb-warn", "권고": "cb-rec", "참고": "cb-info" };
+  function commentOf(k) {
+    return (data.comments || []).find(c => c.date && iso(monOf(c.date)) === k) || null;
+  }
+
+  function groupsOf(k) {
+    const list = byWeek[k].slice().sort((a, b) =>
+      ((b.alert ? 1 : 0) - (a.alert ? 1 : 0)) || (b.date || "").localeCompare(a.date || ""));
+    const groups = {};
+    list.forEach(a => {
+      const key = a.tag && regByTag[a.tag] ? a.tag : "__etc";
+      (groups[key] = groups[key] || []).push(a);
+    });
+    return {
+      list,
+      entries: Object.entries(groups).sort((a, b) =>
+        (a[0] === "__etc") - (b[0] === "__etc") || b[1].length - a[1].length),
+    };
+  }
+
+  /* ── 화면 렌더 ── */
+  function render() {
+    [...tabsEl.children].forEach(b => b.classList.toggle("on", b.dataset.k === cur));
+    const L = labelOf(new Date(cur + "T00:00:00"));
+    const { list, entries } = groupsOf(cur);
+    const nAlert = list.filter(a => a.alert).length;
+    document.getElementById("wkTitle").textContent = L.title;
+    document.getElementById("wkNote").textContent =
+      L.range + " · 총 " + list.length + "건" + (nAlert ? " · 확인 필요 " + nAlert + "건" : "");
+    const cm = commentOf(cur);
+    const briefHtml = cm && cm.points && cm.points.length
+      ? '<section class="wsec"><div class="wsec-h"><b>재단 브리핑</b><span>K-Mobility 브릿지 재단 분석·권고</span></div>' +
+        '<div class="brief">' + cm.points.map(p => {
+          const reg = p.tag ? regByTag[p.tag] : null;
+          return '<div class="bi">' +
+            (p.type ? '<span class="cb ' + (CB[p.type] || "cb-info") + '">' + esc(p.type) + "</span>" : "") +
+            "<b>" + esc(p.title) + "</b><span>" + esc(p.body) + "</span>" +
+            (reg ? '<a class="bi-reg" href="reg.html?id=' + reg.id + '">' + esc(reg.abbr) + " 규제 상세 →</a>" : "") +
+            "</div>";
+        }).join("") + "</div></section>"
+      : "";
+    document.getElementById("wkContent").innerHTML = briefHtml + entries.map(([t, g]) => {
+      const r = regByTag[t];
+      const head = t === "__etc"
+        ? "<b>기타 동향</b><span>" + g.length + "건</span>"
+        : "<b>" + esc(r.abbr) + "</b><span>" + esc(r.name) + " · " + g.length + "건</span>" +
+          '<a class="plink" style="margin-left:auto;font-size:.84rem" href="reg.html?id=' + r.id + '">규제 상세 →</a>';
+      return '<section class="wsec"><div class="wsec-h">' + head + "</div>" +
+        '<div class="nlist">' + g.map(a =>
+          '<a class="nrow" href="' + esc(a.link) + '" target="_blank" rel="noopener">' +
+          '<div class="t">' + (a.alert ? '<span class="isalert">확인 · ' + esc(a.alert) + "</span>" : "") +
+          esc(a.title) + "</div>" +
+          '<div class="m">' + fmtDate(a.date) + (a.src ? " · " + esc(a.src) : "") +
+          (a.summary ? "</div><div class=\"m\" style=\"margin-top:3px\">" + esc(a.summary) : "") +
+          "</div></a>").join("") + "</div></section>";
+    }).join("");
+  }
+
+  /* ── 이메일 호환 HTML (인라인 스타일) ── */
+  function buildMail(k) {
+    const L = labelOf(new Date(k + "T00:00:00"));
+    const { list, entries } = groupsOf(k);
+    const nAlert = list.filter(a => a.alert).length;
+    const md = d => { const t = new Date(d); return (t.getMonth() + 1) + "." + t.getDate(); };
+    const top3 = entries.filter(([t]) => t !== "__etc").slice(0, 3)
+      .map(([t, g]) => (regByTag[t] ? regByTag[t].abbr : t) + " " + g.length + "건").join(", ");
+
+    let h = '<div style="max-width:680px;margin:0 auto;background:#ffffff;' +
+      "font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;color:#131719\">" +
+      '<div style="background:#10181d;padding:26px 30px">' +
+        '<div style="color:#7fa4c4;font-weight:700;font-size:12px;letter-spacing:2px">K-MOBILITY 브릿지 재단 · ESG REGULATORY WATCH</div>' +
+        '<div style="color:#ffffff;font-size:23px;font-weight:800;margin-top:8px;letter-spacing:-.5px">EU ESG 규제 주간 브리핑</div>' +
+        '<div style="color:#97a1a8;font-size:14px;margin-top:6px">' + L.title + " (" + L.range + ") · 총 " + list.length + "건</div>" +
+      "</div>" +
+      '<div style="padding:20px 30px 4px;font-size:14px;line-height:1.7;color:#4c5459">' +
+        "이번 주 수집된 EU ESG 규제 동향은 총 <b>" + list.length + "건</b>입니다." +
+        (nAlert ? ' 이 중 <b style="color:#a92d10">' + nAlert +
+          "건</b>은 채택·연기·시행 등 규제 상태 변화 신호가 있어 면밀한 확인이 필요합니다." : "") +
+        (top3 ? " " + top3 + " 순으로 소식이 많았습니다." : "") +
+      "</div>";
+
+    /* 재단 분석·권고 */
+    const cm = commentOf(k);
+    if (cm && cm.points && cm.points.length) {
+      const MC = { "주의": "#a92d10", "권고": "#1c4568", "참고": "#6d7880" };
+      h += '<div style="padding:20px 30px 2px">' +
+        '<div style="font-size:16px;font-weight:800;border-left:4px solid #10181d;padding-left:10px;line-height:1.35">재단 분석 · 권고' +
+        ' <span style="color:#4c5459;font-weight:600;font-size:13px">K-Mobility 브릿지 재단</span></div>';
+      cm.points.forEach(p => {
+        h += '<div style="padding:12px 0 10px;border-bottom:1px solid #ebebe6">' +
+          (p.type ? '<span style="display:inline-block;font-size:11px;font-weight:800;color:#ffffff;background:' +
+            (MC[p.type] || "#6d7880") + ';padding:1px 7px;border-radius:2px;margin-right:7px;vertical-align:2px">' +
+            esc(p.type) + "</span>" : "") +
+          '<span style="font-weight:800;font-size:14.5px">' + esc(p.title) + "</span>" +
+          '<div style="color:#4c5459;font-size:13.5px;line-height:1.65;margin-top:4px">' + esc(p.body) + "</div>" +
+        "</div>";
+      });
+      h += "</div>";
+    }
+
+    entries.forEach(([t, g]) => {
+      const r = regByTag[t];
+      const head = t === "__etc"
+        ? '기타 동향 <span style="color:#7b8489;font-weight:600;font-size:13px">' + g.length + "건</span>"
+        : esc(r.abbr) + ' <span style="color:#4c5459;font-weight:600;font-size:13px">' +
+          esc(r.name) + " · " + g.length + "건</span>";
+      h += '<div style="padding:20px 30px 2px">' +
+        '<div style="font-size:16px;font-weight:800;border-left:4px solid #1c4568;padding-left:10px;line-height:1.35">' + head + "</div>";
+      g.forEach(a => {
+        h += '<div style="padding:10px 0 9px;border-bottom:1px solid #ebebe6">' +
+          (a.alert ? '<span style="display:inline-block;font-size:11px;font-weight:800;color:#ffffff;' +
+            'background:#a92d10;padding:1px 6px;border-radius:2px;margin-right:7px;vertical-align:2px">' +
+            "확인 필요 · " + esc(a.alert) + "</span>" : "") +
+          '<a href="' + esc(a.link) + '" style="color:#163a59;text-decoration:none;font-weight:700;font-size:14.5px;line-height:1.5">' +
+          esc(a.title) + "</a>" +
+          '<div style="color:#7b8489;font-size:12px;margin-top:2px">' + md(a.date) + " · " + esc(a.src) + "</div>" +
+          (a.summary ? '<div style="color:#4c5459;font-size:13px;line-height:1.6;margin-top:3px">' + esc(a.summary) + "</div>" : "") +
+        "</div>";
+      });
+      h += "</div>";
+    });
+    h += '<div style="background:#10181d;color:#97a1a8;padding:18px 30px;margin-top:24px;font-size:12px;line-height:1.7">' +
+      "K-Mobility 브릿지 재단 · ESG 규제 대응<br>" +
+      "본 브리핑은 EU 공식 채널과 전문 매체에서 자동 수집한 기사를 주차별로 정리한 것입니다." +
+      "</div></div>";
+    return h;
+  }
+
+  /* ── 복사 / 다운로드 ── */
+  const copyBtn = document.getElementById("copyBtn");
+  copyBtn.addEventListener("click", async () => {
+    const html = buildMail(cur);
+    const tmp = document.createElement("div");
+    tmp.innerHTML = html;
+    tmp.style.cssText = "position:fixed;left:-9999px;top:0";
+    document.body.appendChild(tmp);
+    let ok = false;
+    try {
+      await navigator.clipboard.write([new ClipboardItem({
+        "text/html": new Blob([html], { type: "text/html" }),
+        "text/plain": new Blob([tmp.innerText], { type: "text/plain" }),
+      })]);
+      ok = true;
+    } catch (e) {
+      const range = document.createRange();
+      range.selectNodeContents(tmp);
+      const s = getSelection(); s.removeAllRanges(); s.addRange(range);
+      ok = document.execCommand("copy");
+      s.removeAllRanges();
+    }
+    tmp.remove();
+    copyBtn.textContent = ok ? "복사 완료 ✓" : "복사 실패";
+    setTimeout(() => copyBtn.textContent = "메일용으로 복사", 2500);
+  });
+
+  document.getElementById("dlBtn").addEventListener("click", () => {
+    const L = labelOf(new Date(cur + "T00:00:00"));
+    const doc = "<!doctype html><html lang=\"ko\"><head><meta charset=\"utf-8\">" +
+      "<title>EU ESG 규제 주간 브리핑 — " + esc(L.title) + "</title></head>" +
+      '<body style="margin:0;background:#f2f1ee;padding:24px 10px">' + buildMail(cur) + "</body></html>";
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(new Blob([doc], { type: "text/html" }));
+    a.download = "ESG주간브리핑_" + L.title.replace(/년 |월 /g, "-").replace(/ /g, "") + ".html";
+    a.click();
+    URL.revokeObjectURL(a.href);
+  });
+
+  render();
+})();
+</script>
+</body>
+</html>
