@@ -38,11 +38,6 @@
     <div class="alist" id="alertList"></div>
   </section>
 
-  <section class="blk" id="brief" hidden>
-    <div class="shead"><h2>재단 브리핑 · 권고</h2><span class="n" id="briefDate"></span></div>
-    <div class="brief" id="briefList"></div>
-  </section>
-
   <section class="pf" id="profile">
     <div class="pf-h">
       <h2>우리 회사 기준으로 보기</h2>
@@ -296,23 +291,6 @@
   }
   pfHide.checked = P.hideLow;
   applyProfile();
-
-  /* ── 재단 브리핑·권고 (comments.json 최신 항목) ── */
-  const CB = { "주의": "cb-warn", "권고": "cb-rec", "참고": "cb-info" };
-  const latestC = (data.comments || [])[0];
-  if (latestC && latestC.points && latestC.points.length) {
-    document.getElementById("brief").hidden = false;
-    document.getElementById("briefDate").textContent =
-      latestC.date + " · K-Mobility 브릿지 재단이 이번 주 동향에서 부품업계가 챙길 것을 짚습니다";
-    document.getElementById("briefList").innerHTML = latestC.points.map(p => {
-      const reg = p.tag ? REGS.find(r => r.tag === p.tag) : null;
-      return '<div class="bi">' +
-        (p.type ? '<span class="cb ' + (CB[p.type] || "cb-info") + '">' + esc(p.type) + "</span>" : "") +
-        "<b>" + esc(p.title) + "</b><span>" + esc(p.body) + "</span>" +
-        (reg ? '<a class="bi-reg" href="reg.html?id=' + reg.id + '">' + esc(reg.abbr) + " 규제 상세 →</a>" : "") +
-        "</div>";
-    }).join("");
-  }
 
   /* ── 확인 필요 동향 (전 규제 통합, 사유 라벨과 함께) ── */
   const alertArts = [], seenA = new Set();
