@@ -51,10 +51,10 @@ a { color: inherit; }
 .wrap { max-width: 1180px; margin: 0 auto; padding: 0 28px; }
 @media (max-width: 640px) { .wrap { padding: 0 16px; } }
 
-/* ── 네비 (밝은 회백색 — 공식 로고가 원색으로 표시됨) ── */
+/* ── 네비 (다크 + 흰색 리버스 로고) ─────── */
 .nav {
-  background: #f4f3f0;
-  position: sticky; top: 0; z-index: 40; border-bottom: 1px solid #dedcd6;
+  background: var(--nav); color: var(--nav-ink);
+  position: sticky; top: 0; z-index: 40; border-bottom: 1px solid var(--nav-line);
 }
 .nav-in { display: flex; align-items: center; gap: 30px; height: 62px; }
 .brand { display: flex; align-items: center; flex: none; text-decoration: none; }
@@ -62,13 +62,13 @@ a { color: inherit; }
 .navlinks { display: flex; gap: 24px; margin-left: auto; }
 @media (max-width: 780px) { .navlinks { gap: 16px; } }
 .navlinks a {
-  font-size: .92rem; font-weight: 600; color: #5f676c; text-decoration: none;
+  font-size: .92rem; font-weight: 600; color: var(--nav-sub); text-decoration: none;
   padding: 4px 0; border-bottom: 2px solid transparent; white-space: nowrap;
 }
 @media (max-width: 780px) { .navlinks a.hide-m { display: none; } }
-.navlinks a:hover { color: #131719; }
-.navlinks a.act { color: #131719; border-bottom-color: #1c4568; }
-.navlinks a:focus-visible { outline: 2px solid #1c4568; outline-offset: 3px; }
+.navlinks a:hover { color: #fff; }
+.navlinks a.act { color: #fff; border-bottom-color: #7fa4c4; }
+.navlinks a:focus-visible { outline: 2px solid #7fa4c4; outline-offset: 3px; }
 
 /* ── 신규 알림 표시 ─────────────────────── */
 .ndot {
