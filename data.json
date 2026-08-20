@@ -122,7 +122,7 @@
    "media": "",
    "new": true,
    "alert": null,
-   "title_ko": "소규모 자작농과 유럽연합 삼림벌채 규제 - 국제 지속가능발전연구소(International Institute for Sustainable Development)"
+   "title_ko": "소규모 자작농과 EU 산림전용 규제 - 국제 지속가능발전연구소(International Institute for Sustainable Development)"
   },
   {
    "tag": "EUDR 산림전용",
@@ -302,7 +302,7 @@
    "media": "ropesgray.com",
    "new": true,
    "alert": null,
-   "title_ko": "미국은 CSDDD 및 CSRD 양보를 요구합니다. “이제 유럽연합(EU)이 나서야 할 때다.”"
+   "title_ko": "미국은 CSDDD 및 CSRD 양보를 요구합니다. “이제 EU이 나서야 할 때다.”"
   },
   {
    "tag": "CBAM 탄소국경",
@@ -322,7 +322,7 @@
    "media": "EU Reporter",
    "new": true,
    "alert": "지침·기준 공표",
-   "title_ko": "유럽연합 집행위원회는 최종 기간에 CBAM 구현을 지원하기 위해 일련의 지침 문서를 발행합니다."
+   "title_ko": "EU 집행위는 최종 기간에 CBAM 구현을 지원하기 위해 일련의 지침 문서를 발행합니다."
   },
   {
    "tag": "EUDR 산림전용",
@@ -352,7 +352,7 @@
    "media": "EU Today",
    "new": true,
    "alert": null,
-   "title_ko": "워싱턴, EU에 무역 분쟁이 규제로 전환됨에 따라 지속 가능성 규칙을 '전달'하라고 지시"
+   "title_ko": "워싱턴, EU에 무역 분쟁이 규제로 전환됨에 따라 지속가능성 규칙을 '전달'하라고 지시"
   },
   {
    "tag": "CSRD·ESRS 보고",
@@ -362,7 +362,7 @@
    "media": "finance.biggo.com",
    "new": true,
    "alert": null,
-   "title_ko": "미국, 기업 지속 가능성 규칙 완화를 위해 EU에 압력을 가하고 턴베리 협정 이행 요구"
+   "title_ko": "미국, 기업 지속가능성 규칙 완화를 위해 EU에 압력을 가하고 턴베리 협정 이행 요구"
   },
   {
    "tag": "CSDDD 공급망실사",
@@ -402,7 +402,7 @@
    "media": "dentons.com",
    "new": true,
    "alert": "지침·기준 공표",
-   "title_ko": "위원회는 EU 강제 노동 규정(2024/3015) 적용에 관한 새로운 지침을 발표합니다."
+   "title_ko": "위원회는 EU 강제노동 규정(2024/3015) 적용에 관한 새로운 지침을 발표합니다."
   },
   {
    "tag": "그린워싱·표시",
@@ -442,7 +442,7 @@
    "media": "stonex.com",
    "new": true,
    "alert": null,
-   "title_ko": "유럽연합 집행위원회가 규정을 명확히 하고 커피 적용 범위를 확대함에 따라 EUDR 카운트다운이 강화됩니다."
+   "title_ko": "EU 집행위가 규정을 명확히 하고 커피 적용 범위를 확대함에 따라 EUDR 카운트다운이 강화됩니다."
   },
   {
    "tag": "강제노동",
@@ -452,7 +452,7 @@
    "media": "www.hlc.com",
    "new": true,
    "alert": "지침·기준 공표",
-   "title_ko": "EU 강제 노동 규정 – 유럽 위원회의 2026년 6월 지침의 주요 내용"
+   "title_ko": "EU 강제노동 규정 – EU 집행위의 2026년 6월 지침의 주요 내용"
   },
   {
    "tag": "그린워싱·표시",
@@ -472,7 +472,7 @@
    "media": "DHL",
    "new": true,
    "alert": null,
-   "title_ko": "EUDR이란 무엇입니까? 일본 기업이 EU 삼림 벌채 규정에 대해 알아야 할 사항"
+   "title_ko": "EUDR이란 무엇입니까? 일본 기업이 EU 산림전용 규정에 대해 알아야 할 사항"
   },
   {
    "tag": "배터리 규정",
@@ -572,7 +572,7 @@
    "media": "Unicef",
    "new": true,
    "alert": null,
-   "title_ko": "유니세프, 유럽연합 집행위원회의 공개 협의에 대한 대응 설명"
+   "title_ko": "유니세프, EU 집행위의 공개 협의에 대한 대응 설명"
   },
   {
    "tag": "CSRD·ESRS 보고",
@@ -602,7 +602,7 @@
    "media": "Nordea",
    "new": false,
    "alert": "지침·기준 공표",
-   "title_ko": "EU 분류법: 2026년 검토에 대한 플래시 업데이트 및 기후 위임법 변경 사항"
+   "title_ko": "EU 택소노미: 2026년 검토에 대한 플래시 업데이트 및 기후 위임법 변경 사항"
   },
   {
    "tag": "CSDDD 공급망실사",
@@ -612,7 +612,7 @@
    "media": "www.hlc.com",
    "new": true,
    "alert": "일정·범위 변경",
-   "title_ko": "EU 지속 가능성 보고 및 실사: Omnibus I 이후 기업 지속 가능성 보고 지침(\"CSRD\") 및 기업 지속 가능성 실사 지침(\"CS3D\")"
+   "title_ko": "EU 지속가능성 보고 및 실사: Omnibus I 이후 기업 지속가능성 보고 지침(\"CSRD\") 및 기업 지속가능성 실사 지침(\"CS3D\")"
   },
   {
    "tag": "EUDR 산림전용",
@@ -642,7 +642,7 @@
    "media": "European Commission",
    "new": false,
    "alert": null,
-   "title_ko": "기업 지속 가능성 실사"
+   "title_ko": "기업 지속가능성 실사"
   },
   {
    "tag": "CSDDD 공급망실사",
@@ -652,7 +652,7 @@
    "media": "",
    "new": true,
    "alert": null,
-   "title_ko": "유럽연합 실사 지침 이행: 낮은 야망의 실제 비용은 인권 침해입니다 - 국제인권연맹(International Federation for Human Rights)"
+   "title_ko": "EU 실사 지침 이행: 낮은 야망의 실제 비용은 인권 침해입니다 - 국제인권연맹(International Federation for Human Rights)"
   },
   {
    "tag": "SFDR 공시",
@@ -682,7 +682,7 @@
    "media": "China Briefing",
    "new": false,
    "alert": null,
-   "title_ko": "EU 강제 노동 규정: 중국의 FIE가 알아야 할 사항"
+   "title_ko": "EU 강제노동 규정: 중국의 FIE가 알아야 할 사항"
   },
   {
    "tag": "Omnibus 간소화",
@@ -702,7 +702,7 @@
    "media": "Mayer Brown",
    "new": false,
    "alert": null,
-   "title_ko": "유럽연합 집행위원회, 개정된 유럽 지속가능성 보고 표준 채택"
+   "title_ko": "EU 집행위, 개정된 유럽 지속가능성 보고 표준 채택"
   },
   {
    "tag": "EUDR 산림전용",
@@ -712,7 +712,7 @@
    "media": "environment.ec.europa.eu",
    "new": false,
    "alert": null,
-   "title_ko": "위원회는 EU 삼림 벌채 규정 시행을 지원하기 위해 제품 범위와 디지털 도구를 업데이트합니다."
+   "title_ko": "위원회는 EU 산림전용 규정 시행을 지원하기 위해 제품 범위와 디지털 도구를 업데이트합니다."
   },
   {
    "tag": "택소노미",
@@ -742,7 +742,7 @@
    "media": "ESG Dive",
    "new": false,
    "alert": null,
-   "title_ko": "EU 위원회는 개정된 지속 가능성 보고 표준을 채택했습니다."
+   "title_ko": "EU 위원회는 개정된 지속가능성 보고 표준을 채택했습니다."
   },
   {
    "tag": "택소노미",
@@ -752,7 +752,7 @@
    "media": "Sustainable Futures",
    "new": true,
    "alert": "일정·범위 변경",
-   "title_ko": "EU: ESA는 EU 분류법 공개를 단순화하기 위한 제안에 대해 논의합니다. Stephen Clipsham - Linklaters"
+   "title_ko": "EU: ESA는 EU 택소노미 공개를 단순화하기 위한 제안에 대해 논의합니다. Stephen Clipsham - Linklaters"
   },
   {
    "tag": "강제노동",
@@ -762,7 +762,7 @@
    "media": "Kharon",
    "new": false,
    "alert": null,
-   "title_ko": "EU의 새로운 강제 노동 지침이 휩쓸고 있습니다. 준수 방법은 다음과 같습니다."
+   "title_ko": "EU의 새로운 강제노동 지침이 휩쓸고 있습니다. 준수 방법은 다음과 같습니다."
   },
   {
    "tag": "SFDR 공시",
@@ -802,7 +802,7 @@
    "media": "Latham & Watkins LLP",
    "new": true,
    "alert": "지침·기준 공표",
-   "title_ko": "유럽연합 집행위원회, EU 강제 노동 규정에 관한 지침 발표"
+   "title_ko": "EU 집행위, EU 강제노동 규정에 관한 지침 발표"
   },
   {
    "tag": "강제노동",
@@ -812,7 +812,7 @@
    "media": "Sustainable Futures",
    "new": false,
    "alert": null,
-   "title_ko": "EU 강제 노동 규정: 위원회, 오랫동안 기다려온 시행 지침 발표 - Linklaters"
+   "title_ko": "EU 강제노동 규정: 위원회, 오랫동안 기다려온 시행 지침 발표 - Linklaters"
   },
   {
    "tag": "EUDR 산림전용",
@@ -822,7 +822,7 @@
    "media": "www.hlc.com",
    "new": true,
    "alert": "일정·범위 변경",
-   "title_ko": "EU 삼림 벌채 규정: 위원회는 2026년 12월 적용일보다 앞서 단순화 패키지를 발표했습니다."
+   "title_ko": "EU 산림전용 규정: 위원회는 2026년 12월 적용일보다 앞서 단순화 패키지를 발표했습니다."
   },
   {
    "tag": "강제노동",
@@ -832,7 +832,7 @@
    "media": "kpmg.com",
    "new": true,
    "alert": null,
-   "title_ko": "EU 강제 노동 규정"
+   "title_ko": "EU 강제노동 규정"
   },
   {
    "tag": "택소노미",
@@ -872,7 +872,7 @@
    "media": "consilium.europa.eu",
    "new": false,
    "alert": null,
-   "title_ko": "위원회는 지속 가능한 금융 상품에 대한 보다 단순한 투명성 규칙에 대한 입장에 동의합니다."
+   "title_ko": "위원회는 지속가능한 금융 상품에 대한 보다 단순한 투명성 규칙에 대한 입장에 동의합니다."
   },
   {
    "tag": "SFDR 공시",
@@ -882,7 +882,7 @@
    "media": "WWF EU",
    "new": false,
    "alert": null,
-   "title_ko": "EU 정부는 지속 가능한 금융 규정집에서 화석 연료 이익에 굴복합니다."
+   "title_ko": "EU 정부는 지속가능한 금융 규정집에서 화석 연료 이익에 굴복합니다."
   },
   {
    "tag": "CSRD·ESRS 보고",
@@ -902,7 +902,7 @@
    "media": "Responsible Investor",
    "new": true,
    "alert": "지침·기준 공표",
-   "title_ko": "전문가들은 중국의 지속 가능한 펀드 지침이 'SFDR과 유사'하다고 말합니다."
+   "title_ko": "전문가들은 중국의 지속가능한 펀드 지침이 'SFDR과 유사'하다고 말합니다."
   },
   {
    "tag": "택소노미",
@@ -912,7 +912,7 @@
    "media": "bruegel.org",
    "new": false,
    "alert": null,
-   "title_ko": "녹색금융인가, 녹색금융인가? EU의 지속 가능한 금융과 자본 시장 아키텍처를 연결합니다."
+   "title_ko": "녹색금융인가, 녹색금융인가? EU의 지속가능한 금융과 자본 시장 아키텍처를 연결합니다."
   },
   {
    "tag": "CSDDD 공급망실사",
@@ -922,7 +922,7 @@
    "media": "Latham & Watkins LLP",
    "new": false,
    "alert": null,
-   "title_ko": "유럽연합 집행위원회, 향후 CSDDD 지침에 대한 협의 시작"
+   "title_ko": "EU 집행위, 향후 CSDDD 지침에 대한 협의 시작"
   },
   {
    "tag": "강제노동",
@@ -932,7 +932,7 @@
    "media": "Mayer Brown",
    "new": false,
    "alert": null,
-   "title_ko": "EU 강제 노동 규정: 모든 법률 고문이 물어봐야 할 10가지 질문"
+   "title_ko": "EU 강제노동 규정: 모든 법률 고문이 물어봐야 할 10가지 질문"
   },
   {
    "tag": "배터리 규정",
@@ -1032,7 +1032,7 @@
    "media": "Sustainalytics",
    "new": false,
    "alert": null,
-   "title_ko": "SFDR 2.0: 지속 가능한 투자의 복잡성에서 명확성으로의 전환 탐색"
+   "title_ko": "SFDR 2.0: 지속가능한 투자의 복잡성에서 명확성으로의 전환 탐색"
   },
   {
    "tag": "배터리 규정",
@@ -1062,7 +1062,7 @@
    "media": "JD Supra",
    "new": false,
    "alert": null,
-   "title_ko": "유럽연합 집행위원회, 개정된 ESRS 및 새로운 자발적 지속 가능성 보고 표준 제안"
+   "title_ko": "EU 집행위, 개정된 ESRS 및 새로운 자발적 지속가능성 보고 표준 제안"
   },
   {
    "tag": "그린워싱·표시",
@@ -1092,7 +1092,7 @@
    "media": "ropesgray.com",
    "new": false,
    "alert": null,
-   "title_ko": "EU 삼림 벌채 규제 업데이트 – 위원회 보고서, 새로운 FAQ 및 지침, 제안된 위임법 및 기타 개발"
+   "title_ko": "EU 산림전용 규제 업데이트 – 위원회 보고서, 새로운 FAQ 및 지침, 제안된 위임법 및 기타 개발"
   },
   {
    "tag": "택소노미",
@@ -1122,7 +1122,7 @@
    "media": "A&O Shearman",
    "new": false,
    "alert": null,
-   "title_ko": "EU 강제 노동 규정: EU에서 거래하는 기업에게 이는 무엇을 의미합니까?"
+   "title_ko": "EU 강제노동 규정: EU에서 거래하는 기업에게 이는 무엇을 의미합니까?"
   },
   {
    "tag": "강제노동",
@@ -1132,7 +1132,7 @@
    "media": "erm.com",
    "new": false,
    "alert": null,
-   "title_ko": "기준 높이기 - EU 강제 노동 규정 준비"
+   "title_ko": "기준 높이기 - EU 강제노동 규정 준비"
   },
   {
    "tag": "그린워싱·표시",
@@ -1162,7 +1162,7 @@
    "media": "dlapiper.com",
    "new": true,
    "alert": null,
-   "title_ko": "EU 강제 노동 규정: 미국 기업이 알아야 할 사항"
+   "title_ko": "EU 강제노동 규정: 미국 기업이 알아야 할 사항"
   },
   {
    "tag": "택소노미",
@@ -1391,8 +1391,8 @@
    ],
    "new": true,
    "alert": null,
-   "title_ko": "Osapiens, Nasdaq의 지속 가능성 보고 플랫폼 인수",
-   "summary_ko": "독일에 본사를 둔 지속 가능성 소프트웨어 회사인 osapiens는 수요일 자본 시장 기술 및 거래 회사 인수를 발표했습니다. [...]"
+   "title_ko": "Osapiens, Nasdaq의 지속가능성 보고 플랫폼 인수",
+   "summary_ko": "독일에 본사를 둔 지속가능성 소프트웨어 회사인 osapiens는 수요일 자본 시장 기술 및 거래 회사 인수를 발표했습니다. [...]"
   },
   {
    "source": "esgdive",
@@ -1482,7 +1482,7 @@
    "new": true,
    "alert": null,
    "title_ko": "미국은 EU에 지속가능성법에 대한 무역 양보를 '전달'할 것을 요구",
-   "summary_ko": "유럽연합(EU) 주재 미국 대사는 정부가 “미국 무역에 대한 불합리한 부담을 해결하기 위해 필요한 모든 조치”를 취할 것이라고 말했습니다."
+   "summary_ko": "EU 주재 미국 대사는 정부가 “미국 무역에 대한 불합리한 부담을 해결하기 위해 필요한 모든 조치”를 취할 것이라고 말했습니다."
   },
   {
    "source": "esgdive",
@@ -1593,8 +1593,8 @@
    "tags": [],
    "new": true,
    "alert": null,
-   "title_ko": "지속 가능성 소프트웨어 제공업체 Diginex, 고객 참여 AI 회사 Resulticks와 10억 달러 규모의 거래 체결",
-   "summary_ko": "ESG, 지속 가능성 및 규정 준수 솔루션 제공업체인 Diginex는 AI 기반 고객 참여를 확보하기로 합의했다고 발표했습니다. […]"
+   "title_ko": "지속가능성 소프트웨어 제공업체 Diginex, 고객 참여 AI 회사 Resulticks와 10억 달러 규모의 거래 체결",
+   "summary_ko": "ESG, 지속가능성 및 규정 준수 솔루션 제공업체인 Diginex는 AI 기반 고객 참여를 확보하기로 합의했다고 발표했습니다. […]"
   },
   {
    "source": "reuters",
@@ -1670,7 +1670,7 @@
    "new": true,
    "alert": null,
    "title_ko": "데일리 뉴스 2026년 8월 17일",
-   "summary_ko": "유럽 ​​위원회 일일 뉴스 브뤼셀, 2026년 8월 17일 위원회는 에너지 안보 조치를 위한 재정 유연성에 대한 지침을 채택했습니다. 유럽 위원회는 회원국들에게 추가 ..."
+   "summary_ko": "유럽 ​​위원회 일일 뉴스 브뤼셀, 2026년 8월 17일 위원회는 에너지 안보 조치를 위한 재정 유연성에 대한 지침을 채택했습니다. EU 집행위는 회원국들에게 추가 ..."
   },
   {
    "source": "esgdive",
@@ -1914,7 +1914,7 @@
    "tags": [],
    "new": false,
    "alert": null,
-   "title_ko": "유럽연합(EU) 과학자들은 서유럽이 역사상 가장 더운 6월을 기록했다고 밝혔다.",
+   "title_ko": "EU 과학자들은 서유럽이 역사상 가장 더운 6월을 기록했다고 밝혔다.",
    "summary_ko": ""
   },
   {
@@ -2076,7 +2076,7 @@
    ],
    "new": false,
    "alert": null,
-   "title_ko": "브라질, 삼림 벌채 방지를 위해 은행 관리자 모집",
+   "title_ko": "브라질, 산림전용 방지를 위해 은행 관리자 모집",
    "summary_ko": ""
   },
   {
@@ -2506,7 +2506,7 @@
    ],
    "new": false,
    "alert": null,
-   "title_ko": "EU, 삼림 벌채 방지법 1년 더 연기",
+   "title_ko": "EU, 산림전용 방지법 1년 더 연기",
    "summary_ko": ""
   },
   {

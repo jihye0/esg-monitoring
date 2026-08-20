@@ -57,9 +57,10 @@ a { color: inherit; }
   position: sticky; top: 0; z-index: 40; border-bottom: 1px solid var(--nav-line);
 }
 .nav-in { display: flex; align-items: center; gap: 30px; height: 62px; }
-.brand { display: flex; align-items: center; gap: 10px; flex: none; text-decoration: none; }
-.mark { width: 26px; height: 26px; flex: none; display: block; }
-.bname { font-size: .95rem; font-weight: 700; letter-spacing: -.015em; white-space: nowrap; }
+/* 재단 워드마크: 회색 K-Mobility + 볼드 브릿지 재단 (다크 배경용 색 조정) */
+.brand { display: flex; align-items: baseline; gap: 7px; flex: none; text-decoration: none; }
+.logo-en { font-size: .98rem; font-weight: 500; color: #a9adb2; letter-spacing: -.005em; white-space: nowrap; }
+.logo-ko { font-size: 1.04rem; font-weight: 800; color: #fff; letter-spacing: -.02em; white-space: nowrap; }
 .navlinks { display: flex; gap: 24px; margin-left: auto; }
 @media (max-width: 780px) { .navlinks { gap: 16px; } }
 .navlinks a {

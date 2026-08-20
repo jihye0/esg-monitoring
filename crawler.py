@@ -139,6 +139,41 @@ TAGS = {
 }
 
 TRANS_CACHE_FILE = BASE / "trans_cache.json"
+
+# ── 번역 용어 교정 사전 ──
+# 자동 번역이 반복적으로 틀리는 규제 전문용어를 교정한다 (긴 표현 먼저).
+TERM_FIXES = [
+    ("유럽연합 집행위원회", "EU 집행위"),
+    ("유럽 연합 집행위원회", "EU 집행위"),
+    ("유럽 위원회", "EU 집행위"),
+    ("유럽연합", "EU"),
+    ("삼림 벌채", "산림전용"),
+    ("삼림벌채", "산림전용"),
+    ("산림 벌채", "산림전용"),
+    ("기업 지속 가능성", "기업 지속가능성"),
+    ("지속 가능성", "지속가능성"),
+    ("지속 가능한", "지속가능한"),
+    ("탄소 국경 조정 메커니즘", "탄소국경조정제도"),
+    ("탄소 국경", "탄소국경"),
+    ("강제 노동", "강제노동"),
+    ("공급 망", "공급망"),
+    ("그린 딜", "그린딜"),
+    ("녹색 세탁", "그린워싱"),
+    ("EU 분류법", "EU 택소노미"),
+    ("분류법", "택소노미"),
+    ("재생 가능 에너지", "재생에너지"),
+    ("배터리 규제", "배터리 규정"),
+    # 교정 과정에서 생기는 중복 정리
+    ("EU(EU)", "EU"),
+    ("EU (EU)", "EU"),
+]
+
+def fix_terms(text):
+    if not text:
+        return text
+    for wrong, right in TERM_FIXES:
+        text = text.replace(wrong, right)
+    return text
 SEEN_FILE = BASE / "seen.json"  # 과거에 본 기사 링크 -> 처음 본 날짜
 
 # ── '면밀 확인 필요' 신호 탐지 ──
@@ -178,11 +213,11 @@ def compute_alert(it, now_utc):
     return None
 
 def translate_ko(text, cache):
-    """구글 번역 무료 엔드포인트로 한국어 번역. 캐시에 있으면 재사용."""
+    """구글 번역 무료 엔드포인트로 한국어 번역 + 용어 교정. 캐시에 있으면 재사용."""
     if not text:
         return ""
     if text in cache:
-        return cache[text]
+        return fix_terms(cache[text])
     try:
         r = requests.get(
             "https://translate.googleapis.com/translate_a/single",
@@ -193,7 +228,7 @@ def translate_ko(text, cache):
         out = "".join(s[0] for s in segments if s and s[0]).strip()
         if out:
             cache[text] = out
-        return out
+        return fix_terms(out)
     except Exception:
         return ""
 
