@@ -51,26 +51,24 @@ a { color: inherit; }
 .wrap { max-width: 1180px; margin: 0 auto; padding: 0 28px; }
 @media (max-width: 640px) { .wrap { padding: 0 16px; } }
 
-/* ── 네비 ──────────────────────────────── */
+/* ── 네비 (흰 배경 — 공식 로고가 원색으로 표시됨) ── */
 .nav {
-  background: var(--nav); color: var(--nav-ink);
-  position: sticky; top: 0; z-index: 40; border-bottom: 1px solid var(--nav-line);
+  background: #ffffff;
+  position: sticky; top: 0; z-index: 40; border-bottom: 1px solid #e0e0db;
 }
 .nav-in { display: flex; align-items: center; gap: 30px; height: 62px; }
-/* 재단 워드마크: 회색 K-Mobility + 볼드 브릿지 재단 (다크 배경용 색 조정) */
-.brand { display: flex; align-items: baseline; gap: 7px; flex: none; text-decoration: none; }
-.logo-en { font-size: .98rem; font-weight: 500; color: #a9adb2; letter-spacing: -.005em; white-space: nowrap; }
-.logo-ko { font-size: 1.04rem; font-weight: 800; color: #fff; letter-spacing: -.02em; white-space: nowrap; }
+.brand { display: flex; align-items: center; flex: none; text-decoration: none; }
+.logo-img { height: 21px; display: block; }
 .navlinks { display: flex; gap: 24px; margin-left: auto; }
 @media (max-width: 780px) { .navlinks { gap: 16px; } }
 .navlinks a {
-  font-size: .92rem; font-weight: 600; color: var(--nav-sub); text-decoration: none;
+  font-size: .92rem; font-weight: 600; color: #5f676c; text-decoration: none;
   padding: 4px 0; border-bottom: 2px solid transparent; white-space: nowrap;
 }
 @media (max-width: 780px) { .navlinks a.hide-m { display: none; } }
-.navlinks a:hover { color: #fff; }
-.navlinks a.act { color: #fff; border-bottom-color: var(--brand); }
-.navlinks a:focus-visible { outline: 2px solid var(--brand); outline-offset: 3px; }
+.navlinks a:hover { color: #131719; }
+.navlinks a.act { color: #131719; border-bottom-color: #1c4568; }
+.navlinks a:focus-visible { outline: 2px solid #1c4568; outline-offset: 3px; }
 
 /* ── 신규 알림 표시 ─────────────────────── */
 .ndot {
