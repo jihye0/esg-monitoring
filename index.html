@@ -111,7 +111,7 @@
   function card(r) {
       const col = colorOf(r);
       const ap = r.ap, lv = ap ? LV[ap.lv] : null;
-      const top3 = r.pool.slice(0, 3);
+      const top1 = r.pool.slice(0, 1);
       const href = "reg.html?id=" + r.id;
       const li = x => '<li>' +
         (x.alert ? '<span class="isalert" title="' + esc(x.alert) + '">확인</span>' : "") +
@@ -136,7 +136,7 @@
         '<div class="rc-news"><div class="nh"><span>관련 동향 ' + r.pool.length + "건</span>" +
           (r.alertN ? "<em>확인 필요 " + r.alertN + "건</em>" : "") + "</div>" +
           (r.pool.length
-            ? "<ul>" + top3.map(li).join("") + "</ul>"
+            ? "<ul>" + top1.map(li).join("") + "</ul>"
             : '<div class="none">최근 수집된 관련 기사가 없습니다.</div>') +
           '<a class="rc-more" href="' + href + '">상세 페이지 · 전체 동향 ' + r.pool.length + "건 →</a>" +
         "</div></article>";
