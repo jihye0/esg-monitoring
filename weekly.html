@@ -210,7 +210,7 @@
       return '<section class="wsec"><div class="wsec-h">' + head + "</div>" +
         '<div class="nlist">' + g.map(a =>
           '<a class="nrow" href="' + esc(a.link) + '" target="_blank" rel="noopener">' +
-          '<div class="t">' + (a.alert ? '<span class="isalert">확인 · ' + esc(a.alert) + "</span>" : "") +
+          '<div class="t">' + (a.alert ? '<span class="isalert">' + esc(a.alert) + "</span>" : "") +
           esc(a.title) + "</div>" +
           '<div class="m">' + fmtDate(a.date) + (a.src ? " · " + esc(a.src) : "") +
           (a.summary ? "</div><div class=\"m\" style=\"margin-top:3px\">" + esc(a.summary) : "") +
@@ -272,7 +272,7 @@
         h += '<div style="padding:10px 0 9px;border-bottom:1px solid #ebebe6">' +
           (a.alert ? '<span style="display:inline-block;font-size:11px;font-weight:800;color:#ffffff;' +
             'background:#a92d10;padding:1px 6px;border-radius:2px;margin-right:7px;vertical-align:2px">' +
-            "확인 필요 · " + esc(a.alert) + "</span>" : "") +
+            esc(a.alert) + "</span>" : "") +
           '<a href="' + esc(a.link) + '" style="color:#163a59;text-decoration:none;font-weight:700;font-size:14.5px;line-height:1.5">' +
           esc(a.title) + "</a>" +
           '<div style="color:#7b8489;font-size:12px;margin-top:2px">' + md(a.date) + " · " + esc(a.src) + "</div>" +

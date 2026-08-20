@@ -108,7 +108,7 @@
     '<div class="d-abbr">' + esc(r.abbr) + "</div>" +
     '<span class="d-status">' + esc(r.status) + "</span>" +
     (r.dday !== null && r.dday > 0 ? '<span class="d-status">D-' + r.dday + " · " + esc(r.keyLabel) + "</span>" : "") +
-    (r.alertN ? '<span class="alertpill">확인 필요 ' + r.alertN + "건</span>" : "");
+    (r.alertN ? '<span class="alertpill">변화 신호 ' + r.alertN + "건</span>" : "");
   document.getElementById("dName").textContent = r.name;
   document.getElementById("dDesc").textContent = r.desc;
 
@@ -175,12 +175,12 @@
   /* 관련 동향 전체 */
   document.getElementById("poolNote").textContent =
     "총 " + r.pool.length + "건" +
-    (r.alertN ? " · 확인 필요 " + r.alertN + "건이 맨 위에 표시됩니다" : "");
+    (r.alertN ? " · 변화 신호 " + r.alertN + "건이 맨 위에 표시됩니다" : "");
   document.getElementById("poolList").innerHTML = r.pool.length
     ? r.pool.map(x =>
         '<a class="nrow" href="' + esc(x.link) + '" target="_blank" rel="noopener">' +
         '<div class="t">' +
-        (x.alert ? '<span class="isalert">확인 · ' + esc(x.alert) + "</span>" : "") +
+        (x.alert ? '<span class="isalert">' + esc(x.alert) + "</span>" : "") +
         esc(x.title) + "</div>" +
         '<div class="m">' + fmtDate(x.date) + (x.src ? " · " + esc(x.src) : "") + "</div></a>").join("")
     : '<div class="empty">최근 수집된 관련 기사가 없습니다.</div>';
@@ -189,7 +189,7 @@
   document.getElementById("otherRegs").innerHTML = REGS.filter(x => x.id !== r.id).map(x =>
     '<a href="reg.html?id=' + x.id + '">' + esc(x.abbr) +
     " <small>" + esc(x.name) + "</small>" +
-    (x.alertN ? '<span class="alertpill">확인 ' + x.alertN + "</span>" : "") + "</a>").join("");
+    (x.alertN ? '<span class="alertpill">신호 ' + x.alertN + "</span>" : "") + "</a>").join("");
 })();
 </script>
 </body>
