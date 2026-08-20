@@ -62,6 +62,17 @@
     </div>
   </section>
 
+  <section class="blk" id="cal">
+    <div class="shead">
+      <h2>규제 시행 캘린더</h2><span class="n" id="calNote"></span>
+      <a class="seelink" href="calendar.html">연도별 전체 일정 →</a>
+    </div>
+    <div class="cal">
+      <div class="cal-scroll"><div class="cal-in" id="calIn"></div></div>
+      <div class="cal-live" id="calLive"></div>
+    </div>
+  </section>
+
   <section class="blk" id="regs">
     <div class="shead">
       <h2>규제별 현황</h2>
@@ -94,6 +105,52 @@
   const { REGS, esc, colorOf, LV, P } = E;
 
   E.navInit();
+
+  /* ── 시행 캘린더 (라벨 3단 배치) ── */
+  const { now, DAY } = E;
+  function renderCal() {
+    const upcoming = REGS.filter(r => r.dday !== null && r.dday > 0).sort((a, b) => a.dday - b.dday);
+    const tStart = now.getTime();
+    const tEnd = new Date(Math.max(...upcoming.map(r => new Date(r.key + "T00:00:00")))).getTime() + 90 * DAY;
+    const pos = t => ((t - tStart) / (tEnd - tStart)) * 100;
+    let cal = '<div class="track"><div class="today"><b>오늘</b></div>';
+    for (let y = now.getFullYear() + 1; y <= new Date(tEnd).getFullYear(); y++) {
+      const p = pos(new Date(y + "-01-01T00:00:00").getTime());
+      if (p > 2 && p < 99) cal += '<div class="yr" style="left:' + p.toFixed(2) + '%">' + y + "</div>";
+    }
+    const STEM = [20, 62, 104], TOP = [42, 84, 126];
+    upcoming.forEach((r, i) => {
+      const p = pos(new Date(r.key + "T00:00:00").getTime());
+      const col = colorOf(r);
+      const row = i % 3;
+      let cls = p < 9 ? " edge-l" : (p > 91 ? " edge-r" : "");
+      if (r.ap && r.ap.lv === "low") cls += " dim";
+      cal += '<div class="mk' + cls + '" style="left:' + p.toFixed(2) + "%;--mkc:" + col.c + ";--mkw:" + col.w + '">' +
+        "<i></i>" +
+        '<div class="stem" style="height:' + STEM[row] + 'px"></div>' +
+        '<div class="lab" style="top:' + TOP[row] + 'px">' +
+          '<b><a href="reg.html?id=' + r.id + '">' + esc(r.abbr) + "</a></b>" +
+          "<span>" + r.key.slice(2).replace(/-/g, ".") + " " + esc(r.keyLabel) + "</span>" +
+          "<em>D-" + r.dday + "</em>" +
+        "</div></div>";
+    });
+    cal += "</div>";
+    const el = document.getElementById("calIn");
+    el.innerHTML = cal;
+    el.style.paddingBottom = "200px";
+    document.getElementById("calNote").textContent =
+      "시행일 확정된 " + upcoming.length + "개 규제" +
+      (E.isSet() ? " · 관련 낮은 규제는 흐리게 표시" : "");
+    const dimC = r => (r.ap && r.ap.lv === "low") ? " dim" : "";
+    document.getElementById("calLive").innerHTML =
+      '<span class="lk">이미 시행 중</span>' +
+      REGS.filter(r => r.cls === "live").map(r =>
+        '<a class="lc' + dimC(r) + '" href="reg.html?id=' + r.id + '">' + esc(r.abbr) + "</a>").join("") +
+      '<span class="lk" style="color:var(--idle);margin-left:8px">입법 중</span>' +
+      REGS.filter(r => r.cls === "wip").map(r =>
+        '<a class="lc' + dimC(r) + '" href="reg.html?id=' + r.id + '" style="background:var(--idle-wash);color:var(--ink-2)">' +
+        esc(r.abbr) + "</a>").join("");
+  }
 
   /* ── 규제 카드 ── */
   function shownRegs() {
@@ -171,7 +228,7 @@
   function applyProfile() {
     [segSize, segRoute, segGoods].forEach(s => s._sync());
     E.assess();
-    renderCards();
+    renderCal(); renderCards();
     const on = E.isSet();
     document.getElementById("pfTogWrap").hidden = !on;
     document.getElementById("pfReset").hidden = !(P.size || P.route || P.goods.size);
