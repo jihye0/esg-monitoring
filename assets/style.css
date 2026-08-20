@@ -42,6 +42,8 @@
 }
 
 * { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+::selection { background: rgba(28, 69, 104, .18); }
 body {
   margin: 0; background: var(--bg); color: var(--ink);
   font-family: "Pretendard Variable", Pretendard, "Apple SD Gothic Neo",
@@ -54,8 +56,9 @@ a { color: inherit; }
 
 /* ── 네비 (다크 + 흰색 리버스 로고) ─────── */
 .nav {
-  background: var(--nav); color: var(--nav-ink);
-  position: sticky; top: 0; z-index: 40; border-bottom: 1px solid var(--nav-line);
+  background: rgba(14, 34, 64, .88); color: var(--nav-ink);
+  -webkit-backdrop-filter: blur(12px) saturate(1.3); backdrop-filter: blur(12px) saturate(1.3);
+  position: sticky; top: 0; z-index: 40; border-bottom: 1px solid rgba(255, 255, 255, .08);
 }
 .nav-in { display: flex; align-items: center; gap: 30px; height: 62px; }
 .brand { display: flex; align-items: center; flex: none; text-decoration: none; }
@@ -117,12 +120,29 @@ a { color: inherit; }
 .a-more:hover { color: var(--urgent); }
 
 /* ── 페이지 헤더 ───────────────────────── */
-.phead { background: linear-gradient(135deg, var(--nav) 0%, #1e4271 130%); color: var(--nav-ink); padding: 42px 0 38px; }
+.phead {
+  background: linear-gradient(135deg, var(--nav) 0%, #1e4271 130%);
+  color: var(--nav-ink); padding: 48px 0 44px; position: relative; overflow: hidden;
+}
+.phead::after, .dhead::after {
+  content: ""; position: absolute; right: -60px; bottom: -12px; width: 620px; height: 300px;
+  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="620" height="300" viewBox="0 0 620 300" fill="none"><path d="M20 300 C140 70 480 70 600 300" stroke="rgba(255,255,255,0.09)" stroke-width="2"/><path d="M-60 300 C90 10 530 10 680 300" stroke="rgba(255,255,255,0.055)" stroke-width="2"/><path d="M100 300 C190 135 430 135 520 300" stroke="rgba(255,255,255,0.12)" stroke-width="2"/><path d="M0 299 h620" stroke="rgba(255,255,255,0.1)" stroke-width="1.5"/></svg>') no-repeat right bottom;
+  pointer-events: none;
+}
+.phead .wrap, .dhead .wrap { position: relative; z-index: 1; }
 .phead h1 { margin: 0; font-size: 2.5rem; line-height: 1.18; font-weight: 800; letter-spacing: -.032em; }
 @media (max-width: 640px) { .phead h1 { font-size: 1.9rem; } }
 .phead p { margin: 11px 0 0; color: var(--nav-sub); font-size: 1.02rem; max-width: 60ch; }
-.gen-line { margin-top: 13px; font-size: .87rem; color: var(--nav-sub); font-variant-numeric: tabular-nums; }
-.gen-line .new { color: #ff8a70; font-weight: 700; }
+.gen-line { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 18px; font-variant-numeric: tabular-nums; }
+.gchip {
+  font-size: .8rem; font-weight: 600; color: #ccd8e9;
+  background: rgba(255, 255, 255, .07); border: 1px solid rgba(255, 255, 255, .13);
+  padding: 4px 12px; border-radius: 999px; white-space: nowrap;
+}
+.gchip.hot {
+  color: #ffb09c; border-color: rgba(255, 138, 112, .38); background: rgba(255, 90, 54, .13);
+  font-weight: 700;
+}
 
 /* ── 섹션 ─────────────────────────────── */
 section.blk { margin-bottom: 46px; scroll-margin-top: 74px; }
@@ -429,8 +449,11 @@ select.sort:focus-visible { outline: 2px solid var(--brand); outline-offset: -1p
 .btn2:hover:not(:disabled) { border-color: var(--brand); color: var(--brand-ink); }
 .btn2:disabled { opacity: .4; cursor: default; }
 .btn2:focus-visible { outline: 2px solid var(--brand); outline-offset: 2px; }
-.btn2.primary { background: var(--brand); border-color: var(--brand); color: #fff; }
-.btn2.primary:hover:not(:disabled) { background: var(--brand-ink); color: #fff; }
+.btn2.primary {
+  background: linear-gradient(180deg, #2a5c94, #1c4568); border-color: #1c4568; color: #fff;
+  box-shadow: 0 2px 8px rgba(28, 69, 104, .3);
+}
+.btn2.primary:hover:not(:disabled) { background: linear-gradient(180deg, #24537f, #163a59); color: #fff; }
 .wtabs-wrap { display: flex; align-items: center; gap: 12px; border-bottom: 1px solid var(--line); margin-bottom: 20px; }
 .wtabs { display: flex; overflow-x: auto; flex: 1; }
 .wtabs button {
@@ -500,7 +523,10 @@ select.sort:focus-visible { outline: 2px solid var(--brand); outline-offset: -1p
 }
 .doclist a:hover { text-decoration: underline; text-underline-offset: 3px; }
 
-.dhead { background: linear-gradient(135deg, var(--nav) 0%, #1e4271 130%); color: var(--nav-ink); padding: 30px 0 36px; }
+.dhead {
+  background: linear-gradient(135deg, var(--nav) 0%, #1e4271 130%);
+  color: var(--nav-ink); padding: 32px 0 40px; position: relative; overflow: hidden;
+}
 .crumb { font-size: .86rem; margin-bottom: 16px; }
 .crumb a { color: var(--nav-sub); text-decoration: none; }
 .crumb a:hover { color: #fff; }

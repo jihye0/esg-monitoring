@@ -402,10 +402,13 @@ window.ESG = (function () {
       "</a> — " + esc(s.desc) + "</li>").join("");
     const g = document.getElementById("genLine");
     if (g && data.generated) {
-      g.innerHTML = "마지막 수집 " + fmtDate(data.generated) +
-        (alertTotal > 0 ? ' · <span class="new">확인 필요 ' + alertTotal + "건</span>" : " · 확인 필요 없음") +
-        (newTotal > 0 ? " · 신규 수집 " + newTotal + "건" : "") +
-        " · 매주 월요일 09:00 자동 수집";
+      g.innerHTML =
+        '<span class="gchip">마지막 수집 ' + fmtDate(data.generated) + "</span>" +
+        (alertTotal > 0
+          ? '<span class="gchip hot">확인 필요 ' + alertTotal + "건</span>"
+          : '<span class="gchip">확인 필요 없음</span>') +
+        (newTotal > 0 ? '<span class="gchip">신규 수집 ' + newTotal + "건</span>" : "") +
+        '<span class="gchip">매주 월요일 09:00 자동 수집</span>';
     }
   }
 
