@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>시스템 소개 | EU ESG 규제 모니터링</title>
+<meta name="description" content="EU ESG 규제 모니터링 시스템의 목적, 데이터 수집 방법, 변화 신호 탐지 기준과 운영 방식">
+<meta property="og:type" content="website">
+<meta property="og:title" content="시스템 소개 | EU ESG 규제 모니터링">
+<meta property="og:description" content="무엇을, 어디서, 어떻게 수집하고 판별하는지 정리했습니다">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231c4568'/%3E%3Cpath d='M6.5 21.5h19M8.5 21.5c1.2-6 4.2-9 7.5-9s6.3 3 7.5 9' fill='none' stroke='white' stroke-width='2.4' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="wrap nav-in">
+    <a class="brand" href="index.html">
+      <svg class="mark" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="7" fill="var(--brand)"/><path d="M6.5 21.5h19M8.5 21.5c1.2-6 4.2-9 7.5-9s6.3 3 7.5 9" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round"/></svg>
+      <div class="bname">K-Mobility 브릿지 재단</div>
+    </a>
+    <div class="navlinks">
+      <a href="index.html">규제 현황</a>
+      <a href="calendar.html" class="hide-m">시행 캘린더</a>
+      <a href="alerts.html" id="navAlerts">확인 필요</a>
+      <a href="weekly.html">주간 동향</a>
+    </div>
+  </div>
+</nav>
+
+<div class="phead">
+  <div class="wrap">
+    <h1>시스템 소개</h1>
+    <p>이 서비스가 무엇을, 어디서, 어떻게 수집하고 판별하는지 정리했습니다.</p>
+    <div class="gen-line" id="genLine"></div>
+  </div>
+</div>
+
+<div class="wrap" style="padding-top:36px; padding-bottom:10px; max-width:900px">
+
+  <section class="blk">
+    <div class="shead"><h2>목적</h2></div>
+    <p class="ptext" style="font-size:.97rem">
+      EU의 ESG 규제(공급망 실사, 탄소국경조정, 산림전용, 배터리, 강제노동 등)는 현대차그룹 등
+      완성차를 거쳐 국내 자동차부품사의 실무 요구로 내려옵니다. 본 시스템은 흩어져 있는 EU 공식
+      발표와 전문 보도를 매주 자동으로 수집·정리하여, 부품업계가 <b>무엇이 바뀌었고 언제까지
+      무엇을 준비해야 하는지</b>를 한곳에서 확인할 수 있도록 K-Mobility 브릿지 재단이 운영하는
+      규제 모니터링 서비스입니다.</p>
+  </section>
+
+  <section class="blk">
+    <div class="shead"><h2>화면 구성</h2></div>
+    <table class="dtable">
+      <tr><th>규제 현황</th><td>감시 중인 10개 규제의 상태와 최신 동향. 기업 규모·거래 형태·품목을 선택하면 규제별 적용 수준(직접 적용/간접 영향/주시/관련 낮음)을 판별해 재정렬합니다.</td></tr>
+      <tr><th>시행 캘린더</th><td>적용 개시 타임라인과, 발효·전환 기한·단계별 의무화를 포함한 연도별 전체 일정표(D-day 표시).</td></tr>
+      <tr><th>확인 필요</th><td>규제 상태 변화 신호가 감지된 기사를 규제별로 정리. 신호가 있으면 메뉴에 빨간 점이 표시됩니다.</td></tr>
+      <tr><th>주간 동향</th><td>수집 기사를 주차별·규제별로 정리한 아카이브. 메일 붙여넣기용 복사와 HTML 저장(뉴스레터 발송용)을 지원합니다.</td></tr>
+      <tr><th>규제 상세</th><td>규제별 적용 대상·기준표, 시행 일정, 벌칙·제재, 공식 가이던스 링크, 완성차 고객사 동향, 관련 기사 전체.</td></tr>
+    </table>
+  </section>
+
+  <section class="blk">
+    <div class="shead"><h2>데이터 수집</h2></div>
+    <p class="ptext" style="font-size:.95rem; margin-bottom:12px">
+      매주 월요일 오전 자동으로 아래 소스를 수집합니다. EU 기관 소스는 ESG 관련 키워드로 선별하고,
+      10개 감시 규제별 전용 키워드 검색을 병행합니다. 제목·요약은 한국어로 자동 번역해 원문과 함께 제공합니다.</p>
+    <ul id="srcAbout" style="margin:0; padding-left:20px; font-size:.93rem; color:var(--ink-2); line-height:1.9"></ul>
+  </section>
+
+  <section class="blk">
+    <div class="shead"><h2>변화 신호(확인 필요) 탐지 기준</h2></div>
+    <p class="ptext" style="font-size:.95rem; margin-bottom:12px">
+      수집된 기사 중 감시 규제와 연결된 최근 기사에서 아래 다섯 가지 상태 변화 신호를 탐지해
+      빨간 태그로 표시합니다. 자동 선별 결과이므로 개별 기사의 중요도는 원문으로 확인이 필요합니다.</p>
+    <table class="dtable">
+      <tr><th>채택·의결</th><td>법안 통과, 표결, 잠정 합의, 관보 게재 등 입법 절차의 진전</td></tr>
+      <tr><th>일정·범위 변경</th><td>적용 연기, stop-the-clock, 간소화(Omnibus), 적용 대상·기준 변경</td></tr>
+      <tr><th>시행·기한</th><td>발효, 적용 개시일, 준수 기한 관련 소식</td></tr>
+      <tr><th>지침·기준 공표</th><td>가이드라인, 이행법·위임법, 기술 표준, 산정 방법론 발표</td></tr>
+      <tr><th>집행·제재</th><td>과징금, 판매 금지, 조사 개시, 제품 회수</td></tr>
+    </table>
+  </section>
+
+  <section class="blk">
+    <div class="shead"><h2>운영 방식</h2></div>
+    <table class="dtable">
+      <tr><th>갱신 주기</th><td>매주 월요일 오전 자동 수집·반영 (수집 시각은 각 페이지 상단에 표시)</td></tr>
+      <tr><th>운영 주체</th><td>K-Mobility 브릿지 재단 ESG 규제 대응 — 문의 esg@kmbridge.org</td></tr>
+      <tr><th>이용 안내</th><td>본 자료는 정보 제공 목적이며 법률 자문이 아닙니다. 규제 시행 일정은 2026년 7월 기준이며 EU Omnibus 협상 결과에 따라 변동될 수 있습니다. 기사 번역은 자동 번역으로 원문 확인을 권장합니다.</td></tr>
+    </table>
+  </section>
+
+</div>
+
+<footer>
+  <div class="wrap">
+    <div class="fl">수집 출처</div>
+    <ul id="srcList"></ul>
+    <div class="fn">
+      <b style="color:#fff">K-Mobility 브릿지 재단 · ESG 규제 대응</b> &nbsp;|&nbsp;
+      문의 <a href="mailto:esg@kmbridge.org">esg@kmbridge.org</a> · <a href="about.html">시스템 소개·수집 방법</a><br>
+      EU 공식 채널(EUR-Lex·집행위원회·유럽의회·이사회)과 전문 매체를 매주 월요일 자동 수집해 정리하며,
+      채택·연기·시행 등 상태 변화 신호가 있는 기사에 「확인 필요」 표시를 합니다.<br>
+      본 자료는 정보 제공 목적이며 법률 자문이 아닙니다. 규제 시행 일정은 2026년 7월 기준으로
+      EU Omnibus 협상 결과에 따라 변동될 수 있습니다.
+    </div>
+  </div>
+</footer>
+
+<script src="assets/data.js"></script>
+<script src="assets/common.js"></script>
+<script>
+(function () {
+  const E = window.ESG;
+  E.navInit();
+  document.getElementById("srcAbout").innerHTML = (E.data.sources || []).map(s =>
+    "<li><b>" + E.esc(s.name) + "</b> — " + E.esc(s.desc) + "</li>").join("");
+})();
+</script>
+</body>
+</html>

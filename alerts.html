@@ -40,7 +40,7 @@
 <div class="wrap" style="padding-top:36px; padding-bottom:10px">
   <section class="blk">
     <div class="shead"><h2>확인 필요 기사</h2><span class="n" id="alertNote"></span></div>
-    <div class="alist" id="alertList"></div>
+    <div id="alertGroups"></div>
   </section>
 </div>
 
@@ -50,7 +50,7 @@
     <ul id="srcList"></ul>
     <div class="fn">
       <b style="color:#fff">K-Mobility 브릿지 재단 · ESG 규제 대응</b> &nbsp;|&nbsp;
-      문의 <a href="mailto:esg@kmbridge.org">esg@kmbridge.org</a><br>
+      문의 <a href="mailto:esg@kmbridge.org">esg@kmbridge.org</a> · <a href="about.html">시스템 소개·수집 방법</a><br>
       EU 공식 채널(EUR-Lex·집행위원회·유럽의회·이사회)과 전문 매체를 매주 월요일 자동 수집해 정리하며,
       채택·연기·시행 등 상태 변화 신호가 있는 기사에 「확인 필요」 표시를 합니다.<br>
       본 자료는 정보 제공 목적이며 법률 자문이 아닙니다. 규제 시행 일정은 2026년 7월 기준으로
@@ -66,25 +66,31 @@
   const E = window.ESG;
   const { REGS, esc, fmtDate } = E;
   E.navInit();
+  E.assess();  // 대시보드에서 선택한 프로필이 있으면 관련 낮은 규제 그룹을 흐리게
 
-  const alertArts = [], seenA = new Set();
-  REGS.forEach(r => r.pool.forEach(x => {
-    if (!x.alert || seenA.has(x.link)) return;
-    seenA.add(x.link);
-    alertArts.push({ ...x, reg: r.abbr, regId: r.id });
-  }));
-  alertArts.sort((a, b) => (b.date || "").localeCompare(a.date || ""));
+  const groups = REGS.filter(r => r.alertN > 0)
+    .map(r => ({ r, list: r.pool.filter(x => x.alert) }))
+    .sort((a, b) => b.list.length - a.list.length);
 
-  document.getElementById("alertNote").textContent = alertArts.length
-    ? "총 " + alertArts.length + "건 · 최신순"
+  const shownN = groups.reduce((s, g) => s + g.list.length, 0);
+  document.getElementById("alertNote").textContent = groups.length
+    ? "총 " + shownN + "건 · 규제별 정리" +
+      (E.isSet() ? " · 관련 낮은 규제는 흐리게 표시" : "")
     : "";
-  document.getElementById("alertList").innerHTML = alertArts.length
-    ? alertArts.map(x =>
-        '<a class="arow" href="' + esc(x.link) + '" target="_blank" rel="noopener">' +
-          '<span class="a-reason">' + esc(x.alert) + "</span>" +
-          '<span class="a-body"><span class="t">' + esc(x.title) + "</span>" +
-          '<span class="m"><b>' + esc(x.reg) + "</b> · " + fmtDate(x.date) +
-          (x.src ? " · " + esc(x.src) : "") + "</span></span></a>").join("")
+  document.getElementById("alertGroups").innerHTML = groups.length
+    ? groups.map(g => {
+        const low = g.r.ap && g.r.ap.lv === "low";
+        return '<section class="wsec' + (low ? " dim" : "") + '">' +
+          '<div class="wsec-h" style="border-left-color:var(--urgent)">' +
+          "<b>" + esc(g.r.abbr) + "</b><span>" + esc(g.r.name) + " · " + g.list.length + "건</span>" +
+          '<a class="plink" style="margin-left:auto;font-size:.84rem" href="reg.html?id=' + g.r.id + '">규제 상세 →</a></div>' +
+          '<div class="alist">' + g.list.map(x =>
+            '<a class="arow" href="' + esc(x.link) + '" target="_blank" rel="noopener">' +
+            '<span class="a-reason">' + esc(x.alert) + "</span>" +
+            '<span class="a-body"><span class="t">' + esc(x.title) + "</span>" +
+            '<span class="m">' + fmtDate(x.date) + (x.src ? " · " + esc(x.src) : "") +
+            "</span></span></a>").join("") + "</div></section>";
+      }).join("")
     : '<div class="empty">현재 확인이 필요한 상태 변화 신호가 없습니다.</div>';
 })();
 </script>
