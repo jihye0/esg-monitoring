@@ -51,10 +51,10 @@ a { color: inherit; }
 .wrap { max-width: 1180px; margin: 0 auto; padding: 0 28px; }
 @media (max-width: 640px) { .wrap { padding: 0 16px; } }
 
-/* ── 네비 (흰 배경 — 공식 로고가 원색으로 표시됨) ── */
+/* ── 네비 (밝은 회백색 — 공식 로고가 원색으로 표시됨) ── */
 .nav {
-  background: #ffffff;
-  position: sticky; top: 0; z-index: 40; border-bottom: 1px solid #e0e0db;
+  background: #f4f3f0;
+  position: sticky; top: 0; z-index: 40; border-bottom: 1px solid #dedcd6;
 }
 .nav-in { display: flex; align-items: center; gap: 30px; height: 62px; }
 .brand { display: flex; align-items: center; flex: none; text-decoration: none; }
