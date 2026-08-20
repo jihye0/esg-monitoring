@@ -277,7 +277,7 @@ section.blk { margin-bottom: 46px; scroll-margin-top: 74px; }
 .cal-live .lc.dim { opacity: .4; }
 
 /* ── 규제 카드 그리드 ──────────────────── */
-.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(352px, 1fr)); gap: 14px; align-items: start; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(352px, 1fr)); gap: 16px; align-items: start; }
 @media (max-width: 560px) { .grid { grid-template-columns: 1fr; } }
 .rc {
   background: var(--surface); border: 1px solid var(--line); box-shadow: var(--shadow);
@@ -297,10 +297,7 @@ section.blk { margin-bottom: 46px; scroll-margin-top: 74px; }
 .rc-name { font-size: 1.02rem; font-weight: 700; letter-spacing: -.018em; margin-top: 2px; line-height: 1.4; }
 .rc-stat { display: flex; align-items: center; gap: 7px; font-size: .86rem; color: var(--ink-2); margin-top: 7px; font-weight: 600; }
 .rc-stat i { width: 8px; height: 8px; border-radius: 50%; background: var(--rcc); flex: none; }
-.rc-desc { font-size: .92rem; color: var(--ink-2); margin: 9px 0 0; }
-.rc-meta { font-size: .86rem; color: var(--ink-3); margin-top: 10px; padding-top: 10px; border-top: 1px solid var(--line-soft); }
-.rc-meta a { color: var(--brand-ink); text-decoration: none; font-weight: 600; }
-.rc-meta a:hover { text-decoration: underline; text-underline-offset: 3px; }
+.rc-desc { font-size: .92rem; color: var(--ink-2); margin: 9px 0 2px; }
 .rc-news { border-top: 1px solid var(--line-soft); padding: 12px 19px 14px; margin-top: auto; }
 .rc-news .nh {
   font-size: .78rem; font-weight: 700; color: var(--ink-3); letter-spacing: .04em;
