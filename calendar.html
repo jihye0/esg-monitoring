@@ -31,18 +31,28 @@
 <div class="phead">
   <div class="wrap">
     <h1>규제 시행 캘린더</h1>
-    <p>시행일이 확정된 EU ESG 규제의 적용 개시 시점을 타임라인으로 정리했습니다. 규제명을 누르면 상세 페이지로 이동합니다.</p>
+    <p>시행일이 확정된 규제의 적용 시점을 타임라인으로, 발효·전환 기한·단계별 의무화까지 포함한
+      전체 마일스톤을 연도별 일정표로 정리했습니다. 규제명을 누르면 상세 페이지로 이동합니다.</p>
     <div class="gen-line" id="genLine"></div>
   </div>
 </div>
 
 <div class="wrap" style="padding-top:36px; padding-bottom:10px">
   <section class="blk" id="cal">
-    <div class="shead"><h2>시행 일정</h2><span class="n" id="calNote"></span></div>
+    <div class="shead"><h2>적용 개시 타임라인</h2><span class="n" id="calNote"></span></div>
     <div class="cal">
       <div class="cal-scroll"><div class="cal-in" id="calIn"></div></div>
       <div class="cal-live" id="calLive"></div>
     </div>
+  </section>
+
+  <section class="blk" id="sched">
+    <div class="shead"><h2>연도별 전체 일정</h2><span class="n" id="schedNote"></span></div>
+    <div id="schedList"></div>
+    <details class="pastwrap" id="pastWrap">
+      <summary id="pastSum"></summary>
+      <div class="sched" id="pastList"></div>
+    </details>
   </section>
 </div>
 
@@ -79,16 +89,18 @@
     const p = pos(new Date(y + "-01-01T00:00:00").getTime());
     if (p > 2 && p < 99) cal += '<div class="yr" style="left:' + p.toFixed(2) + '%">' + y + "</div>";
   }
+  // 라벨 겹침 방지: 3단으로 번갈아 배치
+  const STEM = [20, 62, 104], TOP = [42, 84, 126];
   upcoming.forEach((r, i) => {
     const p = pos(new Date(r.key + "T00:00:00").getTime());
     const col = colorOf(r);
-    const row = i % 2;
+    const row = i % 3;
     let cls = p < 9 ? " edge-l" : (p > 91 ? " edge-r" : "");
     if (r.ap && r.ap.lv === "low") cls += " dim";
     cal += '<div class="mk' + cls + '" style="left:' + p.toFixed(2) + "%;--mkc:" + col.c + ";--mkw:" + col.w + '">' +
       "<i></i>" +
-      '<div class="stem" style="height:' + (row ? 54 : 20) + 'px"></div>' +
-      '<div class="lab" style="top:' + (row ? 76 : 42) + 'px">' +
+      '<div class="stem" style="height:' + STEM[row] + 'px"></div>' +
+      '<div class="lab" style="top:' + TOP[row] + 'px">' +
         '<b><a href="reg.html?id=' + r.id + '">' + esc(r.abbr) + "</a></b>" +
         "<span>" + r.key.slice(2).replace(/-/g, ".") + " " + esc(r.keyLabel) + "</span>" +
         "<em>D-" + r.dday + "</em>" +
@@ -97,7 +109,7 @@
   cal += "</div>";
   const el = document.getElementById("calIn");
   el.innerHTML = cal;
-  el.style.paddingBottom = "150px";
+  el.style.paddingBottom = "200px";
   document.getElementById("calNote").textContent =
     "오늘부터 " + new Date(tEnd).getFullYear() + "년까지 · 시행일 확정된 " + upcoming.length + "개 규제" +
     (E.isSet() ? " (관련 낮은 규제는 흐리게 표시)" : "");
@@ -110,6 +122,51 @@
     REGS.filter(r => r.cls === "wip").map(r =>
       '<a class="lc' + dimC(r) + '" href="reg.html?id=' + r.id + '" style="background:var(--idle-wash);color:var(--ink-2)">' +
       esc(r.abbr) + "</a>").join("");
+
+  /* ── 연도별 전체 일정: 규제 상세의 단계별 일정을 모두 모아 정렬 ── */
+  const items = [];
+  REGS.forEach(r => {
+    const D = E.REG_DETAILS[r.id];
+    if (!D) return;
+    D.phases.forEach(([d, label]) => {
+      const m = /^(\d{4})(?:\.(\d{1,2}))?(?:\.(\d{1,2}))?/.exec(d);
+      if (!m) return;  // '협상 중' 등 날짜 없는 단계는 제외
+      const y = +m[1], mo = m[2] ? +m[2] : null, dd = m[3] ? +m[3] : null;
+      items.push({
+        r, dtext: d, label, y,
+        key: y * 10000 + (mo || 13) * 100 + (dd || 0),
+        iso: mo && dd ? y + "-" + String(mo).padStart(2, "0") + "-" + String(dd).padStart(2, "0") : null,
+      });
+    });
+  });
+  items.sort((a, b) => a.key - b.key);
+  const todayKey = now.getFullYear() * 10000 + (now.getMonth() + 1) * 100 + now.getDate();
+  const future = items.filter(x => x.key >= todayKey);
+  const past = items.filter(x => x.key < todayKey).reverse();
+
+  const row = (x, isPast) => {
+    const dday = !isPast && x.iso ? E.daysTo(x.iso) : null;
+    return '<div class="srow' + (isPast ? " past" : "") + '">' +
+      '<span class="sd">' + esc(x.dtext) + "</span>" +
+      (dday !== null && dday > 0
+        ? '<span class="dday" style="--rcc:' + (dday <= 180 ? "var(--urgent)" : "var(--warn)") +
+          ";--rcw:" + (dday <= 180 ? "var(--urgent-wash)" : "var(--warn-wash)") + '">D-' + dday + "</span>" : "") +
+      '<a class="sr" style="color:' + colorOf(x.r).c + '" href="reg.html?id=' + x.r.id + '">' +
+      esc(x.r.abbr) + "</a>" +
+      '<span class="sl">' + esc(x.label) + "</span></div>";
+  };
+
+  const byYear = {};
+  future.forEach(x => (byYear[x.y] = byYear[x.y] || []).push(x));
+  document.getElementById("schedList").innerHTML = Object.keys(byYear).sort().map(y =>
+    '<div class="syear">' + y + '년 <span>' + byYear[y].length + "건</span></div>" +
+    '<div class="sched">' + byYear[y].map(x => row(x, false)).join("") + "</div>").join("");
+  document.getElementById("schedNote").textContent =
+    "다가오는 일정 " + future.length + "건 · 발효·전환 기한·단계별 의무화 포함";
+  if (past.length) {
+    document.getElementById("pastSum").textContent = "지난 일정 " + past.length + "건 보기";
+    document.getElementById("pastList").innerHTML = past.map(x => row(x, true)).join("");
+  } else document.getElementById("pastWrap").hidden = true;
 })();
 </script>
 </body>

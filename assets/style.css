@@ -187,6 +187,39 @@ section.blk { margin-bottom: 46px; scroll-margin-top: 74px; }
 }
 .cal-live .lc:hover { text-decoration: underline; text-underline-offset: 3px; }
 
+/* ── 연도별 일정표 ─────────────────────── */
+.syear {
+  display: flex; align-items: baseline; gap: 8px;
+  font-size: 1.05rem; font-weight: 800; margin: 24px 0 9px; letter-spacing: -.015em;
+}
+.syear:first-child { margin-top: 0; }
+.syear span { font-size: .84rem; color: var(--ink-3); font-weight: 600; }
+.sched { background: var(--surface); border: 1px solid var(--line); box-shadow: var(--shadow); }
+.srow {
+  display: flex; gap: 12px; align-items: baseline; flex-wrap: wrap;
+  padding: 11px 19px; border-bottom: 1px solid var(--line-soft); font-size: .95rem;
+}
+.srow:last-child { border-bottom: none; }
+.srow .sd {
+  flex: none; width: 88px; font-variant-numeric: tabular-nums;
+  color: var(--ink-2); font-weight: 700; font-size: .9rem;
+}
+.srow .sr { flex: none; font-weight: 800; text-decoration: none; letter-spacing: -.015em; }
+.srow .sr:hover { text-decoration: underline; text-underline-offset: 3px; }
+.srow .sl { color: var(--ink-2); }
+.srow.past .sd, .srow.past .sl { color: var(--ink-3); }
+.srow.past .sr { opacity: .6; }
+.pastwrap { margin-top: 18px; }
+.pastwrap > summary {
+  cursor: pointer; font-size: .92rem; font-weight: 700; color: var(--ink-2);
+  padding: 4px 0; list-style: none;
+}
+.pastwrap > summary::-webkit-details-marker { display: none; }
+.pastwrap > summary::after { content: " ▾"; color: var(--ink-3); }
+.pastwrap[open] > summary::after { content: " ▴"; }
+.pastwrap > summary:hover { color: var(--ink); }
+.pastwrap .sched { margin-top: 9px; }
+
 /* ── 우리 회사 기준 필터 ───────────────── */
 .pf {
   background: var(--surface); border: 1px solid var(--line); box-shadow: var(--shadow);
