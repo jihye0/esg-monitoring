@@ -550,8 +550,12 @@ footer .fn { margin-top: 18px; padding-top: 15px; border-top: 1px solid var(--na
   .rc, .chip, .more, .navlinks a, .trow, .card, .nrow { transition: box-shadow .15s, color .12s, border-color .12s, background .12s; }
 }
 
+/* 인쇄 시에만 표시되는 재단 로고 */
+.plogo { display: none; }
+
 /* ── 인쇄 (보고자료 출력용) ─────────────── */
 @media print {
+  .plogo { display: block; height: 30px; margin-bottom: 14px; }
   .nav, footer, .btn2, .a-more, .wold, .seelink, .wk-head .acts,
   .pf, .rc-more, .wk-note, .pastwrap > summary { display: none !important; }
   .pastwrap[open] > summary { display: none !important; }

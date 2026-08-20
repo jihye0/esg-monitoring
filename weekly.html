@@ -30,6 +30,7 @@
 
 <div class="phead">
   <div class="wrap">
+    <img class="plogo" src="assets/logo-h.png" alt="K-Mobility 브릿지 재단">
     <h1>주간 동향</h1>
     <p>매주 수집된 규제 뉴스를 주차별로 정리했습니다. 주차 탭을 누르면 그 주의 동향이 규제별로 표시됩니다.</p>
     <div class="gen-line" id="genLine"></div>
@@ -232,8 +233,10 @@
 
     let h = '<div style="max-width:680px;margin:0 auto;background:#ffffff;' +
       "font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;color:#131719\">" +
-      '<div style="background:#10181d;padding:26px 30px">' +
-        '<div style="font-size:15px"><span style="color:#a9adb2;font-weight:500">K-Mobility</span> <span style="color:#ffffff;font-weight:800">브릿지 재단</span></div>' +
+      '<div style="padding:16px 30px 14px;border-bottom:1px solid #ebebe6">' +
+        '<img src="https://jihye0.github.io/esg-monitoring/assets/logo-h.png" alt="K-Mobility 브릿지 재단" height="26" style="display:block">' +
+      "</div>" +
+      '<div style="background:#10181d;padding:22px 30px">' +
         '<div style="color:#ffffff;font-size:23px;font-weight:800;margin-top:8px;letter-spacing:-.5px">EU ESG 규제 주간 브리핑</div>' +
         '<div style="color:#97a1a8;font-size:14px;margin-top:6px">' + L.title + " (" + L.range + ") · 총 " + list.length + "건</div>" +
       "</div>" +
