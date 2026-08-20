@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>확인 필요 동향 | EU ESG 규제 모니터링</title>
+<meta name="description" content="채택·연기·시행 등 EU ESG 규제 상태 변화 신호가 감지된 기사 모음">
+<meta property="og:type" content="website">
+<meta property="og:title" content="확인 필요 동향 | EU ESG 규제 모니터링">
+<meta property="og:description" content="규제 상태 변화 신호가 감지된 기사를 사유별로 정리했습니다">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231c4568'/%3E%3Cpath d='M6.5 21.5h19M8.5 21.5c1.2-6 4.2-9 7.5-9s6.3 3 7.5 9' fill='none' stroke='white' stroke-width='2.4' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="wrap nav-in">
+    <a class="brand" href="index.html">
+      <svg class="mark" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="7" fill="var(--brand)"/><path d="M6.5 21.5h19M8.5 21.5c1.2-6 4.2-9 7.5-9s6.3 3 7.5 9" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round"/></svg>
+      <div class="bname">K-Mobility 브릿지 재단</div>
+    </a>
+    <div class="navlinks">
+      <a href="index.html">규제 현황</a>
+      <a href="calendar.html" class="hide-m">시행 캘린더</a>
+      <a href="alerts.html" id="navAlerts" class="act">확인 필요</a>
+      <a href="weekly.html">주간 동향</a>
+    </div>
+  </div>
+</nav>
+
+<div class="phead">
+  <div class="wrap">
+    <h1>확인 필요 동향</h1>
+    <p>채택·의결, 일정·범위 변경, 시행·기한, 지침 공표, 집행·제재 — 규제의 상태 변화 신호가 감지된 기사입니다.
+      감시 중인 규제와 연결된 최근 기사만 표시합니다.</p>
+    <div class="gen-line" id="genLine"></div>
+  </div>
+</div>
+
+<div class="wrap" style="padding-top:36px; padding-bottom:10px">
+  <section class="blk">
+    <div class="shead"><h2>확인 필요 기사</h2><span class="n" id="alertNote"></span></div>
+    <div class="alist" id="alertList"></div>
+  </section>
+</div>
+
+<footer>
+  <div class="wrap">
+    <div class="fl">수집 출처</div>
+    <ul id="srcList"></ul>
+    <div class="fn">
+      <b style="color:#fff">K-Mobility 브릿지 재단 · ESG 규제 대응</b> &nbsp;|&nbsp;
+      문의 <a href="mailto:esg@kmbridge.org">esg@kmbridge.org</a><br>
+      EU 공식 채널(EUR-Lex·집행위원회·유럽의회·이사회)과 전문 매체를 매주 월요일 자동 수집해 정리하며,
+      채택·연기·시행 등 상태 변화 신호가 있는 기사에 「확인 필요」 표시를 합니다.<br>
+      본 자료는 정보 제공 목적이며 법률 자문이 아닙니다. 규제 시행 일정은 2026년 7월 기준으로
+      EU Omnibus 협상 결과에 따라 변동될 수 있습니다.
+    </div>
+  </div>
+</footer>
+
+<script src="assets/data.js"></script>
+<script src="assets/common.js"></script>
+<script>
+(function () {
+  const E = window.ESG;
+  const { REGS, esc, fmtDate } = E;
+  E.navInit();
+
+  const alertArts = [], seenA = new Set();
+  REGS.forEach(r => r.pool.forEach(x => {
+    if (!x.alert || seenA.has(x.link)) return;
+    seenA.add(x.link);
+    alertArts.push({ ...x, reg: r.abbr, regId: r.id });
+  }));
+  alertArts.sort((a, b) => (b.date || "").localeCompare(a.date || ""));
+
+  document.getElementById("alertNote").textContent = alertArts.length
+    ? "총 " + alertArts.length + "건 · 최신순"
+    : "";
+  document.getElementById("alertList").innerHTML = alertArts.length
+    ? alertArts.map(x =>
+        '<a class="arow" href="' + esc(x.link) + '" target="_blank" rel="noopener">' +
+          '<span class="a-reason">' + esc(x.alert) + "</span>" +
+          '<span class="a-body"><span class="t">' + esc(x.title) + "</span>" +
+          '<span class="m"><b>' + esc(x.reg) + "</b> · " + fmtDate(x.date) +
+          (x.src ? " · " + esc(x.src) : "") + "</span></span></a>").join("")
+    : '<div class="empty">현재 확인이 필요한 상태 변화 신호가 없습니다.</div>';
+})();
+</script>
+</body>
+</html>

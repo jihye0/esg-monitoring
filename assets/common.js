@@ -388,13 +388,13 @@ window.ESG = (function () {
 
   /* ── 공통 UI: 네비 신규 점 + 푸터 출처 ── */
   function navInit() {
-    // 빨간 점 = 확인 필요 신호가 있을 때만
-    const nn = document.getElementById("navNews");
-    if (nn && alertTotal > 0) {
+    // 빨간 점 = 확인 필요 신호가 있을 때만 ('확인 필요' 메뉴에 표시)
+    const na = document.getElementById("navAlerts");
+    if (na && alertTotal > 0) {
       const s = document.createElement("span");
       s.className = "ndot";
       s.title = "확인 필요 " + alertTotal + "건";
-      nn.appendChild(s);
+      na.appendChild(s);
     }
     const fl = document.getElementById("srcList");
     if (fl) fl.innerHTML = (data.sources || []).map(s =>

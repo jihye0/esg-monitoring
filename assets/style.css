@@ -117,7 +117,6 @@ a { color: inherit; }
 
 /* ── 페이지 헤더 ───────────────────────── */
 .phead { background: var(--nav); color: var(--nav-ink); padding: 34px 0 30px; }
-.tagline { font-size: .8rem; font-weight: 700; letter-spacing: .16em; color: #7fa4c4; margin-bottom: 12px; }
 .phead h1 { margin: 0; font-size: 2.5rem; line-height: 1.18; font-weight: 800; letter-spacing: -.032em; }
 @media (max-width: 640px) { .phead h1 { font-size: 1.9rem; } }
 .phead p { margin: 11px 0 0; color: var(--nav-sub); font-size: 1.02rem; max-width: 60ch; }
