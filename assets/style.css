@@ -584,6 +584,58 @@ footer .fn { margin-top: 18px; padding-top: 15px; border-top: 1px solid var(--na
   .rc, .chip, .more, .navlinks a, .trow, .card, .nrow { transition: box-shadow .18s, transform .18s, color .12s, border-color .12s, background .12s; }
 }
 
+/* ── 모바일 최적화 (총장님 폰 대응) ─────── */
+@media (max-width: 680px) {
+  /* 헤더 2단: 로고 줄 + 메뉴 줄 — 4개 메뉴 전부 표시 */
+  .nav-in { flex-wrap: wrap; height: auto; padding: 11px 0 0; row-gap: 2px; }
+  .logo-img { height: 18px !important; }
+  .navlinks { margin-left: 0; width: 100%; gap: 20px; padding-bottom: 9px; }
+  .navlinks a { font-size: .89rem; padding: 5px 0; }
+  .navlinks a.hide-m { display: inline-block; }
+
+  .phead { padding: 28px 0 26px; }
+  .phead h1 { font-size: 1.6rem; }
+  .phead p { font-size: .93rem; }
+  .gen-line { margin-top: 13px; gap: 6px; }
+  .gchip { font-size: .74rem; padding: 3px 10px; }
+  .phead::after, .dhead::after { opacity: .6; }
+
+  section.blk { margin-bottom: 34px; }
+  .shead h2 { font-size: 1.14rem; }
+  .shead .n { font-size: .83rem; }
+
+  .pf { padding: 15px 15px 17px; }
+  .pf-h h2 { font-size: 1.05rem; }
+  .seg button { font-size: .85rem; padding: 7px 11px; }
+
+  .cal-in { padding: 22px 18px 16px; }
+  .cal-live { padding: 12px 18px; }
+  .cal-scroll { -webkit-overflow-scrolling: touch; }
+
+  .rc-top { padding: 14px 16px 12px; }
+  .rc-news { padding: 11px 16px 13px; }
+  .rc-abbr { font-size: 1.22rem; }
+
+  .arow { padding: 11px 14px; gap: 10px; }
+  .a-reason { font-size: .7rem; padding: 3px 7px; }
+  .srow { padding: 10px 14px; gap: 10px; }
+  .srow .sd { width: 74px; font-size: .84rem; }
+  .nrow { padding: 12px 14px; }
+
+  .dtable { font-size: .88rem; }
+  .dtable th { padding: 9px 11px; }
+  .dtable td { padding: 9px 12px; }
+
+  .wtabs button { padding: 9px 12px 8px; font-size: .88rem; }
+  .wk-head h2 { font-size: 1.22rem; }
+  .wk-head .acts { width: 100%; }
+  .wk-head .acts .btn2 { flex: 1; }
+  .d-abbr { font-size: 1.7rem; }
+  .dhead { padding: 24px 0 30px; }
+
+  footer { font-size: .85rem; }
+}
+
 /* 인쇄 시에만 표시되는 재단 로고 */
 .plogo { display: none; }
 
