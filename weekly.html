@@ -325,8 +325,7 @@
     const L = labelOf(new Date(cur + "T00:00:00"));
     const doc = "<!doctype html><html lang=\"ko\"><head><meta charset=\"utf-8\">" +
       "<title>EU ESG 규제 주간 브리핑 — " + esc(L.title) + "</title></head>" +
-      '<body style="margin:0;background:#f2f1ee;padding:24px 10px">' + buildMail(cur) + "<script data-goatcounter="https://kmbridge-esg.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
-</body></html>";
+      '<body style="margin:0;background:#f2f1ee;padding:24px 10px">' + buildMail(cur) + "</body></html>";
     const a = document.createElement("a");
     a.href = URL.createObjectURL(new Blob([doc], { type: "text/html" }));
     a.download = "ESG주간브리핑_" + L.title.replace(/년 |월 /g, "-").replace(/ /g, "") + ".html";
@@ -337,5 +336,6 @@
   render();
 })();
 </script>
+<script data-goatcounter="https://kmbridge-esg.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </body>
 </html>
