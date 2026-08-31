@@ -39,6 +39,10 @@
 <div class="wrap">
   <div class="dgrid">
     <div>
+      <div id="fbTop" hidden>
+        <div class="shead"><h2>이슈 브리핑</h2><span class="n" id="fbNote"></span></div>
+        <div class="brief" id="fbList" style="margin-bottom:32px"></div>
+      </div>
       <div id="detailBlocks"></div>
       <div class="shead"><h2>관련 동향 전체</h2><span class="n" id="poolNote"></span></div>
       <div class="nlist" id="poolList"></div>
@@ -51,10 +55,6 @@
       <div class="panel" id="apPanel" hidden>
         <h3>우리 회사 기준 적용 수준</h3>
         <div id="apBody"></div>
-      </div>
-      <div class="panel" id="fbPanel" hidden>
-        <h3>이슈 브리핑</h3>
-        <div id="fbBody"></div>
       </div>
       <div class="panel" id="oemPanel" hidden>
         <h3>완성차 고객사 동향</h3>
@@ -150,20 +150,20 @@
       "규모·거래 형태를 선택하면 이 규제의 적용 수준이 여기에 표시됩니다.</p>";
   }
 
-  /* 재단 브리핑·권고 — 이 규제 태그가 달린 코멘트 (최신 3건) */
+  /* 이슈 브리핑 — 이 규제 태그가 달린 코멘트 (본문 최상단, 최신 3건) */
   const CB = { "주의": "cb-warn", "권고": "cb-rec", "참고": "cb-info" };
   const fbPoints = [];
   (E.data.comments || []).forEach(c => (c.points || []).forEach(p => {
     if (p.tag === r.tag) fbPoints.push({ ...p, date: c.date });
   }));
   if (fbPoints.length) {
-    document.getElementById("fbPanel").hidden = false;
-    document.getElementById("fbBody").innerHTML = fbPoints.slice(0, 3).map(p =>
-      '<div style="padding:9px 0;border-bottom:1px solid var(--line-soft)">' +
+    document.getElementById("fbTop").hidden = false;
+    document.getElementById("fbNote").textContent = "이 규제에 대한 주간 이슈 정리";
+    document.getElementById("fbList").innerHTML = fbPoints.slice(0, 3).map(p =>
+      '<div class="bi">' +
       (p.type ? '<span class="cb ' + (CB[p.type] || "cb-info") + '">' + esc(p.type) + "</span> " : "") +
       '<span style="font-size:.8rem;color:var(--ink-3)">' + esc(p.date) + "</span>" +
-      '<div style="font-weight:700;font-size:.94rem;margin-top:3px">' + esc(p.title) + "</div>" +
-      '<div class="ptext" style="margin-top:2px">' + esc(p.body) + "</div></div>").join("");
+      "<b>" + esc(p.title) + "</b><span>" + esc(p.body) + "</span></div>").join("");
   }
 
   /* 완성차 고객사 동향 */
