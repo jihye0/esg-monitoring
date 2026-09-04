@@ -76,7 +76,7 @@
   <section class="blk" id="regs">
     <div class="shead">
       <h2>규제별 현황</h2>
-      <span class="n">카드를 누르면 규제별 상세 페이지로 이동합니다</span>
+      <span class="n">시행이 가까운 순 정렬 (위 조건 선택 시 우리 회사 관련도 순) · 카드를 누르면 상세 페이지로 이동합니다</span>
     </div>
     <div class="grid" id="regGrid"></div>
   </section>
@@ -156,10 +156,14 @@
   /* ── 규제 카드 ── */
   function shownRegs() {
     let list = REGS.slice();
+    const byD = (a, b) => ((a.dday === null ? 9e5 : a.dday) - (b.dday === null ? 9e5 : b.dday));
     if (E.isSet()) {
       if (P.hideLow) list = list.filter(r => r.ap.lv !== "low");
-      list.sort((a, b) => (LV[a.ap.lv].rank - LV[b.ap.lv].rank) ||
-        ((a.dday === null ? 9e5 : a.dday) - (b.dday === null ? 9e5 : b.dday)));
+      list.sort((a, b) => (LV[a.ap.lv].rank - LV[b.ap.lv].rank) || byD(a, b));
+    } else {
+      // 기본 정렬: 시행 임박(D-day 오름차순) → 시행 중 → 입법·협상 중
+      const rank = r => (r.dday !== null && r.dday > 0) ? 0 : (r.cls === "wip" ? 2 : 1);
+      list.sort((a, b) => (rank(a) - rank(b)) || byD(a, b));
     }
     return list;
   }
