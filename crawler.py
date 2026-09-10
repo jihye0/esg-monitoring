@@ -221,24 +221,40 @@ def compute_alert(it, now_utc):
     return None
 
 def translate_ko(text, cache):
-    """구글 번역 무료 엔드포인트로 한국어 번역 + 용어 교정. 캐시에 있으면 재사용."""
+    """구글 번역 무료 엔드포인트로 한국어 번역 + 용어 교정. 캐시에 있으면 재사용.
+    기본 엔드포인트가 차단되면(429 등) 보조 엔드포인트로 재시도한다."""
     if not text:
         return ""
     if text in cache:
         return fix_terms(cache[text])
+    out = ""
     try:
         r = requests.get(
             "https://translate.googleapis.com/translate_a/single",
             params={"client": "gtx", "sl": "auto", "tl": "ko", "dt": "t", "q": text},
             headers=HEADERS, timeout=15,
         )
-        segments = r.json()[0] or []
-        out = "".join(s[0] for s in segments if s and s[0]).strip()
-        if out:
-            cache[text] = out
-        return fix_terms(out)
+        if r.status_code == 200:
+            segments = r.json()[0] or []
+            out = "".join(s[0] for s in segments if s and s[0]).strip()
     except Exception:
-        return ""
+        out = ""
+    if not out:
+        try:
+            r = requests.get(
+                "https://clients5.google.com/translate_a/t",
+                params={"client": "dict-chrome-ex", "sl": "auto", "tl": "ko", "q": text},
+                headers=HEADERS, timeout=15,
+            )
+            if r.status_code == 200:
+                j = r.json()
+                first = j[0] if j else ""
+                out = (first[0] if isinstance(first, list) else first).strip()
+        except Exception:
+            out = ""
+    if out:
+        cache[text] = out
+    return fix_terms(out)
 
 def clean(text, limit=300):
     if not text:
@@ -435,5 +451,41 @@ def reprocess():
     )
     print(f"재처리 완료: 확인 필요 신호 {n}건 -> assets/data.js, data.json")
 
+def retranslate():
+    """재수집 없이 기존 data.json에서 번역이 비어 있는 항목만 다시 번역해 반영한다."""
+    data = json.loads((BASE / "data.json").read_text(encoding="utf-8"))
+    cache = {}
+    if TRANS_CACHE_FILE.exists():
+        cache = json.loads(TRANS_CACHE_FILE.read_text(encoding="utf-8"))
+    n = 0
+    for it in data.get("items", []):
+        if not it.get("title_ko") and it.get("title"):
+            it["title_ko"] = translate_ko(it["title"], cache)
+            n += bool(it["title_ko"])
+            time.sleep(0.3)
+        if not it.get("summary_ko") and it.get("summary"):
+            it["summary_ko"] = translate_ko(it["summary"], cache)
+            time.sleep(0.3)
+    for it in data.get("regnews") or []:
+        if not it.get("title_ko") and it.get("title"):
+            it["title_ko"] = translate_ko(it["title"], cache)
+            n += bool(it["title_ko"])
+            time.sleep(0.3)
+    TRANS_CACHE_FILE.write_text(
+        json.dumps(cache, ensure_ascii=False), encoding="utf-8"
+    )
+    (BASE / "data.json").write_text(
+        json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8"
+    )
+    (BASE / "assets" / "data.js").write_text(
+        "window.ESG_DATA = " + json.dumps(data, ensure_ascii=False) + ";",
+        encoding="utf-8",
+    )
+    print(f"재번역 완료: {n}건 채움 -> assets/data.js, data.json")
+
 if __name__ == "__main__":
-    sys.exit(reprocess() if "--reprocess" in sys.argv else main())
+    if "--reprocess" in sys.argv:
+        sys.exit(reprocess())
+    if "--retranslate" in sys.argv:
+        sys.exit(retranslate())
+    sys.exit(main())
