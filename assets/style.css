@@ -5,7 +5,9 @@
   --ink-2:     #4c5459;
   --ink-3:     #7b8489;
   --bg:        #f2f1ee;
+  --bg-0:      rgba(242, 241, 238, 0);
   --surface:   #ffffff;
+  --surface-0: rgba(255, 255, 255, 0);
   --line:      #d9d9d4;
   --line-soft: #ebebe6;
   --brand:     #1c4568;
@@ -30,7 +32,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --ink: #ebeceb; --ink-2: #a8b0b4; --ink-3: #7d868b;
-    --bg: #101416; --surface: #191f23; --line: #2c3438; --line-soft: #232a2e;
+    --bg: #101416; --bg-0: rgba(16, 20, 22, 0); --surface: #191f23; --surface-0: rgba(25, 31, 35, 0); --line: #2c3438; --line-soft: #232a2e;
     --brand: #85a9c8; --brand-ink: #a3c0da; --brand-wash: #1c2833;
     --nav: #0a1a31; --nav-ink: #ffffff; --nav-sub: #8298b4; --nav-line: #1a3252;
     --ok: #5aa87b; --ok-wash: #16281d; --warn: #c9963c; --warn-wash: #2e2513;
@@ -49,10 +51,15 @@ body {
   font-family: "Pretendard Variable", Pretendard, "Apple SD Gothic Neo",
                "Malgun Gothic", "Noto Sans KR", sans-serif;
   font-size: 16px; line-height: 1.65; -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%; text-size-adjust: 100%;
 }
 a { color: inherit; }
 .wrap { max-width: 1180px; margin: 0 auto; padding: 0 28px; }
-@media (max-width: 640px) { .wrap { padding: 0 16px; } }
+@media (max-width: 640px) {
+  .wrap { padding: 0 16px; }
+  /* 노치 있는 폰의 가로 모드에서 글이 곡면에 물리지 않도록 */
+  .wrap { padding-left: max(16px, env(safe-area-inset-left)); padding-right: max(16px, env(safe-area-inset-right)); }
+}
 
 /* ── 네비 (다크 + 흰색 리버스 로고) ─────── */
 .nav {
@@ -564,54 +571,93 @@ footer .fn { margin-top: 18px; padding-top: 15px; border-top: 1px solid var(--na
 
 /* ── 모바일 최적화 (총장님 폰 대응) ─────── */
 @media (max-width: 680px) {
-  /* 헤더 2단: 로고 줄 + 메뉴 줄 — 4개 메뉴 전부 표시 */
-  .nav-in { flex-wrap: wrap; height: auto; padding: 11px 0 0; row-gap: 2px; }
+  /* 헤더 2단: 로고 줄 + 메뉴 줄 — 4개 메뉴 전부 표시
+     padding 은 반드시 상하 longhand 로만 쓸 것. shorthand 를 쓰면 .wrap 의
+     좌우 여백까지 덮어써져서 로고·메뉴가 화면 끝에 잘린다 (2026-09 수정) */
+  .nav-in { flex-wrap: wrap; height: auto; padding-top: 11px; padding-bottom: 0; row-gap: 2px; }
   .logo-img { height: 18px !important; }
-  .navlinks { margin-left: 0; width: 100%; gap: 20px; padding-bottom: 9px; }
-  .navlinks a { font-size: .89rem; padding: 5px 0; }
+  .navlinks {
+    margin-left: 0; width: 100%; gap: 20px; padding-bottom: 3px;
+    overflow-x: auto; scrollbar-width: none;
+  }
+  .navlinks::-webkit-scrollbar { display: none; }
+  .navlinks a { font-size: .89rem; padding: 9px 0; }
   .navlinks a.hide-m { display: inline-block; }
 
   .phead { padding: 28px 0 26px; }
   .phead h1 { font-size: 1.6rem; }
   .phead p { font-size: .93rem; }
-  .gen-line { margin-top: 13px; gap: 6px; }
-  .gchip { font-size: .74rem; padding: 3px 10px; }
+  .gen-line { margin-top: 13px; gap: 4px 14px; }
+  .gchip { font-size: .82rem; padding: 3px 0; }
   .phead::after, .dhead::after { opacity: .6; }
 
   section.blk { margin-bottom: 34px; }
   .shead h2 { font-size: 1.14rem; }
   .shead .n { font-size: .83rem; }
+  .shead .seelink { padding: 7px 0; }
 
   .pf { padding: 15px 15px 17px; }
   .pf-h h2 { font-size: 1.05rem; }
-  .seg button { font-size: .85rem; padding: 7px 11px; }
+  .seg button { font-size: .88rem; padding: 10px 13px; }
+  .pf-tog { padding: 7px 0; }
+  .pf-tog input { width: 18px; height: 18px; }
 
-  .cal-in { padding: 22px 18px 16px; }
-  .cal-live { padding: 12px 18px; }
-  .cal-scroll { -webkit-overflow-scrolling: touch; }
+  /* 시행 캘린더: 720px 짜리 띠를 가로로 밀어서 본다.
+     오른쪽 끝 그라데이션이 "더 있다"는 표시 (::after 가 스크롤 영역에 sticky 로 붙음) */
+  .cal-scroll { display: flex; -webkit-overflow-scrolling: touch; }
+  .cal-in { flex: none; padding: 22px 18px 16px; }
+  .cal-scroll::after {
+    content: ""; flex: none; position: sticky; right: 0;
+    width: 30px; margin-left: -30px; pointer-events: none;
+    background: linear-gradient(90deg, var(--surface-0), var(--surface));
+  }
+  .cal-live { padding: 12px 18px; gap: 8px; }
+  .cal-live .lc { padding: 7px 12px; }
 
   .rc-top { padding: 14px 16px 12px; }
   .rc-news { padding: 11px 16px 13px; }
   .rc-abbr { font-size: 1.22rem; }
+  .rc-more { padding: 10px 0; }
+  .isalert { font-size: .72rem; }
 
-  .arow { padding: 11px 14px; gap: 10px; }
+  .arow { padding: 13px 14px; gap: 10px; }
   .a-reason { font-size: .7rem; padding: 3px 7px; }
-  .srow { padding: 10px 14px; gap: 10px; }
+  .srow { padding: 12px 14px; gap: 10px; }
   .srow .sd { width: 74px; font-size: .84rem; }
-  .nrow { padding: 12px 14px; }
+  .nrow { padding: 13px 14px; }
+  .pastwrap > summary { padding: 9px 0; }
 
   .dtable { font-size: .88rem; }
   .dtable th { padding: 9px 11px; }
   .dtable td { padding: 9px 12px; }
+  .plink, .doclist a { display: inline-block; padding: 6px 0; }
 
-  .wtabs button { padding: 9px 12px 8px; font-size: .88rem; }
+  /* 주간 동향: 주차 탭과 "이전 주차" 선택을 한 줄에 두면 탭이 146px 로 찌그러진다 → 두 줄로 */
+  .wtabs-wrap { flex-wrap: wrap; gap: 0; }
+  .wtabs { width: 100%; flex: none; scrollbar-width: none; }
+  .wtabs::-webkit-scrollbar { display: none; }
+  .wtabs::after {
+    content: ""; flex: none; position: sticky; right: 0;
+    width: 26px; margin-left: -26px; pointer-events: none;
+    background: linear-gradient(90deg, var(--bg-0), var(--bg));
+  }
+  .wtabs button { padding: 11px 12px 9px; font-size: .88rem; }
+  .wold { width: 100%; margin: 10px 0 0; font-size: 16px; padding: 9px 10px; }
   .wk-head h2 { font-size: 1.22rem; }
   .wk-head .acts { width: 100%; }
-  .wk-head .acts .btn2 { flex: 1; }
+  .wk-head .acts .btn2 { flex: 1; padding: 11px 10px; }
   .d-abbr { font-size: 1.7rem; }
   .dhead { padding: 24px 0 30px; }
 
   footer { font-size: .85rem; }
+  footer li { padding: 5px 0; }
+}
+
+/* 아주 좁은 화면 (아이폰 SE 등) */
+@media (max-width: 400px) {
+  .navlinks { gap: 16px; }
+  .phead h1 { font-size: 1.45rem; }
+  .seg button { padding: 10px 10px; font-size: .85rem; }
 }
 
 /* 인쇄 시에만 표시되는 재단 로고 */
