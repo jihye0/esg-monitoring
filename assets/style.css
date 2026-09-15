@@ -349,6 +349,15 @@ section.blk { margin-bottom: 46px; scroll-margin-top: 74px; }
 .cb-warn { background: var(--urgent-wash); color: var(--urgent); }
 .cb-rec  { background: var(--brand-wash); color: var(--brand-ink); }
 .cb-info { background: var(--idle-wash); color: var(--idle); }
+/* 브리핑 제목 = 근거 기사 원문 링크 */
+.bi b a.bi-t { text-decoration: none; }
+.bi b a.bi-t::after { content: " ↗"; font-size: .82em; color: var(--ink-3); font-weight: 600; }
+.bi b a.bi-t:hover { color: var(--brand-ink); text-decoration: underline; text-underline-offset: 3px; }
+.bi .bi-m {
+  display: block; font-size: .82rem; color: var(--ink-3); margin: 0 0 7px;
+}
+.bi .bi-m a { color: var(--brand-ink); font-weight: 600; text-decoration: none; }
+.bi .bi-m a:hover { text-decoration: underline; text-underline-offset: 3px; }
 .bi-reg {
   display: block; margin-top: 9px; font-size: .85rem; font-weight: 700;
   color: var(--brand-ink); text-decoration: none;
@@ -631,6 +640,8 @@ footer .fn { margin-top: 18px; padding-top: 15px; border-top: 1px solid var(--na
   .dtable th { padding: 9px 11px; }
   .dtable td { padding: 9px 12px; }
   .plink, .doclist a { display: inline-block; padding: 6px 0; }
+  .bi { padding: 15px 16px; }
+  .bi .bi-m a { display: inline-block; padding: 4px 0; }
 
   /* 주간 동향: 주차 탭과 "이전 주차" 선택을 한 줄에 두면 탭이 146px 로 찌그러진다 → 두 줄로 */
   .wtabs-wrap { flex-wrap: wrap; gap: 0; }
@@ -677,4 +688,5 @@ footer .fn { margin-top: 18px; padding-top: 15px; border-top: 1px solid var(--na
   .wsec, section.blk { break-inside: avoid; }
   .wsec.dim { opacity: 1; }
   a { text-decoration: none; }
+  .bi b a.bi-t::after { content: ""; }
 }

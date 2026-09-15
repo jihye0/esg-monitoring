@@ -9,7 +9,7 @@
 <meta property="og:title" content="주간 동향 | EU ESG 규제 모니터링">
 <meta property="og:description" content="매주 수집된 EU ESG 규제 뉴스를 주차별·규제별로 정리했습니다">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231c4568'/%3E%3Cpath d='M6.5 21.5h19M8.5 21.5c1.2-6 4.2-9 7.5-9s6.3 3 7.5 9' fill='none' stroke='white' stroke-width='2.4' stroke-linecap='round'/%3E%3C/svg%3E">
-<link rel="stylesheet" href="assets/style.css?v=20260914">
+<link rel="stylesheet" href="assets/style.css?v=20260915">
 </head>
 <body>
 
@@ -73,7 +73,7 @@
 </footer>
 
 <script src="assets/data.js"></script>
-<script src="assets/common.js?v=20260827c"></script>
+<script src="assets/common.js?v=20260915"></script>
 <script>
 (function () {
   const E = window.ESG;
@@ -199,7 +199,8 @@
           const reg = p.tag ? regByTag[p.tag] : null;
           return '<div class="bi">' +
             (p.type ? '<span class="cb ' + (CB[p.type] || "cb-info") + '">' + esc(p.type) + "</span>" : "") +
-            "<b>" + esc(p.title) + "</b><span>" + esc(p.body) + "</span>" +
+            "<b>" + E.briefTitle(p) + "</b>" + E.briefRefs(p) +
+            "<span>" + esc(p.body) + "</span>" +
             (reg ? '<a class="bi-reg" href="reg.html?id=' + reg.id + '">' + esc(reg.abbr) + " 규제 상세 →</a>" : "") +
             "</div>";
         }).join("") + "</div></section>"
@@ -259,8 +260,16 @@
           (p.type ? '<span style="display:inline-block;font-size:11px;font-weight:800;color:#ffffff;background:' +
             (MC[p.type] || "#6d7880") + ';padding:1px 7px;border-radius:2px;margin-right:7px;vertical-align:2px">' +
             esc(p.type) + "</span>" : "") +
-          '<span style="font-weight:800;font-size:14.5px">' + esc(p.title) + "</span>" +
+          (p.refs && p.refs.length
+            ? '<a href="' + esc(p.refs[0].u) + '" style="color:#131719;text-decoration:none;font-weight:800;font-size:14.5px">' +
+              esc(p.title) + "</a>"
+            : '<span style="font-weight:800;font-size:14.5px">' + esc(p.title) + "</span>") +
           '<div style="color:#4c5459;font-size:13.5px;line-height:1.65;margin-top:4px">' + esc(p.body) + "</div>" +
+          (p.refs && p.refs.length
+            ? '<div style="font-size:12px;color:#7b8489;margin-top:5px">원문 ' +
+              p.refs.map(r => '<a href="' + esc(r.u) + '" style="color:#163a59;text-decoration:none">' +
+                esc(r.s || "기사") + "</a>").join(" · ") + "</div>"
+            : "") +
         "</div>";
       });
       h += "</div>";

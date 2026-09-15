@@ -519,7 +519,25 @@ window.ESG = (function () {
     }
   }
 
+  /* ── 이슈 브리핑의 근거 기사 링크 ─────────
+     comments.json 의 각 point 에 refs:[{t:제목, u:주소, s:매체, d:날짜}] 를 넣으면
+     제목이 원문 링크가 되고, 아래에 매체별 원문 링크 줄이 붙는다.
+     기사는 시간이 지나면 수집 목록에서 빠지므로 주소를 comments.json 안에 그대로 보관한다. */
+  function briefRefs(p) {
+    const rs = (p && p.refs) || [];
+    if (!rs.length) return "";
+    return '<span class="bi-m">원문 ' + rs.map(r =>
+      '<a href="' + esc(r.u) + '" target="_blank" rel="noopener">' +
+      esc(r.s || "기사") + "</a>").join(" · ") + "</span>";
+  }
+  function briefTitle(p) {
+    const rs = (p && p.refs) || [];
+    if (!rs.length) return esc(p.title);
+    return '<a class="bi-t" href="' + esc(rs[0].u) + '" target="_blank" rel="noopener" title="' +
+      esc(rs[0].t || "") + '">' + esc(p.title) + "</a>";
+  }
+
   return { data, now, DAY, EU, srcById, REGS, esc, fmtDate, daysTo, colorOf, LV,
            SIZES, ROUTES, GOODS, APPLIC, P, saveP, isSet, assess, newTotal, alertTotal, navInit,
-           OEM_NOTES, REG_DETAILS };
+           OEM_NOTES, REG_DETAILS, briefRefs, briefTitle };
 })();
