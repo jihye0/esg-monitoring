@@ -9,7 +9,7 @@
 <meta property="og:title" content="주간 동향 | EU ESG 규제 모니터링">
 <meta property="og:description" content="매주 수집된 EU ESG 규제 뉴스를 주차별·규제별로 정리했습니다">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231c4568'/%3E%3Cpath d='M6.5 21.5h19M8.5 21.5c1.2-6 4.2-9 7.5-9s6.3 3 7.5 9' fill='none' stroke='white' stroke-width='2.4' stroke-linecap='round'/%3E%3C/svg%3E">
-<link rel="stylesheet" href="assets/style.css?v=20260915">
+<link rel="stylesheet" href="assets/style.css?v=20260915b">
 </head>
 <body>
 
@@ -45,15 +45,9 @@
   <div class="wk-head">
     <h2 id="wkTitle"></h2>
     <span class="n" id="wkNote"></span>
-    <div class="acts">
-      <button class="btn2 primary" id="copyBtn">메일용으로 복사</button>
-      <button class="btn2" id="dlBtn">HTML 파일 저장</button>
-    </div>
   </div>
 
   <div id="wkContent"></div>
-  <p class="wk-note">「메일용으로 복사」 후 Outlook 등 메일 작성 화면에 붙여넣으면 뉴스레터 서식이 유지됩니다.
-    HTML 파일은 발송 도구 업로드나 보관용입니다.</p>
 </div>
 
 <footer>
@@ -222,125 +216,6 @@
           "</div></a>").join("") + "</div></section>";
     }).join("");
   }
-
-  /* ── 이메일 호환 HTML (인라인 스타일) ── */
-  function buildMail(k) {
-    const L = labelOf(new Date(k + "T00:00:00"));
-    const { list, entries } = groupsOf(k);
-    const nAlert = list.filter(a => a.alert).length;
-    const md = d => { const t = new Date(d); return (t.getMonth() + 1) + "." + t.getDate(); };
-    const top3 = entries.filter(([t]) => t !== "__etc").slice(0, 3)
-      .map(([t, g]) => (regByTag[t] ? regByTag[t].abbr : t) + " " + g.length + "건").join(", ");
-
-    let h = '<div style="max-width:680px;margin:0 auto;background:#ffffff;' +
-      "font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;color:#131719\">" +
-      '<div style="padding:16px 30px 14px;border-bottom:1px solid #ebebe6">' +
-        '<img src="https://jihye0.github.io/esg-monitoring/assets/logo-h.png" alt="K-Mobility 브릿지 재단" height="26" style="display:block">' +
-      "</div>" +
-      '<div style="background:#0e2240;padding:22px 30px">' +
-        '<div style="color:#ffffff;font-size:23px;font-weight:800;margin-top:8px;letter-spacing:-.5px">EU ESG 규제 주간 브리핑</div>' +
-        '<div style="color:#97a1a8;font-size:14px;margin-top:6px">' + L.title + " (" + L.range + ") · 총 " + list.length + "건</div>" +
-      "</div>" +
-      '<div style="padding:20px 30px 4px;font-size:14px;line-height:1.7;color:#4c5459">' +
-        "이번 주 수집된 EU ESG 규제 동향은 총 <b>" + list.length + "건</b>입니다." +
-        (nAlert ? ' 이 중 <b style="color:#a92d10">' + nAlert +
-          "건</b>은 채택·연기·시행 등 규제 상태 변화 신호가 있어 면밀한 확인이 필요합니다." : "") +
-        (top3 ? " " + top3 + " 순으로 소식이 많았습니다." : "") +
-      "</div>";
-
-    /* 재단 분석·권고 */
-    const cm = commentOf(k);
-    if (cm && cm.points && cm.points.length) {
-      const MC = { "주의": "#a92d10", "권고": "#1c4568", "참고": "#6d7880" };
-      h += '<div style="padding:20px 30px 2px">' +
-        '<div style="font-size:16px;font-weight:800;border-left:4px solid #0e2240;padding-left:10px;line-height:1.35">이슈 브리핑' +
-        ' <span style="color:#4c5459;font-weight:600;font-size:13px">K-Mobility 브릿지 재단</span></div>';
-      cm.points.forEach(p => {
-        h += '<div style="padding:12px 0 10px;border-bottom:1px solid #ebebe6">' +
-          (p.type ? '<span style="display:inline-block;font-size:11px;font-weight:800;color:#ffffff;background:' +
-            (MC[p.type] || "#6d7880") + ';padding:1px 7px;border-radius:2px;margin-right:7px;vertical-align:2px">' +
-            esc(p.type) + "</span>" : "") +
-          (p.refs && p.refs.length
-            ? '<a href="' + esc(p.refs[0].u) + '" style="color:#131719;text-decoration:none;font-weight:800;font-size:14.5px">' +
-              esc(p.title) + "</a>"
-            : '<span style="font-weight:800;font-size:14.5px">' + esc(p.title) + "</span>") +
-          '<div style="color:#4c5459;font-size:13.5px;line-height:1.65;margin-top:4px">' + esc(p.body) + "</div>" +
-          (p.refs && p.refs.length
-            ? '<div style="font-size:12px;color:#7b8489;margin-top:5px">원문 ' +
-              p.refs.map(r => '<a href="' + esc(r.u) + '" style="color:#163a59;text-decoration:none">' +
-                esc(r.s || "기사") + "</a>").join(" · ") + "</div>"
-            : "") +
-        "</div>";
-      });
-      h += "</div>";
-    }
-
-    entries.forEach(([t, g]) => {
-      const r = regByTag[t];
-      const head = t === "__etc"
-        ? '기타 동향 <span style="color:#7b8489;font-weight:600;font-size:13px">' + g.length + "건</span>"
-        : esc(r.abbr) + ' <span style="color:#4c5459;font-weight:600;font-size:13px">' +
-          esc(r.name) + " · " + g.length + "건</span>";
-      h += '<div style="padding:20px 30px 2px">' +
-        '<div style="font-size:16px;font-weight:800;border-left:4px solid #1c4568;padding-left:10px;line-height:1.35">' + head + "</div>";
-      g.forEach(a => {
-        h += '<div style="padding:10px 0 9px;border-bottom:1px solid #ebebe6">' +
-          (a.alert ? '<span style="display:inline-block;font-size:11px;font-weight:800;color:#ffffff;' +
-            'background:#a92d10;padding:1px 6px;border-radius:2px;margin-right:7px;vertical-align:2px">' +
-            esc(a.alert) + "</span>" : "") +
-          '<a href="' + esc(a.link) + '" style="color:#163a59;text-decoration:none;font-weight:700;font-size:14.5px;line-height:1.5">' +
-          esc(a.title) + "</a>" +
-          '<div style="color:#7b8489;font-size:12px;margin-top:2px">' + md(a.date) + " · " + esc(a.src) + "</div>" +
-          (a.summary ? '<div style="color:#4c5459;font-size:13px;line-height:1.6;margin-top:3px">' + esc(a.summary) + "</div>" : "") +
-        "</div>";
-      });
-      h += "</div>";
-    });
-    h += '<div style="background:#0e2240;color:#97a1a8;padding:18px 30px;margin-top:24px;font-size:12px;line-height:1.7">' +
-      "K-Mobility 브릿지 재단 · ESG 규제 대응<br>" +
-      "본 브리핑은 EU 공식 채널과 전문 매체에서 자동 수집한 기사를 주차별로 정리한 것입니다." +
-      "</div></div>";
-    return h;
-  }
-
-  /* ── 복사 / 다운로드 ── */
-  const copyBtn = document.getElementById("copyBtn");
-  copyBtn.addEventListener("click", async () => {
-    const html = buildMail(cur);
-    const tmp = document.createElement("div");
-    tmp.innerHTML = html;
-    tmp.style.cssText = "position:fixed;left:-9999px;top:0";
-    document.body.appendChild(tmp);
-    let ok = false;
-    try {
-      await navigator.clipboard.write([new ClipboardItem({
-        "text/html": new Blob([html], { type: "text/html" }),
-        "text/plain": new Blob([tmp.innerText], { type: "text/plain" }),
-      })]);
-      ok = true;
-    } catch (e) {
-      const range = document.createRange();
-      range.selectNodeContents(tmp);
-      const s = getSelection(); s.removeAllRanges(); s.addRange(range);
-      ok = document.execCommand("copy");
-      s.removeAllRanges();
-    }
-    tmp.remove();
-    copyBtn.textContent = ok ? "복사 완료 ✓" : "복사 실패";
-    setTimeout(() => copyBtn.textContent = "메일용으로 복사", 2500);
-  });
-
-  document.getElementById("dlBtn").addEventListener("click", () => {
-    const L = labelOf(new Date(cur + "T00:00:00"));
-    const doc = "<!doctype html><html lang=\"ko\"><head><meta charset=\"utf-8\">" +
-      "<title>EU ESG 규제 주간 브리핑 — " + esc(L.title) + "</title></head>" +
-      '<body style="margin:0;background:#f2f1ee;padding:24px 10px">' + buildMail(cur) + "</body></html>";
-    const a = document.createElement("a");
-    a.href = URL.createObjectURL(new Blob([doc], { type: "text/html" }));
-    a.download = "ESG주간브리핑_" + L.title.replace(/년 |월 /g, "-").replace(/ /g, "") + ".html";
-    a.click();
-    URL.revokeObjectURL(a.href);
-  });
 
   render();
 })();
