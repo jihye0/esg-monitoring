@@ -370,7 +370,9 @@ def main():
     print("규제별 키워드 뉴스 수집…")
     regnews = fetch_regnews()
 
-    # ── 신규 기사 판별: seen.json에 없던 링크면 new=True ──
+    # ── 신규 기사 판별: seen.json에 기록된 '처음 본 날짜'가 오늘이면 new=True ──
+    # 링크 존재 여부로 판단하면 같은 날 두 번째 수집에서 오늘 아침에 붙은
+    # 신규 표시가 전부 지워진다. 주 1회 실행에서는 두 방식의 결과가 같다.
     first_run = not SEEN_FILE.exists()
     seen_links = {}
     if not first_run:
@@ -379,10 +381,10 @@ def main():
     new_count = 0
     for it in deduped + regnews:
         # 첫 실행에서는 기준선만 만들고 전부 '기존'으로 취급
-        it["new"] = (not first_run) and (it["link"] not in seen_links)
+        first_seen = seen_links.setdefault(it["link"], today)
+        it["new"] = (not first_run) and (first_seen == today)
         if it["new"]:
             new_count += 1
-        seen_links.setdefault(it["link"], today)
     SEEN_FILE.write_text(json.dumps(seen_links, ensure_ascii=False), encoding="utf-8")
     print(f"신규 기사 {new_count}건 감지" + (" (첫 실행: 기준선 생성)" if first_run else ""))
 
