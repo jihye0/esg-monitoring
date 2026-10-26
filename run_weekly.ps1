@@ -3,6 +3,10 @@
 #  PC가 월요일에 꺼져 있어도 그 주 처음 켤 때 한 번 돌도록 하고, 이미 돈 주는 건너뜀)
 Set-Location $PSScriptRoot
 
+# 지난 실행에서 푸시가 실패해 로컬에만 있는 커밋이 있으면 보충 푸시
+$ahead = git rev-list --count "origin/main..HEAD"
+if ([int]$ahead -gt 0) { git push }
+
 # 이번 주(월요일 00:00 이후)에 이미 실행됐으면 종료
 $monday = (Get-Date).Date.AddDays(-(([int](Get-Date).DayOfWeek + 6) % 7))
 $done = git log --since="$($monday.ToString('yyyy-MM-dd')) 00:00" --grep="weekly auto-update" --format=%h
