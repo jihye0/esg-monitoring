@@ -6927,7 +6927,7 @@
    "date": "2026-04-24T07:00:00Z",
    "media": "Latham & Watkins LLP",
    "new": true,
-   "alert": "지침·기준 공표",
+   "alert": null,
    "title_ko": "유럽 ​​포장 및 포장 폐기물 규정 조항 요약 및 새로운 지침"
   },
   {
@@ -7047,7 +7047,7 @@
    "date": "2026-04-13T07:00:00Z",
    "media": "Latham & Watkins LLP",
    "new": true,
-   "alert": "일정·범위 변경",
+   "alert": null,
    "title_ko": "EU 지속가능성: 플레이 상태 — 지속가능성 옴니버스 프로세스의 결론"
   },
   {
@@ -7207,7 +7207,7 @@
    "date": "2026-03-11T07:00:00Z",
    "media": "Noerr",
    "new": true,
-   "alert": "채택·의결",
+   "alert": null,
    "title_ko": "CSDDD – 유럽 연합 공식 저널에 게시된 지침 수정"
   },
   {
@@ -7237,7 +7237,7 @@
    "date": "2026-03-06T08:00:00Z",
    "media": "White & Case LLP",
    "new": true,
-   "alert": "일정·범위 변경",
+   "alert": null,
    "title_ko": "단순화되고 포기되지 않음: Omnibus I 패키지 이후의 EU 기업 지속가능성"
   },
   {
@@ -7527,7 +7527,7 @@
    "date": "2025-12-17T08:00:00Z",
    "media": "Nordea",
    "new": true,
-   "alert": "일정·범위 변경",
+   "alert": null,
    "title_ko": "SFDR 개정: 지속가능한 금융 상품에 대한 새로운 기준점"
   },
   {
@@ -7617,7 +7617,7 @@
    "date": "2025-12-09T08:00:00Z",
    "media": "Freshfields",
    "new": true,
-   "alert": "일정·범위 변경",
+   "alert": null,
    "title_ko": "SFDR 단순화 - EU 집행위는 개정된 지속가능한 금융 공개 규정을 제안합니다."
   },
   {
@@ -7837,7 +7837,7 @@
    "date": "2024-07-05T07:00:00Z",
    "media": "White & Case LLP",
    "new": true,
-   "alert": "채택·의결",
+   "alert": null,
    "title_ko": "공급망을 알아볼 시간: EU는 기업 지속가능성 실사 지침을 채택합니다."
   },
   {
@@ -7857,7 +7857,7 @@
    "date": "2024-04-30T07:00:00Z",
    "media": "Gibson Dun…",
    "new": true,
-   "alert": "채택·의결",
+   "alert": null,
    "title_ko": "랜드마크 EU \"기업 지속가능성 실사 지침\"은 유럽 의회에서 승인된 EU 및 비 EU 기업에 인권 및 환경 실사 의무를 부과합니다."
   },
   {

@@ -202,11 +202,13 @@ ALERTS = [
 ALERTS = [(label, re.compile(pat, re.IGNORECASE)) for label, pat in ALERTS]
 
 def compute_alert(it, now_utc):
-    """최근 기사(신규 또는 21일 이내) + 규제 태그가 있을 때만 상태 변화 신호를 탐지."""
+    """기사 날짜가 21일 이내 + 규제 태그가 있을 때만 상태 변화 신호를 탐지.
+    '처음 본 기사(new)'라도 기사 자체가 오래됐으면 제외 — 구글 뉴스가
+    간혹 수년 전 기사를 다시 반환해 과거 기사에 신호가 붙는 것을 방지."""
     if not (it.get("tags") or it.get("tag")):
         return None
-    recent = bool(it.get("new"))
-    if not recent and it.get("date"):
+    recent = False
+    if it.get("date"):
         try:
             dt = datetime.fromisoformat(it["date"].replace("Z", "+00:00"))
             recent = (now_utc - dt).days <= 21
