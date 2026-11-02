@@ -17,7 +17,7 @@ import json
 import re
 import sys
 import time
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 import feedparser
@@ -416,6 +416,30 @@ def main():
     TRANS_CACHE_FILE.write_text(
         json.dumps(cache, ensure_ascii=False), encoding="utf-8"
     )
+
+    # ── 과거 기사 보존: 피드에서 밀려난 기사도 기존 data.json에서 이어받아
+    #    주차별 아카이브가 줄어들지 않게 한다 (보존 400일) ──
+    pfile = BASE / "data.json"
+    if pfile.exists():
+        try:
+            prev = json.loads(pfile.read_text(encoding="utf-8"))
+        except Exception:
+            prev = {}
+        cutoff = (datetime.now(timezone.utc) - timedelta(days=400)).strftime("%Y-%m-%d")
+        kept = 0
+        for lst, cur in ((prev.get("items") or [], deduped),
+                         (prev.get("regnews") or [], regnews)):
+            links = {it["link"] for it in cur}
+            for it in lst:
+                if it.get("link") not in links and it.get("date", "")[:10] >= cutoff:
+                    it["new"] = False
+                    it["alert"] = compute_alert(it, now_utc)
+                    cur.append(it)
+                    kept += 1
+        deduped.sort(key=lambda x: x["date"], reverse=True)
+        regnews.sort(key=lambda x: x["date"], reverse=True)
+        if kept:
+            print(f"과거 기사 {kept}건 보존 (피드에서 밀려난 기사)")
 
     # 재단 브리핑·권고 (comments.json — 주차별 코멘트 목록, 최신순)
     comments = []
