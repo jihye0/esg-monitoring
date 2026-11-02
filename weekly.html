@@ -9,7 +9,7 @@
 <meta property="og:title" content="주간 동향 | EU ESG 규제 모니터링">
 <meta property="og:description" content="매주 수집된 EU ESG 규제 뉴스를 주차별·규제별로 정리했습니다">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231c4568'/%3E%3Cpath d='M6.5 21.5h19M8.5 21.5c1.2-6 4.2-9 7.5-9s6.3 3 7.5 9' fill='none' stroke='white' stroke-width='2.4' stroke-linecap='round'/%3E%3C/svg%3E">
-<link rel="stylesheet" href="assets/style.css?v=20260915b">
+<link rel="stylesheet" href="assets/style.css?v=20260921">
 </head>
 <body>
 
@@ -23,6 +23,7 @@
       <a href="calendar.html" class="hide-m">시행 캘린더</a>
       <a href="alerts.html" id="navAlerts">확인 필요</a>
       <a href="weekly.html" class="act">주간 동향</a>
+      <a href="consult.html">컨설팅</a>
     </div>
   </div>
 </nav>
@@ -112,9 +113,11 @@
     const k = iso(monOf(a.date));
     (byWeek[k] = byWeek[k] || []).push(a);
   });
-  /* 최근 6개월만 (구글 뉴스가 간혹 아주 오래된 기사를 반환) */
+  /* 최근 6개월만 (구글 뉴스가 간혹 아주 오래된 기사를 반환).
+     진행 중인 이번 주는 수집이 끝나지 않아 부실해 보이므로 다음 주 수집 후 표시 */
+  const curWk = iso(monOf(E.now));
   const weeks = Object.keys(byWeek).sort().reverse()
-    .filter(k => (E.now - new Date(k + "T00:00:00")) < 190 * E.DAY);
+    .filter(k => k !== curWk && (E.now - new Date(k + "T00:00:00")) < 190 * E.DAY);
   if (!weeks.length) {
     document.getElementById("wkContent").innerHTML = '<div class="empty">수집된 기사가 없습니다.</div>';
     return;
