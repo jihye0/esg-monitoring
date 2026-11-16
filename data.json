@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-08T23:13:15Z",
+ "generated": "2026-11-16T23:16:57Z",
  "comments": [
   {
    "date": "2026-10-30",
@@ -301,12 +301,122 @@
  ],
  "regnews": [
   {
+   "tag": "ESPR 에코디자인",
+   "title": "Commission publishes six technical resources for companies connecting to the digital product passport registry",
+   "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPSXIxNUFOZ0xBelFVcnduOGZGMnNTQjZ6Ykx0eTJYQ0ZWZ3BoRkVOUnRLcmdldHhaSmxhNWZCLTljcmVrRndnOXBaaTBkT1RlMUxfcEFEejhrS0wxTW4xLVhHMzBvYldRVlJOT0NObXMtNEktZUlxcmp0dkd6UFNTOEdOYnI3S1VmcXRHYnpVTFZnbHR0eURXcjJQTmc1czVQS3BhTGNDMWYzdFhQVS1nYVBlLUFERVptYlJsX2s3X0c3XzlLeVF3Vlh4cmprenZhbFFmQ0VGMWs0djg?oc=5",
+   "date": "2026-11-16T13:13:39Z",
+   "media": "Informat.ro",
+   "new": true,
+   "alert": null,
+   "title_ko": "위원회는 디지털 제품 여권 등록부에 연결하는 회사를 위한 6가지 기술 리소스를 게시합니다."
+  },
+  {
+   "tag": "ESPR 에코디자인",
+   "title": "German kitchen manufacturers call for delay to EU ecodesign rules",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQMzhwM0hQMm5YTElSX3JlM05MaUZBTlkxdDMxbTZ0UDY1alBsWTVmb3pobS1xb2pXdWtVbXZQOWJHLWQxS0RCNGVWWnpHbDdiZWl0NHVuWGpzb2RISTFBTEpzOGxxOVBTcUxPWHFyeDVvTlRqZHRVLU9TN0xmWkRUYW5xRUhmYXVBODNjRFVVX0hQN1RERVhEOXNwUDU2cFZndllOVmJlVkFZd3N3Zm55OVN3?oc=5",
+   "date": "2026-11-16T10:06:57Z",
+   "media": "InteriorDaily",
+   "new": true,
+   "alert": "일정·범위 변경",
+   "title_ko": "독일 주방 제조업체, EU 에코디자인 규정 연기 촉구"
+  },
+  {
+   "tag": "EUDR 산림전용",
+   "title": "Indonesia prepares palm oil traceability system ahead of EUDR implementation",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNT1lNdnZieUROU1VmU0YwRFFxMWhEd1paRjZoWDVzMjJ3dEhTR2hfU0VleTZma2xpSEhudDFTdkFhWENZTEJScWVWbFhacmdpWXIxV29OY0ZUS3dRbjhSZ19UUGdsbWhtYWlQWTNTV1JKVnRkX3FuMm82RUNxSF9Na0ZTSVJKUDhIN29rY29mWjJFSlYwUExycFZtRG9fUjNtRXBJQVZ0bFpqX3gtamthdEJ3?oc=5",
+   "date": "2026-11-13T14:43:50Z",
+   "media": "UkrAgroConsult",
+   "new": true,
+   "alert": null,
+   "title_ko": "인도네시아, EUDR 시행에 앞서 팜유 추적 시스템 준비"
+  },
+  {
+   "tag": "ESPR 에코디자인",
+   "title": "Circular Economy - https://environment.ec.europa.eu/index_en",
+   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBZeUQ0WmpYVmFpTEl6dlJFMDZLTkdHOFVXZnJhX1A0U3E5bHRzemZsWWliblZYdUc0RmlzWXhVWnBxZnNDVTlJQXRfb2lQZkwyVEJrZXVTelBsNHRCMlgzLTFGaFJYbkUzUzdwek1B?oc=5",
+   "date": "2026-11-13T12:00:00Z",
+   "media": "",
+   "new": true,
+   "alert": null,
+   "title_ko": "순환 경제 - https://environment.ec.europa.eu/index_en"
+  },
+  {
+   "tag": "재생에너지 RED",
+   "title": "Renewable hydrogen",
+   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBMZ3VNUTYxX3BpVVRLcVhEOEZaSi1pdmNwWnNFZGY2N3VTVkR0VEdmc3U4OExXSjV4Ry1tWS1iMTVEZF9fVll4bW5qbUdCWDhqT2EtQjNRVW0xUDBaTEU2Y0hBTVdyal91SzdkVm9ObndwMUNId3pfLVYzTDQ3Zw?oc=5",
+   "date": "2026-11-12T21:05:37Z",
+   "media": "energy.ec.europa.eu",
+   "new": true,
+   "alert": null,
+   "title_ko": "재생 가능한 수소"
+  },
+  {
+   "tag": "PPWR 포장재",
+   "title": "PPWR compliance for cosmetics: what to ask your manufacturer",
+   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNQW5TTkNvei1IdUxuM3JjR0lKdkd0TWJTS2VxMXRHdUlqV3dJYmw4b2lfbkFPY2dnSTdKMGJXUzUwakdSY2NIOThtUnRDbmRIc2dUWVFoLWItb05nZ290ejhZblB5VVkxbWhmUURyNVE2YkRtWW1wUFRKS1ZMSHJoR0tB?oc=5",
+   "date": "2026-11-12T16:48:26Z",
+   "media": "Cosmetics Business",
+   "new": true,
+   "alert": null,
+   "title_ko": "화장품에 대한 PPWR 준수: 제조업체에 문의할 사항"
+  },
+  {
+   "tag": "PPWR 포장재",
+   "title": "EU delays PPWR harmonised packaging labels until 2027",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZEdMOWRSNWlDd2xua2xwai1wSDNxd3Y4VDJibjNJLVpZaWZZeU1MbGpmMXlaTG1GdTVCV2p3dGlQT2ttMk10NmZKWkF0Mng1TUNhTEN4NXgtN3NxNjFXMmppNHBCM1pJSE5mbkV6SF9CT0kxVzE3OXBNbnpHaDhIVmZ4WnBTRk1TNVNwNzVucVRKN19ySmhKeE83LXBFdUlBV0ZTcWdWcVdGZw?oc=5",
+   "date": "2026-11-12T09:20:00Z",
+   "media": "Plastics News",
+   "new": true,
+   "alert": "일정·범위 변경",
+   "title_ko": "EU, PPWR 조화 포장 라벨을 2027년까지 연기"
+  },
+  {
+   "tag": "배터리 규정",
+   "title": "Battery Passport: Recyclers and Repurposers, Now Is the Time to Speak Up",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOS2dnY1EyYUFvTVFaV1VKalZkN2NMd1VneWlOOUVobTFfTTYxY3JITmIzbzNGdDNXSG9JbldPSkItbVhPenBaMEh4SDdySm5wX09hSnlvcVB0blBGYmhMdzg1LXkxeGJkV01PQXdIdUwyR3VkTHRQWlRpLVl5eWVYNGluclNWSEo4XzFVZXhlUnI1TUdqeC0wX05uYUpjUQ?oc=5",
+   "date": "2026-11-12T08:00:00Z",
+   "media": "Batteries News",
+   "new": true,
+   "alert": null,
+   "title_ko": "배터리 패스포트: 재활용업체 및 용도변경업체, 이제 목소리를 낼 때입니다."
+  },
+  {
+   "tag": "EUDR 산림전용",
+   "title": "Training on wood traceability according to EUDR standards.",
+   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQbXFKQ25mSHJ6MGxNbnlUWnhJWlhpWU41RnI3ckdxaHZLOEdISkRlOHJmWHdOeDUtYnNCbmFQRmxsNFA4eWlIQndTX0tvX1JwOGp5LWFPZ2htZHg3ODh6bHllQVBJWms3TEdnekUzY0FzaUZrMVNGdndaRi1xdXQwYUlPLUM?oc=5",
+   "date": "2026-11-11T03:06:12Z",
+   "media": "Vietnam.vn",
+   "new": true,
+   "alert": null,
+   "title_ko": "EUDR 표준에 따른 목재 추적성에 대한 교육."
+  },
+  {
+   "tag": "PPWR 포장재",
+   "title": "EU’s CEN greenlights new biodegradable packaging standards to support PPWR",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNanBOZmZ4akpQVW1pMnd1d0dzd2JFYkU5XzlQYW5CY1RqRnlkNnNPYmtwNmowVjVNS3EtUlotalpGZHRLSVJfMnZWbmdMck9WQjNyOWtoZ0h1ZDA4SFl0M3ZPeGdpbzNac2t2aG1adVNxUUdBRXVGRGZrdmQzd1RXdFk0d2ZXXy1SWnBxYVRkc3czT0dq?oc=5",
+   "date": "2026-11-10T11:46:36Z",
+   "media": "Packaging Insights",
+   "new": true,
+   "alert": null,
+   "title_ko": "EU의 CEN은 PPWR을 지원하는 새로운 생분해성 포장 표준을 승인했습니다."
+  },
+  {
+   "tag": "그린워싱·표시",
+   "title": "ESG Insights - November 2026",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOdlRLMXYtOVMzbTR2a1FpWEplcWt5c1VHeFhPVUR1UEFJR19vRHpsaThYS2lZcUFMN1BRYWNNTVN1QXF6bHNYQjdWRXA5aURhUmgyLTdzQmMxM1lDMFUtYmZHQ3M0U2UyTmp1VFh4RWVHeXNOREV2UENyU0ZfcDdFRmRuUGpBM2xPaHRDY2xxWm84RDUzdXl5SGQ2SkYwbEdu?oc=5",
+   "date": "2026-11-09T22:20:22Z",
+   "media": "Freshfields",
+   "new": true,
+   "alert": null,
+   "title_ko": "ESG 인사이트 - 2026년 11월"
+  },
+  {
    "tag": "CSRD·ESRS 보고",
    "title": "Sustainability Reporting: GRI, IFRS S1 and ESRS",
    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBiZFJwQ0hHbFRZcTR3ZVdhYVNUWUFtWU85LWYtN2xTSS1jR1U4VEFkZTVNVHkwZUpUWXp5ZVRlZ2xYTlh3VURQVHRua0YtQmh1Y3dKLW9CeEdQMVhteWlj?oc=5",
    "date": "2026-11-08T16:41:31Z",
    "media": "CASRAI",
-   "new": true,
+   "new": false,
    "alert": null,
    "title_ko": "지속가능성 보고: GRI, IFRS S1 및 ESRS"
   },
@@ -316,7 +426,7 @@
    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9KRFZlVWV0YnBTVFk2RThTQ2otUExTWk0yQkRDUlJPRU9mVzRBVUt2WjNja3Bnd3pxLVpNVWFBa0xNcWs4QmNWenBDRGx3Sk5acXFoVVVKWEFCLTdxaGxtWlJHR0NYZEE2Q1hVbUc0ZmxXN3Bz?oc=5",
    "date": "2026-11-08T03:20:22Z",
    "media": "Intelligent Living",
-   "new": true,
+   "new": false,
    "alert": null,
    "title_ko": "EU 배터리 패스포트 2027: QR 코드가 셀보다 높은 순위를 차지하는 이유"
   },
@@ -326,7 +436,7 @@
    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQRGsyOXZBN194eFhJanRXWFVHanRRSTJ3aHZhcENkNU5OMWltcmk5c1c5ZUVtYkF5SVZyb2NPUVUwY2Z1VkFkRVZ0QVFxWXRWZ2ctYUE4cFNQM29udVdpYnkxRG84QmItU0cxMkNBZXBlSWNqWDJ6dXpaNXFndklzckhpQmFwdWFyQU9adlRmMjVGQ2J1eDYxN1BPT1NrNGNfanI1WEFfb2I1c0h6UjhJNDQ4dWpXOWRfYngyYWFidnJnZU80RXdDY2Y3YlFLOGZ2RkZfNnlUMXp2Zw?oc=5",
    "date": "2026-11-07T22:36:31Z",
    "media": "The Detroit News",
-   "new": true,
+   "new": false,
    "alert": null,
    "title_ko": "대만의 Chung Hua Plastic, 2026 Supply Chain Asia Award for Digital Transformation 수상"
   },
@@ -336,7 +446,7 @@
    "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNZlRwX3Jzb1lpeGl6NExQTGp1TGZfTUVrVnpxSnROQW1DdFh0eTEyZ2tmci1xd1RQYzlKbDk0Y1dPVzduckNBd01RZ240TUJOWkFZY2dYNXV2cEFnNXpjczFaZXBMX2xjeXJtV3RNbVNMYnk0Sl93Y2p4X1JIZkxYYlRBN3hENGVNaFlIb2hsaTE4ZE11c3ZnZ1BURGRBeUpLTnVuMUYzZW9nX3luZldwSHZSV1NRVGpMZ1N6MWV6TXQtc3Q3VFFram9DeGNRQXZFNjNMNHdXR1BLTXFibnV0MVpuc0FwbFVTaWRPcm1tUzVQZlVyempYRG5HTHA?oc=5",
    "date": "2026-11-07T09:11:00Z",
    "media": "Shanghai Metals Market",
-   "new": true,
+   "new": false,
    "alert": null,
    "title_ko": "Ecomondo 2026: ETS와 CBAM이 시장 역학을 재편하면서 압력을 받고 있는 EU 철강 경쟁력"
   },
@@ -346,7 +456,7 @@
    "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNRjVaTDlHclNvaXo3ZTNTTktHTF9fMk9sT3dYRE9xc3NSWmN6cWVLTXNodUpubm9uQVg3X1l2YmJRNW1hWWFxR20ySUJpUWNyYm5JamZHOWFQNzZLSXRkM2RraFRUa3FnYlZFVzB4aF9Calh3V3RVY2FiRUpmRExYeVlidVhIVHByYTlraHlhX0VHaFhqa01nb242Q0NSU19WSVlKc19pN25hOG4yYzhUeTh3Uld1ajhNMENlTTNaUmtsTUxUVm04bm10c2RxdjZ1ZEN6NzJEM1hKZkRyM0IyUVFoYWExWXphMEJZ?oc=5",
    "date": "2026-11-06T11:44:50Z",
    "media": "SteelOrbis",
-   "new": true,
+   "new": false,
    "alert": null,
    "title_ko": "Ecomondo 2026: ETS와 CBAM이 시장 역학을 재편하면서 압력을 받고 있는 EU 철강 경쟁력"
   },
@@ -356,9 +466,19 @@
    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUGtOZjBZOWo3OUU1UDRSVkhpX0FRY3RxZ1VlMmtmdG1KWEYxc1QzM3dPYzVPM1U2NS1SNW45akdibWhwZkVKd0FNekY1RTNZcnVyaEQyYVJ3dC05TUI1by1ySlBlaC03ZjViTlRZUDdDcHlNVm1UeFRiZjlJcHNWRTBaSUV1NmdSWkljamlybEVwWmtNSXBBOGdYZTNuX3lSeWU4UDB4c0I2Y2w4Y3VN?oc=5",
    "date": "2026-11-06T10:48:06Z",
    "media": "BusinessToday Malaysia",
-   "new": true,
+   "new": false,
    "alert": null,
    "title_ko": "말레이시아, EU 무역 문제를 해결하기 위해 특별 EUDR 브리핑 개최"
+  },
+  {
+   "tag": "그린워싱·표시",
+   "title": "EU Pulls Plug on Green Claims Directive",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQOXpoMkMwT1lua0tKTExUS2FRZTRhdVFRY2pOdEpVbXcxUkR0ckxKR2lyZnBkLVc0SVJ3QnlyelFaTFUyb21seVpwSk9kQ2JCTW1RWG5qdTF1b0pzblo3NGpNU2dTejYzWEtfb0hydzFHY2o4QUw4bVd3Skw2R3MtZjRJdVN4alZ4MFFMa3ZodTJOS216WWg5VXpmRmQ1MW1LNFA4dmo5VHVzSXRh?oc=5",
+   "date": "2026-11-06T08:00:00Z",
+   "media": "WWD",
+   "new": true,
+   "alert": null,
+   "title_ko": "EU, 녹색 청구 지침 중단"
   },
   {
    "tag": "PPWR 포장재",
@@ -366,7 +486,7 @@
    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOZWwyWVA3dG43ZjdaeG1ScGRNNUpsR09PcjNFVEY5RmgzU0hNWjZrWXVvbC1WRHVIYk5rZmJxNHZkUWRTV0h5bi02VkVndXFZM1FUa0tTSXJLVE1Xcjl6TGZONDh0RWdEaVpBVXM0UldWQk55VG5qLW9nRTZfdC1kc3RxWmlMam9UVF9xT1BkV1dPZms3dW5GVmgzSEF6Tmp0SmRtcWQxVVlicWJmWGQ1SzEwVjJEQU1KdUE0M1QxdXVsalgzZkFpSw?oc=5",
    "date": "2026-11-06T08:00:00Z",
    "media": "Food and Drink Technology",
-   "new": true,
+   "new": false,
    "alert": null,
    "title_ko": "분석: 섬유 포장 구매자를 위한 2026년 8월 PPWR 제한 변경 사항"
   },
@@ -376,7 +496,7 @@
    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPZDg5UmxCdkNsc2ZNbUNteXhINVd5ZDdzLWZJMy1kVDFnWTZ3RkowM1VqZlRhN25NR2dPbHVvaHN5cTRJc1luZnB3X0w1djZ6MV85dTFjSG1aWVY5QUtGX2g4VkpheE1UTWJ5RmRoSlRaWklwVXFNYXp3YlNid3pyVDgwSVhaRXVK?oc=5",
    "date": "2026-11-05T21:52:44Z",
    "media": "edie.net",
-   "new": true,
+   "new": false,
    "alert": null,
    "title_ko": "EUDR 개요: 기업을 위한 6가지 우선순위"
   },
@@ -386,7 +506,7 @@
    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5TUFNtblFxVG84dm1RbVhlZDhmdFVNWHNyckhrdG9jclhtZmtCV0k4b1BqV1ZFaUNkek1sVm5nYlcxMVJ3bDlLSXlxLTNBVXd3eTF4ekEwS3IxRlV4X3hOV2J3ZFJoTE9kd09QemZR?oc=5",
    "date": "2026-11-05T20:40:32Z",
    "media": "CoffeeTalk Magazine",
-   "new": true,
+   "new": false,
    "alert": null,
    "title_ko": "EUDR 규정 준수 및 추적성을 위해 커피 농장과 생산 데이터를 디지털화하려는 베트남의 노력"
   },
@@ -396,7 +516,7 @@
    "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBISEY5TEFVWG81d0J0aHNZRnY0NlVic2xRYlpURlV3RDB5TzZsbllKLTByTkxuNGdIR0M3Qk1fQ0pEVkpDbjVPQlRBWDRGWWh1MDByTllFeG16Z0lqYTdkRDNPdw?oc=5",
    "date": "2026-11-05T19:58:04Z",
    "media": "ESG News",
-   "new": true,
+   "new": false,
    "alert": null,
    "title_ko": "Isometric은 수출업자에게 6개 부문의 CBAM 배출 보고서에 대한 사전 검증 확인을 제공합니다."
   },
@@ -406,7 +526,7 @@
    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOa1VDWmt4eUREWlhOeFJYY0d3M005ZnF2RXBqZGJPUlpqNEJpRWxkSTUwZk9WbGZRdV9HYUJyMzVWX1FvcnJDSDZDQTEzbklOU0VwZmYwYVcxcElKazFvNFpQNXFwM1dtZDRCRUUxdDNRSzdSM0loSm5rcmJYellWbXBnS3RqWEE5Z1UwZ01WbTRGdG5FcmNpbEdLR1FZRG9FanZn?oc=5",
    "date": "2026-11-05T19:37:38Z",
    "media": "ENDS Europe",
-   "new": true,
+   "new": false,
    "alert": null,
    "title_ko": "PPWR Ch05: 이 보고서 내부"
   },
@@ -416,7 +536,7 @@
    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPUDlMVEF1M2lmT25teW1QbGo2T1FXUnZVeURyRzFjcTh5XzdqWWF1WXJLaGlTQ2QxQlRGQVNzNW5ZQTZSeDE4V0xMRmt5bGIzTTFtQW1mT0IxVW80T0YzNm5wOGJOOFlSYmFGRF9fdDBrTF9CckRTQ2kxQmdVRExqTFhKVXpFUmU0cE1CLVpsQlNYNTBBTmJmVDhtaEpNT3RZZFVoU2dsQVFYQmE2TjlHRVc0VDExRi02aG5Sc1JUR1BCZi1V?oc=5",
    "date": "2026-11-05T15:40:12Z",
    "media": "",
-   "new": true,
+   "new": false,
    "alert": null,
    "title_ko": "관광 분야의 Greenwashing에 대한 새로운 EU 규정 | 호텔, 목적지 및 이벤트 주최자의 변경 사항-money-tourism.gr"
   },
@@ -426,7 +546,7 @@
    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQSjB3eWt0OTFkdWFFVmpZNjlqRGRXQ1pOendLa2lVMGF5R2M3dXlUR0VvRVFMQVJ4WlBiLXhXN1VrcjNPZjNuQ1lfMkFJTzFJNUYyb1hOU09WRk9fV1h0Qy1RS1pBbHBJLWJWWDNXUVQwWVp6U25Mc3JHMS12MzdPRGFtNTJJbk5VZ2pPRlVIVW9Zb2lmTHFkZmZUd0Z3T1lnUFh2NDBjbmU2NnU1S2c?oc=5",
    "date": "2026-11-05T10:22:33Z",
    "media": "Gov.ie",
-   "new": true,
+   "new": false,
    "alert": null,
    "title_ko": "EU 산림전용 규제"
   },
@@ -436,7 +556,7 @@
    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNN0tWQ1RwbWZKVDlHQ0FYSl9VTDVVN1FzVkJ6bzhNQlRtWXpPV1ktUzBNUzBRdEJTbmg5VGZIWk9EQ0hJV1dia25QS0xQVW1HVkhHQURSVUd1b2hmbUo4NTRxVkp5d1o0dWlreERsam8zM0d6MS1DR3VOVlN4alpBQmR3NnQzZVU2VzZSR0d0LXJRUnM?oc=5",
    "date": "2026-11-05T09:52:48Z",
    "media": "CemNet.com",
-   "new": true,
+   "new": false,
    "alert": null,
    "title_ko": "아이소메트릭, CBAM 준비 서비스 출시"
   },
@@ -446,7 +566,7 @@
    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNRzd6cWlfLUZYRXRkUEM3bHlieVZPeWIwS2l1U2VuMEQ2M2lmcWlyQTcyU0FWQ19DWTFnSWxmeFZzbGpOc3FEWE11UHNEMUZHeWZuRVRyeWpjZERLWEtyclpWeWh2Wmd4NDJ5d0cyaTBmMnhPNkFFNkw1NHkxbG5GZktQTEFoajFaeEQ0NWVUUXFWS3JKZlR0SXlkYU9SWU00MWl0b0VvLS1rd1NRbll6d1hTQjd0dw?oc=5",
    "date": "2026-11-05T05:15:03Z",
    "media": "ESG News.earth",
-   "new": true,
+   "new": false,
    "alert": "시행·기한",
    "title_ko": "EU CBAM이 발효됨에 따라 기술 제공업체는 규정 준수 자동화를 위해 경쟁하고 있습니다."
   },
@@ -456,7 +576,7 @@
    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOQklJUHlUTG4zQmljX0pmei1yQjhVNGlYdUtzbUtYV2RCX3JCbGE4ajdWZWI0ejludmVMMkQ3dmNMbW5EdllTLWczWEowVW1NcjBqdFRjSkJ4RHR4NFV1ZXRYMjloRkdMQXRPR2F3QWRfTGhWOFR3RFVhTVdIemJzRzVWcUF0UlRsTW1DeXNHZ0xXM0dQNklwN0hIclk?oc=5",
    "date": "2026-11-04T17:50:07Z",
    "media": "The Fashion Law",
-   "new": true,
+   "new": false,
    "alert": "집행·제재",
    "title_ko": "럭셔리 브랜드가 유럽의 파괴 금지령을 우회하여 수출할 수 있습니까?"
   },
@@ -466,7 +586,7 @@
    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNbXZvRXQ0LXV0NUI1QmZlazNrU0stbVcySFQxZ2FURW1yc1YyQ3Q0QTZHUV81bUVFbFFncHZFM2daZ3RQWV8xMFR2Y2JVZzkxMkppVW90U01uX2Z3djJpVjRVbHRFVGRRTlB2UnBWcWJUR2xERHpmTEVnaTloemMtNy1STGtOQi03dnN6Y2N2ZHY0eDdxR2dlWlFweHdlR2g0VW4weUNQQQ?oc=5",
    "date": "2026-11-04T15:04:42Z",
    "media": "WWD",
-   "new": true,
+   "new": false,
    "alert": null,
    "title_ko": "실제 데님 생산 데이터가 디지털 제품 여권을 개선할 수 있는 방법"
   },
@@ -476,7 +596,7 @@
    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOaUpmUEJTdy1kbUZhRWo5MXdVQXV2bnV3WExoMTJtRm5rUncxU29IZkd5NXpwZ2VVRGpwSWlrY0hMN0ZXakNOYTJLRm9Da2FZRmJzYkFuUzctZERqcjQzalJBT2drc1JvWngtMnJBTTJQb2FiRzRuNkdpNndVaXcxeUdMZ0pVckZRRU9BOUQ0U0tFN0FfN3Y3OWZDX2VndzhQZDFR?oc=5",
    "date": "2026-11-04T13:27:44Z",
    "media": "StoneX",
-   "new": true,
+   "new": false,
    "alert": null,
    "title_ko": "실제 인증서를 사용할 수 있기 전에 CBAM 헤징이 작동하는 방식"
   },
@@ -486,7 +606,7 @@
    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOQ1Zkc294aXY2X1MwdGZGZ2dEekhKQzVTT0xSTUV4aGxYRWhpdEhEb3ZJVEJGSEVkYWIyU0lYUnEyWkJIc3ZCLTFWNlFnT2xXcXA1QW9fQ080MHRPbVVDU1VOX0lTc3N6TXhwQU1DRndkTTFsVmw1T1p1SkFCTVlnaGpKNkNJS3FuNkI2YUM3X3BSa1BIWUhkeGt2aHo5WG53MWVWUkRNem4walZ0Z2pZUkY4bVMyaGhYSDFwb3RmbTQ?oc=5",
    "date": "2026-11-04T12:39:57Z",
    "media": "ESG Today",
-   "new": true,
+   "new": false,
    "alert": "일정·범위 변경",
    "title_ko": "EU 규제 기관은 은행, 보험사 및 투자자를 위한 분류 보고 규칙의 단순화를 제안합니다."
   },
@@ -496,7 +616,7 @@
    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZnJ1WERZb0hqbV9yOGZ2T3ByWnpLR3VQVmpZTnRMWjM2dm1Sc3h0WC1QQklqck93aVE4aFp5SXFMdE1sTkducUdwRXQ1cl81b3lXUWxCeFdDcDczSnBZX1JWemZYUTdxclZ6UHlBZmhuakVlMXFoVUxPY0k4TF9YQjJJLVZ3UllXRFJQWVgtbFBVQVlVeEZ1dnJVVTA5c2VmazdIbTRtNA?oc=5",
    "date": "2026-11-03T19:57:25Z",
    "media": "Carbon Herald",
-   "new": true,
+   "new": false,
    "alert": "일정·범위 변경",
    "title_ko": "주요 CBAM 개편: EU는 2026년 1월부터 영국 수입품을 면제할 계획이라고 보도됨"
   },
@@ -506,7 +626,7 @@
    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQM3BLZ0Voam9ESlY5Q2hwU21vcFJMYk1Sb0RTMVozNDVDLUIxRDFrMVJKR2pQZFFBc0VtVU9FV3FxZDluNGtxbzN6bzJxUFJqS01sQU5yZEVGVmM1RzN1Q1BxS2VkcWVZX0psS05leFF5SGpDd25sdGVOa0VoSkZVVERPMWVpV0x0cEQ3RzJ6Ynk?oc=5",
    "date": "2026-11-03T17:33:16Z",
    "media": "ESG Today",
-   "new": true,
+   "new": false,
    "alert": null,
    "title_ko": "Isometric, 수출업체를 위한 새로운 CBAM 데이터 준비 및 보고 서비스 출시"
   },
@@ -516,7 +636,7 @@
    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPaHJ1S1I3RmFKNHowTW50VFlsZkdRdi1uNzZuNjVPWW5DYTVmUVBiVUNXbmttS3ZueDlFRWpxVzRvdERWRy02VWdoWmVLbHdWUm5ZeGlNSVFtWnQ0ZkI5LU1CT0pPRFRGTFNvMlFOZG1qcXZXWGtqb19VSGpkcFE0by1pNXN3ZXFzVU1VLXRvenBueGctRlNvdmFiZ3BNX1pLeFlGZ1hFV0hEZHM?oc=5",
    "date": "2026-11-03T16:58:51Z",
    "media": "Quantum Commodity Intelligence",
-   "new": true,
+   "new": false,
    "alert": null,
    "title_ko": "아이소메트릭, 기업을 위한 새로운 CBAM 지원 서비스 출시"
   },
@@ -526,7 +646,7 @@
    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9RNWNIelllWUlheVp6MEVNU1IxVlhxdzlXSUZrU2Z6T1djNE41dTNtZkJ6SFhMOWVadDMzWkNXX0hyU3hDdmkzdUktbnQyZ2dKNVlMUUNBZlVuYWxTTE1aMkhNc0d6eGhPV2Q2dnNxSFhmTGN3OFpUQkZ1RQ?oc=5",
    "date": "2026-11-03T14:46:32Z",
    "media": "",
-   "new": true,
+   "new": false,
    "alert": null,
    "title_ko": "아이소메트릭 CBAM 검증 서비스 출시 - Agg-Net"
   },
@@ -536,7 +656,7 @@
    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOX0QwUlZxdE5MSVJuVTN1NFFFaFRTZmdYUlVGVWNUQmZzb1Y3eTV4bGR3ZjdreV9YR0x6ZW1ReHI4S0xXeUVNVC1xY0pQNHdITFgtVjBCSmUyb3lvY3lfRVRmRkFrTS0tbUlkdWhyTG5hOHpmeDc3QjJhTU1xRHpzbFF1dTl6M1ZEdTVlNm95ak8zSGJGYURYUkU0NG8?oc=5",
    "date": "2026-11-03T10:27:40Z",
    "media": "NutraIngredients.com",
-   "new": true,
+   "new": false,
    "alert": null,
    "title_ko": "EU 규정 정리: 8조 및 PPWR"
   },
@@ -546,7 +666,7 @@
    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPeWpidlRIYXNGWl9tcTJ5Q09tRzMzdjczbE9lTkdFZUZTSnJMeUVBMVZkbFFzM1BSeVdyNWtuYTh2UEk3Y2owcGdYel9yWVFsSFNZU0xpUndzWmdsZ2puVnJLV2pId2dfMThUa3dOQmRsZDlEckZYY0owa1FHTVQwTDBEX05YZHM1Y1lYTXFtaGUtTXJMWjFDXzd3bkJZWFZnRGlUOUJXRzZHMFBrWnpBU1l3?oc=5",
    "date": "2026-11-03T06:06:28Z",
    "media": "Travel Daily News International",
-   "new": true,
+   "new": false,
    "alert": null,
    "title_ko": "업데이트된 가이드는 관광 부문이 EU Greenwash 규칙을 탐색하는 데 도움이 됩니다."
   },
@@ -556,9 +676,19 @@
    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTzRpb1l4c0RWNkQyTzhNRkFMZGFtdjRPcnZJZXZIdkZaS2hnX1ozamQ0Z05Yek5JeVc3dldnTWJUaThQUTB3dVU3Z3M5ck5HU3g2cGZvNzhzbUxZeUllQlF6OFlXd01JMU1nSVVUWVJWYVNKQ0F0ZU1Qd1FHd1M4T0ozdGtJaE9FQ0FVY1V2S0FnYXM4emVUSHpDbw?oc=5",
    "date": "2026-11-02T16:03:37Z",
    "media": "kpmg.com",
-   "new": true,
+   "new": false,
    "alert": null,
    "title_ko": "EU 탄소 경계 조정 메커니즘(CBAM) 탐색"
+  },
+  {
+   "tag": "ESPR 에코디자인",
+   "title": "KPMG European Digital Product Passport Readiness Survey",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQLWRFNWt1UmcxT09FS0MyOTdYUGlTVEFhakQ0SDU4VkFuQUtQNkJYaVhiZElYb0w5Z3VUVXZob2RqRm96TDlkUDJjMXA1RW1nZjltb25ncW1FWWpzbWNSN21IQkluRkdTZjVEYnBwNTBwNkdxYmNlT1lPZUNuWjJFWmFfREhHUVE5UGh4SUREeVdRZU5ONVgzT0ZUTy03M3VfLUJadnVXYk9YZw?oc=5",
+   "date": "2026-11-02T14:06:36Z",
+   "media": "kpmg.com",
+   "new": true,
+   "alert": null,
+   "title_ko": "KPMG 유럽 디지털 제품 여권 준비 설문조사"
   },
   {
    "tag": "배터리 규정",
@@ -566,7 +696,7 @@
    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPQ0NKWjAyOWs0c3NDSDJjMGR3NVdRTzJlMF9TZDVBeVlZVThjNHJrLWNZZjBEcUpmT1R2ZFVWalJoMEhXVTdYY1FLODh3SmxZNXBteHZDTHgzekE2dUJENEtQNHowdmxJLXlBckRySlptYTFHU0dXbk5Kbk1GV0k5LWRHeDdvMTM4d1lvS2ViakF3RWhjY2V1QzU4Q3pYdk0?oc=5",
    "date": "2026-11-02T09:21:00Z",
    "media": "Electrek",
-   "new": true,
+   "new": false,
    "alert": null,
    "title_ko": "유럽의 배터리 여권이 미국 전자 자전거에 큰 영향을 미칠 수 있는 방법"
   },
@@ -576,9 +706,19 @@
    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZHdGeGQzcnN3QjFqQXpiRkJoellCUW5YRUdfTVVYa2llTG1LOGV6Y0hDUl9hQ3AxRFl5S0RBRXhaTWdqMll3LUJBVlMxX3l3b2ZyQXVDcFVwaXBEenZrQjBpQllFaVlncmVzdWxOa3NaZWZPTHZXOGdfYWF4ZlJyOUJjMG0xQldkZ0NUbjV3?oc=5",
    "date": "2026-11-02T02:03:42Z",
    "media": "Infrastructure Investor",
-   "new": true,
+   "new": false,
    "alert": null,
    "title_ko": "투자자들은 새로운 EU 탄소세 위험과 씨름하고 있습니다."
+  },
+  {
+   "tag": "ESPR 에코디자인",
+   "title": "Digital Product Passport: Transforming Cross-Border Trade",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOaDRsRVgxMDdBUnFKQXI5N1lib2JCQzgzaTRMOWdSbGR4UGdTUHktQ0I0SWpsLUs2eVVIZVpQY2FoMnplNVZ2WDNHWUlWMmpGUUxKRFNSRDhlWG5BWG5YZTA4UVdxTXpKeGJrVHAwcEFNclBoOWhzUEdDUy0xekRkeTBuU3BlS2JoQkFkeXZnUFpOSGh4VjJF?oc=5",
+   "date": "2026-11-02T00:55:25Z",
+   "media": "ESCAP",
+   "new": false,
+   "alert": null,
+   "title_ko": "디지털 제품 여권: 국경 간 무역을 변화시키다"
   },
   {
    "tag": "배터리 규정",
@@ -612,6 +752,16 @@
   },
   {
    "tag": "EUDR 산림전용",
+   "title": "EU Deforestation Regulation Update - September 2026",
+   "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1KOGpzS1FSMUpZRjVpRzhIZXNiclFIWWo4bzdVRGlOUjlwYkdLZlNwNVFMNWdjc2VmUG5tU1Bob1c4UW5IdHZVMHlMV01vY1RGSWJCa25td2ItZEtWNnFHMEpEWkFYX20xbXBV?oc=5",
+   "date": "2026-10-30T23:49:41Z",
+   "media": "European Commission",
+   "new": true,
+   "alert": null,
+   "title_ko": "EU 산림전용 규정 업데이트 - 2026년 9월"
+  },
+  {
+   "tag": "EUDR 산림전용",
    "title": "Cepi updates EUDR guidance for the pulp and paper industry",
    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1yLWpsREdFWnAzbjFfcEhjTlFGaTNVdnliVm90aDJheGNiVWV6cHRBMUdndTBvZkl0MEZHeDR6ZU9jcy1rNGhvRVJNT25mY3ZmT1JQS1owVnJRWUdZZGU4NjJUMHk5eS10bkVSOFpuTm5XanVOTkNyc3Ezbw?oc=5",
    "date": "2026-10-30T13:55:59Z",
@@ -627,6 +777,16 @@
    "date": "2026-10-30T13:13:42Z",
    "media": "energy.ec.europa.eu",
    "new": false,
+   "alert": null,
+   "title_ko": "협력 메커니즘"
+  },
+  {
+   "tag": "재생에너지 RED",
+   "title": "Cooperation mechanisms",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNWkc5VGMwYWhIV3lDbkc0NHR3ZnlhR2UxMXIwVzJDb0YwU0wzTFhJOHJHenZzSjRkaVR2ck9rZzNCTGlYUXdYRzV2Y19VMjFsZDBmMktLNEJfVTAxdEI4WU1CZmsycUMtTXFNeVU3bVB0Z0RqdjY1cXVvbXFHWEdqV3BiWFBSeEgxaTJpWHJuSHBZMGYxdzRVME9GOHFnNWlUSzRTTnIzcjIxVHBjd2ttZmp3UERwYThqR21NeVQxUndWUQ?oc=5",
+   "date": "2026-10-30T13:11:35Z",
+   "media": "energy.ec.europa.eu",
+   "new": true,
    "alert": null,
    "title_ko": "협력 메커니즘"
   },
@@ -886,7 +1046,7 @@
    "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOS0JYNHB0Q1hudlM1U3FTNklNSVJNMXhCNk1rckdLR3k1Y2lFVURGZXRjcEE3cUVUYVI1OVZQUGc5WjRIZGsxMVlQUmxqdXhLUmpXdzN0VGdQSVk4U09hRG5PYkpuaGEyWkYtUFNWU3ZmdWExRm9rWGowUXZQRUEzNUtRM0NyV1QzODNiRXk3bER1eUQzRi1XMHJyWEtyZmNWVVFSd29jdG8wc2tpR1c1SEs5SEI2NUlqRFpCMjdLSVlaVVZMT1o2NU90YkRRTXltdkJVSmt2aXkyV3M?oc=5",
    "date": "2026-10-27T07:00:00Z",
    "media": "Bloomberg",
-   "new": true,
+   "new": false,
    "alert": null,
    "title_ko": "2026년 10월 글로벌 규제 개요: CSRD, 기후 보고 및 디지털 녹색 채권"
   },
@@ -949,6 +1109,26 @@
    "new": false,
    "alert": null,
    "title_ko": "EU, PPWR의 바이오 기반 플라스틱 목표에 대한 협의 시작"
+  },
+  {
+   "tag": "배터리 규정",
+   "title": "Battery Passport Market Size, Share | Forecast Report [2034]",
+   "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5tM3JGWFlBNDh0VzM3aW5xbkNhV204VU91cEtKbXp3NXE5TjNOVkliVlFZd0NkNmJtSF9TSG85dVd6TWhNMHFYUFJLOURNNEdYazZRQ0NaRFh3TTFvVGdOcFB0WkFWSFBnVlYyZUdLSzZZOXVjVnNLakF3?oc=5",
+   "date": "2026-10-26T07:00:00Z",
+   "media": "Fortune Business Insights",
+   "new": false,
+   "alert": null,
+   "title_ko": "배터리 여권 시장 규모, 점유율 | 예측 보고서 [2034]"
+  },
+  {
+   "tag": "CSRD·ESRS 보고",
+   "title": "ESRS-40a: CSRD reporting standards for certain non-EU companies",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPb0F0Wjd0QXNHV3RpQUJBa2U2TEU1bHZKTVVBWnBrUVpYMlltUENoNVBCelFhYnVfUjJyQ2o2U0lkNTFrUWdvbmU3RlZaeEw1Z2FlS0tGYzNsVmxHYkdHb1h2QVN6NTFGenhiQndmS3NPLWhHNFlYRmJYemJ5cnEzSFM5NTJ1QnRHUUxoNjUxazM5TzY1N0FyT3ViLTRILWppYURiNUltSEQxOTh6?oc=5",
+   "date": "2026-10-24T04:51:52Z",
+   "media": "PwC",
+   "new": true,
+   "alert": null,
+   "title_ko": "ESRS-40a: 특정 비EU 기업에 대한 CSRD 보고 표준"
   },
   {
    "tag": "PPWR 포장재",
@@ -1117,7 +1297,7 @@
    "date": "2026-10-22T07:00:00Z",
    "media": "Freshfields",
    "new": false,
-   "alert": "일정·범위 변경",
+   "alert": null,
    "title_ko": "CSRD, \"Stop-the-clock\" 및 Omnibus I: 구현 추적기"
   },
   {
@@ -1177,7 +1357,7 @@
    "date": "2026-10-21T15:44:10Z",
    "media": "Council, European Union",
    "new": false,
-   "alert": "일정·범위 변경",
+   "alert": null,
    "title_ko": "단순화: 시의회는 소규모 포장 생산업체의 관료적 절차를 줄이기 위한 협상 입장에 동의했습니다."
   },
   {
@@ -1251,16 +1431,6 @@
    "title_ko": "EU의 탄소 경계 확장"
   },
   {
-   "tag": "CSRD·ESRS 보고",
-   "title": "EU CSRD: EFRAG consults on its 2027–2029 sustainability reporting agenda, Julia Voskoboinikova - Linklaters",
-   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxON0YybzFjNnd6RHJwRWh4MXJzVlcxS0ctWmRaZ2tXZUVTc216dGZRUWt6VkRFSUQyNjZpZUVnYUtOVksxR3ZNVDN1RU9FUjgzT0k2RHRpZnl5ODVJRzdTTzZmQmNiakNBajExM1FrdDVkRmtyLVkxV0dpV2t3QmRtUWN6d0hYdUFQaWJ3V3RfU1hGS2t1enA4dzBnWGRuRXB1X2psbEtzWE1DVzdISmF3clhhWkpKRW5rUEhZalF3UmpDczg?oc=5",
-   "date": "2026-10-20T16:10:56Z",
-   "media": "Sustainable Futures",
-   "new": false,
-   "alert": null,
-   "title_ko": "EU CSRD: EFRAG는 2027~2029년 지속가능성 보고 안건에 대해 컨설팅합니다. Julia Voskoboinikova - Linklaters"
-  },
-  {
    "tag": "택소노미",
    "title": "EU sustainable investments aligned with EU taxonomy top €1.2 trillion",
    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNVWxMX2g2Z1k2UURHeElmZlNNTVpLMW9EU2RLck1SX0VSbDZLMklXb3dacW1URDlyVldEal9KcHZuYVRseE1Iai1hb2xYUExpYWxzUzdSY0pwWmY3b1k1RDNrR0lRRXltbjZZakkwLV9hajFYUlVES05aLUhOdEV2Zm1NX1ptN2pfZFN2T1o2S3VHV2dUeldUWXBsMlJnMUFyUFdvcGxDeHhyQUNmT1A4anhjcUl6dHNNbkt5M2lMUTNpd0VrQXJtQmJpU3J3MnlyZFE?oc=5",
@@ -1279,6 +1449,16 @@
    "new": false,
    "alert": null,
    "title_ko": "SFDR 2.0: 전면적인 점검이 구체화됩니다"
+  },
+  {
+   "tag": "CSRD·ESRS 보고",
+   "title": "EU CSRD: EFRAG consults on its 2027–2029 sustainability reporting agenda, Julia Voskoboinikova - Linklaters",
+   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxON0YybzFjNnd6RHJwRWh4MXJzVlcxS0ctWmRaZ2tXZUVTc216dGZRUWt6VkRFSUQyNjZpZUVnYUtOVksxR3ZNVDN1RU9FUjgzT0k2RHRpZnl5ODVJRzdTTzZmQmNiakNBajExM1FrdDVkRmtyLVkxV0dpV2t3QmRtUWN6d0hYdUFQaWJ3V3RfU1hGS2t1enA4dzBnWGRuRXB1X2psbEtzWE1DVzdISmF3clhhWkpKRW5rUEhZalF3UmpDczg?oc=5",
+   "date": "2026-10-20T07:00:00Z",
+   "media": "Sustainable Futures",
+   "new": false,
+   "alert": null,
+   "title_ko": "EU CSRD: EFRAG는 2027~2029년 지속가능성 보고 안건에 대해 컨설팅합니다. Julia Voskoboinikova - Linklaters"
   },
   {
    "tag": "택소노미",
@@ -1321,6 +1501,16 @@
    "title_ko": "영국, 2027년 CBAM 계산 값 공개"
   },
   {
+   "tag": "배터리 규정",
+   "title": "What the EU battery passport still leaves unclear for automakers",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQVEZiaUoxbDgwWWZvejM1SjFuenpncjFVdGllTFg2MUQ2UzlJTjVJcU1lWmFEOFFIYkdqUUl2R0doaXJzT3ItclRJSUlKaUpuM2pBb19CQmM4MVFtNS1GbnBUMTBRTHVYTWtPaG1FVE5xdTBNRmVyU3NSamtaUjk2MGtISWgtbGdSS1g5dw?oc=5",
+   "date": "2026-10-19T07:00:00Z",
+   "media": "Automotive News",
+   "new": false,
+   "alert": null,
+   "title_ko": "EU 배터리 여권이 자동차 제조업체에 여전히 불분명한 내용"
+  },
+  {
    "tag": "CSRD·ESRS 보고",
    "title": "Sustainability reporting for companies which are not subject to mandatory reporting – the Voluntary Standard",
    "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPWkRtQ2d5MFBrcmVxNXJLMWlldUZFZ25zRGhwWEdBZnBsZ2g2UFY0ci12V3JxTkhTTzFGQkZodG5zUE5fN2hTQmpfczkyYW13QlVxb2ZUdEx0R2pNNFlSU0FDdURqTGJGMmNYTDhrX3hWUWNXZE5aa3laNXFRdTFvVnBtQWlWMlp3aEZWZWpHOFBVOHlSWGQycmFPNi1MUFh3emJsN3M2VktnX3RrTW9BMnk4eGtfYUtsd25Ua1dROEFHamdBVG9pLU9GbmNMWWF5WG5sdlhjdk4xcEtYWmJJNWhmYUNnX2pK?oc=5",
@@ -1339,16 +1529,6 @@
    "new": false,
    "alert": null,
    "title_ko": "정부, 비료 수입세 부과 압박"
-  },
-  {
-   "tag": "배터리 규정",
-   "title": "What the EU battery passport still leaves unclear for automakers",
-   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQVEZiaUoxbDgwWWZvejM1SjFuenpncjFVdGllTFg2MUQ2UzlJTjVJcU1lWmFEOFFIYkdqUUl2R0doaXJzT3ItclRJSUlKaUpuM2pBb19CQmM4MVFtNS1GbnBUMTBRTHVYTWtPaG1FVE5xdTBNRmVyU3NSamtaUjk2MGtISWgtbGdSS1g5dw?oc=5",
-   "date": "2026-10-19T07:00:00Z",
-   "media": "Automotive News",
-   "new": false,
-   "alert": null,
-   "title_ko": "EU 배터리 여권이 자동차 제조업체에 여전히 불분명한 내용"
   },
   {
    "tag": "재생에너지 RED",
@@ -1469,6 +1649,16 @@
    "new": false,
    "alert": null,
    "title_ko": "CBAM 확장 범위에 대해 EU 기관이 분열됨"
+  },
+  {
+   "tag": "그린워싱·표시",
+   "title": "Green Claims, Real Consequences: What the EU’s New Greenwashing Rules Mean for Businesses",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQdkNuTHEyWDFUNG5rQVBieXh4ZWhhTFNMWUZsaWo1TnRwZmNRejVpdzN6dTdlb1hNSTkzTTBseGNNTzRIM0JNNk55dDlVY1BOdFlpczZiT00wejhkVXZ4VVY3MExFcDhrY3BpeVVhczZ6UC0xSWZ4X1d4UlQxOUJER2VUd05OYzA1djJwWjc2TGlhZ0s1MzhzWGtpSTRNREZVVVFjRFdPRU9CcVpSWHZqcmdud0U5U3M?oc=5",
+   "date": "2026-10-16T07:00:00Z",
+   "media": "Proskauer Rose LLP",
+   "new": true,
+   "alert": null,
+   "title_ko": "녹색 주장, 실질적인 결과: EU의 새로운 Greenwashing 규정이 기업에 미치는 영향"
   },
   {
    "tag": "그린워싱·표시",
@@ -1756,7 +1946,7 @@
    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1LVjFmcVNwUVBxNWRZMlJfMFNLaHhwNWlvQWxtZlFsVkVXcDREWFA1aThVeWhKVS1KR3p5cHJQLWY2T2tIblZ4V2wxNUR1OF90MGdSUHE5MDJYdGxyNVJCa3B5ajBBdkVHWlpRdUlB?oc=5",
    "date": "2026-10-13T06:19:33Z",
    "media": "European Commission",
-   "new": true,
+   "new": false,
    "alert": null,
    "title_ko": "뉴스 알림 - 지속가능한 금융 공개에 대한 위원회 협의"
   },
@@ -1916,7 +2106,7 @@
    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOemFBMWJ3VXZRWUZNcUNNRzhvREhPek9ER04tUzFmLWVsMFBfd0d3U1hSZExKNnZHTGNEcnNYVk1Rb25icEl3ckZqckE2aDdoQm05Zzh3T09HSnpoYndfcTlSWXhIZnJWRVBTYjlfRFFhU1hKT3RqNllxc3BhMGtqX1BJYjJJcWJzTG5wcUFfaldacS1ZY0F3QVFVVTNwX2c?oc=5",
    "date": "2026-10-09T07:00:00Z",
    "media": "Freshfields",
-   "new": true,
+   "new": false,
    "alert": null,
    "title_ko": "ESG 통찰력 - 2026년 10월"
   },
@@ -2009,6 +2199,16 @@
    "new": false,
    "alert": null,
    "title_ko": "EU, 간소화된 ESRS 및 새로운 자발적 보고 표준 확정"
+  },
+  {
+   "tag": "배터리 규정",
+   "title": "Trust by click: TÜV SÜD introduces a certification mark for the Digital Battery Passport",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQVDY0aXBnRTRSb0EtcHQ4YmhpZXNTbUFpT2VpeUxKbENkdVNGOWdOTV9DSU8wdjJtZ3BxZ1JFMmNTU0RMRmRnZUs4bWlfNnhtcnQzMGZPNWJ6Zi03ZUwwZGFsWG5heGpJai1qTFNhMGJGTGJveHZFbFNIdE1QSktWN001LXFnd2tlc01RYU9zMGw?oc=5",
+   "date": "2026-10-08T07:00:00Z",
+   "media": "TÜV SÜD",
+   "new": true,
+   "alert": null,
+   "title_ko": "클릭을 통한 신뢰: TÜV SÜD는 Digital Battery Passport에 대한 인증 마크를 도입했습니다."
   },
   {
    "tag": "배터리 규정",
@@ -2179,6 +2379,16 @@
    "new": false,
    "alert": null,
    "title_ko": "Pharma는 이미 디지털 제품 여권이 원하는 데이터 기반을 갖추고 있습니다."
+  },
+  {
+   "tag": "EUDR 산림전용",
+   "title": "Regulation on Deforestation-free products",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOLThxZ1BQcTd3ZF9Lb2VlSmRHRnRBNndjbWgzWUhmMmZ5LW9HRE5meElUTy04OG5wSDJFZnotSjgxR1doLU5zM0pjRlRHODdzR1owd3c3ek1ZQkhtSXEtcUNvUFN2S0JnN01iVy1pMndQMTE5MFNqSkx3b2FEaVZLRkgwMzhSUUlJbFh0S1BDc1J2UTNYN1g5bzZDQi0?oc=5",
+   "date": "2026-10-06T07:00:00Z",
+   "media": "Skogsstyrelsen",
+   "new": true,
+   "alert": null,
+   "title_ko": "산림전용 없는 제품에 대한 규제"
   },
   {
    "tag": "배터리 규정",
@@ -2751,16 +2961,6 @@
    "title_ko": "EU의 업데이트된 그린워싱 방지법에 대해 알아야 할 사항"
   },
   {
-   "tag": "배터리 규정",
-   "title": "Battery Passport Market Size, Share | Forecast Report [2034]",
-   "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5tM3JGWFlBNDh0VzM3aW5xbkNhV204VU91cEtKbXp3NXE5TjNOVkliVlFZd0NkNmJtSF9TSG85dVd6TWhNMHFYUFJLOURNNEdYazZRQ0NaRFh3TTFvVGdOcFB0WkFWSFBnVlYyZUdLSzZZOXVjVnNLakF3?oc=5",
-   "date": "2026-09-28T07:00:00Z",
-   "media": "Fortune Business Insights",
-   "new": false,
-   "alert": null,
-   "title_ko": "배터리 여권 시장 규모, 점유율 | 예측 보고서 [2034]"
-  },
-  {
    "tag": "SFDR 공시",
    "title": "SFDR 2.0: what the new fund categories mean for selectors",
    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNdkh0WFJOUUJSUWZITHFwSEdqTUZ1Wk1vVTNOSUVkLVNBTWEyUVNERnZ1eTVWVlpOckFJWkwxbm9kTnh0M3VsNGh0dXJQaFpkMklla1hXckRPYTFWeFo1Y0hLaVRtZUdqUFRycWxYbHdRVUVNUmhZSnFoWWJraW1Gai12Q1c?oc=5",
@@ -3089,6 +3289,16 @@
    "new": false,
    "alert": null,
    "title_ko": "EU, 공식 저널에 최종 개정된 유럽 지속가능성 보고 표준 발표"
+  },
+  {
+   "tag": "CSRD·ESRS 보고",
+   "title": "ESRS-40a; shaping the future of CSRD reporting for Non-EU Groups",
+   "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNY0FwWTN6bDBveVlRWkEybFRuWVFIMDNVVXlMLUxLMDZlWFd4M0p0U01hZUpSWnN2aGhtVVIwZHB3bkhuZy1jZno1NVFIQVExM1ZRSnl3TEVyQ1RwWnZqdXcwRUhUTXVpekJVZndJQjBIOVA2OEdWOGZUWHl5WXRlejNXNkZkLUk0Wno2UDJKRm84WVdKdFRuaV9lTHhxd2NDaUNWbWZsSmtPVzNRanJPNklKcW1BSmV2VlhwX2cwdGQzdnVMS2tRYVhQMzJDdXFFaUJUdC1OYm1OZk5Rb3RBNkJWVG0?oc=5",
+   "date": "2026-09-22T07:00:00Z",
+   "media": "BDO UK",
+   "new": true,
+   "alert": null,
+   "title_ko": "ESRS-40a; 비 EU 그룹을 위한 CSRD 보고의 미래 형성"
   },
   {
    "tag": "그린워싱·표시",
@@ -3831,6 +4041,16 @@
    "title_ko": "누출 - 위원회가 재생 에너지 지침을 개정하려는 방법"
   },
   {
+   "tag": "그린워싱·표시",
+   "title": "ESG Quick Guide: EU greenwashing rules: Empowering Consumers for the Green Transition Directive (EmpCo) - Linklaters",
+   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNaDRVcHp1SGpDTzJ6RlBQdGg3aVhCSkF4RjVsSEJIV1ZiRlZlMUJ0Qm9aZ2FqYW1OQmpGTTBuZXVYc1paQUdjb0treFdFdlp0ZXh6d3NKWHhFRW5KdzZ6VDFWeUVsU05fOHlTZzFKczJ1ekZtXzJtSVVpWW5ZUUNaUU8yaElkZTdWeFloWHpzNWlfdThTQXA1aVdiTWhadEtaYkt1T1hKQThrOUdQMFQ5M3RyVl9pSUNOdUhQcnhVcE9iUUhxVmdZdGlid2tYdXc?oc=5",
+   "date": "2026-09-08T07:00:00Z",
+   "media": "Sustainable Futures",
+   "new": false,
+   "alert": null,
+   "title_ko": "ESG 퀵 가이드: EU 그린워싱 규칙: 녹색 전환 지침(EmpCo)에 대한 소비자 역량 강화 - Linklaters"
+  },
+  {
    "tag": "강제노동",
    "title": "Update on the EU Forced Labour Regulation: What the European Commission’s New Guidelines Mean for Companies",
    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQOWh2OUQzQWR2Vmw2aV85d1BaWkZ6eUtXMm94QUhzMmFpTTl1LVVDMER4OHd1cGRiN01MRnhsd2dBdXJObU9qYzB5VnQ5MlhfdHRWOHdKZ200MThQZGEtTDM1ZERETFNiTnF5SFhLMXUwdk56aE5UU3FvRTZkWGxHdUJVR3pselJHdHIwc2l5MnppcU5GZHVTN180NFMzRGhKYzZhcG9NaDZJMmFvRjF3TEhmY0FLQ3N6bEt4TEU4VWc?oc=5",
@@ -3839,16 +4059,6 @@
    "new": false,
    "alert": null,
    "title_ko": "EU 강제노동 규정 업데이트: EU 집행위의 새로운 지침이 기업에 미치는 영향"
-  },
-  {
-   "tag": "그린워싱·표시",
-   "title": "ESG Quick Guide: EU greenwashing rules: Empowering Consumers for the Green Transition Directive (EmpCo)",
-   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNaDRVcHp1SGpDTzJ6RlBQdGg3aVhCSkF4RjVsSEJIV1ZiRlZlMUJ0Qm9aZ2FqYW1OQmpGTTBuZXVYc1paQUdjb0treFdFdlp0ZXh6d3NKWHhFRW5KdzZ6VDFWeUVsU05fOHlTZzFKczJ1ekZtXzJtSVVpWW5ZUUNaUU8yaElkZTdWeFloWHpzNWlfdThTQXA1aVdiTWhadEtaYkt1T1hKQThrOUdQMFQ5M3RyVl9pSUNOdUhQcnhVcE9iUUhxVmdZdGlid2tYdXc?oc=5",
-   "date": "2026-09-08T07:00:00Z",
-   "media": "Linklaters",
-   "new": false,
-   "alert": null,
-   "title_ko": "ESG 퀵 가이드: EU 그린워싱 규칙: 소비자에게 녹색 전환 지침(EmpCo)에 대한 권한 부여"
   },
   {
    "tag": "CSRD·ESRS 보고",
@@ -5081,16 +5291,6 @@
    "title_ko": "Siemens Digital Product Passport로 투명성 강화"
   },
   {
-   "tag": "ESPR 에코디자인",
-   "title": "Digital Product Passport: Transforming Cross-Border Trade",
-   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOaDRsRVgxMDdBUnFKQXI5N1lib2JCQzgzaTRMOWdSbGR4UGdTUHktQ0I0SWpsLUs2eVVIZVpQY2FoMnplNVZ2WDNHWUlWMmpGUUxKRFNSRDhlWG5BWG5YZTA4UVdxTXpKeGJrVHAwcEFNclBoOWhzUEdDUy0xekRkeTBuU3BlS2JoQkFkeXZnUFpOSGh4VjJF?oc=5",
-   "date": "2026-08-17T13:24:07Z",
-   "media": "ESCAP",
-   "new": false,
-   "alert": null,
-   "title_ko": "디지털 제품 여권: 국경 간 무역을 변화시키다"
-  },
-  {
    "tag": "배터리 규정",
    "title": "Empowering Transparency with Siemens Digital Product Passport",
    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPX1RKVUFVVVZaeElrM3YxdHBuYnBNRFNhOVZXM1lFbWJxZ2FfRldCcHgzR2ZfZ2EyY2R0S2Y2b1dOM1Z1NWVQMjM2N2l4TDloclUySVAwN2tkVU1tTmxzZm1rSXN1eGZ5RGp5c2U5QjhwZUNIRC1id2JjRGk3b2ZwYnJB?oc=5",
@@ -5395,7 +5595,7 @@
    "title": "Day 1 of the PPWR is Here; Five Recommended Near-term Compliance Program Enhancements",
    "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxONzNzYUw1OGFmQVZjTlJRcm5VVjRZa2Z3Sl9PQURGRTQtU2ptd0ZadVZiN3B0VHRBNUs1MzhzbXFLS1JDZzlORkFuYXc4UGgxS2dwRnk2bkwtb0RTUFhNY3JraFZWQVh3VHBFZVpFTmhReGd2bzFnUk8tdEFVSG1sS2FJcVNORHpsSlMwU3JGalhhdEdtcFpUcXhVYko5TDlLazJEbjh2TVMxZk1rQUhDTXl0Z1p0UFhETGc3XzdpUzc0MlZzUlNNYmxteFVHeG1wN21OYjBTR1dzUHRNbnc?oc=5",
    "date": "2026-08-12T07:00:00Z",
-   "media": "Ropes & Gray LLP",
+   "media": "Ropes & Gray",
    "new": false,
    "alert": null,
    "title_ko": "PPWR의 1일차가 시작되었습니다. 5가지 권장 단기 규정 준수 프로그램 개선 사항"
@@ -5491,16 +5691,6 @@
    "title_ko": "포장에 관한 새로운 EU 규정이 적용됩니다 - https://environment.ec.europa.eu/index_en"
   },
   {
-   "tag": "CSRD·ESRS 보고",
-   "title": "EU sustainability reporting for non-EU companies",
-   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9QZFZvN0R0MXVpVUhFVjV5bk91aEhrS3RvQktreUdJUnh1RGhINlVueXFqaXhzQWtSaWlYX3FlTW8zS0MwR2RVVWw1N3FwalBsNk5BOW9YQVNKazJGa0JfSk5hVHhJcjk4UExMZmVjTEhURFBJX2ZJaXR3dmg?oc=5",
-   "date": "2026-08-11T07:00:00Z",
-   "media": "kpmg.com",
-   "new": false,
-   "alert": null,
-   "title_ko": "비EU 기업을 위한 EU 지속가능성 보고"
-  },
-  {
    "tag": "SFDR 공시",
    "title": "What Is SFDR? A Guide to ESG Due Diligence for Real Estate Investors",
    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOWGhSWVlKTi1majduVFEyLUszb0R0ekNIQzVRWkRvZ0R4OEJRdVVyZmt2ZWN0SFhKRVpHZjlPNlhRZlZMWFBrb0M4dW5nYzM1VWZ0ZXJMQ2ZpS09GWEpxc0stc01sV3pzc0NGWEJTZEh5Nk9QMHI2YzJUT0ZuZXdhVVJKQWpEZ0JtTktoT0JweFFrWF9fWE9TTmVUc3FPY0ZLei12MDlQM2lYMjdEakNtNUVLZ01vUWV5RVo0bEZuSQ?oc=5",
@@ -5562,6 +5752,16 @@
   },
   {
    "tag": "배터리 규정",
+   "title": "DENSO and TÜV Rheinland Japan Jointly Publish White Paper Supporting Battery Passport Implementation",
+   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE56RWp5cmZKMTBvcjhVNzJTWDZsdnhJMmJYYnV6YjU3WjFmdk16clVFSlhXQnVSbGd0MzFmeGZyM1RJMVBrUjd2RUZzNWdvMURkTjZCS21VamtvbUhYN0djM3I1ZC1ranNfSjFQNV9UdXEzUQ?oc=5",
+   "date": "2026-08-07T07:00:00Z",
+   "media": "DENSO Global",
+   "new": false,
+   "alert": null,
+   "title_ko": "DENSO와 TÜV Rheinland Japan, 배터리 패스포트 구현을 지원하는 백서 공동 발행"
+  },
+  {
+   "tag": "배터리 규정",
    "title": "Denso, TÜV Rheinland Japan publish EU battery passport white paper",
    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNcjhtdnJka2plbTh2X0JWcWpzUnZUOFAyV0Q3SDBYd0M3U1UwSjQyOXV6TXJWSVRZTEs3V05qYl9STmd6eXFKX1VyQkZON1JwZHpTaGJ0OFZSdkhCTWpYNVhFSzhTQ05VaG91ZVhZRVNZVXNNY3ZtYmg3QzBOeVJQOVN6VlNLTFdja1M5MVo3OGlUTzB4MTFfcUY4NA?oc=5",
    "date": "2026-08-07T07:00:00Z",
@@ -5599,16 +5799,6 @@
    "new": false,
    "alert": null,
    "title_ko": "배터리 패스포트 시장 규모, 점유율, 분석, 보고서(2035년)"
-  },
-  {
-   "tag": "배터리 규정",
-   "title": "DENSO and TÜV Rheinland Japan Jointly Publish White Paper Supporting Battery Passport Implementation",
-   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE56RWp5cmZKMTBvcjhVNzJTWDZsdnhJMmJYYnV6YjU3WjFmdk16clVFSlhXQnVSbGd0MzFmeGZyM1RJMVBrUjd2RUZzNWdvMURkTjZCS21VamtvbUhYN0djM3I1ZC1ranNfSjFQNV9UdXEzUQ?oc=5",
-   "date": "2026-08-07T07:00:00Z",
-   "media": "DENSO Global",
-   "new": false,
-   "alert": null,
-   "title_ko": "DENSO와 TÜV Rheinland Japan, 배터리 패스포트 구현을 지원하는 백서 공동 발행"
   },
   {
    "tag": "CSDDD 공급망실사",
@@ -5901,6 +6091,16 @@
    "title_ko": "기업 지속가능성 실사"
   },
   {
+   "tag": "ESPR 에코디자인",
+   "title": "Digital Product Passport registry is live: how can we get the best from this new innovation?",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNdzVoVzBuX25LNzZSSUhCS1FwQ1ZxMDY1QTI2UUkwVFBTMmIxTmF0NXdGVEttNHdOYm9qNmhxVEhXX3UwUWFwbmFqeG1yNDJrZ0hVY3Z0bmJ5dk5ZTnc0UlhhdUs3T2dQb0ljMXNMaEtjR2l6cW44QWVRektrc191akpTNG5QTWJrQWtvWVlEY1BiN0lNRkhib0pNWmNQd0hRXzNZeVNKWUR2bUJZbktDeFhpQkV1ZGdad1JTN053?oc=5",
+   "date": "2026-07-28T07:00:00Z",
+   "media": "Euroconsumers",
+   "new": true,
+   "alert": null,
+   "title_ko": "디지털 제품 여권 등록이 활성화되었습니다. 이 새로운 혁신을 어떻게 최대한 활용할 수 있습니까?"
+  },
+  {
    "tag": "CSDDD 공급망실사",
    "title": "Implementing the European Union Due Diligence Directive: The real cost of low ambition is human rights abuses - Fédération internationale pour les droits humains",
    "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPbmFNUUNqQ0Z3N1VnOXRsbUpQdXk4QVo2VGZzR2VyR0tMNEhKQ3ZpNEYtc2IzZUhJOGUwNUR2bXQ5cFlmWktFU2IyZDI5NG16alMzTEUyeXJTY1Z1U3RqVFhrMy1Fc3k3TUpPd0NjUnp5b3RVcFEtc2FObHdJRmYtdlJXVWJUYnhVbDMyeW5VVmg1ZWZUR1I5S2drRENHNUxNYXFqcjZhYmVpTHdVOTRUcTdPS0VPLWVVcDA4X1ZudnNsUnI5amxZUG5KYVMyVUpDU2toaXEtQ2k5dDJidXc3UHR3QzhOZ3ppbmtwTkpkWXE?oc=5",
@@ -5909,6 +6109,16 @@
    "new": false,
    "alert": null,
    "title_ko": "EU 실사 지침 이행: 낮은 야망의 실제 비용은 인권 침해입니다 - 국제인권연맹(International Federation for Human Rights)"
+  },
+  {
+   "tag": "CSRD·ESRS 보고",
+   "title": "EU sustainability reporting for non-EU companies",
+   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9QZFZvN0R0MXVpVUhFVjV5bk91aEhrS3RvQktreUdJUnh1RGhINlVueXFqaXhzQWtSaWlYX3FlTW8zS0MwR2RVVWw1N3FwalBsNk5BOW9YQVNKazJGa0JfSk5hVHhJcjk4UExMZmVjTEhURFBJX2ZJaXR3dmg?oc=5",
+   "date": "2026-07-27T17:04:58Z",
+   "media": "kpmg.com",
+   "new": false,
+   "alert": null,
+   "title_ko": "비EU 기업을 위한 EU 지속가능성 보고"
   },
   {
    "tag": "ESPR 에코디자인",
@@ -5939,6 +6149,16 @@
    "new": false,
    "alert": null,
    "title_ko": "EU의 배터리 여권 2027: 공급망이 제공해야 하는 데이터"
+  },
+  {
+   "tag": "PPWR 포장재",
+   "title": "EU Packaging Regulations (PPWR) 2026: A Guide for HK Businesses Shipping to the EU",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZGo4R3Q0TzdGNGxKc3J4Sk4zT3loQzgxeTl2ZWU5eV9nUEh3Q25xWkwxTXRuMTFjWkt6bExaR2J3VGhRa1I0d1dHMGY5TGRLZjh4MUpXTnVFcFhvUDlDT1JaRHFlMGFXNFU3Y0EzX0dXQzRlcERNWFVJR1J1czl3elhDckJaS3d4N3g5dWdQRG5mb3lTWUxyWFBseFU1Zw?oc=5",
+   "date": "2026-07-26T07:00:00Z",
+   "media": "DHL",
+   "new": true,
+   "alert": null,
+   "title_ko": "EU 포장 규정(PPWR) 2026: EU로 배송하는 홍콩 기업을 위한 가이드"
   },
   {
    "tag": "강제노동",
@@ -6081,6 +6301,16 @@
    "title_ko": "CBAM: 기업이 규정 준수부터 가치 창출까지 구축할 수 있는 방법"
   },
   {
+   "tag": "CSRD·ESRS 보고",
+   "title": "EU adopts simplified ESRS and sustainability reporting standard for voluntary use",
+   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPbWtwUEl3SjFyd2JHZE9xYlRFb1diZ1R1czRIYnVtOVBDX1ZMTURNOFZwWkN6S0NWdnNxQlZFRXNXMlhjRTZfZHZvZGN4aVRpMUI0N19vek0ySl8yRl9sYndIdmRPN0MzM0UyYzJseWhvcWhLMUs1ZWRRQzVkSFNGWDBfZTVvVE1ZNGdMZkJ4TzBvRDI1WXhfUG8zWFZlR0FUNkRUT2pJT1JaZlFTZ0J2bmU4Rld5cGtUZzZncmwwT3dxZEk2QUtVVg?oc=5",
+   "date": "2026-07-20T07:00:00Z",
+   "media": "Ashurst Perkins Coie",
+   "new": true,
+   "alert": null,
+   "title_ko": "EU는 자발적 사용을 위해 단순화된 ESRS 및 지속가능성 보고 표준을 채택합니다."
+  },
+  {
    "tag": "배터리 규정",
    "title": "Battery Passport 2027: the EU Data Rule that Reaches into U.S. Storage Supply Chains",
    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQeE54dE5SdUctaGJKdmtXSW9mRUZ2ZV9STW9KODhLNE5ZQ1E3bkk3UkY2bzZHVm1qWGhFdnlUeUo2b1JTQlpERTJuMTJ1cW4tZU43UDBOWFR4UlRiZXA5a1NTNDBpVi1vTHl4SnJkTXJOaDVrbjkwWnhmNFVpN2JOdGxfRGc4ZVBoalhwZGxuRm1YNUtPTXNxbnVUZ1Q2SElUc2xlLWd6NTBPaFpPNlFnSTVpaXM4MzRl?oc=5",
@@ -6131,6 +6361,16 @@
    "title_ko": "CBAM을 다운스트림 제품으로 확장하면 기후 정책 도구로서의 신뢰성이 훼손될 위험이 있습니다."
   },
   {
+   "tag": "재생에너지 RED",
+   "title": "Enabling framework for renewables",
+   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQVnNTRy1DQ2tVdlZ5OVVMYk9zYUxHR3JUUWd5RWdvSnZGd2ltRVd6dXlPcVN2VFhzU18xcGdmLVJPek0yd3o0enk3RFdLNU8wemk5cXA4R2szUlk2SWtDM2xKbU1veFRiNXZ6czBjMFhDVXZYXzAyci1GOFJLZmNCRmZNQ3lGUTF4VUg2RHo3aHl2TVlQWmxtMHJvUnNyYzhTc05RYmYzNFZQeGFGLXVRZWNQWFY4TjBJZlI0SUhJM3V4Z1RpUzRmODNmaw?oc=5",
+   "date": "2026-07-17T07:00:00Z",
+   "media": "Energy",
+   "new": false,
+   "alert": null,
+   "title_ko": "재생 에너지를 위한 프레임워크 활성화"
+  },
+  {
    "tag": "ESPR 에코디자인",
    "title": "Ban on destruction of unsold clothes and shoes enters into application - https://environment.ec.europa.eu/index_en",
    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNeUxQMXRJWlJCZTVINTlwT04zdGJqbkVHSG43cUZqTlBGWExydzFFRVU2T2hLUF91d1RwRUs1d2VYSC1WTXpiQk5sd1lNclRycFlHbEdHV05xZ21aa2d1UnQtZkZRcEFNaGNjODAxX2dRZW42MXlHZS1BWEI5U2xyaVdQUVFhN0k4TmxYRjhsMURjUVRLLTVCS0MzWk4tQ2R5Q3ZtVy15aVh1TDBhWGp4dw?oc=5",
@@ -6139,16 +6379,6 @@
    "new": false,
    "alert": null,
    "title_ko": "팔리지 않은 옷과 신발 파기 금지 신청 - https://environment.ec.europa.eu/index_en"
-  },
-  {
-   "tag": "재생에너지 RED",
-   "title": "Enabling framework for renewables",
-   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQVnNTRy1DQ2tVdlZ5OVVMYk9zYUxHR3JUUWd5RWdvSnZGd2ltRVd6dXlPcVN2VFhzU18xcGdmLVJPek0yd3o0enk3RFdLNU8wemk5cXA4R2szUlk2SWtDM2xKbU1veFRiNXZ6czBjMFhDVXZYXzAyci1GOFJLZmNCRmZNQ3lGUTF4VUg2RHo3aHl2TVlQWmxtMHJvUnNyYzhTc05RYmYzNFZQeGFGLXVRZWNQWFY4TjBJZlI0SUhJM3V4Z1RpUzRmODNmaw?oc=5",
-   "date": "2026-07-17T07:00:00Z",
-   "media": "Energy",
-   "new": true,
-   "alert": null,
-   "title_ko": "재생 에너지를 위한 프레임워크 활성화"
   },
   {
    "tag": "재생에너지 RED",
@@ -6192,13 +6422,13 @@
   },
   {
    "tag": "EUDR 산림전용",
-   "title": "EU Deforestation Regulation: Commission adopts Delegated Act on product scope and Implementing Act on the Information System - Linklaters",
+   "title": "EU Deforestation Regulation: Commission adopts Delegated Act on product scope and Implementing Act on the Information System",
    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQWXJ6SWkzVGFsX0NtX0ZrZWNkbTJ6eHdrTkJndm5RRUVSLWJ2VGN1STMwT2d3NGk3Wmd4U181RERfTVRocUhWN3JEVTQwOG1ob0hDanBmd1JtdTVkeE0xMzU0U0VpRFdHaHNPV0wzVlZ2dXZ2bWJ1aUROZ1FaeEpNTlpobktOZV8ybWNUaFhqNmZZRG5mYW9sekJKVHdSdG1iTld5LXZfcncxVWt2T29UOXczMy00dDZrXy1oM0J6T3FTVkZYcGZzTTlvX3JWNE9h?oc=5",
    "date": "2026-07-15T07:00:00Z",
-   "media": "Sustainable Futures",
+   "media": "Linklaters",
    "new": false,
    "alert": null,
-   "title_ko": "EU 산림전용 규제: 위원회, 제품 범위에 관한 위임법 및 정보 시스템 시행법 채택 - Linklaters"
+   "title_ko": "EU 산림전용 규제: 위원회는 제품 범위에 관한 위임법 및 정보 시스템 시행법을 채택했습니다."
   },
   {
    "tag": "그린워싱·표시",
@@ -6241,16 +6471,6 @@
    "alert": null
   },
   {
-   "tag": "EUDR 산림전용",
-   "title": "Commission updates product scope and digital tools to support implementation of EU Deforestation Regulation - https://environment.ec.europa.eu/index_en",
-   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQWpiVVpJWFZPeGNRTnhQc0FWbnV3QVJoRGJ1ZXpXdzhHZWJ1NzZmejBveHNZNHpCb2RuczZ3NlRnakRwS3RkS3JpMkVkRWp2X0Iwcnhtc1ZsaHQtYjczTXpmS0pVTFlzaTFVYl9NLTAtYkpMOGl5dUJ5ejBYX3k2YmVsZ2c0YjRjSGs1U1hwMVVySmlDQ1hBM181V1lkdm5hS2hnNGJ1ckY0cXc?oc=5",
-   "date": "2026-07-13T07:00:00Z",
-   "media": "",
-   "new": false,
-   "alert": null,
-   "title_ko": "위원회는 EU 산림전용 규정 시행을 지원하기 위해 제품 범위와 디지털 도구를 업데이트합니다 - https://environment.ec.europa.eu/index_en"
-  },
-  {
    "tag": "CSRD·ESRS 보고",
    "title": "European Commission Adopts Revised European Sustainability Reporting Standards",
    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOMHZtaFppZEdRWGtVM05qbGdEOUxURkxuTWxCV3NweDVZSUJQbi1aTGRhN3NidHNWcURLclg0c01hSk1QWW9lbmZBNk1uRnhtbmlxalRDZnRkWUNESi1mRC1XdFdvVTN0MWU0N2xEa1ExeEZPVWN4SUJhd0RGZzBMR3FvT2Nja1VwOWNlX2VSaEZYYWRVZUJac3ZPUXJGbE9rWUlSWmJCd0VyWHhXbk9ZNzlfdnl5VktTZUg0Z01UczZCbTNPd1RxTHlleXNsQ1paNFdiaw?oc=5",
@@ -6265,10 +6485,20 @@
    "title": "EU Deforestation Regulation Delegated and Implementing Acts Adopted – Compliance Begins December 30",
    "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNWDBvS09BbTh5X09leEI1X0s1WlZkdWs5UERsSEFXNnp1cmFKVElNZHY1N1NPQzUwSzBQaWFEME5UOVBOSmZDOW9hWnVCRDBGekVHMENLMDBnXzNlSzc5VzFEZEd2c1BDcjdXWjNEZ2h0bk1jc3ZnTF80LWdENFpMZnI0TC1XaGpHWUo5WjZtdlJzaFNXbkZNOEpIQkJpQlA4cGx1X1dLNU1Hemc2OE0wNFdpRW52YTNnMFJsYzNtZkZPSFJYLVliRTExekJUZmRCSDVzX0lqSXBsUmc?oc=5",
    "date": "2026-07-13T07:00:00Z",
-   "media": "Ropes & Gray LLP",
+   "media": "Ropes & Gray",
    "new": false,
    "alert": null,
    "title_ko": "EU 산림전용 규정 위임 및 시행 법안 채택 – 12월 30일부터 준수 시작"
+  },
+  {
+   "tag": "EUDR 산림전용",
+   "title": "Commission updates product scope and digital tools to support implementation of EU Deforestation Regulation - https://environment.ec.europa.eu/index_en",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQWpiVVpJWFZPeGNRTnhQc0FWbnV3QVJoRGJ1ZXpXdzhHZWJ1NzZmejBveHNZNHpCb2RuczZ3NlRnakRwS3RkS3JpMkVkRWp2X0Iwcnhtc1ZsaHQtYjczTXpmS0pVTFlzaTFVYl9NLTAtYkpMOGl5dUJ5ejBYX3k2YmVsZ2c0YjRjSGs1U1hwMVVySmlDQ1hBM181V1lkdm5hS2hnNGJ1ckY0cXc?oc=5",
+   "date": "2026-07-13T07:00:00Z",
+   "media": "",
+   "new": false,
+   "alert": null,
+   "title_ko": "위원회는 EU 산림전용 규정 시행을 지원하기 위해 제품 범위와 디지털 도구를 업데이트합니다 - https://environment.ec.europa.eu/index_en"
   },
   {
    "tag": "EUDR 산림전용",
@@ -6411,6 +6641,16 @@
    "title_ko": "유럽의 지속가능성 보고: 규정 준수부터 전략까지"
   },
   {
+   "tag": "배터리 규정",
+   "title": "Poweroad receives China’s first pilot Battery Passport from Bureau Veritas",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTE43ZUFMQThxck03UGF3dURTaGxPSGRpcEd0QW9YRm5YSGlVVnJGWTdlcVhUM1E1TTNNWXowX24xWjRwcmYzX1dDV3dBRlpKRU0tamlIWDdPUEJUTnVpbmdqNzBlWlR0eEhvV0VaZ0VEOEF5cTZDT3NfMUxEM3l5TlBUSDFPdkxMRThGUlktcUtYSmt4R3ZGZEdNNE54VW5abEszSnhmV2VIeWhOSDZEbnY4Yw?oc=5",
+   "date": "2026-07-06T07:00:00Z",
+   "media": "pv magazine Global",
+   "new": false,
+   "alert": null,
+   "title_ko": "Poweroad는 Bureau Veritas로부터 중국 최초의 파일럿 배터리 여권을 받았습니다."
+  },
+  {
    "tag": "CSRD·ESRS 보고",
    "title": "European Commission Adopts Finalized Corporate Sustainability Reporting Standards",
    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQYnA5TkdOcDEyMWp3enltTGsxV3RnRWRkVkxpMHNWcG1CTXhMck1uTnlQRlFvbjlYTEk4aW1JR0EwOWM3QXpTUUpEaUdyd2xkUC1HTUVmZi1MLV9jVmNFR0wxNmF4NXRHLVBHNnhYVjJBSS1SSkZDNGVIby01bVk1MU5QZGdTMDdKdkNMeXY1YmJfY01nUU12bHR2cXFWRktlTUd2cVRhOUlqZGs?oc=5",
@@ -6436,7 +6676,7 @@
    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNQnNETGRMZDdQSTZabWZ6cWowek9IYlk5dGJwakVNXzM3UUFoY243bTFaMG9NREM2Z1lHanFrSmxRVHFfVGZPbWtMZmZ5MnBCNE5KbGQtSnFQZmU0S1dtZjRuOXFBZ21QZEM2TGd6SkJOWkhlSzdJNnJ1aUdEZjFaeEkybkZwZzVzd1JHR3dxT3VhVUtpZzlfRDZlYXFWNmxJY3Q5djVFSS1JWWw4SEQ0Q3ZVOExJeU1FYmsw?oc=5",
    "date": "2026-07-03T09:56:24Z",
    "media": "Hogan Lovells Cadwalader",
-   "new": true,
+   "new": false,
    "alert": null,
    "title_ko": "EU 택소노미 및 SFDR 상호 작용의 EU 지속가능한 금융 패키지 및 개발"
   },
@@ -6539,6 +6779,16 @@
    "new": false,
    "alert": null,
    "title_ko": "EU는 '그린워싱' 방지 규정의 조정되고 비용을 고려한 시행을 지지합니다."
+  },
+  {
+   "tag": "EUDR 산림전용",
+   "title": "EU Deforestation Regulation (EUDR) – Impacts for your business",
+   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5kUGp2UXY4WmJrWGFXdzhQb2V1TmNGdFNYdnpzVkxITXdNZEtHRFMxS2Izb1cyQ1h4cm55ekdmM0JoYzlxbWdobHA1bXNrUGZFZzF2Yi1DR18xS2lqVnVvX2lsUTRpLUtoTnN0cDU1SjN6MzdZQS02VHNSc2wwdw?oc=5",
+   "date": "2026-06-30T07:00:00Z",
+   "media": "kpmg.com",
+   "new": true,
+   "alert": null,
+   "title_ko": "EU 산림전용 규정(EUDR) – 귀하의 비즈니스에 미치는 영향"
   },
   {
    "tag": "EUDR 산림전용",
@@ -7016,7 +7266,7 @@
    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOQzRmV24tT1V0Mk9nRUxuMndya1JiMVJuZjRka1Q0MlN3Tk00MFNqbU1OUDNKNXZOMG5iVVNDR0U3NkV1Z1ltOG1JbFhWVmN4aFo0Yk5wcEJnNF9DUmRfUHZBeHp3YlA4bE1xdjFqNkpiQ3M3WC1sUUhqZTZjVnI2S09uYTNkZEdhanFvb0lFdEJXRUMzS0JhMTE5ZWxXQQ?oc=5",
    "date": "2026-05-15T07:00:00Z",
    "media": "Fieldfisher",
-   "new": true,
+   "new": false,
    "alert": null,
    "title_ko": "EU 디지털 제품 여권(DPP)"
   },
@@ -7052,13 +7302,13 @@
   },
   {
    "tag": "CSDDD 공급망실사",
-   "title": "EU Corporate Sustainability Due Diligence Directive: impact of CSDDD on non-EU companies",
+   "title": "EU Corporate Sustainability Due Diligence Directive: impact of CSDDD on non-EU companies - Linklaters",
    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOczZnVEVrOW9qdDA4SXBETEdXcHQyNWF6U2h5VnNfdU9Sa01JYWVza2J3WUJ1Nm53ZU5OMVZ3aTBRZFYtRXBycWM5WWxVRVZtY3VqaEtOVDFHTHpfcXozcnNzMGlfRGhrRVJZWHo0aTZjdXhZWjF0TExScEYwZGJKbVd6OE1WTFotZkZYUEdrc0JuUi1MbUctNklzQnh2VkZmdzhYZERZVDBKRHlkZ3Bndjg0VTlMNl9BbWl2WGkzbEk2cTBTckV5d1VQRzBqclBy?oc=5",
    "date": "2026-05-12T07:00:00Z",
-   "media": "Linklaters",
+   "media": "Sustainable Futures",
    "new": false,
    "alert": null,
-   "title_ko": "EU 기업 지속가능성 실사 지침: CSDDD가 비 EU 기업에 미치는 영향"
+   "title_ko": "EU 기업 지속가능성 실사 지침: CSDDD가 비 EU 기업에 미치는 영향 - Linklaters"
   },
   {
    "tag": "CSDDD 공급망실사",
@@ -7089,6 +7339,16 @@
    "new": false,
    "alert": null,
    "title_ko": "EU 집행위, 새로운 EU 산림전용 규제 조치 발표"
+  },
+  {
+   "tag": "ESPR 에코디자인",
+   "title": "Proposed EU Rules Clarify Operation of Digital Product Passport Registry",
+   "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8wUEFuTldNMU0yRFptOW42YVpDR0hoeFp2clBtdl9SSHBkU2ExRUEwS0xTWENIME1lcUduOWphTVNNM0Y4cUExV2hfOWctNTFOSWdFdTEwVGpDdTctR2ZIT0h3?oc=5",
+   "date": "2026-05-07T07:00:00Z",
+   "media": "HKTDC Research",
+   "new": true,
+   "alert": null,
+   "title_ko": "제안된 EU 규칙은 디지털 제품 여권 레지스트리의 운영을 명확하게 합니다."
   },
   {
    "tag": "ESPR 에코디자인",
@@ -7136,7 +7396,7 @@
    "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxORDlxQl9Xd0ZFeTZlWjdjaWRsMl95MW9qbVBEWnBueGVJYVoxSUEtM0ZhSF9Ba216R2c0VUlISVBodEVVR3ZfaFZtTm9XbXY2MGFCLVRla3pHZThONmM1c2ZpMV85QzFEQ3Y1S1J2QU5vaktsSm1GcnQzc2VSd2Z2dEtlSXN5amtsWk50SlFLVzVoVGY4Vm1rOVdqWmlZbkxkSm9nbEhIMjgwNktTd3Fna3JxLWtwNl9YS3k5NXRqSFMtSHRwbW41QXVGWEtLU2NtQ2xwWHEyd1BYRVNmNWpkcXhTb0J6UkxOSW1zSDAtcmdaWGZreXh0V250RTZVdGs?oc=5",
    "date": "2026-05-04T20:21:33Z",
    "media": "Deloitte",
-   "new": true,
+   "new": false,
    "alert": null,
    "title_ko": "디지털 제품 여권(DPP): 제조, R&D 및 공급망의 투명성과 지속가능성 확보"
   },
@@ -7381,7 +7641,7 @@
    "title_ko": "EU 강제노동 규정: 미국 기업이 알아야 할 사항"
   },
   {
-   "tag": "CSRD·ESRS 보고",
+   "tag": "Omnibus 간소화",
    "title": "EU Sustainability: State of Play — The Conclusion of the Sustainability Omnibus Process",
    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSjdqX1ZBS1FUaDRnbTN0SGp4bUFKNm9yNXREdXRYcWVjdUs0alpMY2hYbjMzaFZpOHFtMXIxNFlRQUJVTkx0YVVCTHFIaU5FMGhyYlNJR3NkbnFaUFN1M2xQTFl1OUxUS3dRRlJUUWgyenhvd2Vyb1NvcnRFR0F2cFgyN3BSM3FRd3JOaHNzMUcyZGI4N3JQUVFpdTB3cG9HSVlQXzFnUWc0MDk0dDkyZzItWHRRZw?oc=5",
    "date": "2026-04-13T07:00:00Z",
@@ -7426,7 +7686,7 @@
    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNaUlydWhhVl9vRy10YXoxRW5nV0VudHptd3VIel8yQUpRUk44SWIxSWdNNVpXQzU3U1kxYWtReUtUSHVwSTNKemdVVDZuWFhHN1ZIcFhUR1BENTZtb1Q2bGQ0dkFCb0ZvakttU0dQYURjSEU1SWZVN2syTjdZZV9xb3IzQk8tQUtlWjFqU0VkVnFBVWZ5cHNaVXNGLXJnbEpNOUJfT21JVnhvRVAzakZ0TUVRX2tQQk1IMXk2X3E2NA?oc=5",
    "date": "2026-04-01T17:16:51Z",
    "media": "kpmg.com",
-   "new": true,
+   "new": false,
    "alert": null,
    "title_ko": "EU 산림전용 금지 규정(EUDR)에 대한 높은 수준의 소개"
   },
@@ -7496,7 +7756,7 @@
    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1jSlk1Vl9zNlVoNXNwWnd6dGUyQXF3QWNMNkNCRk5VaElhdk82R24wdDJkNi1ibVg4WEJ0U29UeTItZjhmdXRMblRCd3FQN1BZQVdhX1ZBQ2VkY2lzVGhjRzNBOG9CNkRxS3hhZURNendISFkyb0N1dXQ2OA?oc=5",
    "date": "2026-03-23T17:48:40Z",
    "media": "StoneX",
-   "new": true,
+   "new": false,
    "alert": null,
    "title_ko": "배터리 여권"
   },
@@ -7556,7 +7816,7 @@
    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQbmNWVl9sZTIxN295bHd4N1gzdll1VTVJMXZXQXpHVmNhZGxDSHJuVVc4SEZkckExWUpsR0RDYmJiVUt3WXJQcGxkbDFMWGt1cnJxd1JzeWpBX1RDTUxyWWhLOVA3TTU1VlcxbzAzVk9KN1RnZ0tqWHYxUnFtcmNhaWctV2d6NWpNNVFWUnNfcHJ0VnNiZS00U0NkTjVaYjNkVnBrdWNqbS1yRERlZHRNZXJ6NEF1d3ZnNUNUc1gzRllRY3NFM282S1ZUbElYUTg?oc=5",
    "date": "2026-03-19T07:00:00Z",
    "media": "ESG Dive",
-   "new": true,
+   "new": false,
    "alert": null,
    "title_ko": "EU 기업들은 CSRD 롤백에도 불구하고 지속가능성 보고를 추구합니다: 보고서"
   },
@@ -7586,7 +7846,7 @@
    "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOdlJXTDdRellEWGYtSmdOdnFXcUZINjdnZ0l4M0Qzd0pGLWZvRHplX1ZkRWNTWWt3VFdfejQ3U3V0ekVOeGNYTmpxU1A2SVVjUk5udTljTlFpMUdOOTVYN0wtQTBfNFZqdmVmVnZuYUt4ZWJEa0hEdy1uY1ZFQWFMaVZXaVdBM01MUFlEVmRtNG4yVXN4aWh3SS1YeXNSSU5zYnRJbENLeEdnTmxJRFN1QmhRSFMtQlpHMkdRT1l1eE8xem5MVmx5Zk92cXg3SVA5Zlg4clJsM1ZvcW5ELWJraVpCZGwwZ1FqNU8tWWE1WDhwaUc1b3lr?oc=5",
    "date": "2026-03-18T07:00:00Z",
    "media": "Norton Rose Fulbright",
-   "new": true,
+   "new": false,
    "alert": null,
    "title_ko": "FAQ: 옴니버스 개정 후의 EU 기업 지속가능성 실사 지침(CS3D)"
   },
@@ -7726,7 +7986,7 @@
    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNSmR4M1RhUmk4eWtKT3JPRmsxOW05Y0pxdFk5M0MwcV9zNDdmX0dyWGhvcnVOOUl1aDhVRy13cGhiNlQ3a1ltNEtST3lqSU9qTmFfaUVDY1RTeV9pM21JTm9lRktZNW9aQjU1MVJMOXIzWmtwUkN2cTYxQ1JIUWFvUHpfSEdqaFVKZkxyOTZ2VU5Za2l5VzdSczJFVQ?oc=5",
    "date": "2026-02-24T20:01:31Z",
    "media": "kpmg.com",
-   "new": true,
+   "new": false,
    "alert": null,
    "title_ko": "KPMG 유럽 디지털 제품 여권 준비 설문조사"
   },
@@ -7741,7 +8001,7 @@
    "title_ko": "EU: 위원회는 CSDDD 및 CSRD에 대한 광범위한 변경 사항을 포함하여 옴니버스 패키지에 대한 최종 승인을 내렸습니다. - business-humanrights.org"
   },
   {
-   "tag": "Omnibus 간소화",
+   "tag": "CSDDD 공급망실사",
    "title": "Omnibus I - the European Union concludes CSDDD and CSRD reforms",
    "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNd1Z3Y0pqT3hJWWZtekp5ZmxWeWhPY3ZCY2x3NVRPYU93ZWFpMU1DSUFHbWZoN0pRUDE2WFVZR20tTnVrTVF1b3FCZUVoOXgweTNteGhjc0NHZjlKTjdVZ05ZUHhPQjhZZ19hUzZ1clJLZ254b240bFo1OUhSVGM3Nl95MGJROU9xdlhJSzhBSklwbFlOWjg5ZVlVYXRrMUdOTU5YV1RZLTFyZWRvZzFEeV9rakRzSGY0elM3YjR4dlNhU0hPTXRtSUR5akw0SENvN3RWcGVvM2g5dW9CVVF0Tm80b3lERWk3SFpwUnFOTUQyUTNKQW1oSQ?oc=5",
    "date": "2026-02-24T08:00:00Z",
@@ -7756,7 +8016,7 @@
    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOaW1ONXBIV3pTZWFiSGd1dGozN3pUZ2ZpRjRUVW81TnMzemJCRmNTeTRSMTZFdWdaeUJQRGhNTkFydVlmME1GWVZtODVKWXZmQUtreG1KZnN3WDVkYmFKZXQ1S2xQcU9OVVNqb2FqTEU3cXdqSHhqc0tFTjVxeTd4eF9hTkNWd2t0TW05bnZMRTJtWmpkU1FubVQ4ZFRpZFFDdGhud3dVQUFTZTZoS1lHcEV2cw?oc=5",
    "date": "2026-02-24T08:00:00Z",
    "media": "Deloitte",
-   "new": true,
+   "new": false,
    "alert": null,
    "title_ko": "SFDR 2.0: 리히텐슈타인과 스위스의 금융 기관에 미치는 영향"
   },
@@ -7826,7 +8086,7 @@
    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNUmhEaDNLaXRsZ0FWSmFVQVMyOFd3TjVoRFAwM1p1cnpBWWMta3lhNTlNdl9nT3ZwTVpiNGtxazZaWURBYzNXSDVjUThIdlhaMEc4WHd0QnJyck5YMTlUaUx4OUZsOG9GeGJLSmFDRGtBLWxZQ05RMXB6cjRjZHQ4VDllSGpSTFZHZW9rcEx4VHZicnoySC1OcFdTZUNDRzFxLXhhdTJPQQ?oc=5",
    "date": "2026-02-05T08:00:00Z",
    "media": "Hydrogen Europe",
-   "new": true,
+   "new": false,
    "alert": null,
    "title_ko": "이탈리아, RED III 법령이 발효됨에 따라 EU 녹색 수소 목표를 법으로 잠김"
   },
@@ -7956,7 +8216,7 @@
    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNeC1VY3ZOOXoxNUl6Vk5oaE5JLWs4R0sxLXVGMnlXZXZmZGNrM0JLTlJGM1BvckJNUHlTREdJUDF4Qmp0ZU83cHdoX0pqZWYyQk1hOEtFT0drTWZwRmh4YlhrcUpicDBEYlVzOE93SUliVkVmU0t5aVNaZWluOU1pSkYzemVOVHRRRlVaMFhhQWFfeVZCTmFDY2t6clRrM1J5SXpsdEdMSm01QQ?oc=5",
    "date": "2025-12-17T08:00:00Z",
    "media": "Proskauer Rose LLP",
-   "new": true,
+   "new": false,
    "alert": null,
    "title_ko": "CSRD는 EU 지속가능성 보고 체제의 대대적인 재조정에 동의했습니다."
   },
@@ -7981,16 +8241,6 @@
    "title_ko": "EU 국회의원, 지속가능성 옴니버스 패키지 승인"
   },
   {
-   "tag": "ELV 폐차·순환",
-   "title": "Circular economy: Council and Parliament strike deal on rules for vehicle circularity and management of end-of-life vehicles",
-   "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPVGJ1NHRPSXlkREk5dFp2UjNHNUhNR3hpZTRjODdCSzNURURxcU0yemNNanZqYm5sLS03ekRNb1NDbXRaMy04b2FfLXBNSi13Nk4zM0JyZDFqYTBGcllzUjJ3eEpxV0p5YlJ4M3JwbndNT25oMGRXdnhJODc1aUVXc3dCUmExQS1BQ0hZcExZdk1rOS1fVmY0THVZenZxZFM4R2x5dkl0RkpFNzR1RHVLUWFMZ21fU1NnaTAtRkZMSVdyLURRRTlkRHo0Z0RwdDBFZUdNNENHQXZxV29VMUJDWUdaMlZWczdfdmlObmpkYUF5SktpcGI2UDBCU2VTY2x5MXVFWlZ0RmxEUE4ydHBoQ3hmQVA0dVFtcl9J?oc=5",
-   "date": "2025-12-12T08:00:00Z",
-   "media": "Council, European Union",
-   "new": false,
-   "alert": null,
-   "title_ko": "순환 경제: 차량 순환 및 수명이 다한 차량 관리에 대한 규칙에 관한 의회와 의회 파업 합의"
-  },
-  {
    "tag": "Omnibus 간소화",
    "title": "Omnibus nears the terminus: Simplification of the EU sustainability framework",
    "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPSUdjN1lwMjlIUW9UQmRPeUlMejhpVXN1cDBmV1ZpOC1DQWhUU0NlYWNwamp3MmxXRk4wVHRvMGtKSVFKdkdHN0pnYWx4aXZkRUxPTlVHNUU4bzdXTk9POUozYUFITWszVGFqNVpxNGM5Mm9Jd015ZFdkMFpsbkRYbmtwMjl6bTZOUkhfQTlnNGJEYmRGZTNNLUpHU29UQXdNVHFTYVNXQV9VdUE5NExvTVowWmNmUksxblhFemxEZUJtWEJzdVp6enVpQ0xmU3hDUEtlZ0oyM3hkb1YxZVIyOGJLYw?oc=5",
@@ -7999,6 +8249,16 @@
    "new": false,
    "alert": null,
    "title_ko": "옴니버스가 종점에 가까워짐: EU 지속가능성 프레임워크 단순화"
+  },
+  {
+   "tag": "ELV 폐차·순환",
+   "title": "Circular economy: Council and Parliament strike deal on rules for vehicle circularity and management of end-of-life vehicles",
+   "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPVGJ1NHRPSXlkREk5dFp2UjNHNUhNR3hpZTRjODdCSzNURURxcU0yemNNanZqYm5sLS03ekRNb1NDbXRaMy04b2FfLXBNSi13Nk4zM0JyZDFqYTBGcllzUjJ3eEpxV0p5YlJ4M3JwbndNT25oMGRXdnhJODc1aUVXc3dCUmExQS1BQ0hZcExZdk1rOS1fVmY0THVZenZxZFM4R2x5dkl0RkpFNzR1RHVLUWFMZ21fU1NnaTAtRkZMSVdyLURRRTlkRHo0Z0RwdDBFZUdNNENHQXZxV29VMUJDWUdaMlZWczdfdmlObmpkYUF5SktpcGI2UDBCU2VTY2x5MXVFWlZ0RmxEUE4ydHBoQ3hmQVA0dVFtcl9J?oc=5",
+   "date": "2025-12-12T08:00:00Z",
+   "media": "Council, European Union",
+   "new": false,
+   "alert": null,
+   "title_ko": "순환 경제: 차량 순환 및 수명이 다한 차량 관리에 대한 규칙에 관한 의회와 의회 파업 합의"
   },
   {
    "tag": "Omnibus 간소화",
@@ -8161,16 +8421,6 @@
    "title_ko": "CSRD/CSDDD \"Omnimess\" 단순화로 또 다른 장애물 제거 - 의회의 10월 8일 합의 살펴보기"
   },
   {
-   "tag": "택소노미",
-   "title": "EU Sustainability: State of Play — Sustainable Finance",
-   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOZXRLVGJpZjNZNV9aNHNMVzdLVFVWNmhMVk15OVR2bHd0QldCMHNzWjJBQl9XSTlLMng4S1BHQmtPUW5qNHBKMTNPV2c1WlVSZmI2X1pLSmk0NmZEMHM0T1RNMkJFdlRGUF9yTnMwb01TMFY5N3VtdEFGR1B4WUJBLXRoRjVUWWhneVE?oc=5",
-   "date": "2025-10-08T07:00:00Z",
-   "media": "Latham & Watkins LLP",
-   "new": true,
-   "alert": null,
-   "title_ko": "EU 지속가능성: 플레이 현황 — 지속가능한 금융"
-  },
-  {
    "tag": "재생에너지 RED",
    "title": "Enforcement and investment: how RED III is shaping the hydrogen market in the EU",
    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNVDY2Z01zWG1yTHduTUl5T0lrQmhDTlppMktScU1rSm9RYm1hWUt4ODdmeEY2YTBKTEJyMmp1QzFTSnc2dW1XM0g2QnphbG5HS09hVHFqUzRVU19IRWZIWE9yQVMyQ1NFNVZzVFItVFJPOGhNOTRIRGVqNmlqcEJCUTRscUQ0eTlNcUtaZGhnTzJEeWc4dGVmZ3hsRnc5YVN1QXQyaVdnQWNGTXpZMFh5Q01CdFhqY1lh?oc=5",
@@ -8179,36 +8429,6 @@
    "new": false,
    "alert": null,
    "title_ko": "집행 및 투자: RED III가 EU의 수소 시장을 형성하는 방법"
-  },
-  {
-   "tag": "재생에너지 RED",
-   "title": "Renewable Energy Directive – Commission guidance on battery-related data sharing",
-   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQbDEwS1cwNVNkZDJqbEp4TUhrTFc4X1hNeVlFZkw0VG05UVV4ODZCRUdFX1BXUnhOOWFVOWdPV3ZZYm9MSXRwVjY3Q0dwbkRVYUgzWlplbTg4NWcxVk5tOVNVMVdtZnlubkttbGpxbzVnMERsTjI0RElYdk1icFlwRUZHZ0hSNkRqcWRmVldqb1BRUVdMMi1vOHY4WF9WQjBKbFA4YXY1M0k3aDRaSHpFZW1JOE5kQ2FqMlY5ODlyYw?oc=5",
-   "date": "2025-07-25T07:00:00Z",
-   "media": "Energy",
-   "new": true,
-   "alert": null,
-   "title_ko": "재생 에너지 지침 – 배터리 관련 데이터 공유에 대한 위원회 지침"
-  },
-  {
-   "tag": "택소노미",
-   "title": "Impact of Omnibus on the EU Taxonomy Regulation",
-   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPeHJlTzd1VHlRdnpORE1HVmtOWjQwYzZ5R0JuTmZ1eTRYS2V5d1JtMnhkaExEZUU5RFRJbmg3cnBsS2R6UDlodG52eHpIRXJvMTlmT0pSa3VKWnBJeUplLUVkX3BZM2JyVTM1LTZkXzJKcDFnLW1qZDh1VFhnTDUyMTE5RjIxNHgzUnlZbUIzS0Y1Mm9MVGxkWDM1VnJmcUx0Rnl0QllrcFBQVkZoX1plUFEwQnFSRkIwS2dkMw?oc=5",
-   "date": "2025-07-24T07:00:00Z",
-   "media": "EY",
-   "new": true,
-   "alert": null,
-   "title_ko": "EU 택소노미 규정에 대한 옴니버스의 영향"
-  },
-  {
-   "tag": "ELV 폐차·순환",
-   "title": "EU accelerates vehicle recycling with new rules on plastics and producer responsibility",
-   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQejM5RC1ycWt1aXNkT0FYSWZVTHNyMzZQQnozZ0gyVGtMWVlCdnlDYzd3cVNsZHpmVndDaFJQU29YWnNHMG5zOTlyQ1h3VEJsTjYyU0tITmVyTVo4ZXZ4czducmo2blBkOEU2cWJQMTBFSjZaWkxONlVadWQwd0pmSmtBendfODNycnBXeDBmYnZxUG9JZFJfMUx3UXhqa3NhdVNF?oc=5",
-   "date": "2025-06-18T07:00:00Z",
-   "media": "Innovation News Network",
-   "new": false,
-   "alert": null,
-   "title_ko": "EU, 플라스틱 및 생산자 책임에 대한 새로운 규정으로 차량 재활용 가속화"
   },
   {
    "tag": "Omnibus 간소화",
@@ -8221,20 +8441,10 @@
    "title_ko": "EU 집행위, CSRD, CSDDD, CBAM 및 택소노미 개정을 포함한 \"옴니버스\" 단순화 패키지 제시"
   },
   {
-   "tag": "택소노미",
-   "title": "How to improve the European Union’s sustainable finance framework",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNbFZtTmZGMGw5eXMwTnlQek1BNmVyNVp6UWt0bC1FeDRTX3VOUm5sYno1VFJMRHBxTW03R3FEZXg0MmVrNlBwa0NkcFIzamJPaTVpZmY3VkhDckdNcDQ2QzgwLUhwUjNQaTRteHZmQjI3OThjLVhqTl9FN0J0LTkzQnlBc2RLTE1sYTdTRlJaTXhNbUU2Qkp3SEV3?oc=5",
-   "date": "2025-02-13T13:32:56Z",
-   "media": "Bruegel",
-   "new": true,
-   "alert": null,
-   "title_ko": "EU의 지속가능한 금융 체계를 개선하는 방법"
-  },
-  {
    "tag": "재생에너지 RED",
    "title": "'Red alert': EU Renewable Energy Directive's third edition rolls out in the Netherlands",
-   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPNHZLWldiRFZiY3pJR29pdlRtekJlTGc0RnM0SUNYUl9qZ2E4WmhKbzJCNTZubXpMcjRnM0VxbHVIQVlldUc5aTh2c0JTLUtiY09TbHZXSHpYUkRha2gxVlVhbW1OTGEwVDRLN1hjLU5oYkF2Umw4V1RtdjNkZm01WFhiaE9PQjMzVWhLQ1M3SEJPSUNFZ0FHeXF5cnUtTllFQWwzMk9rdUxLdnEtVC1FVVN4dU01Zw?oc=5",
-   "date": "2024-10-18T07:00:00Z",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNRldrTE9TNl84V09XS3Y0YWRnaXpfZUtxV082VXFjNXd0MjdCRjlBckxWMzQ5QUM2d2wtV2tLcHRYU29Nai1qbm5VclRuMTVMbVNYSzliOEJnaG9TSkpDdDZfY0lzeWpsZTFVRkdtY090UjJ3SkVRWnRzRl9oa09rSFRiSHBFM05FQndmYzNQMVg1QXpwa1NPdm8xQzJOaXVtYTRlY2MybWhMcTJraW9tRm1SOFVGbWFj?oc=5",
+   "date": "2024-10-21T07:00:00Z",
    "media": "Osborne Clarke",
    "new": true,
    "alert": null,
@@ -8246,7 +8456,7 @@
    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPQWd2YVBaZVZkXzRrZDdGR1BKY0ZqdEFTMXBRUW0tdXZNVmJhOGI1X25NZlk3T250QjJrbjNtUGpmaVV6d2l5YmkyVzVORUFYYmhFVTQ0Tk8yeHhrTURxU1QzSW5hajZWN3NZSWNMbnlEWVVXbHBpVHlMc2tkSlhhZXZlajhOTjZKMm1aMkpaaEwwMW8?oc=5",
    "date": "2024-09-06T13:24:27Z",
    "media": "Hydrogen Europe",
-   "new": true,
+   "new": false,
    "alert": null,
    "title_ko": "수소 유럽"
   },
@@ -8262,6 +8472,16 @@
   },
   {
    "tag": "CSDDD 공급망실사",
+   "title": "What is the Corporate Sustainability Due Diligence Directive (CSDDD)?",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZTVtTk03RkxwYVVBd0lyWEhTc0dzc1BaT3J3WnJobmV6NmNWYlEyN1ZuT2prWXpJTmRkTWFaR01sZ1hZRVNVd2Y3ZVUtMVZmelM1cHJNbm51V2p1SjdrakFsTUNJNVVnU2F0SWJOQXVCNXhYTVpYNGVOZWdUWnRranNHWkJ0SjFzeV9ScWVoWDBsRjVpeTRBZw?oc=5",
+   "date": "2024-07-16T07:00:00Z",
+   "media": "Z2Data",
+   "new": false,
+   "alert": null,
+   "title_ko": "기업 지속가능성 실사 지침(CSDDD)이란 무엇입니까?"
+  },
+  {
+   "tag": "CSDDD 공급망실사",
    "title": "Time to get to know your supply chain: EU adopts Corporate Sustainability Due Diligence Directive",
    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQdzNqLVdab3U2UmY4TnVsN3VDNDNtbWxGYnRSdktWZ2RJWl83UDhQTUpIQ1JkRVc1SjlsR212RGdWb1NOWG5FaEZHaGd3akZRVC1OMndMdG5tdkY3WHdISDhwal96NmpCVlRwdU0zT0xvNXZKd3AzUkQxajMzMmtQd3FrQnVhQ3NSSnVFQ1NFTkx0NkRWNlgzNzJqUjhYWUh5UHA3OG9UN2xISmFCSmxsT2tmRmxia2pFTkZBYg?oc=5",
    "date": "2024-07-05T07:00:00Z",
@@ -8271,74 +8491,14 @@
    "title_ko": "공급망을 알아볼 시간: EU는 기업 지속가능성 실사 지침을 채택합니다."
   },
   {
-   "tag": "CSDDD 공급망실사",
-   "title": "Landmark EU “Corporate Sustainability Due Diligence Directive” Imposing Human Rights and Environmental Due Diligence Obligations on EU and Non-EU Companies Approved by European Parliament",
-   "link": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxPMzBLdFNfMUZpam01TXh2dGd6dzJsdnNjWk5WRk1KSjBLRXJDeGlLaFRySDlTZGNhZ1B0NnhLckdPbVIya2dWUGhrY2ZTSDdUaUZwcVZPOVI2V0FGNFlzNmxjU3BmMVlCaHZONjdGa0FHRVpZOTJUeVJxZG9RREtRcnExY3BMd0xJNDNic3RfNDNUN0s2MGpyOFZuWHU0Tkc4cjFWR1lGem52WGtxZVc1Tnp4aGE0RlIycC1KYWw5MnBDa05laWo3aldBSzZlV0ZDUEVmUlhkUUdLaHRSSkxfcndULW9zNW5CZWZZQlF1QzN5dmRERXR6SXR3ckVRS1lYd21lQzJrZFplYUd2S3NYa2xOYk1iSnBvcnhTUXdXQnZWSUcyeUJRTHBwdnpGNXV1VUZUdGVvUF8?oc=5",
-   "date": "2024-04-30T07:00:00Z",
-   "media": "Gibson Dun…",
-   "new": false,
-   "alert": null,
-   "title_ko": "랜드마크 EU \"기업 지속가능성 실사 지침\"은 유럽 의회에서 승인된 EU 및 비 EU 기업에 인권 및 환경 실사 의무를 부과합니다."
-  },
-  {
-   "tag": "재생에너지 RED",
-   "title": "EU's new RED III legislation significantly raises renewable energy targets for 2030",
-   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPZnNOWWRfQ015TFhfVm5fblloNDJCQkgxWl9SMWNiV3lYZFM4UnBuR2l6WHlnZWVXM3pVbnFuMlU0TDhEMFg5NVNmeTJCVWVNaHdydDdZaWdIanRpaHhRcWpHV3RONUVibVNmX01jeE5nc0ZGRFZsaFFQZkF0NHFmNnVOR0VlTTVEWlBxSUNQVnRQeUtqSWZuMTRWb281Umt1aTRXc3RYaWlyeElxRktPTE5NOTBJSl9x?oc=5",
-   "date": "2023-12-12T08:00:00Z",
-   "media": "Osborne Clarke",
-   "new": true,
-   "alert": null,
-   "title_ko": "EU의 새로운 RED III 법안은 2030년 재생 에너지 목표를 크게 높였습니다."
-  },
-  {
-   "tag": "택소노미",
-   "title": "EU taxonomy: green investments to boost sustainable finance",
-   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPQUpPSll2WVRQVEdQcWtLVTZFU2NyWTBRdmxqS25FTUFpS1B1MGk1ck52VmVQMzFiQlZXRlhlWG5kSFhsbzROejNGLVZ3TWZWN1FiSTBfOTNheGdpTjZCaUVHNDhzVXJqc0o2X0lPRTQ0R29CX0pDMktBdHZUMVRRNUVVTlp1MXdrdXQzQWJCZVFLVjI2em5wMnBMRjZrMU1KNEd4LUVWdnNHZUpLRXlaN1h1bkRlNzJFeWZWeDY2emxHUQ?oc=5",
-   "date": "2023-10-31T07:00:00Z",
-   "media": "European Parliament",
-   "new": true,
-   "alert": null,
-   "title_ko": "EU 택소노미: 지속가능한 금융을 강화하기 위한 녹색 투자"
-  },
-  {
    "tag": "재생에너지 RED",
    "title": "European Renewable Energy Directive (RED III): updated ambitious targets to boost the renewable energy market - Linklaters",
    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOZUNqaU02eEtJU0JCQjBIZmVEX1EwRGZYYmw2WW9KejBqSHZaeGVQeHpENEI2RWZxUjlQdWJoMHZRSS1TU1Zoam5FZ0tkVnlMS05kc0RfR1U0TExnelBfSlRTQ1NON2xsaEtHTFBidjNVeXRrM1gxajdQMDZ4Sjk5MWs2dFlwTzA0SDU0VWx2d3picGoxX1ZqOXhvSlFnME1meEk1NGFEYi1EdHJwcG9mR3BBT1VwNXo3dlNSNy10OUw1RHlNSi15OGIwMkVNZw?oc=5",
    "date": "2023-10-12T07:00:00Z",
    "media": "Sustainable Futures",
-   "new": true,
+   "new": false,
    "alert": null,
    "title_ko": "유럽 ​​재생에너지 지침(RED III): 재생에너지 시장을 활성화하기 위한 야심 찬 목표 업데이트 - Linklaters"
-  },
-  {
-   "tag": "택소노미",
-   "title": "Unpacking the EU Taxonomy’s Do No Significant Harm provision",
-   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNcV9qRnUxU1JMSmJERDZUMWlFZEZ3allmSm1ZaGpRcHdXUl9yb2s2TWdoYndQMl9OZkdLVkFYNnRwTmdXMGJqcVJoelo4eXNGcXA3R3l6czJQbXhqOEpXWkVPbjlKaGM3SXpIbVpsRVlScVo5aUVzc3pZSksySFRUeG83Z2x3Tlp0ZjlHTmd6b0pJWFRHQW9fN294aGNvRDZLbG00WDZxbDJYbkNuTVNyR0ZYWTNFUFk?oc=5",
-   "date": "2023-07-25T07:00:00Z",
-   "media": "S&P Global",
-   "new": true,
-   "alert": null,
-   "title_ko": "EU 택소노미의 심각한 피해 금지 조항 풀기"
-  },
-  {
-   "tag": "택소노미",
-   "title": "The EU Taxonomy explained: Here’s what it means for financial services",
-   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNaTkzd3NtX1dQeGs2VEFJMm56ODZRa3NJWGY0OEl4UURYbl9FS1Z1NkoyLUFwYnZCb2FuRThsNWdTSmNuLXgtUmQycTlFZkNKUlB3dXJMb0dsamNHa3FhVnpuSkFZWFRJeUZfXzFrOWNZRXg5Rk51Z3c3MzNOQU5HdGpQa3Z1b1M4MDU2TTVfbWZpOTNfM3RxZGNtcHVYQmEwSUJRaTFGRG1PYWJHWlVsUEx1MHVfcEFYbFdveFRVTVo?oc=5",
-   "date": "2022-09-22T07:00:00Z",
-   "media": "Carbon Trust",
-   "new": true,
-   "alert": null,
-   "title_ko": "EU 택소노미 설명: 금융 서비스에 대한 의미는 다음과 같습니다."
-  },
-  {
-   "tag": "택소노미",
-   "title": "Green Finance in Europe – Strategy, Regulation and Instruments - Intereconomics | Review of European Economic Policy",
-   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOc3NlTVlxa0FVQnVCQkUwX0RqQkh3YjRzNnNrZ1J5R3hFSHc1V2RFU1pNbkpKbElkVkdBUWcxRVZGMlA0Yy1xVXk1czNVTXl0MnQxdEpNSktlRWRnVXhFNVJwNW9SVGFEMzc4ZDNFQzJwQWpUdXotd3RxcFk5Y3ZFc2xHREdRQWwxTDRWQS1OTHZJMmZ2dkhNRnlRRmw3ampoSEdLZC1OU0YydEtjWVNudFEwcnZQQzJJRWVEdUYwdklWZW9Ec2NiLVJB?oc=5",
-   "date": "2021-12-05T09:48:57Z",
-   "media": "",
-   "new": true,
-   "alert": null,
-   "title_ko": "유럽의 녹색 금융 – 전략, 규제 및 도구 - Intereconomics | 유럽 ​​경제 정책 검토"
   }
  ],
  "sources": [
@@ -8387,6 +8547,380 @@
  ],
  "items": [
   {
+   "source": "esgdive",
+   "title": "SEC moves to pare back executive compensation disclosures",
+   "link": "https://www.esgdive.com/news/sec-moves-to-pare-back-executive-compensation-disclosures/874781/",
+   "date": "2026-11-16T17:31:00Z",
+   "summary": "The proposed changes would sharply cut the number of executives for which companies would have to disclose compensation, along with a variety of other changes designed to cut back requirements.",
+   "tags": [],
+   "new": true,
+   "alert": null,
+   "title_ko": "SEC, 임원 보상 공개 축소 움직임",
+   "summary_ko": "제안된 변경 사항은 요구 사항을 줄이기 위해 고안된 다양한 변경 사항과 함께 기업이 보상을 공개해야 하는 임원의 수를 대폭 줄일 것입니다."
+  },
+  {
+   "source": "esgtoday",
+   "title": "DitchCarbon Launches New Solution to Identify, Address High-Emissions Electricity in Supply Chains",
+   "link": "https://www.esgtoday.com/ditchcarbon-launches-new-solution-to-identify-address-high-emissions-electricity-in-supply-chains/?utm_source=rss&utm_medium=rss&utm_campaign=ditchcarbon-launches-new-solution-to-identify-address-high-emissions-electricity-in-supply-chains",
+   "date": "2026-11-16T17:11:03Z",
+   "summary": "Scope 3 emissions-focused platform DitchCarbon announced the launch of its Electricity module, a new feature […]",
+   "tags": [
+    "탄소·기후"
+   ],
+   "new": true,
+   "alert": "일정·범위 변경",
+   "title_ko": "DitchCarbon, 공급망에서 고배출 전기를 식별하고 해결하기 위한 새로운 솔루션 출시",
+   "summary_ko": "Scope 3 배출 중심 플랫폼 DitchCarbon은 새로운 기능인 전기 모듈 출시를 발표했습니다."
+  },
+  {
+   "source": "esgdive",
+   "title": "CEO exits due to misconduct have doubled compared to 2024",
+   "link": "https://www.esgdive.com/news/ceo-exits-due-to-misconduct-have-doubled-compared-to-2024/874738/",
+   "date": "2026-11-16T17:00:00Z",
+   "summary": "“It’s not just a question of romance or morality anymore. It’s a question of judgment,” said Andy Challenger, chief revenue officer for Challenger, Gray & Christmas.",
+   "tags": [],
+   "new": true,
+   "alert": null,
+   "title_ko": "위법 행위로 인한 CEO 퇴사, 2024년 대비 2배 증가",
+   "summary_ko": "Challenger, Gray & Christmas의 최고 수익 책임자인 Andy Challenger는 \"더 이상 로맨스나 도덕성의 문제가 아니라 판단의 문제입니다.\"라고 말했습니다."
+  },
+  {
+   "source": "esgtoday",
+   "title": "CIP Launches New $1 Billion Energy Transition Infrastructure Credit Fund",
+   "link": "https://www.esgtoday.com/cip-launches-new-1-billion-energy-transition-infrastructure-credit-fund/?utm_source=rss&utm_medium=rss&utm_campaign=cip-launches-new-1-billion-energy-transition-infrastructure-credit-fund",
+   "date": "2026-11-16T15:42:22Z",
+   "summary": "Energy infrastructure investment manager Copenhagen Infrastructure Partners (CIP) announced today the launch of the Credit […]",
+   "tags": [],
+   "new": true,
+   "alert": null,
+   "title_ko": "CIP, 10억 달러 규모의 새로운 에너지 전환 인프라 신용 기금 출시",
+   "summary_ko": "에너지 인프라 투자 관리자인 CIP(Copenhagen Infrastructure Partners)는 오늘 Credit [...] 출시를 발표했습니다."
+  },
+  {
+   "source": "esgtoday",
+   "title": "BII, Norfund, FinDev Canada Partner to Mobilize $10 Billion in Climate Finance to Emerging Markets",
+   "link": "https://www.esgtoday.com/bii-norfund-findev-canada-partner-to-mobilize-10-billion-in-climate-finance-to-emerging-markets/?utm_source=rss&utm_medium=rss&utm_campaign=bii-norfund-findev-canada-partner-to-mobilize-10-billion-in-climate-finance-to-emerging-markets",
+   "date": "2026-11-16T14:57:14Z",
+   "summary": "British International Investment (BII), FinDev Canada and Norfund, the development finance institutions of the UK, […]",
+   "tags": [
+    "탄소·기후"
+   ],
+   "new": true,
+   "alert": null,
+   "title_ko": "BII, Norfund, FinDev Canada, 신흥 시장에 기후 금융 100억 달러 동원 위해 파트너십 체결",
+   "summary_ko": "BII(British International Investment), FinDev Canada, 영국 개발 금융 기관인 Norfund, […]"
+  },
+  {
+   "source": "esgtoday",
+   "title": "Goldman Sachs Leads $345 Million Financing for Exus to Expand U.S. Clean Energy Portfolio",
+   "link": "https://www.esgtoday.com/goldman-sachs-leads-345-million-financing-for-exus-to-expand-u-s-clean-energy-portfolio/?utm_source=rss&utm_medium=rss&utm_campaign=goldman-sachs-leads-345-million-financing-for-exus-to-expand-u-s-clean-energy-portfolio",
+   "date": "2026-11-16T14:04:33Z",
+   "summary": "Renewable energy developer, owner and operator Exus Renewables North America announced that it has secured […]",
+   "tags": [],
+   "new": true,
+   "alert": null,
+   "title_ko": "Goldman Sachs, Exus의 미국 청정 에너지 포트폴리오 확장을 위해 3억 4,500만 달러 자금 조달 주도",
+   "summary_ko": "재생에너지 개발자, 소유자 및 운영자인 Exus Renewables North America는 [...]"
+  },
+  {
+   "source": "esgtoday",
+   "title": "ECB to Launch “Deep Dives” into Banks’ Management of Climate and Nature Risks",
+   "link": "https://www.esgtoday.com/ecb-to-launch-deep-dives-into-banks-management-of-climate-and-nature-risks/?utm_source=rss&utm_medium=rss&utm_campaign=ecb-to-launch-deep-dives-into-banks-management-of-climate-and-nature-risks",
+   "date": "2026-11-16T12:58:09Z",
+   "summary": "The European Central Bank (ECB) outlined plans to intensify its supervision of banks’ capabilities to assess […]",
+   "tags": [
+    "탄소·기후"
+   ],
+   "new": true,
+   "alert": null,
+   "title_ko": "ECB, 은행의 기후 및 자연 위험 관리에 대한 \"심층 조사\" 시작",
+   "summary_ko": "유럽중앙은행(ECB)은 은행의 평가 역량에 대한 감독을 강화할 계획을 설명했습니다."
+  },
+  {
+   "source": "esgtoday",
+   "title": "GM Backs $550 Million Solar Investment in Largest Clean Energy Deal to Date",
+   "link": "https://www.esgtoday.com/gm-backs-550-million-solar-energy-investment-in-largest-clean-energy-deal-to-date/?utm_source=rss&utm_medium=rss&utm_campaign=gm-backs-550-million-solar-energy-investment-in-largest-clean-energy-deal-to-date",
+   "date": "2026-11-16T11:43:06Z",
+   "summary": "General Motors (GM) announced its largest clean energy investment to date, with the automotive giant […]",
+   "tags": [],
+   "new": true,
+   "alert": null,
+   "title_ko": "GM, 역대 최대 규모의 청정 에너지 거래에 5억 5천만 달러 규모의 태양광 투자 지원",
+   "summary_ko": "제너럴 모터스(GM)는 자동차 대기업과 함께 현재까지 최대 규모의 청정 에너지 투자를 발표했습니다. [...]"
+  },
+  {
+   "source": "consilium",
+   "title": "EU Global Human Rights Sanctions Regime: Council lists four Haitian entities over serious human rights violations - Council, European Union",
+   "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPX2tzOFhFMThocmNJdDFWajUwMFd3QVp0TUtmTElkYWt6VXB5QjNVc3paZ0V6ZmRnM0V3SjkxVkktWk16THNfbGp3MklKZGhOYkVLYTlLUThxX0hFUjhyOFdRT0htU3lua1ZIZUxwNnpxc090WUstbDJ0cGRKcWNsQ0JKT3BIY2l3OFRyVUdSOG1FbXBDX0dmZU12VmljN1p1ekN1ZE9WbUQ5YlNOMFYtTDFFdnVtUHRyX0RUa29DLUVycXRzUTg1WjhZMVU3Vy1iUFN4UGh1Tlg0ckpMdDY2TnZ3aGxxZ3BFa2ZUWlNnWUZiMTVnOWFrZ2RlMHZSbjRvdjJXaUYwRG5yQklu?oc=5",
+   "date": "2026-11-16T11:31:05Z",
+   "summary": "",
+   "tags": [],
+   "new": true,
+   "alert": null,
+   "title_ko": "EU 글로벌 인권 제재 체제: 이사회는 심각한 인권 침해를 저지른 아이티 기관 4곳을 나열합니다. - 이사회, 유럽 연합",
+   "summary_ko": ""
+  },
+  {
+   "source": "esgtoday",
+   "title": "AIB Doubles Sustainable Lending Goal to €60 Billion by 2030",
+   "link": "https://www.esgtoday.com/aib-doubles-sustainable-lending-goal-to-e60-billion-by-2030/?utm_source=rss&utm_medium=rss&utm_campaign=aib-doubles-sustainable-lending-goal-to-e60-billion-by-2030",
+   "date": "2026-11-16T10:00:49Z",
+   "summary": "Ireland-based banking group AIB announced a significant expansion of its key sustainable finance goal, expanding […]",
+   "tags": [],
+   "new": true,
+   "alert": null,
+   "title_ko": "AIB는 2030년까지 지속가능한 대출 목표를 600억 유로로 두 배로 늘립니다.",
+   "summary_ko": "아일랜드에 본사를 둔 은행 그룹 AIB는 주요 지속가능한 금융 목표를 대폭 확대한다고 발표했습니다."
+  },
+  {
+   "source": "esgtoday",
+   "title": "ESG Today: Week in Review",
+   "link": "https://www.esgtoday.com/esg-today-week-in-review-283/?utm_source=rss&utm_medium=rss&utm_campaign=esg-today-week-in-review-283",
+   "date": "2026-11-15T10:51:21Z",
+   "summary": "This week in ESG news: Sustainable fund inflows hit highest level since 2024; Appeals court […]",
+   "tags": [],
+   "new": true,
+   "alert": null,
+   "title_ko": "오늘의 ESG: 검토 주간",
+   "summary_ko": "이번 주 ESG 뉴스: 지속가능한 자금 유입이 2024년 이후 최고 수준을 기록했습니다. 항소 법원 […]"
+  },
+  {
+   "source": "esgdive",
+   "title": "As data center backlash grows, a model law aims to give cities more control",
+   "link": "https://www.esgdive.com/news/data-center-backlash-model-law-aims-to-give-cities-more-control/874608/",
+   "date": "2026-11-13T15:13:00Z",
+   "summary": "Data centers “are moving faster and at a larger scale than most local codes were built to handle,” Climate Mayors’ executive director said. Its model local law offers a framework for siting, permitting, transparency and community benefits.",
+   "tags": [
+    "탄소·기후"
+   ],
+   "new": true,
+   "alert": null,
+   "title_ko": "데이터 센터 반발이 커지면서 모델법은 도시에 더 많은 통제권을 부여하는 것을 목표로 합니다.",
+   "summary_ko": "Climate Mayors의 전무이사는 \"데이터 센터는 대부분의 지역 코드가 처리할 수 있도록 구축된 것보다 더 빠르고 더 큰 규모로 움직이고 있습니다\"라고 말했습니다. 모델 지역 법률은 부지 선정, 허가, 투명성 및 지역사회 혜택을 위한 프레임워크를 제공합니다."
+  },
+  {
+   "source": "esgtoday",
+   "title": "Amazon Launches Product Carbon Footprinting Solution",
+   "link": "https://www.esgtoday.com/amazon-launches-product-carbon-footprinting-solution/?utm_source=rss&utm_medium=rss&utm_campaign=amazon-launches-product-carbon-footprinting-solution",
+   "date": "2026-11-13T12:50:45Z",
+   "summary": "Amazon announced the release of its product carbon footprint (PCF) tool on its Sustainability Exchange […]",
+   "tags": [
+    "탄소·기후"
+   ],
+   "new": true,
+   "alert": null,
+   "title_ko": "아마존, 제품 탄소 발자국 솔루션 출시",
+   "summary_ko": "아마존은 지속가능성 거래소(Sustainability Exchange)에서 자사 제품의 탄소발자국(PCF) 도구 출시를 발표했습니다."
+  },
+  {
+   "source": "europarl",
+   "title": "Press release - MEP delegation to push for faster fossil fuel phase-out at COP31 in Türkiye",
+   "link": "https://www.europarl.europa.eu/news/en/press-room/20261109IPR48723/",
+   "date": "2026-11-13T11:23:02Z",
+   "summary": "A Parliament delegation arrives in Türkiye on Monday to attend the UN Climate Change Summit and push for implementation of climate commitments. Committee on the Environment, Public Health and Food Safety Committee on Industry, Research and Energy Source : © European Union, 2026 -…",
+   "tags": [
+    "탄소·기후"
+   ],
+   "new": true,
+   "alert": null,
+   "title_ko": "보도 자료 - 터키의 COP31에서 더 빠른 화석 연료 단계적 폐지를 추진하는 MEP 대표단",
+   "summary_ko": "의회 대표단이 UN 기후 변화 정상 회담에 참석하고 기후 약속 이행을 ​​추진하기 위해 월요일 투르키예에 도착했습니다. 산업, 연구 및 에너지원에 관한 환경, 공중 보건 및 식품 안전 위원회: © 유럽 연합, 2026 -…"
+  },
+  {
+   "source": "esgtoday",
+   "title": "EU Parliament, Council Strike Deal to Give Industry €10 Billion in Additional Free Carbon Allowances",
+   "link": "https://www.esgtoday.com/eu-parliament-council-strike-deal-to-give-industry-e10-billion-in-additional-free-carbon-allowances/?utm_source=rss&utm_medium=rss&utm_campaign=eu-parliament-council-strike-deal-to-give-industry-e10-billion-in-additional-free-carbon-allowances",
+   "date": "2026-11-13T10:42:29Z",
+   "summary": "Lawmakers in the European Parliament and EU Member States announced that they reached a late-night […]",
+   "tags": [
+    "탄소·기후"
+   ],
+   "new": true,
+   "alert": null,
+   "title_ko": "EU 의회, 이사회 파업 거래로 업계에 100억 유로의 추가 무료 탄소 허용량 제공",
+   "summary_ko": "유럽 ​​​​의회와 EU 회원국 의원들은 심야에 도달했다고 발표했습니다 [...]"
+  },
+  {
+   "source": "consilium",
+   "title": "Emissions trading system: Council and Parliament agree to boost free carbon allowances for energy-intensive industries - Council, European Union",
+   "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxPMmRHZFZLSUxBTGpOSERGQk80R1V1LVZVVmRYTTJYVjExM1A4Z2ZxYnJHVzRKOUpKa29lZUFEQTAyU1BPLTdhbjBkejEwQldwa041VHh6a2hFUzlxa3AzSWxndUpzclBadW8wZFk3WW9tRTZ1VnNRemFwclZnN1dsbzZfQ3lyZk5UUHhTZ2cycXAxMjdrSVF5cTFYTDBZbW1HMnFDbXAxM2FZUjV0azVXLVc1b2xGWExmZlJxdHRzNVhIWnllVGg5dzRRQnRiOGYwSnpHTXlOeXN5Q0NNOElaZThLUVRKTVZ6dVAxSXE4WmpHWjVyUVMtNWJic3lpd2VnVWVxd1hFS01xeWpYUEdhbkNYRQ?oc=5",
+   "date": "2026-11-12T22:31:59Z",
+   "summary": "",
+   "tags": [
+    "탄소·기후"
+   ],
+   "new": true,
+   "alert": null,
+   "title_ko": "배출권 거래 시스템: 이사회와 의회는 에너지 집약적 산업에 대한 무료 탄소 허용량을 늘리는 데 동의합니다. - 유럽 연합 이사회",
+   "summary_ko": ""
+  },
+  {
+   "source": "esgdive",
+   "title": "What’s next for California’s climate laws following an appeals court split decision",
+   "link": "https://www.esgdive.com/news/whats-next-for-california-climate-laws-sb253-sb261-following-appeals-court-split-decision/874578/",
+   "date": "2026-11-12T21:43:32Z",
+   "summary": "The Ninth Circuit Court of Appeals allowed scope 1 and scope 2 emissions reporting under SB 253 to move forward while halting the enforcement of scope 3 reporting and SB 261.",
+   "tags": [
+    "탄소·기후"
+   ],
+   "new": true,
+   "alert": "일정·범위 변경",
+   "title_ko": "항소 법원 분할 결정에 따른 캘리포니아 기후법의 다음 단계",
+   "summary_ko": "제9순회 항소법원은 SB 253에 따른 범위 1 및 범위 2 배출 보고를 허용하는 동시에 범위 3 보고 및 SB 261의 시행을 중단했습니다."
+  },
+  {
+   "source": "esgdive",
+   "title": "Platform launched at COP31 aims to scale transition capital in emerging markets",
+   "link": "https://www.esgdive.com/news/platform-launched-at-cop31-aims-to-scale-transition-capital-in-emerging-mar/874527/",
+   "date": "2026-11-12T15:45:00Z",
+   "summary": "The Glasgow Financial Alliance for Net Zero launched a public repository to make it easier to compare financing opportunities in emerging markets.",
+   "tags": [
+    "탄소·기후"
+   ],
+   "new": true,
+   "alert": null,
+   "title_ko": "COP31에서 출시된 플랫폼은 신흥 시장에서 전환 자본을 확장하는 것을 목표로 합니다.",
+   "summary_ko": "Net Zero를 위한 Glasgow Financial Alliance는 신흥 시장의 자금 조달 기회를 보다 쉽게 ​​비교할 수 있도록 공개 저장소를 출시했습니다."
+  },
+  {
+   "source": "esgdive",
+   "title": "Nvidia CEO resigns amid scandal; CFO named interim",
+   "link": "https://www.esgdive.com/news/nvidia-ceo-resigns-scandal-cfo-named-interim-ceo-ai/874506/",
+   "date": "2026-11-12T15:06:00Z",
+   "summary": "Jensen Huang resigned effective immediately, with the chipmaker naming its long-time CFO Colette Kress as interim CEO until a permanent successor is found, Nvidia announced Thursday.",
+   "tags": [],
+   "new": true,
+   "alert": null,
+   "title_ko": "엔비디아 CEO, 스캔들로 사임… 임시로 임명된 CFO",
+   "summary_ko": "Jensen Huang은 즉시 사임했으며 칩 제조업체는 영구 후임자가 발견될 때까지 오랫동안 CFO인 Colette Kress를 임시 CEO로 임명했다고 Nvidia가 목요일 발표했습니다."
+  },
+  {
+   "source": "europarl",
+   "title": "Press release - Civil protection mechanism: making the EU crisis-ready",
+   "link": "https://www.europarl.europa.eu/news/en/press-room/20261110IPR48738/",
+   "date": "2026-11-12T10:43:03Z",
+   "summary": "MEPs want the next EU crisis prevention and response tool to do more to anticipate crises before they happen, and to do better at supporting recovery efforts. Committee on the Environment, Public Health and Food Safety Committee on Public Health Source : © European Union, 2026 - …",
+   "tags": [],
+   "new": true,
+   "alert": null,
+   "title_ko": "보도 자료 - 시민 보호 메커니즘: EU 위기에 대비하기",
+   "summary_ko": "MEP는 다음 EU 위기 예방 및 대응 도구가 위기가 발생하기 전에 이를 예측하고 복구 노력을 더 효과적으로 지원하기를 원합니다. 환경, 공중 보건 및 식품 안전 위원회 공중 보건 출처: © 유럽 연합, 2026 - …"
+  },
+  {
+   "source": "esgdive",
+   "title": "Vanguard expands proxy voting program to cover $8.2 trillion in assets",
+   "link": "https://www.esgdive.com/news/vanguard-prepares-2027-expansion-investor-choice-proxy-program-8-2-trillion/874407/",
+   "date": "2026-11-11T15:32:00Z",
+   "summary": "The firm said its Investor Choice program will be available to all of its U.S. equity index products next year.",
+   "tags": [
+    "탄소·기후"
+   ],
+   "new": true,
+   "alert": null,
+   "title_ko": "Vanguard는 8조 2천억 달러의 자산을 포괄하도록 대리 투표 프로그램을 확대합니다.",
+   "summary_ko": "회사는 내년에 모든 미국 주가지수 상품에 Investor Choice 프로그램을 적용할 것이라고 밝혔습니다."
+  },
+  {
+   "source": "esgdive",
+   "title": "Less than 1 in 4 new CFOs globally were women in Q3",
+   "link": "https://www.esgdive.com/news/less-than-1-4-new-cfos-globally-were-women-q3/874384/",
+   "date": "2026-11-11T15:09:00Z",
+   "summary": "The downshift in newly appointed female CFOs came as the pace of the turnover in the seat ticked up this year, according to Russell Reynolds Associates.",
+   "tags": [],
+   "new": true,
+   "alert": null,
+   "title_ko": "3분기 전 세계 신규 CFO 4명 중 1명 미만이 여성이었습니다.",
+   "summary_ko": "Russell Reynolds Associates에 따르면 올해 새로 임명된 여성 CFO의 이직 속도가 빨라지면서 하향 조정이 이루어졌습니다."
+  },
+  {
+   "source": "europarl",
+   "title": "Press release - MEPs back new fund to boost Europe’s competitiveness",
+   "link": "https://www.europarl.europa.eu/news/en/press-room/20261109IPR48712/",
+   "date": "2026-11-10T20:23:01Z",
+   "summary": "On Tuesday, Industry Committee MEPs proposed to reshape the European Competitiveness Fund’s scope, governance and budget, with a focus on industrial and security dimensions. Committee on Industry, Research and Energy Source : © European Union, 2026 - EP",
+   "tags": [],
+   "new": true,
+   "alert": null,
+   "title_ko": "보도 자료 - 유럽의회 의원, 유럽 경쟁력 강화를 위해 새로운 기금 지원",
+   "summary_ko": "화요일, 산업위원회 의원들은 산업 및 보안 차원에 초점을 맞춰 유럽경쟁력기금(European Competitiveness Fund)의 범위, 거버넌스 및 예산을 재구성할 것을 제안했습니다. 산업, 연구 및 에너지원 위원회: © European Union, 2026 - EP"
+  },
+  {
+   "source": "esgdive",
+   "title": "Over 180 companies call on COP31 presidency to fix electrification bottleneck",
+   "link": "https://www.esgdive.com/news/over-180-companies-call-on-cop31-presidency-to-fix-electrification-bottleneck/874278/",
+   "date": "2026-11-10T17:38:23Z",
+   "summary": "Companies including H&M Group, Danone, Ikea, and Uber are calling for the annual climate change conference to focus on accelerating electrification.",
+   "tags": [
+    "탄소·기후"
+   ],
+   "new": true,
+   "alert": null,
+   "title_ko": "180개 이상의 기업이 COP31 의장직에 전화 병목 현상 해결을 요청",
+   "summary_ko": "H&M 그룹, 다논, 이케아, 우버 등의 기업들은 전기화 가속화에 초점을 맞추기 위해 연례 기후 변화 컨퍼런스를 요구하고 있습니다."
+  },
+  {
+   "source": "europarl",
+   "title": "Press release - Horizon Europe: MEPs back plans to strengthen the EU’s scientific base",
+   "link": "https://www.europarl.europa.eu/news/en/press-room/20261109IPR48713/",
+   "date": "2026-11-10T17:33:03Z",
+   "summary": "Research MEPs seek to boost EU scientific excellence, empower expert advice, and improve links between research and competitiveness. Committee on Industry, Research and Energy Source : © European Union, 2026 - EP",
+   "tags": [],
+   "new": true,
+   "alert": null,
+   "title_ko": "보도 자료 - Horizon Europe: 유럽의회 의원, EU의 과학 기반 강화 계획 지지",
+   "summary_ko": "연구 MEP는 EU의 과학적 우수성을 높이고, 전문가의 조언을 강화하며, 연구와 경쟁력 간의 연계를 개선하는 것을 추구합니다. 산업, 연구 및 에너지원 위원회: © European Union, 2026 - EP"
+  },
+  {
+   "source": "esgdive",
+   "title": "‘This is not a new story’: Legal professionals expect tide to turn on DEI",
+   "link": "https://www.esgdive.com/news/this-is-not-a-new-story-legal-professionals-expect-tide-to-turn-on-dei/874266/",
+   "date": "2026-11-10T15:41:00Z",
+   "summary": "The idea that diversity, equity and inclusion is a short-lived trend ignores history and legal reality, according to speakers at an American Bar Association conference.",
+   "tags": [],
+   "new": true,
+   "alert": null,
+   "title_ko": "'이것은 새로운 이야기가 아닙니다': 법률 전문가들은 조류가 DEI를 켤 것으로 예상합니다",
+   "summary_ko": "미국변호사협회(American Bar Association) 컨퍼런스의 연사들은 다양성, 형평성, 포용성이 단기적인 추세라는 생각은 역사와 법적 현실을 무시한다고 말했습니다."
+  },
+  {
+   "source": "europarl",
+   "title": "Press release - Connecting Europe Facility: boosting investment in the EU’s strategic infrastructure",
+   "link": "https://www.europarl.europa.eu/news/en/press-room/20261109IPR48718/",
+   "date": "2026-11-10T15:22:53Z",
+   "summary": "Parliament’s Energy and Transport Committees agreed to strengthen the 2028-2034 Connecting Europe Facility, EU’s main funding tool for key cross-border infrastructure projects. Committee on Industry, Research and Energy Committee on Transport and Tourism Source : © European Union…",
+   "tags": [],
+   "new": true,
+   "alert": null,
+   "title_ko": "보도 자료 - 유럽 시설 연결: EU의 전략적 인프라에 대한 투자 증대",
+   "summary_ko": "의회의 에너지 및 운송 위원회는 주요 국경 간 인프라 프로젝트를 위한 EU의 주요 자금 조달 도구인 2028-2034 유럽 연결 시설을 강화하기로 합의했습니다. 산업, 연구, 에너지 위원회 교통 및 관광 위원회 출처 : © 유럽 연합…"
+  },
+  {
+   "source": "europarl",
+   "title": "Press release - The closure of Novaya Gazeta is the latest step by an authoritarian regime that fears its own citizens’ access to the truth",
+   "link": "https://www.europarl.europa.eu/news/en/press-room/20261109IPR48724/",
+   "date": "2026-11-09T15:34:58Z",
+   "summary": "Leading MEPs issued the following joint statement today. Subcommittee on Human Rights Source : © European Union, 2026 - EP",
+   "tags": [],
+   "new": true,
+   "alert": null,
+   "title_ko": "보도 자료 - Novaya Gazeta의 폐쇄는 자국민이 진실에 접근하는 것을 두려워하는 권위주의 정권이 취한 가장 최근의 조치입니다.",
+   "summary_ko": "주요 의원들은 오늘 다음과 같은 공동 성명을 발표했습니다. 인권 소위원회 출처 : © European Union, 2026 - EP"
+  },
+  {
+   "source": "consilium",
+   "title": "COP31: EU and OACPS reaffirm commitment to climate action focusing on turning priorities into concrete deliverables - Council, European Union",
+   "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPbVFGelNkN29FZ1lEUnZOelFzVnU3WmdFaVhpNzZ2cXlNaWM4VDA1Y3ZDdFZidThISE1maks3dWhuZ3I3QXZqU1N6ZnYzWVRobnBfTVpvaU93WVBCVXd0ZVdzNnVhR283eVdackxVSTlzWDdqU2NJeWV2TlBVa3psNzdvMExJZnBXREVpdUJBNThEOGRaWFR1WDZNQlFxYS1vYWt1Y21LQnNUcGtZTVhlWU1rZi1nUHJ5UFBLV1Z1U01HUzdnZG1fRHZvZmtHR202R2tqZVhNYmpnREtZWXg3c05SSkpWdENWRDh6NWNvSkVVdzZMVWhtUVpfQnpFUkpCNDZZcDJoblA0LWU1WlNR?oc=5",
+   "date": "2026-11-09T07:03:59Z",
+   "summary": "",
+   "tags": [
+    "탄소·기후"
+   ],
+   "new": true,
+   "alert": null,
+   "title_ko": "COP31: EU와 OACPS는 우선순위를 구체적인 결과물로 전환하는 데 초점을 맞춘 기후 행동에 대한 약속을 재확인합니다. - 유럽 연합 이사회",
+   "summary_ko": ""
+  },
+  {
    "source": "esgtoday",
    "title": "ESG Today: Week in Review",
    "link": "https://www.esgtoday.com/esg-today-week-in-review-282/?utm_source=rss&utm_medium=rss&utm_campaign=esg-today-week-in-review-282",
@@ -8395,7 +8929,7 @@
    "tags": [
     "CSDDD 공급망실사"
    ],
-   "new": true,
+   "new": false,
    "alert": null,
    "title_ko": "오늘의 ESG: 검토 주간",
    "summary_ko": "이번 주 ESG 뉴스: 영국, 공급망 인권 실사법 도입; […]"
@@ -8407,7 +8941,7 @@
    "date": "2026-11-08T07:02:00Z",
    "summary": "",
    "tags": [],
-   "new": true,
+   "new": false,
    "alert": null,
    "title_ko": "터키 마을 주민들, COP31 지도자들에게 석탄으로 인한 피해를 직접 확인하라고 요구",
    "summary_ko": ""
@@ -8419,7 +8953,7 @@
    "date": "2026-11-07T06:16:38Z",
    "summary": "",
    "tags": [],
-   "new": true,
+   "new": false,
    "alert": null,
    "title_ko": "COP31이 터키에 상륙함에 따라 위성은 매립지 메탄 문제를 드러냅니다.",
    "summary_ko": ""
@@ -8431,7 +8965,7 @@
    "date": "2026-11-07T06:07:00Z",
    "summary": "",
    "tags": [],
-   "new": true,
+   "new": false,
    "alert": null,
    "title_ko": "환경 단체는 데이터 센터에 대한 영향을 경고하면서도 AI를 수용합니다.",
    "summary_ko": ""
@@ -8445,7 +8979,7 @@
    "tags": [
     "탄소·기후"
    ],
-   "new": true,
+   "new": false,
    "alert": null,
    "title_ko": "EU 기후 계획은 전용 자금 없이는 부족하다고 국회의원은 말합니다.",
    "summary_ko": ""
@@ -8459,7 +8993,7 @@
    "tags": [
     "탄소·기후"
    ],
-   "new": true,
+   "new": false,
    "alert": null,
    "title_ko": "로지텍, 공급망 탈탄소화 프로그램 출시",
    "summary_ko": "컴퓨터 주변기기 제조업체의 연쇄 반응 이니셔티브는 17개 공급업체가 구매력을 모아 재생 가능 전기를 집단적으로 구매하는 것으로 시작됩니다."
@@ -8471,7 +9005,7 @@
    "date": "2026-11-06T15:05:00Z",
    "summary": "",
    "tags": [],
-   "new": true,
+   "new": false,
    "alert": null,
    "title_ko": "뉴스레터: 화석 연료 감축 및 COP31 주요 의제 재정 지원",
    "summary_ko": ""
@@ -8483,7 +9017,7 @@
    "date": "2026-11-06T12:34:08Z",
    "summary": "Norges Bank Investment Management (NBIM), the investment manager for Norway’s $2 trillion oil fund, announced […]",
    "tags": [],
-   "new": true,
+   "new": false,
    "alert": null,
    "title_ko": "NBIM, 최초의 직접 배터리 저장 투자로 Aypa Power의 3억 달러 지분 인수",
    "summary_ko": "노르웨이의 2조 달러 규모 석유 펀드의 투자 관리사인 Norges Bank Investment Management(NBIM)는 [...]"
@@ -8497,7 +9031,7 @@
    "tags": [
     "탄소·기후"
    ],
-   "new": true,
+   "new": false,
    "alert": null,
    "title_ko": "EU 기후서비스(EU Climate Service)는 기록상 가장 따뜻한 10월 이후 2026년은 산업화 이전 수준보다 1.5C를 초과할 가능성이 있다고 밝혔습니다.",
    "summary_ko": ""
@@ -8509,7 +9043,7 @@
    "date": "2026-11-06T10:31:51Z",
    "summary": "Electric truck manufacturer Harbinger announced that it has raised $240 million in a Series D […]",
    "tags": [],
-   "new": true,
+   "new": false,
    "alert": null,
    "title_ko": "EV 트럭 플랫폼 Harbinger, 에너지 저장 및 국방 분야로 확장하기 위해 2억 4천만 달러 조달",
    "summary_ko": "전기 트럭 제조업체인 Harbinger는 시리즈 D에서 2억 4천만 달러를 모금했다고 발표했습니다."
@@ -8521,7 +9055,7 @@
    "date": "2026-11-06T09:28:00Z",
    "summary": "Sustainability-focused investment and philanthropy platform Builders Vision announced the appointment of Matt Knott as its […]",
    "tags": [],
-   "new": true,
+   "new": false,
    "alert": null,
    "title_ko": "Impact Investing Platform Builders Vision, Matt Knott를 CEO로 임명",
    "summary_ko": "지속가능성에 초점을 맞춘 투자 및 자선 플랫폼 Builders Vision은 Matt Knott를 […]"
@@ -8535,7 +9069,7 @@
    "tags": [
     "탄소·기후"
    ],
-   "new": true,
+   "new": false,
    "alert": null,
    "title_ko": "Seedling, 탄소 회계 플랫폼 Go Climate Positive 인수",
    "summary_ko": "탄소 관리 플랫폼 Seedling은 탄소 회계 회사인 Go Climate Positive의 인수를 발표했습니다. […"
@@ -8549,7 +9083,7 @@
    "tags": [
     "탄소·기후"
    ],
-   "new": true,
+   "new": false,
    "alert": null,
    "title_ko": "유엔난민기구, 기후 위협으로 인해 9천만 명의 난민이 위험에 처해 있다고 밝혔습니다.",
    "summary_ko": ""
@@ -8563,7 +9097,7 @@
    "tags": [
     "그린워싱·표시"
    ],
-   "new": true,
+   "new": false,
    "alert": null,
    "title_ko": "Deloitte, 기업의 Greenwash를 억제하기 위해 AI 기반 규정 준수 도구 출시",
    "summary_ko": "\"Green Claims Navigator\"는 기업이 전체 콘텐츠 생태계에 걸쳐 자사 제품이나 관행의 환경적 이점에 대해 언급한 오해의 소지가 있는 진술을 신속하게 탐지하도록 설계되었습니다."
@@ -8575,7 +9109,7 @@
    "date": "2026-11-05T17:35:00Z",
    "summary": "The sustainability nonprofit was joined by a pair of faith-based investors in seeking to stop a law that would compel disclosures from proxy advisory firms who consider any nonpecuniary factors.",
    "tags": [],
-   "new": true,
+   "new": false,
    "alert": null,
    "title_ko": "세레스, 신앙 기반 투자자, 대리 조언을 겨냥한 법률로 켄터키주 고소",
    "summary_ko": "지속가능성 비영리 단체는 비금전적 요인을 고려하는 의결권 자문 회사의 공개를 강제하는 법률을 중단하기 위해 두 명의 신앙 기반 투자자와 합류했습니다."
@@ -8587,7 +9121,7 @@
    "date": "2026-11-05T16:43:00Z",
    "summary": "CEO Gordon Hardie and CFO John Haudrich are also named in the lawsuit. Among the allegations, a shareholder said defendants concealed “material adverse facts concerning the true state of O-I Glass’ Fit to Win program.”",
    "tags": [],
-   "new": true,
+   "new": false,
    "alert": null,
    "title_ko": "오아이글라스, 증권사기 혐의 집단소송 피소",
    "summary_ko": "CEO 고든 하디(Gordon Hardie)와 CFO 존 홀드리치(John Haudrich)도 소송에 이름을 올렸다. 혐의 중 한 주주는 피고인들이 \"O-I Glass의 Fit to Win 프로그램의 실제 상태에 관한 중대한 불리한 사실\"을 은폐했다고 말했습니다."
@@ -8599,7 +9133,7 @@
    "date": "2026-11-05T16:11:11Z",
    "summary": "Energy storage provider Return announced that it has secured €835 million (USD$936 million) in portfolio […]",
    "tags": [],
-   "new": true,
+   "new": false,
    "alert": null,
    "title_ko": "Deutsche Bank, Rabobank는 독일의 배터리 저장 확장을 위해 9억 3,600만 달러의 자금 조달을 지원했습니다.",
    "summary_ko": "에너지 저장 제공업체인 Return은 8억 3,500만 유로(9억 3,600만 달러)의 포트폴리오를 확보했다고 발표했습니다."
@@ -8611,7 +9145,7 @@
    "date": "2026-11-05T15:55:00Z",
    "summary": "",
    "tags": [],
-   "new": true,
+   "new": false,
    "alert": null,
    "title_ko": "생물다양성 정상회담에서 보조금 개혁에 진전이 있었지만 제약회사들은 원주민을 위한 기금에 반대했다",
    "summary_ko": ""
@@ -8625,7 +9159,7 @@
    "tags": [
     "그린워싱·표시"
    ],
-   "new": true,
+   "new": false,
    "alert": null,
    "title_ko": "딜로이트, 기업이 그린워싱을 피할 수 있도록 돕는 새로운 솔루션 출시",
    "summary_ko": "딜로이트는 […]을 목표로 하는 새로운 AI 기반 솔루션인 Green Claims Navigator의 출시를 발표했습니다."
@@ -8639,7 +9173,7 @@
    "tags": [
     "탄소·기후"
    ],
-   "new": true,
+   "new": false,
    "alert": "채택·의결",
    "title_ko": "EU 의원들은 자동차에 대한 CO2 배출 감소 요구 사항을 낮추기로 이동합니다.",
    "summary_ko": "유럽의회 환경위원회(ENVI) 의원들은 48 대 30 투표에서 입장을 채택했습니다. [...]"
@@ -8651,7 +9185,7 @@
    "date": "2026-11-05T14:31:07Z",
    "summary": "Blue economy-focused investment platform Outrigger Impact announced the launch and first close of Outrigger Impact […]",
    "tags": [],
-   "new": true,
+   "new": false,
    "alert": null,
    "title_ko": "Outrigger Impact, 1억 달러 규모의 블루 이코노미 펀드 출시",
    "summary_ko": "블루 이코노미 중심의 투자 플랫폼 아웃리거 임팩트(Outrigger Impact)가 아웃리거 임팩트(Outrigger Impact) 출시 및 첫 종료를 발표했습니다. […]"
@@ -8663,7 +9197,7 @@
    "date": "2026-11-05T13:50:00Z",
    "summary": "",
    "tags": [],
-   "new": true,
+   "new": false,
    "alert": null,
    "title_ko": "뉴스레터: 미국 데이터 센터의 반발이 민주당에 도움이 되었나요?",
    "summary_ko": ""
@@ -8675,7 +9209,7 @@
    "date": "2026-11-05T12:09:54Z",
    "summary": "Netherlands-based international food retailer Ahold Delhaize announced today that it has signed a 10-year virtual […]",
    "tags": [],
-   "new": true,
+   "new": false,
    "alert": null,
    "title_ko": "Ahold Delhaize, 새로운 청정에너지 거래로 100% 재생에너지 이정표 달성",
    "summary_ko": "네덜란드에 본사를 둔 국제 식품 소매업체인 Ahold Delhaize는 오늘 10년간의 가상 [...] 계약을 체결했다고 발표했습니다."
@@ -8687,7 +9221,7 @@
    "date": "2026-11-05T04:04:00Z",
    "summary": "",
    "tags": [],
-   "new": true,
+   "new": false,
    "alert": null,
    "title_ko": "대부분의 EU 시민들은 친환경 연료로의 긴급 전환을 지지하는 것으로 조사 결과 나타났습니다",
    "summary_ko": ""
@@ -8701,7 +9235,7 @@
    "tags": [
     "탄소·기후"
    ],
-   "new": true,
+   "new": false,
    "alert": null,
    "title_ko": "영국 스포츠는 비용 상승으로 인한 기후 위험에 대한 준비가 부족하다고 보고서는 밝혔습니다.",
    "summary_ko": ""
@@ -8715,7 +9249,7 @@
    "tags": [
     "탄소·기후"
    ],
-   "new": true,
+   "new": false,
    "alert": null,
    "title_ko": "뉴스레터: 시에라 클럽 회장은 데이터 센터 싸움이 중간고사에서 기후 메시지를 전달했다고 말했습니다.",
    "summary_ko": ""
@@ -8729,7 +9263,7 @@
    "tags": [
     "탄소·기후"
    ],
-   "new": true,
+   "new": false,
    "alert": null,
    "title_ko": "BCG, 새로운 글로벌 기후, 지속가능성 리더 임명",
    "summary_ko": "보스턴 컨설팅 그룹(Boston Consulting Group)은 이번 주에 컨설팅 회사의 전무이사이자 수석 파트너인 Jan Philipp Bender를 해당 직책으로 승진시켰습니다."
@@ -8741,7 +9275,7 @@
    "date": "2026-11-04T16:44:13Z",
    "summary": "",
    "tags": [],
-   "new": true,
+   "new": false,
    "alert": null,
    "title_ko": "록히드, DEI 관행에 대한 트럼프 행정부의 주장을 해결하기 위해 3천만 달러 지불",
    "summary_ko": ""
@@ -8753,7 +9287,7 @@
    "date": "2026-11-04T16:15:00Z",
    "summary": "Although many organizations have invested significantly in artificial intelligence, workforce productivity gains have not kept up, a recent study found.",
    "tags": [],
-   "new": true,
+   "new": false,
    "alert": null,
    "title_ko": "Gartner는 기업이 AI로 비용을 절감하지 못하고 있다고 밝혔습니다.",
    "summary_ko": "많은 조직이 인공 지능에 막대한 투자를 했지만 인력 생산성 향상이 유지되지 못하고 있다는 최근 연구 결과가 나왔습니다."
@@ -8767,7 +9301,7 @@
    "tags": [
     "탄소·기후"
    ],
-   "new": true,
+   "new": false,
    "alert": "채택·의결",
    "title_ko": "보도자료 - CO2 배출: 목표 조정, 청정 차량에 대한 인센티브 확대",
    "summary_ko": "수요일, 의회 환경위원회는 신차 및 밴에 대한 수정된 CO2 배출 목표와 EU에서 만든 청정 차량에 대한 인센티브에 대한 제안을 채택했습니다. 환경, 공중 보건 및 식품 안전 위원회 출처: © European Union, 2026 - EP"
@@ -8781,7 +9315,7 @@
    "tags": [
     "탄소·기후"
    ],
-   "new": true,
+   "new": false,
    "alert": "채택·의결",
    "title_ko": "보도 자료 - 기업 차량: 배출가스 제로 및 저배출 차량 활용 가속화",
    "summary_ko": "수요일, 교통 및 환경 위원회 MEP는 EU가 기업 차량에서 청정 차량의 비율을 가속화해야 하는 방법에 대한 입장을 채택했습니다. 환경, 공중 보건, 식품 안전 위원회 교통 및 관광 위원회 출처: © European Union, …"
@@ -8793,7 +9327,7 @@
    "date": "2026-11-04T13:53:04Z",
    "summary": "Parliament’s Environment, Internal Market and Transport Committees suggest simplifying and improving certain rules governing the EU automotive industry. Committee on the Environment, Public Health and Food Safety Committee on the Internal Market and Consumer Protection Committee …",
    "tags": [],
-   "new": true,
+   "new": false,
    "alert": null,
    "title_ko": "보도 자료 - 자동차 부문: 전기 자동차 활성화, 조치 단순화",
    "summary_ko": "의회의 환경, 내부 시장 및 운송 위원회는 EU 자동차 산업을 관리하는 특정 규칙을 단순화하고 개선할 것을 제안합니다. 환경보건식품안전위원회 국내시장위원회, 소비자보호위원회…"
@@ -8807,7 +9341,7 @@
    "tags": [
     "탄소·기후"
    ],
-   "new": true,
+   "new": false,
    "alert": null,
    "title_ko": "가봉은 약 600만 개의 산림 탄소 배출권을 판매하기로 합의했습니다.",
    "summary_ko": ""
@@ -8821,7 +9355,7 @@
    "tags": [
     "탄소·기후"
    ],
-   "new": true,
+   "new": false,
    "alert": null,
    "title_ko": "ECB의 라가르드, 무더운 여름 이후 기후 회복력 강화 촉구",
    "summary_ko": ""
@@ -8835,7 +9369,7 @@
    "tags": [
     "탄소·기후"
    ],
-   "new": true,
+   "new": false,
    "alert": null,
    "title_ko": "부유한 국가들은 기후 적응 자금이 훨씬 부족하다고 유엔이 밝혔습니다.",
    "summary_ko": ""
@@ -8847,7 +9381,7 @@
    "date": "2026-11-03T18:48:27Z",
    "summary": "The Lighthouse Initiative seeks to develop and scale nature and biodiversity solutions and direct private capital towards projects that remain underfunded.",
    "tags": [],
-   "new": true,
+   "new": false,
    "alert": null,
    "title_ko": "King Charles의 지속가능성 이니셔티브인 BofA는 4천만 달러 규모의 자연 투자 전략을 뒷받침합니다.",
    "summary_ko": "등대 이니셔티브(Lighthouse Initiative)는 자연과 생물다양성 솔루션을 개발 및 확장하고 자금이 부족한 프로젝트에 민간 자본을 투입하는 것을 추구합니다."
@@ -8859,7 +9393,7 @@
    "date": "2026-11-03T17:41:00Z",
    "summary": "A new report found that fewer new directors were elected to corporate boards at Russell 3000 and S&P 500 companies, while the number of first-time directors also dropped.",
    "tags": [],
-   "new": true,
+   "new": false,
    "alert": null,
    "title_ko": "기업 이사회는 2026년에 신규 회원을 더 적게 추가합니다: 컨퍼런스 보드",
    "summary_ko": "새로운 보고서에 따르면 Russell 3000 및 S&P 500 기업의 기업 이사회에 선출된 신규 이사 수가 줄었고, 초임 이사 수도 감소했습니다."
@@ -8871,7 +9405,7 @@
    "date": "2026-11-03T17:21:00Z",
    "summary": "“We believe that we can, in fact, protect the planet” while serving growing demand, CEO Bob Frenzel said. The spending plan includes 9.2 gigawatts of renewables and 2.3 GW of storage.",
    "tags": [],
-   "new": true,
+   "new": false,
    "alert": null,
    "title_ko": "Xcel Energy, 재생 에너지에 초점을 맞춘 700억 달러 규모의 5개년 자본 계획 발표",
    "summary_ko": "CEO인 밥 프렌젤(Bob Frenzel)은 “우리는 증가하는 수요에 부응하면서 실제로 지구를 보호할 수 있다고 믿습니다”라고 말했습니다. 지출 계획에는 9.2GW의 재생 에너지와 2.3GW의 저장 공간이 포함됩니다."
@@ -8883,7 +9417,7 @@
    "date": "2026-11-03T16:27:40Z",
    "summary": "",
    "tags": [],
-   "new": true,
+   "new": false,
    "alert": null,
    "title_ko": "브라질, COP30을 화석연료, 산림 로드맵으로 마무리하며 대화에서 행동으로의 전환 촉구",
    "summary_ko": ""
@@ -8895,7 +9429,7 @@
    "date": "2026-11-03T13:00:00Z",
    "summary": "",
    "tags": [],
-   "new": true,
+   "new": false,
    "alert": null,
    "title_ko": "뉴스레터: 데이터 센터 반대자들이 투표함을 쳤습니다.",
    "summary_ko": ""
@@ -8907,7 +9441,7 @@
    "date": "2026-11-02T22:01:49Z",
    "summary": "",
    "tags": [],
-   "new": true,
+   "new": false,
    "alert": null,
    "title_ko": "논평: 공해는 생물 다양성을 보호하겠다는 COP17의 약속이 행동으로 옮겨져야 하는 곳입니다.",
    "summary_ko": ""
@@ -8921,7 +9455,7 @@
    "tags": [
     "탄소·기후"
    ],
-   "new": true,
+   "new": false,
    "alert": null,
    "title_ko": "Florida AG, 주택 위험 점수에 대해 기후 분석 제공업체인 First Street를 고소",
    "summary_ko": "James Uthmeier는 Zillow, RedFin 및 Realtor.com에서 사용한 기후 위험 요소 평가에 대해 회사를 고소했습니다."
@@ -8935,7 +9469,7 @@
    "tags": [
     "탄소·기후"
    ],
-   "new": true,
+   "new": false,
    "alert": null,
    "title_ko": "논평: 상원의 허가 법안은 깨끗하고 저렴한 에너지와 기후를 위한 좋은 법안입니다.",
    "summary_ko": ""
@@ -8947,7 +9481,7 @@
    "date": "2026-11-02T10:35:50Z",
    "summary": "",
    "tags": [],
-   "new": true,
+   "new": false,
    "alert": null,
    "title_ko": "논평: 작은 섬나라들은 COP31에서 동정이 필요하지 않습니다. 투자가 필요해요",
    "summary_ko": ""
@@ -9532,7 +10066,7 @@
     "탄소·기후"
    ],
    "new": false,
-   "alert": "채택·의결",
+   "alert": null,
    "title_ko": "EU 국회의원들, 메탄 배출 규정을 3년 연기 촉구",
    "summary_ko": "유럽 ​​의회 의원들은 메탄 모니터링 및 보고를 연기하기로 341대 225를 투표했습니다. […]"
   },
@@ -9558,7 +10092,7 @@
     "탄소·기후"
    ],
    "new": false,
-   "alert": "집행·제재",
+   "alert": null,
    "title_ko": "위원회는 제지 산업에 탄산칼슘을 공급하는 과정에서 오미아의 반경쟁 행위 가능성에 대한 조사를 개시합니다.",
    "summary_ko": "유럽 ​​위원회 보도 자료 브뤼셀, 2026년 10월 23일 EU 집행위는 Omya가 제지 산업 고객에게 탄산칼슘 전부 또는 대부분을 구매하도록 요구함으로써 EU 경쟁 규칙을 위반했는지 여부를 평가하기 위해 공식적인 독점 금지 조사를 시작했습니다."
   },
@@ -9691,7 +10225,7 @@
     "탄소·기후"
    ],
    "new": false,
-   "alert": "채택·의결",
+   "alert": null,
    "title_ko": "보도 자료 - 투르키예에서 열리는 COP 31 기후 회담에 대한 의회의 우선순위",
    "summary_ko": "목요일 의회는 COP 31 기후 회담에 대한 협상 권한을 채택하여 화석 연료, 금융 및 취약 국가에 대한 보다 빠른 기후 조치를 요구했습니다. 출처 : © 유럽 연합, 2026 - EP"
   },
@@ -9781,7 +10315,7 @@
     "순환경제·폐기물"
    ],
    "new": false,
-   "alert": "일정·범위 변경",
+   "alert": null,
    "title_ko": "단순화: 위원회는 소규모 포장 생산업체의 관료적 절차를 줄이기 위한 협상 입장에 동의했습니다. - 유럽 연합 위원회",
    "summary_ko": ""
   },
@@ -9809,7 +10343,7 @@
     "탄소·기후"
    ],
    "new": false,
-   "alert": "채택·의결",
+   "alert": null,
    "title_ko": "ETS 시장 안정성 준비금: 이사회와 의회가 목표 개정에 대한 임시 합의에 도달 - EU 이사회",
    "summary_ko": ""
   },
@@ -9909,7 +10443,7 @@
     "순환경제·폐기물"
    ],
    "new": false,
-   "alert": "일정·범위 변경",
+   "alert": null,
    "title_ko": "보도 자료 - 폐기물: MEP는 중소기업을 위한 단순화된 규칙을 지지합니다.",
    "summary_ko": "MEP는 제품을 판매하는 각 회원국의 폐기물 법률 준수를 위한 대표자를 임명해야 하는 의무에서 소규모 회사만 면제하기를 원합니다. 환경, 공중 보건 및 식품 안전 위원회 출처: © European Union, 2026 - EP"
   },
@@ -15122,14 +15656,14 @@
   },
   {
    "source": "consilium",
-   "title": "21st package of sanctions: EU hits Russian energy, financial services and crypto hard",
+   "title": "21st package of sanctions: EU hits Russian energy, financial services and crypto hard - Council, European Union",
    "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQNHNJM2pLUjlpTTd0MFFLU295ajhEVkRNM3NDd1N4dXRKMVFCbk83T19WQmFQaFhIQWxOZGpkNVBzaC1vNVl2TjdXMlFUa3VyeTdGam4yN3Q5WnprM094Mm5ZMExkS3U5X0RLdERPZGxQVnh5SElFa2ZJbDRiUURSMF96T0NVdV9jWlVDeGFYRzV0cmd2al90SHh2QWFKajcyLTRJRGpBWERTTEJ3ZW5FVjVWNWhoTTl3b3BVbnRFTEM3MW9YRmhFcjB4bWJvYWJ3QURPWllBM3ZzU1VaSlNXSEJEcXpWZw?oc=5",
    "date": "2026-07-23T07:00:00Z",
    "summary": "",
    "tags": [],
    "new": false,
    "alert": null,
-   "title_ko": "21번째 제재 패키지: EU가 러시아 에너지, 금융 서비스 및 암호화폐를 강타",
+   "title_ko": "21번째 제재 패키지: EU가 러시아 에너지, 금융 서비스 및 암호화폐를 강타 - EU 이사회",
    "summary_ko": ""
   },
   {
@@ -15605,6 +16139,18 @@
    "summary_ko": ""
   },
   {
+   "source": "consilium",
+   "title": "Informal video conference of energy ministers - Press conference - 2026-03-31",
+   "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE15SmNSQnI4T2lXTU5XYW9DaFlBejJCUTFlVDFaNy16aFdlell1RHVVSlRNdVl3SU1qYkIzQkJNOWYzZGN1ZTJOc0w4T1BDM05EM2tOajBzal8zODRT?oc=5",
+   "date": "2026-03-31T07:00:00Z",
+   "summary": "",
+   "tags": [],
+   "new": true,
+   "alert": null,
+   "title_ko": "에너지장관 비공식 화상회의 - 기자간담회 ​​- 2026-03-31",
+   "summary_ko": ""
+  },
+  {
    "source": "reuters",
    "title": "Warren Buffett will not commit to more donations to Gates Foundation",
    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxONFlkWFNBbGUtQ2tBd1pHSXBCcEVXMHNtekI4RTFiN0QyV0x5bjdNNnk1SzJ0X2xpeUxVdFBKWWVrb2ZQR2ExX09QLTV6cGdQczJ6aWhZZ3I5X0Q0RkVLQWVEVExYblhvUWxCeHd1ZWVWN3BTQmFiVFhlXzlRbHNGMWVodDgzQUcwVE5pZ3poMFp1MnlkQ1dLcVlnUlVmeTVEOWtNRjdtTW1EckJLY01Mdzcxb2dUMGFJTU5VS1ZkaklsS0pmT1lheGNjXzNhZjJIZzA0Rg?oc=5",
@@ -15859,7 +16405,7 @@
     "CSDDD 공급망실사",
     "CSRD·ESRS 보고"
    ],
-   "new": true,
+   "new": false,
    "alert": null,
    "title_ko": "이사회는 EU 경쟁력 강화를 위해 지속가능성 보고 단순화 및 실사 요구 사항에 서명했습니다. - 유럽 연합 이사회",
    "summary_ko": ""
@@ -16385,308 +16931,6 @@
    "summary_ko": ""
   },
   {
-   "source": "reuters",
-   "title": "Google says 'likely over 100' affected by Oracle-linked hacking campaign",
-   "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNVzJuX3RIM2lLQ0UtcTVCZmxMSmhlVlYxSHZ2ZVI1bkVuWHdaaXdyYmxnMWZtaS03UnhXOWpsQ21hNGdyX3Nxa0ZvYzUwWDRQZzVjcmlZR0ZMVlpqb3Bad2t4UmZrNXdrb2FTYVZ4V2JpOGFoS0h0S0FwZ3N2eEZubG02bExCU0gzTTQ0cWNkQnJpZDBYY3F5ZU92QUhYdEt1aEFRVjZrckx6TWZIY3BjQmtVZTFmWjU0QVJmV2c5R3BWcTkwTFUzSTdXR3JvdlNwZ2JBQkhDbGJkc3lsRU1rZzNFVUhKZw?oc=5",
-   "date": "2025-10-09T07:00:00Z",
-   "summary": "",
-   "tags": [],
-   "new": false,
-   "alert": null,
-   "title_ko": "구글은 오라클과 연계된 해킹 캠페인의 영향을 받은 '100명 이상'이 될 것이라고 밝혔습니다.",
-   "summary_ko": ""
-  },
-  {
-   "source": "reuters",
-   "title": "EU's plan to phase out Russian energy clears first political hurdle",
-   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQRjFrQ3h4dUo2M2xiRUtHMjluc0hkcWhsdlVERllNZEQ1U1NIVGpXNUYwZU9UOXFqaENvMDdreVpxaF9DRWhHaXk3NUZFVXdLUlVqYktXb1dMSW1VOTl6WE5ELXNhNm1sVFIxUHVhUEd4eXVsaEJvdl9jUTJWcDY5RVozMnBzWl9xUHJnQ2NCSEUyRmppdmFZazhtU043bHVWRTFMbmhVbnFQc3l2bjJCYWVXeVNndm5qaDFKeWhPXzZfOXA3STVpeQ?oc=5",
-   "date": "2025-10-08T07:00:00Z",
-   "summary": "",
-   "tags": [],
-   "new": false,
-   "alert": null,
-   "title_ko": "러시아 에너지를 단계적으로 폐지하려는 EU의 계획으로 첫 번째 정치적 장애물이 해결되었습니다.",
-   "summary_ko": ""
-  },
-  {
-   "source": "reuters",
-   "title": "Rolling Stone, Billboard owner Penske sues Google over AI overviews",
-   "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQTkRTZXRPNlNfMzBaUXF0ekpYWXVKejdtMmlERnlOblA2bUI4N3FqNU9LRUFKWklYckw4TWVscWtDVnc1SUJFTGczTTFVMExndGlZSGx2RXJ2d3pHMWJ0aGRlSWlrdVQyYXNDWmtfWWl1Nzc3SDhUYmwtVG1hUjZDNnd2N05OYnA1aHBhWUU2czNfMHRfNGxaSlRRaW44NnNYWEdJV0taZWdBVHV2WG11ODMzdDE5TGU2a0wzREdjeXdGNjVCWUUxbEVDTFVsdUtuZ3IzRFNEdGp5QQ?oc=5",
-   "date": "2025-09-13T07:00:00Z",
-   "summary": "",
-   "tags": [],
-   "new": false,
-   "alert": null,
-   "title_ko": "Rolling Stone, Billboard 소유자 Penske, AI 개요에 대해 Google을 고소",
-   "summary_ko": ""
-  },
-  {
-   "source": "reuters",
-   "title": "Ethiopia opens Africa's largest hydroelectric dam to Egyptian protest",
-   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQUjhvRU1mcDJBckxFQk93WU9UTkVBd3ptWDRmUS1DUXY3WnRDaFdrbFlWMWh0dmdXVVY4NTFsdXU4X2NTZXZzdEdUM0F3OXc2ZEYzLTlxVVhveE9lR09sSUJkU3NoWk5nZDBZQS1SZHdzMEw2VmhtZHZkcmdyN3NHUmhnUVVQc0hCN016OE5rMmNjc0dfSTdWOGx1dTBzcHN4T0tBTnc2SlF5YkIwNGNWZTNHbnpJQnJxdnhEbGpiWTRhd2FuZFRTeEl6cVJTSnVFTk1vNFhINjk?oc=5",
-   "date": "2025-09-09T07:00:00Z",
-   "summary": "",
-   "tags": [],
-   "new": false,
-   "alert": null,
-   "title_ko": "에티오피아, 이집트 항의에 아프리카 최대 수력발전 댐 개장",
-   "summary_ko": ""
-  },
-  {
-   "source": "reuters",
-   "title": "Apple sued by authors over use of books in AI training",
-   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOYzdNb2xHWU10UUtSZjU2ZUxoOHMxeWYtWVg0UjJjdnVSOXEyMEE5NzJRcmNSMlVyLVpqTkw4X0xwV2stdHpEazNZS0cxaDJjdlVMUGk0dTZlUkNoanUwczFhd2kzM2pKWDE3Uk9Vc2V5czhjNHRIMU9QUTVKTC01Rk9yQ1pOVFI2NGcwdDU3VFh2djg2aFRXRXBDdldIN214TzZBaXMxMGQ5ZVBXLU10QUM0U0lleWxzNGdDSktSaG45Zw?oc=5",
-   "date": "2025-09-05T07:00:00Z",
-   "summary": "",
-   "tags": [],
-   "new": false,
-   "alert": null,
-   "title_ko": "Apple, AI 교육에 도서 사용 혐의로 작가들로부터 소송 당함",
-   "summary_ko": ""
-  },
-  {
-   "source": "reuters",
-   "title": "Anthropic agrees to pay $1.5 billion to settle author class action",
-   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOUE5fNWlKR1V6QVd0blZCd2xFckNFdDlaNXRzQjR2Umd0cGJtcGlsWm9HT0x3V3E3T3FsWUsyQ0NvSTN4UVpuNS05V3U1ZHNTRnpOaTYtbVhzdnpwaWxJclJON05JbVI3a2ZvYkwxTE1EcVAwWndLbVZmOHN5R0Z4LVZTdmhnU0hQcWhETHU3dGlPNTRNS3c3UVBaMUZsRFQwWEZfS0pBVTd2SnRfWUMzLXlxN2NBTFNzQzRIS3l6STlKdGk1SWNOVEdXOUJxWDA?oc=5",
-   "date": "2025-09-05T07:00:00Z",
-   "summary": "",
-   "tags": [],
-   "new": false,
-   "alert": null,
-   "title_ko": "Anthropic은 저자 집단 소송을 해결하기 위해 15억 달러를 지불하기로 합의했습니다.",
-   "summary_ko": ""
-  },
-  {
-   "source": "reuters",
-   "title": "Apple Watch not a 'CO2-neutral product,' German court finds",
-   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNSXh4cEhyMExTZmJUQkJQZDdPLTVNOXZOWnZ5Q0tJYkV4NnJ6UnFXdk1rX214bEFkSkluRnZFZUx5OC1uNGFFSGVQbG5oTVo2Y19ON2FPXy1JWnRKMVJQMkhMWHhDVUlURXZ6b3N0dDBFbjJ6cWJUQjkwRzFiVWxKaE45OERic2R6US1qM2ZGOHljcjFlVWVGYTc0OUhUTjllc3ZhbXQzWGlJT1FHcnlqN3BIVHIxdXR4SFE3YQ?oc=5",
-   "date": "2025-08-26T07:00:00Z",
-   "summary": "",
-   "tags": [],
-   "new": false,
-   "alert": null,
-   "title_ko": "애플워치는 'CO2 중립 제품'이 아니다, 독일 법원 판결",
-   "summary_ko": ""
-  },
-  {
-   "source": "reuters",
-   "title": "OpenAI, Altman sued over ChatGPT's role in California teen's suicide",
-   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPMEJpcVV2WUY4c0FTTVQwSzBRdmZRTXdHNHMta3JrZXFSbmkwVlFVMFNyUnlmNkRlSjdBNXFtY05vZWRwWEFuV0lxTDAtZ2R1Nzd6MTh5QlgwZ2pfWlFpQl93V2dSYUxna3lycS1DT3JVazRNNnRIVmg5MGRiTW5BOFhudFRqRDBPLVp4ZEpFaHNyMG9MUFhnNWxDS0VjUEJCUklwNW9xQXFUNXpSUGxETm1uZjhZRFRvUldfRjRhMU5oc3hRVXRpMFZYbzFkYTc0dWRvWA?oc=5",
-   "date": "2025-08-26T07:00:00Z",
-   "summary": "",
-   "tags": [],
-   "new": false,
-   "alert": null,
-   "title_ko": "OpenAI, Altman, 캘리포니아 청소년 자살에서 ChatGPT의 역할에 대해 소송",
-   "summary_ko": ""
-  },
-  {
-   "source": "reuters",
-   "title": "India's PayNearby plans to go public next year, CEO says",
-   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQcXVId3JaR3FaOVltVUtuNFJUdkJGWlJpSFc2RXM3X3lMdWRtWFRiTzQxcEJqdVRnNV9QOFJvSGFYX2dCMlRmRjNIOHFjUVlLSzlPZUI2eVVOcVlDNDl1Z09XeVBWSUJKSHRPc090TGUwRmdwbFNSU3oyNzloUk1PN1lDV3A5REpVWkQzRG5TLVJmRWc0a1ljM2ZEdHg1Rm5BMm1CZzd1OWs1WFY1eU1lekRLSEZvdEha?oc=5",
-   "date": "2025-08-21T07:00:00Z",
-   "summary": "",
-   "tags": [],
-   "new": false,
-   "alert": null,
-   "title_ko": "인도의 PayNearby는 내년에 상장할 계획이라고 CEO는 말합니다.",
-   "summary_ko": ""
-  },
-  {
-   "source": "reuters",
-   "title": "China embarks on world's largest hydropower dam, capital markets cheer",
-   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOZ1RnOU5DZ2Y1ZjgtajZuYXRtQzlWb2xsSzlMZi1zS3FPTEUzSFNfVjJ3VnlBelVBWHJKYVB1UDZKT1YteXh2cFVRTzQxakJjNlY3dXFEX3dHcTRXSmFLLWYzT0Jfa1pfOFkzYzVqM24tc0xTMVFuMHRSZjljODNwY1hzSVRTUW4xbmxfWDJuS3o1VnlySS1paU54NnRZVDdwQ1JFd0c0V2FJMW8wWUJWWWd2MXUwTVE5MGhUNVlIZGVBbHZBalNOeTFZQQ?oc=5",
-   "date": "2025-07-21T07:00:00Z",
-   "summary": "",
-   "tags": [
-    "탄소·기후"
-   ],
-   "new": false,
-   "alert": null,
-   "title_ko": "중국, 세계 최대 수력발전 댐 건설 착수, 자본시장 환호",
-   "summary_ko": ""
-  },
-  {
-   "source": "reuters",
-   "title": "Microsoft alerts businesses, governments to server software attack",
-   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNbFVUanN1dkpqZ01wSTZaSzFTVkhNTF9JakVmVndiRktMeVUwVngySFBiempPazBIRlIwVUE4bVduaXUzaVlIc0d3LW1naFRjS3dYMEZtRU9vWEZ6SzdDTnFDZXdRNncxa3FDaXl4RS1vc3BYMjhEc1llNFZpYjc3VHk4alhOeElPVWpPYkhEVV9WLVNSTXFOLVoyU1FfMllaWm5JRklodHdzOEhHVXRWbUJkRW9MeTl0MGFLLTYtRWNJV2owZi0xNnVEVmxKTkJ2dGQ0dA?oc=5",
-   "date": "2025-07-20T07:00:00Z",
-   "summary": "",
-   "tags": [],
-   "new": false,
-   "alert": null,
-   "title_ko": "Microsoft, 기업과 정부에 서버 소프트웨어 공격 경고",
-   "summary_ko": ""
-  },
-  {
-   "source": "reuters",
-   "title": "Europe's oldest lake settlement uncovered in Albania",
-   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNcnpPRlFvdGtPSzI1dFNuM2hJM2dVZm14d1RncGlHRFRzc2NuRzdRQ3R6QWJvUk85UGltcV9LX1gzTFhvZmZOUzJPTUtjamNBWUZydzI5TzBjX1I5M0l1Y1kzWUx4bVVLT1NMUXd2WUF1OTluZEdzZ1ROUkhGY29lR1ByS2ZQdGljUkRZR2txb01xa0hjeHl4WU9RRW1WZTZiYzh4Q2M4R0lCX3FLTUZGcjBTLTBac1NaSHJNQmJR?oc=5",
-   "date": "2025-07-17T07:00:00Z",
-   "summary": "",
-   "tags": [],
-   "new": false,
-   "alert": null,
-   "title_ko": "알바니아에서 발견된 유럽에서 가장 오래된 호수 정착지",
-   "summary_ko": ""
-  },
-  {
-   "source": "reuters",
-   "title": "Europe's illegal pesticide trade surges as farmers cut costs",
-   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPemVQVVMzTS1nZzNWbk5raXc5UFQ2Wnc5Y0F4NnhabmRfSW1USGJ2QlJDQkJCUDhIRjAxaTNuN3dDZnFQVm5MRnpCRUlvTUFHaE95TTVNUHU5TW5PNzBNb1dZaTZuNEprejlkc2RMdHRqZ25wRzBiMGNkR0dFLWNpNkk5bHdaaVFvT0xSanVnaW13czNUeHVjdmF0cWJXazVHVllEQlVHZFVpaXRTUFpacmxBMXZONjIwaVhTcklmdw?oc=5",
-   "date": "2025-07-10T07:00:00Z",
-   "summary": "",
-   "tags": [],
-   "new": true,
-   "alert": null,
-   "title_ko": "농민들이 비용을 절감하면서 유럽의 불법 농약 거래 급증",
-   "summary_ko": ""
-  },
-  {
-   "source": "reuters",
-   "title": "European heatwave caused 2,300 deaths, scientists estimate",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQckpHZTZ2NmduWFVTcklOVFFSY1RWWm9aYWIyQ1d1eVJEV251and0aEV5ZllzQVBZaXUyTzFveGdsYzl1cFlTVGxEZ05ZdXJ0ZHhMakhKcVBSWWMtSnFveF9rMWV2VjJzMU1kUWxsOUV5YzN4Vkp1Z0JlNlZWcHRuMUV2c19EenV2dGlJQWZJeTFLYUo0R0NPd1JBbDFwcXBDWVBWVHM5X3VkQTNzRS1zbA?oc=5",
-   "date": "2025-07-09T07:00:00Z",
-   "summary": "",
-   "tags": [],
-   "new": false,
-   "alert": null,
-   "title_ko": "과학자들은 유럽의 폭염으로 인해 2,300명이 사망했다고 추정합니다",
-   "summary_ko": ""
-  },
-  {
-   "source": "reuters",
-   "title": "America's largest power grid is struggling to meet demand from AI",
-   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQOW5WRWdYNGNOTm9xeXlsalhQdzFvNW9XOW9zU2JvVUxOV2RvaUFVY25CaGlVQWJRWTFINld4RWxzOFItbkh0VVBxQ1k0R2E2bmRvTGxlNzhQUUdDdDgyVE5EMF9YTm1KY0JGck1vbjdFZ0x2ZWJzMWJtcFZLckFtWDZ5ODBaQ3ZDNWo1bHFER0VQOFZWSVNmOTFYWEFZemNxdlAzWlV4a0h3ZWYya2ppSG1hNHZFQmpXZnB1Y0NBX1paWkpranJVZ3N3SWU?oc=5",
-   "date": "2025-07-09T07:00:00Z",
-   "summary": "",
-   "tags": [],
-   "new": false,
-   "alert": null,
-   "title_ko": "미국 최대 전력망이 AI 수요를 충족시키기 위해 고군분투하고 있다",
-   "summary_ko": ""
-  },
-  {
-   "source": "reuters",
-   "title": "Death toll from Texas floods reaches 78; Trump plans visit",
-   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOLWxUc0dOMUEyNXdkeGc2SVRRbl9xaFpGeFRHVU1XX0wwUWFfN1NmTnJId0NwLTRZWmVIeG4yVGJhLXlmQlM0VHgtLU9Xa0d5NXQ1VDBxUElWX195elRKSzdQTnB0R3FJcXlhbGQtOHlXaDVnMUxQeHRwb093dHhFSDZockZtQ0Z6TnRIM3lXSVV4T0lyU0VrZnp3Vk9YMUtISEdUN25LSVRSQ1JFTE91Yk1sNEVNa19oMHc?oc=5",
-   "date": "2025-07-06T07:00:00Z",
-   "summary": "",
-   "tags": [],
-   "new": false,
-   "alert": null,
-   "title_ko": "텍사스 홍수로 인한 사망자 수는 78명에 이르렀습니다. 트럼프 방문 예정",
-   "summary_ko": ""
-  },
-  {
-   "source": "reuters",
-   "title": "France fines retailer Shein 40 million euros for misleading discounts",
-   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOTURCamlzTjNzamRMaWpPdDBvYTNmdjk3T3Ria0lud3lQVTNINUZ2cFQ5VnFMT293anRKYTVmYmN6cm5WcG5mWmV6VVBKQUZSeldJTmZXZ1lkY1BNUFNyaUF6dVlHTzZtTGs3cDhhRzE1bmJOY0tRMzAtUG1TRTRCVnZHUkxzb1VBcFRqY0swWkVkSlJMdmtWRGJONk9ZbkFIdllDS0doblBsME1fSlJSN0ZRR2RqdTJDTzgxSFJVTEJPR09ISFNPMEotUDBSbWh2ekRLMEU5MA?oc=5",
-   "date": "2025-07-03T07:00:00Z",
-   "summary": "",
-   "tags": [],
-   "new": false,
-   "alert": null,
-   "title_ko": "프랑스, 소매업체 셰인(Shein)에 오해의 소지가 있는 할인에 대해 4천만 유로 벌금 부과",
-   "summary_ko": ""
-  },
-  {
-   "source": "reuters",
-   "title": "DeepSeek faces ban from Apple, Google app stores in Germany",
-   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUy1aSlIxNGEzNkpxRjh1czhvMW5zZ2V3ZWwyM2xwWFZ0T1ZOWXl6WENlV2d6S1FTandCLXZYQ3dJWUo5YjVoUUJYSGtqcU1RSG5LYWJIZVZQUUUzVlBoZGRCenZVaml0NHh2czNxbTFOTDJDWGdtTHhtZ2lCcFZOeTZkVmVpUUFJZnNBVWc0OE5lZ2RxNmc2S1FHZ2xnQ2lkWjNWTHJzVm9wb0Q3VFBvcVVXd2VIQTJsajln?oc=5",
-   "date": "2025-06-27T07:00:00Z",
-   "summary": "",
-   "tags": [],
-   "new": false,
-   "alert": null,
-   "title_ko": "DeepSeek, 독일 Apple, Google 앱 스토어에서 금지 조치 직면",
-   "summary_ko": ""
-  },
-  {
-   "source": "reuters",
-   "title": "Scientists in Japan develop plastic that dissolves in seawater within hours",
-   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQdTZYeXNJNHJCd3FmZjZWQVd2Q1duX2ZISmxFMUdaM0kxaENnUk92TGpSaGZnWEhjQ29kV3JGOFd4elBfcm84VHJsdC1oNHg1aWVtYzRtTl8wd2xlT0hFYnBDSWh3T3pfMlZveE4tWkpjT2NZZ216Nm1LNWhiMVJvVmxzNXEzcmhSS3MtV0c3VVhKNDVweHYtNlFmejIwcGI4WmplSFZLQldxUDZ4NC1FaElseXBiR0paZHpfTWhob0VqUWJrdzdWckt1X0xITG9q?oc=5",
-   "date": "2025-06-04T07:00:00Z",
-   "summary": "",
-   "tags": [],
-   "new": false,
-   "alert": null,
-   "title_ko": "일본 과학자들, 몇 시간 만에 바닷물에 녹는 플라스틱 개발",
-   "summary_ko": ""
-  },
-  {
-   "source": "reuters",
-   "title": "Rogue communication devices found in Chinese solar power inverters",
-   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNc3VRaGdMZlJEcVZHUEhBeXdUYlhBRVl3Vm5oUHI1RTNKVkc1Y3RwdlpQd05jUmxndDgzYUc3TkRJQUpUOWgtRWl5d29kR3NLMWJYT2FaQ254VkpSU1p0R0JGN0tzbUhrUFJONFBOb0lWOE9YdzZHQ1U2dlpjeVhXZnVpNFRNeVlOM2NYTkZRcXNuYnc3U192NUlFSkMtZ1hZb2V1cW5Ta3NEbWVYYzljbEV3VklOY2l1QWVlTzJILW1qOTRONm9vX09CQQ?oc=5",
-   "date": "2025-05-14T07:00:00Z",
-   "summary": "",
-   "tags": [],
-   "new": false,
-   "alert": null,
-   "title_ko": "중국 태양광 인버터에서 악성 통신 장치 발견",
-   "summary_ko": ""
-  },
-  {
-   "source": "reuters",
-   "title": "TikTok fined 530 million euros by EU regulator over data protection",
-   "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPdW82a3JGVnh4UWdoQ1A0UXZSZlZlMktTczdVa1NnN0k0RHZQYy1zY1phaGJGWGhBYVlzcUppWllodHlCY0xvMFBTVTZnNWhpNTc4LXRYMFVTdGRHTTlCT1NUMUFtbFdaSmJZUWhCVHptNDVGbURkZDhtdXBpR2NQaVZpenFfNXY5YUNtaFBRWUZENUNWMEpteDA4aUUxcENMWFpzTEtuNHZzRTdSUGFqTkVUTDQ2emxLNXNCazVPTFQ1bnVXemZnTGtVLV9GUzZ2QXAzTXo3UEFJeFk?oc=5",
-   "date": "2025-05-02T07:00:00Z",
-   "summary": "",
-   "tags": [],
-   "new": false,
-   "alert": null,
-   "title_ko": "TikTok은 데이터 보호로 인해 EU 규제 기관으로부터 5억 3천만 유로의 벌금을 부과 받았습니다.",
-   "summary_ko": ""
-  },
-  {
-   "source": "reuters",
-   "title": "Apple, Meta fined as EU presses ahead with tech probes",
-   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPcU53Zlhsa3hZUWowUUVIbkwtTlpYdnRRUGJEeEs0WVJYS1dnaXBxcmo4WVotcV90Y1pfdUdTbTV0emRKTW0zY1ZpM0piaHhxRUpPNzdVMzVwTnJuOEk1TjVYZl91Smt5dmFyQ1BMUkFnNGJZSnNsSHhQUmhFRzBWaFNBcFR2QTJPUVBlWFdYaEI1dEpJX25ZaV9IT2NDOEdCQmR2VlhYcDl2TFhON2RacjlXSGlfRlVmWFBnVWRPTDRnVi1IR1dsUHEtNWo5Zw?oc=5",
-   "date": "2025-04-23T07:00:00Z",
-   "summary": "",
-   "tags": [],
-   "new": false,
-   "alert": null,
-   "title_ko": "EU가 기술 조사를 추진함에 따라 Apple, Meta에 벌금이 부과됨",
-   "summary_ko": ""
-  },
-  {
-   "source": "reuters",
-   "title": "US calls EU fines on Apple and Meta 'economic extortion'",
-   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPX1ZtY0Z4dldDckdLUEdrdmpmbWVJZHhHRmxmS1BxWXpJRWljdS14SUQ2TkRoVmZjcTcyOXVtMHJsa1FlS2dSOG9wMEtPelliRTM2NmpMNVdtOFA2QmtFZjVOd1d6eGZGMjhISGlRS0QyVWZ6cjhESGZIeHlFQzkzMkRtano1TXpMWnBrMDVMMUpGR295MXFnTHltLWlKSGlvUTUxX1B6bWpSZXlWZ3plR09SWi1seUVBcnBiMFFXZDU?oc=5",
-   "date": "2025-04-23T07:00:00Z",
-   "summary": "",
-   "tags": [],
-   "new": false,
-   "alert": null,
-   "title_ko": "미국, 애플과 메타에 EU 벌금 부과 '경제적 착취'",
-   "summary_ko": ""
-  },
-  {
-   "source": "reuters",
-   "title": "OpenAI would buy Google's Chrome, exec testifies at trial",
-   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPaGEwbmJYczFLX3QzZ05lbEI2ZmtQaVF5VjJBdFhTZFBwU2E0MTc3Y0NVVVkyR1BJcHNpYlRDWVRRYlZ6R1Y3Qy0wWF9ubnFGZGNmQUd4NVE0VnhlYTc4TnhNdGdRcFJ5a09LaVhpV0RDUTh6N2R6Vld5bUZ3cnVfakptOGpGWDBDRFVEMDROOU91Nl9KNmluX3gyYmlVYXpCQ0hCOUNTWkI4MnV1azl3dXNjOEo0ajZsQmlDRmxxUElHaDZNU0NkY1NWMzl3TGwyaWkzN3lhSDA?oc=5",
-   "date": "2025-04-22T07:00:00Z",
-   "summary": "",
-   "tags": [],
-   "new": false,
-   "alert": null,
-   "title_ko": "OpenAI는 Google의 Chrome을 구매할 것이며 임원은 재판에서 증언합니다.",
-   "summary_ko": ""
-  },
-  {
-   "source": "reuters",
-   "title": "Meta's Zuckerberg disputes US antitrust case in trial testimony",
-   "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQSllPZndIem9sTlhWclMwOU5CbEdYMmo2UTRrbmhnVEpLWGZhTVJoU1EteTZRb01hT0NVUkc4SF9fTEtjR2JSaUFVeWZReGtXYXppanE2ZXlhY3lRTm9xNVJmdzA4QkdwZmtaS0EyVU1UNHE3djNnd2k4aDZMZUVldjdpZzRPYXgwZHZDUDJCZlZ0cTRPM2FGYmlyV2NaZG9KT3QtOUdjNk9QOTZjOTVISnRXaFF3R0t3X2pxYjFFVDlQbjNVbEZlLXo3b0VNTTMyTnVjUE9DMlFPWnVWaGdpYUdGQXo?oc=5",
-   "date": "2025-04-14T07:00:00Z",
-   "summary": "",
-   "tags": [],
-   "new": false,
-   "alert": null,
-   "title_ko": "Meta의 Zuckerberg는 재판 증언에서 미국 독점 금지 사건에 대해 이의를 제기했습니다.",
-   "summary_ko": ""
-  },
-  {
    "source": "consilium",
    "title": "European Green Deal - Council, European Union",
    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBFdTBmZ2VRN3kxTVB2SjJOREI5c0hIdTBaLVJOMFR2cXVrRjVxQmNla1ZIZjRNZnNNWnZ2TVNILWtnZEFsYldEV2J0d2E4ZVpKY09oMno4QS0yUS01dWliS081YU5vMWRjZGp4X2lpM29vZw?oc=5",
@@ -16697,34 +16941,6 @@
    "alert": null,
    "title_ko": "유럽 ​​녹색 거래 - 이사회, 유럽 연합",
    "summary_ko": "유럽그린딜협의회, EU"
-  },
-  {
-   "source": "eurlex",
-   "title": "Directive - EU - 2024/1760 - EN - CSDDD - EUR-Lex",
-   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5jTUV6bDFGSllCbnNNcW5tVXpBdEY2UE5xUzVHUWkzbVpkUkZVOFJSRE0yMlJkdkQ3Z2ZPYk9uR0I5SzdYNlBGVG5uanBWaUttZXpRVG1iNk9jeXRrVnJ3?oc=5",
-   "date": "2024-12-18T18:19:06Z",
-   "summary": "",
-   "tags": [
-    "CSDDD 공급망실사"
-   ],
-   "new": false,
-   "alert": null,
-   "title_ko": "지침 - EU - 2024/1760 - EN - CSDDD - EUR-Lex",
-   "summary_ko": ""
-  },
-  {
-   "source": "reuters",
-   "title": "Developing nations blast $300 billion COP29 climate deal as insufficient",
-   "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNWDZ4VzVvX0Nzc2JoZDBsVjUtbmtqWDhFb28wd3IxOHdMdnFab21EWlQ4elJsQTNxeW5KclZuM1YtY3A3Wi11NktjRndsay1yZTVEYUctNXhsUG5RbHJSdndhTFo2UDluOGxzQms4LW5kUkZNbE1oVU9sN3NsdS1odFM5UkpsZlJON1pmX0NXWDFwMDg4Z09sNWRhVTBxbGtxMEdKQXNPOGRiSWx4dG1MQWhLN3BRbmdpV3NtMlBxaUVicVZxbEM1UFp4TnJFazJYS1Q1eUVHNHBsX29uRHlVVFBiUUtfR3FRNFE?oc=5",
-   "date": "2024-11-24T08:00:00Z",
-   "summary": "",
-   "tags": [
-    "탄소·기후"
-   ],
-   "new": false,
-   "alert": null,
-   "title_ko": "개발도상국들은 3000억 달러 규모의 COP29 기후 합의가 불충분하다고 비난합니다.",
-   "summary_ko": ""
   },
   {
    "source": "consilium",
@@ -16741,84 +16957,6 @@
    "summary_ko": "기후 변화에 관한 파리 협정 이사회, 유럽 연합"
   },
   {
-   "source": "reuters",
-   "title": "Climate Solutions News | Today's Latest Stories",
-   "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5oRlBBTXZyYjBUeEl2U3FqZkg2ak5ZM2tYNUF0VFZRaVVNMGkzc0Y3TkpXdnBONTZfaF9JeU9nRi0xMjlnQWs0cTZxX3ZTME9DQ2gzUE1yekt1MzZQcXA0OVFuMU83aFFm?oc=5",
-   "date": "2024-10-02T18:42:24Z",
-   "summary": "",
-   "tags": [
-    "탄소·기후"
-   ],
-   "new": false,
-   "alert": null,
-   "title_ko": "기후 솔루션 뉴스 | 오늘의 최신 뉴스",
-   "summary_ko": ""
-  },
-  {
-   "source": "reuters",
-   "title": "Climate Change News | Today's Latest Stories",
-   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9FeDdBY1Z0Nm44X1NQa21IWjVHd09wTHladXFyZmhGWHE1ZFJlTHVaQ3pVbkNfcG5KN1FaRG45QlRIbjBybmM2Q3huc3BGcnN3YUwtQ19TNWpTX1ZlbWpldHlrNko?oc=5",
-   "date": "2024-09-20T23:21:21Z",
-   "summary": "",
-   "tags": [
-    "탄소·기후"
-   ],
-   "new": false,
-   "alert": null,
-   "title_ko": "기후 변화 뉴스 | 오늘의 최신 뉴스",
-   "summary_ko": ""
-  },
-  {
-   "source": "reuters",
-   "title": "Human Rights News | Today's Latest Stories",
-   "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBiTnFUMnhVY2I5Qi1NaldfbHJ2bDlNWHZwT0hRVU5kdTE3TkhpNzZfM3UyWDQzWUlUNThwelF4bWcxdm82R0JwbDVreGhVdzJ3bGZvQlVRRjFxMEd6WUpuRHBR?oc=5",
-   "date": "2024-09-19T07:33:04Z",
-   "summary": "",
-   "tags": [],
-   "new": false,
-   "alert": null,
-   "title_ko": "인권 뉴스 | 오늘의 최신 뉴스",
-   "summary_ko": ""
-  },
-  {
-   "source": "reuters",
-   "title": "Regulatory Oversight News | Today's Latest Stories",
-   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBPT1VHb1Y3TzVWNUpud3lvOENqaFdtd1ppRks2a1ZlTV9LbFR0d1lYcmszZjNRTkphUlRLLVByWjdQM0xRV3h0dmZDei1NLS0xdDQ4eFB1Tm03Y0ZtVzlBQnhVX0FYQ1J0X09BUw?oc=5",
-   "date": "2024-09-16T13:30:24Z",
-   "summary": "",
-   "tags": [],
-   "new": true,
-   "alert": null,
-   "title_ko": "규제 감독 뉴스 | 오늘의 최신 뉴스",
-   "summary_ko": ""
-  },
-  {
-   "source": "reuters",
-   "title": "Water Management News | Today's Latest Stories",
-   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9QWDRCTHN1dEJxZGktWE84Qkt3azB4bXhXbzZIazJlTHdhUWF4U3FqNTROT3RpaFFLczhJOVBzMGZNb0luYkl5Snh1TnVmNklSNXUwbnlXSnBjVklpSDI3M3o5U3pZTk0?oc=5",
-   "date": "2024-09-16T13:24:26Z",
-   "summary": "",
-   "tags": [],
-   "new": true,
-   "alert": null,
-   "title_ko": "물 관리 뉴스 | 오늘의 최신 뉴스",
-   "summary_ko": ""
-  },
-  {
-   "source": "eurlex",
-   "title": "Directive - 2022/2464 - EN - CSRD Directive - EUR-Lex",
-   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9PZVIwby1BNnFpUHY3aHNSU3ZXdDVxTVpOdGhoenVTT3p0MlhTZFBXRnk0N1ZuQU82blVQVklXa2Y3aU1lM1RfSU1DeGxwSzdadVV1LXVtRF9sOTlvQXVV?oc=5",
-   "date": "2024-02-16T09:23:23Z",
-   "summary": "",
-   "tags": [
-    "CSRD·ESRS 보고"
-   ],
-   "new": false,
-   "alert": null,
-   "title_ko": "지침 - 2022/2464 - EN - CSRD 지침 - EUR-Lex",
-   "summary_ko": ""
-  },
-  {
    "source": "consilium",
    "title": "Net-Zero Industry Act: Council and Parliament strike a deal to boost EU’s green industry - Council, European Union",
    "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxORl9KOUo3bzlMUENUT2tlWGpLaHNKQmFFbm4wZ3YtSW52T1NaZmY5RV91TlFpWUFDX1pFNUhGV3dFTmJ6YmFOV241Z2JwMGNEYUhia2EybHJaU2JjRTBWWUVWWVM3MzhILVlzSXgtR3dkVFlkR3ZXbXpUYTRlVzVydjBvVGNhbHdhZDgxUVhrN2xFYkd0RDNoOHQ0ellOLU5HWDBLNnN0NzJnb0RYRkpCTmVacDAyUklwUUNCYjhPLXhwZXJoY0E3U3VzbjNCZGw5T3NEaWhuT2Z3cml3dDBIX05EVnBEVF9aeTYw?oc=5",
@@ -16827,139 +16965,9 @@
    "tags": [
     "탄소·기후"
    ],
-   "new": true,
+   "new": false,
    "alert": null,
    "title_ko": "넷제로 산업법(Net-Zero Industry Act): 이사회와 의회, EU의 녹색 산업을 활성화하기 위한 계약 체결 - Council, European Union",
-   "summary_ko": ""
-  },
-  {
-   "source": "reuters",
-   "title": "The Switch | Latest Sustainability News on the Clean Energy Transition",
-   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUjlPOGIxM3pMNlFYSE5YdG9hcXdmRHZOaFFacGJfRDV5LWdOS25VQXNzY3UxRzROM1VzTUk3NjJHM2lET0s5LUFPa1laSndENjVpS3ZlSjBuZUZSV1g4?oc=5",
-   "date": "2024-02-01T06:11:48Z",
-   "summary": "",
-   "tags": [],
-   "new": true,
-   "alert": null,
-   "title_ko": "스위치 | 청정 에너지 전환에 관한 최신 지속가능성 뉴스",
-   "summary_ko": ""
-  },
-  {
-   "source": "eurlex",
-   "title": "Regulation - 2023/1542 - EN - Batteries Regulation - EUR-Lex",
-   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XNk1BMUxfRktHaS1QWmFNRFpTMWtHWUowWVMtTHhEdHloOWlVcWxSYXlzXzRHREFrNEFmMmVQcGRGUmdoemd3VWJFbkQ5STdJMUtwQmxycVE3Y3pjalR3?oc=5",
-   "date": "2024-01-20T12:42:02Z",
-   "summary": "",
-   "tags": [
-    "배터리 규정"
-   ],
-   "new": false,
-   "alert": null,
-   "title_ko": "규정 - 2023/1542 - EN - 배터리 규정 - EUR-Lex",
-   "summary_ko": ""
-  },
-  {
-   "source": "eurlex",
-   "title": "Regulation - 2023/956 - EN - cbam regulation - EUR-Lex",
-   "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBIbGhWYkdVZU1leDFONkRiVUJuZWZkZV9pa2VIX1NKSkF5TVNad2FUaTkwTXRRWHNZUDIyMGZqamlXUzNrVTl6ZkpFTG9meFpFU1lEQnM2WWk2UldOZEE?oc=5",
-   "date": "2023-05-16T07:00:00Z",
-   "summary": "",
-   "tags": [
-    "CBAM 탄소국경"
-   ],
-   "new": false,
-   "alert": null,
-   "title_ko": "규정 - 2023/956 - EN - cbam 규정 - EUR-Lex",
-   "summary_ko": ""
-  },
-  {
-   "source": "reuters",
-   "title": "Sustainable Finance & Reporting | Sustainable Business News | Latest Eco Headlines",
-   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5SeGFveEhDVHE3Z1duaEIwM2JaZlQ2dTFPY3cybGtqY2ZCY0RLRGpFWkdrZDhybzRpcFBXdkFNX0hQMkxfMDdTV1F0NjdaM1FjdXNSLUNuaERoUXRvOV9nbVVUNzRpTG1NdXNxdUplak1ZSEZTb1VBeA?oc=5",
-   "date": "2023-04-29T03:54:54Z",
-   "summary": "",
-   "tags": [],
-   "new": false,
-   "alert": null,
-   "title_ko": "지속가능한 재무 및 보고 | 지속가능한 비즈니스 뉴스 | 최신 에코 헤드라인",
-   "summary_ko": ""
-  },
-  {
-   "source": "reuters",
-   "title": "Land Use & Biodiversity | Sustainable Business News | Latest Eco Headlines",
-   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5XMHZ4NVhiWVVrc3N0WE44eXhCR1NLbXotSnZUdzdMYjFMSXZjQVdqYXotbTJPd01idHpqOU1qVi1UM255R08xOUxybHJvX1BTSE5qa0lFd2lXZ2h5SzhncUd6UzNUM3dQNkxlTUtB?oc=5",
-   "date": "2023-04-29T03:54:54Z",
-   "summary": "",
-   "tags": [],
-   "new": false,
-   "alert": null,
-   "title_ko": "토지 이용 및 생물 다양성 | 지속가능한 비즈니스 뉴스 | 최신 에코 헤드라인",
-   "summary_ko": ""
-  },
-  {
-   "source": "reuters",
-   "title": "Sustainable Business News | Latest Eco Headlines",
-   "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1VX0J6a1hFeGszYjdKdHZrQnJ4Q0oxRmdJZlZPcEsyRW9sZmN2VEtXTW5SWnlMa2t5VDdZbnpZa3JyR3BLQzZ6RGpqZ2dSclVM?oc=5",
-   "date": "2023-04-11T15:52:18Z",
-   "summary": "",
-   "tags": [],
-   "new": false,
-   "alert": null,
-   "title_ko": "지속가능한 비즈니스 뉴스 | 최신 에코 헤드라인",
-   "summary_ko": ""
-  },
-  {
-   "source": "reuters",
-   "title": "Boards, Policy & Regulation | Sustainable Business News | Latest Eco Headlines",
-   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9yMmtRRlh3YWFLLTdUdW83T0s3cVQ1QW9hcTNiYk5rZnVHZXB6bllMa3hVVFJEZUpETUh6NGc4Uk0zbS1jMTlTVzJ5cnphZzkzVlFnQWhuM29NWlMyRzBGVFlOeTBzY2hSclI5X05hMC1Hdw?oc=5",
-   "date": "2023-04-11T15:50:07Z",
-   "summary": "",
-   "tags": [],
-   "new": true,
-   "alert": null,
-   "title_ko": "이사회, 정책 및 규제 | 지속가능한 비즈니스 뉴스 | 최신 에코 헤드라인",
-   "summary_ko": ""
-  },
-  {
-   "source": "eurlex",
-   "title": "Regulation - 2020/852 - EN - taxonomy regulation - EUR-Lex",
-   "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBRTU1wWnpMc3IyUjVqTmpLWERpWGtTc1c1Z1FxenJscENhdWIwR3dMakU0TnNXbHQ2ZHMyN09KdXhVYkpib0ZvRlphX0k1RnMtWU1rZGVwQ1gxZ2lZVkE?oc=5",
-   "date": "2022-08-20T15:50:50Z",
-   "summary": "",
-   "tags": [
-    "택소노미"
-   ],
-   "new": false,
-   "alert": null,
-   "title_ko": "규정 - 2020/852 - EN - 분류 규정 - EUR-Lex",
-   "summary_ko": ""
-  },
-  {
-   "source": "eurlex",
-   "title": "Regulation - 2019/2088 - EN - sfdr - EUR-Lex",
-   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9hclAtb2pXb1BIbkk3RWNnU0s5VVZzN3pBWi1pWWRJd2NsOEVHU3YxbUhtd0dLdFMwN1dkTE9SUDREd2YwQTA4OVRFQjZ3WUhjeld5a1B3UlBDS0d5RXlR?oc=5",
-   "date": "2020-11-08T16:05:22Z",
-   "summary": "Regulation - 2019/2088 - EN - sfdr EUR-Lex",
-   "tags": [
-    "SFDR 공시"
-   ],
-   "new": false,
-   "alert": null,
-   "title_ko": "규정 - 2019/2088 - EN - sfdr - EUR-Lex",
-   "summary_ko": "규정 - 2019/2088 - EN - sfdr EUR-Lex"
-  },
-  {
-   "source": "eurlex",
-   "title": "Directive - 2008/98 - EN - Waste framework directive - EUR-Lex",
-   "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5xUHJpZWo1Q2dkY2YzZ09FLUl2WmRnOGFpd1BiZkg0QWs2WHR6bTRuN3JUSnB0TkpVVmV3M293MDhORm5vNUtEREs0Mi1LdW8tUlowVjZYVjNjamc1?oc=5",
-   "date": "2018-11-22T17:40:56Z",
-   "summary": "",
-   "tags": [
-    "순환경제·폐기물"
-   ],
-   "new": false,
-   "alert": null,
-   "title_ko": "지침 - 2008/98 - EN - 폐기물 프레임워크 지침 - EUR-Lex",
    "summary_ko": ""
   },
   {
