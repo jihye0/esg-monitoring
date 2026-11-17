@@ -1,5 +1,109 @@
 [
   {
+    "date": "2026-11-13",
+    "points": [
+      {
+        "type": "주의",
+        "tag": "PPWR 포장재",
+        "title": "PPWR 조화 라벨링 2027년까지 연기 재확인",
+        "body": "EU가 PPWR의 조화 포장 라벨 적용을 2027년까지 연기한다는 보도가 이어졌습니다. 포장 라벨 변경을 준비 중인 기업은 변경된 일정을 기준으로 작업 계획을 재확인하시기 바랍니다.",
+        "refs": [
+          {
+            "t": "EU, PPWR 조화 포장 라벨을 2027년까지 연기",
+            "u": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZEdMOWRSNWlDd2xua2xwai1wSDNxd3Y4VDJibjNJLVpZaWZZeU1MbGpmMXlaTG1GdTVCV2p3dGlQT2ttMk10NmZKWkF0Mng1TUNhTEN4NXgtN3NxNjFXMmppNHBCM1pJSE5mbkV6SF9CT0kxVzE3OXBNbnpHaDhIVmZ4WnBTRk1TNVNwNzVucVRKN19ySmhKeE83LXBFdUlBV0ZTcWdWcVdGZw?oc=5",
+            "s": "Plastics News",
+            "d": "2026-11-12"
+          }
+        ]
+      },
+      {
+        "type": "참고",
+        "tag": "탄소·기후",
+        "title": "이사회·의회, 에너지 집약 산업 무상 탄소배출권 확대 합의",
+        "body": "EU 이사회와 의회가 에너지 집약 산업에 약 100억 유로 규모의 무상 탄소배출권을 추가 배정하는 데 합의했다는 보도가 나왔습니다. 배출권거래제(ETS)의 무상할당은 CBAM 전환 일정과 맞물려 조정되는 구조여서, 철강·알루미늄 관련 비용 환경에 영향을 줄 수 있는 변화입니다.",
+        "refs": [
+          {
+            "t": "EU 의회, 이사회 파업 거래로 업계에 100억 유로의 추가 무료 탄소 허용량 제공",
+            "u": "https://www.esgtoday.com/eu-parliament-council-strike-deal-to-give-industry-e10-billion-in-additional-free-carbon-allowances/",
+            "s": "ESG Today",
+            "d": "2026-11-13"
+          }
+        ]
+      },
+      {
+        "type": "참고",
+        "tag": "EUDR 산림전용",
+        "title": "EUDR 적용 임박 — 원산지 국가들의 추적 시스템 준비 보도",
+        "body": "인도네시아(팜유)·베트남(목재) 등 원산지 국가들이 EUDR 시행에 앞서 추적 시스템을 준비하고 있다는 보도가 나왔습니다. 공급망 상류에서 원산지 데이터 체계가 갖춰지고 있다는 신호로, 고무·가죽 등 대상 원자재를 취급하는 기업은 자사 조달처의 준비 상황도 함께 확인해 볼 만합니다."
+      }
+    ]
+  },
+  {
+    "date": "2026-11-06",
+    "points": [
+      {
+        "type": "주의",
+        "tag": "CBAM 탄소국경",
+        "title": "CBAM 본격 시행기 진입 — 영국 면제 계획 보도",
+        "body": "CBAM이 본격 시행 단계에 들어서면서 규정 준수 자동화·검증 서비스가 빠르게 늘고 있다는 보도와 함께, EU가 2026년 1월부터 영국 수입품을 CBAM에서 면제할 계획이라는 보도가 나왔습니다. 적용 범위가 계속 조정되고 있으므로 철강·알루미늄 부품 수출 기업은 고객사(수입자)의 탄소 데이터 요구 수준을 확인해 두시기 바랍니다.",
+        "refs": [
+          {
+            "t": "주요 CBAM 개편: EU는 2026년 1월부터 영국 수입품을 면제할 계획이라고 보도됨",
+            "u": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZnJ1WERZb0hqbV9yOGZ2T3ByWnpLR3VQVmpZTnRMWjM2dm1Sc3h0WC1QQklqck93aVE4aFp5SXFMdE1sTkducUdwRXQ1cl81b3lXUWxCeFdDcDczSnBZX1JWemZYUTdxclZ6UHlBZmhuakVlMXFoVUxPY0k4TF9YQjJJLVZ3UllXRFJQWVgtbFBVQVlVeEZ1dnJVVTA5c2VmazdIbTRtNA?oc=5",
+            "s": "Carbon Herald",
+            "d": "2026-11-03"
+          },
+          {
+            "t": "EU CBAM이 발효됨에 따라 기술 제공업체는 규정 준수 자동화를 위해 경쟁하고 있습니다.",
+            "u": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNRzd6cWlfLUZYRXRkUEM3bHlieVZPeWIwS2l1U2VuMEQ2M2lmcWlyQTcyU0FWQ19DWTFnSWxmeFZzbGpOc3FEWE11UHNEMUZHeWZuRVRyeWpjZERLWEtyclpWeWh2Wmd4NDJ5d0cyaTBmMnhPNkFFNkw1NHkxbG5GZktQTEFoajFaeEQ0NWVUUXFWS3JKZlR0SXlkYU9SWU00MWl0b0VvLS1rd1NRbll6d1hTQjd0dw?oc=5",
+            "s": "ESG News",
+            "d": "2026-11-05"
+          }
+        ]
+      },
+      {
+        "type": "주의",
+        "tag": "탄소·기후",
+        "title": "유럽의회, 승용차 CO2 감축 요구 완화 표결",
+        "body": "유럽의회가 승용차 CO2 배출 감축 요구를 완화하고 저배출 차량 인센티브를 확대하는 방향으로 표결했다는 보도가 나왔습니다. 완성차의 전동화 전환 속도와 부품 수요 구성에 영향을 줄 수 있는 변화이므로, 최종 확정 내용을 지켜볼 필요가 있습니다.",
+        "refs": [
+          {
+            "t": "EU 의원들은 자동차에 대한 CO2 배출 감소 요구 사항을 낮추기로 이동합니다.",
+            "u": "https://www.esgtoday.com/eu-lawmakers-vote-to-water-down-co2-emissions-reduction-requirements-for-cars/",
+            "s": "ESG Today",
+            "d": "2026-11-05"
+          },
+          {
+            "t": "보도자료 - CO2 배출: 목표 조정, 청정 차량에 대한 인센티브 확대",
+            "u": "https://www.europarl.europa.eu/news/en/press-room/20261103IPR48613/",
+            "s": "유럽의회",
+            "d": "2026-11-04"
+          }
+        ]
+      },
+      {
+        "type": "참고",
+        "tag": "ESPR 에코디자인",
+        "title": "디지털 제품 여권(DPP) 준비 동향 확산",
+        "body": "KPMG의 유럽 DPP 준비도 설문을 비롯해 디지털 제품 여권 도입을 준비하는 산업계 보도가 이어지고 있습니다. 품목별 세부 규정 확정 전이지만, 제품 소재·재활용 정보를 전자적으로 관리하는 흐름이 산업 전반으로 퍼지고 있다는 신호입니다."
+      },
+      {
+        "type": "참고",
+        "tag": "그린워싱·표시",
+        "title": "그린클레임 지침안 중단 보도 — 기존 발효 규정은 유지",
+        "body": "별도 입법으로 추진되던 '그린클레임 지침안' 논의가 중단됐다는 보도가 나왔습니다. 다만 이미 발효된 소비자 권한 부여 지침(ECGT)에 따른 친환경 표시 근거 요구는 그대로 적용되므로, 근거 없는 친환경 문구 점검은 계속 필요합니다.",
+        "refs": [
+          {
+            "t": "EU, 녹색 청구 지침 중단",
+            "u": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQOXpoMkMwT1lua0tKTExUS2FRZTRhdVFRY2pOdEpVbXcxUkR0ckxKR2lyZnBkLVc0SVJ3QnlyelFaTFUyb21seVpwSk9kQ2JCTW1RWG5qdTF1b0pzblo3NGpNU2dTejYzWEtfb0hydzFHY2o4QUw4bVd3Skw2R3MtZjRJdVN4alZ4MFFMa3ZodTJOS216WWg5VXpmRmQ1MW1LNFA4dmo5VHVzSXRh?oc=5",
+            "s": "WWD",
+            "d": "2026-11-06"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-10-30",
     "points": [
       {
@@ -77,6 +181,214 @@
         "tag": "CBAM 탄소국경",
         "title": "CBAM 적용 범위 확대를 두고 EU 기관 간 이견",
         "body": "CBAM 적용 범위 확대(하류 제품 등)를 놓고 EU 기관 사이에 입장이 갈리고 있다는 보도가 나왔습니다. 자동차 부품으로의 확대 여부는 아직 결정되지 않은 사안으로, 논의 경과를 지켜볼 필요가 있습니다."
+      }
+    ]
+  },
+  {
+    "date": "2026-10-09",
+    "points": [
+      {
+        "type": "주의",
+        "tag": "CBAM 탄소국경",
+        "title": "자동차 업계, CBAM 하류 확대에 공동 성명 — 부품업계 직접 관련",
+        "body": "유럽 자동차부품협회(CLEPA)와 완성차협회(ACEA)가 CBAM의 하류(완제품) 확대 제안에 대해 자동차 가치사슬 전체를 보호하는 실행 가능한 규칙을 요구하는 공동 성명을 냈습니다. 확대안이 확정되면 더 많은 부품·완제품이 신고 대상이 될 수 있어, 자동차 부품업계에 직접 관련되는 논의입니다.",
+        "refs": [
+          {
+            "t": "CLEPA, 전체 자동차 가치 사슬을 보호하는 실행 가능한 CBAM 규칙 요구에 동참",
+            "u": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPWHBrbENURmprWl9pRXRtRkJqWlhNUHZmb2xTOGw2ZUdpQVVYUEVLbWdWVUhpSzU3dXVpcG82Ri1ReVdoM2dwNy1ZdDNlREV5S3ZYc0tycS04Y2ZIbVdGOUhwNEdfeXFycFRzNHNQWUpsZVNoempoczdSZzQ0a3cwcXFPTEpMVGM3X2RkR2xnN09tX3R3Y1YwR0trR1VMekxqODBhazEydGczT3ZDRkdHRXM4RDIxSVZSb01VeU12dF90REJ3QnlJRURHYw?oc=5",
+            "s": "CLEPA",
+            "d": "2026-10-05"
+          },
+          {
+            "t": "탄소 경계 조정 메커니즘(CBAM)의 하위 확장 제안에 대한 공동 성명 - ACEA",
+            "u": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOcmdnQV9WWk9yRmRKMElVQUZ3UjNxaVREdU1zN3pGejJBQmpFRTF3YTdua19kbmFNanF1NHFHSGtHZ280WUhManFYYTRXTWxqZDh2SjlKR0NOU1c0WXhtZHhvY1A5UURwQTJpZ05hTUhQaEJjbDBfemgwU2Q4aGN2WDdKaEtDX3FhT09kS2x0MEtMeUtwWmF1RkE2MDFYWi1xRlFtcjQyRHFPWXR2V0Z2LUZFU3RZVkZ5YngxekVlUzdjVlZZdnc?oc=5",
+            "s": "ACEA",
+            "d": "2026-10-05"
+          }
+        ]
+      },
+      {
+        "type": "참고",
+        "tag": "CBAM 탄소국경",
+        "title": "3분기 CBAM 인증서 가격 €82.32 공표 · 미국 USTR 의견 요청",
+        "body": "EU 집행위가 2026년 3분기 CBAM 인증서 가격을 톤당 82.32유로로 공표했습니다. 한편 미국 USTR이 CBAM에 대한 의견 요청(조사)을 시작했다는 보도도 나왔습니다. 인증서 가격은 수출 제품의 탄소 비용을 가늠하는 기준이 됩니다.",
+        "refs": [
+          {
+            "t": "2026년 3분기 EU CBAM 인증서 가격은 톤당 EUR82.32로 설정됨",
+            "u": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZ0dwQXBCbXpQV2U2VHVSTkFDMHRnSGltT011dmVDeXJOMkhGemdPUUpQR1dkaks4QmlPM2FoWmtsckVmd1BBYVlpOV9Nc0tpeDNyUS1ISlhMOXAzaWpHaDdjcWhPSDVyLTJWY09LQTJ0ME9sREprcmg3MkF6RkpubUVOajBrZldOdjhvSExyaGFCT2JoUmF2Wml1Y04?oc=5",
+            "s": "IndexBox",
+            "d": "2026-10-05"
+          },
+          {
+            "t": "USTR, EU의 탄소국경조정제도에 대한 의견 요청 발행",
+            "u": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPU1haM3RSaTgzSmg1M2JiaHNIZkZsUmhwRU40X2lRb19xVDY2VTBsU3gtOGRmODlkUkZ6c181ZTB3allnRjRYdThrWFByakFKQ3RxbjFYbWlxVXpqUlRYN1JhNnJ5S0xmcmZvNDhpWWhPVUt1YmlKRHlkWVBtOG56a1QxWWpuY1dQNzZ1U2xoYnZWWHRBNThXUmhGcWs0MXplek10bkFMYS1VaFk?oc=5",
+            "s": "White & Case LLP",
+            "d": "2026-10-09"
+          }
+        ]
+      },
+      {
+        "type": "참고",
+        "tag": "PPWR 포장재",
+        "title": "PPWR 적용 개시 후 실무 정리 자료 잇따라",
+        "body": "PPWR이 적용되기 시작하면서 기업이 알아야 할 사항을 정리한 법률·실무 자료가 계속 나오고 있습니다. 포장 재질·구성 데이터를 체계적으로 관리하는 것이 공통 과제로 꼽힙니다.",
+        "refs": [
+          {
+            "t": "이제 EU 포장 및 포장 폐기물 규정이 적용됩니다. 기업이 알아야 할 사항",
+            "u": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNNnRxRUVWX1pySmZDTjBqSlJKbjVPLTYtWl8zbTRqS3JmZHlwNThvTUd3ZGVXWXNFdUFEV2N3UlcwUWsxdXl3RXloYmwyRXEtc1ZCdktQcGZlcVZRTWJmX3I2c3VDRnhnNm5KZ1BELUNKbVVCbkMyVkdOTlN1dktIUHU0SkZvQlc2cUUtU1pOS2NZS1ppd21ITUpsQnAzNWc3dWg4UW93VndjWS03TzQyVi1NX05QcXdBR0g0VUtLWmdwblk1SzJ5MVg0QVNSdw?oc=5",
+            "s": "McDermott Will & Schulte",
+            "d": "2026-10-07"
+          }
+        ]
+      },
+      {
+        "type": "참고",
+        "tag": "SFDR 공시",
+        "title": "SFDR 2.0 — 의회, 협상 권한 채택",
+        "body": "SFDR 2.0 개정과 관련해 유럽의회가 협상 권한을 채택하며 3자 협상 단계로 넘어갔다는 보도가 나왔습니다. 금융회사 대상 규제로 부품사 직접 영향은 없으며, 경과만 참고하시면 됩니다."
+      }
+    ]
+  },
+  {
+    "date": "2026-10-02",
+    "points": [
+      {
+        "type": "권고",
+        "tag": "CBAM 탄소국경",
+        "title": "2026년 수입분 CBAM 비용, 2027년 지출로 — 자금 계획 분석",
+        "body": "2026년 수입분부터 발생하는 CBAM 비용이 2027년 인증서 구매라는 실제 지출로 이어지므로 미리 현금 계획이 필요하다는 분석이 나왔습니다. 철강 공급업체는 검증(verification) 요구 사항을 조기에 준비해야 한다는 권고 보도도 있었습니다. 수입자(고객사)의 비용이 커질수록 협력사에 대한 배출량 자료 요구도 구체화되는 구조입니다.",
+        "refs": [
+          {
+            "t": "2026년 수입품의 CBAM 비용에는 2027년 현금 계획이 필요합니다",
+            "u": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPMXJFOHhTRzF1cWpKeTM5b0N3djVHZktTcW5Za2ZLVnlwcDBYTU0wOTlmZ1pGT3hwelVIamFadVJ2M3ZXTzNxSEFWUWQ5Tkg1OWh1NHQ0V0RkczMwb0RhWEpGVWhUT1kxTUJxdjJfczhOSTJ4dXFCV0ZXRzFNSi13R0RIcXVDZC1wZGpaNzZDdVhvMWZnd3N4Z0pKN2pSVmdOSlFFNTFIRS0?oc=5",
+            "s": "Environmental Leader",
+            "d": "2026-09-30"
+          },
+          {
+            "t": "철강 공급업체는 CBAM 검증 요구 사항을 조기에 준비해야 합니다.",
+            "u": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQRFBKOTJMbzJLSlc3SkxLQ3RzOE5XTE9QWW92Z1J0amFsNnNKVDVYUTNjdHR4c1ZhZVUxTVRBb0toXzhLZE5HRGIwRVlYdmdqNjUxQTZHNnZZMVlBbGwyVVlJRzhHaEtZdnpmSi1weVg0dkNDeFJST2pXRW5DSlB5NldfQnhCRlhFWHc1Z1o0UnZLeFBLeXZMaDYxbE9NckhpV2pqTktDc2JabGtxRW9UZ3BCRjdwT2tyazBCMGQ2Y3dERzdlS1R2SFJYbnpsLXNHQTZPT2tXOGUtdm9FSXI4Nw?oc=5",
+            "s": "Steel Orbis",
+            "d": "2026-09-28"
+          }
+        ]
+      },
+      {
+        "type": "참고",
+        "tag": "EUDR 산림전용",
+        "title": "EUDR 12월 적용 앞두고 기업 준비 사례 확산",
+        "body": "대형 포장재 기업이 약 2만 5천 개 토지를 모니터링하는 EUDR 준비 체계를 구축했다는 보도 등 기업 준비 사례가 늘고 있습니다. 독일에서는 소규모 산림 소유자의 신고 간소화를 위한 법적 근거 논의도 진행 중입니다. 12월 30일 대기업 적용을 앞두고 준비가 본격화되는 분위기입니다.",
+        "refs": [
+          {
+            "t": "Accenture가 DS Smith가 EU 산림전용 규칙을 준비하는 데 도움을 주면서 약 25,000개의 토지가 모니터링되었습니다.",
+            "u": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNRW1JUk02d2pLU01KWUJtbFgtUlEycnNWa3U0V1F1MEhqcDVsNVc1WjFGLUs5MlkzUXlSWm1rQzk3NEdFOVptNjl4M08xd1dBcEw1WnFOaEJDY05QZXc4NHhJSnVlRUI2aHlaNmp1NlFFOEZUemRDcjBhZHNsN0lMeGFsRHpMTU5Pa1k0UlJvWTktb3dZRVpWV0Ywc2FGRkJ5ei1RYkZ5aERtSmhOYjVTOThUR0RueU9n?oc=5",
+            "s": "Stock Titan",
+            "d": "2026-09-28"
+          }
+        ]
+      },
+      {
+        "type": "참고",
+        "tag": "SFDR 공시",
+        "title": "SFDR 개정 두고 각국 금융당국 의견 제시",
+        "body": "프랑스 AMF가 SFDR 규정 개정에 대한 결론을 발표하는 등 각국 금융당국의 의견 제시가 이어지고 있습니다. 금융회사 대상 규제로 부품사 직접 영향은 없습니다."
+      }
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "points": [
+      {
+        "type": "주의",
+        "tag": "CSRD·ESRS 보고",
+        "title": "개정 ESRS·자발적 보고 표준, EU 관보 게재로 공식 확정",
+        "body": "간소화된 개정 ESRS와 자발적 지속가능성 보고 표준이 EU 관보(Official Journal)에 게재되어 공식 확정됐습니다. 비EU 기업용 표준(ESRS-40a) 논의도 계속되고 있습니다. CSRD는 보고 기업이 가치사슬 정보를 포함하도록 하는 구조여서, 고객사의 협력사 데이터 요구 양식이 확정된 표준 기준으로 정리될 수 있습니다.",
+        "refs": [
+          {
+            "t": "EU CSRD: 개정된 ESRS 및 자발적 보고 표준이 EU 공식 저널에 게시됩니다 - Linklaters",
+            "u": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQMUZfYzJpeGdKSEZWQVJRNV9vSGo1N3V6Wm9PU3UxdEZQSHljNmFSU0ZBdk1wZ0xMOUFYSkV1UVBya091dUxLQTA5YmY4dkgyYUZpQ0xvVTdHTzNMOXNEbkF1TTV3T3BYX19YdUl2UWRIS2dKR1lqNHJJZW5PWGRQdWd2c0dSQXB5aHd3NHZBeFRQZU14NW1FMmM2WTVDYnJKblJ0NnlJUDRreWZkQmFHMGhObWwzX0wxSjVsbjlidlQ1M292WTRsaU9EYW1KWGxq?oc=5",
+            "s": "Linklaters",
+            "d": "2026-09-21"
+          },
+          {
+            "t": "EU, 공식 저널에 최종 개정된 유럽 지속가능성 보고 표준 발표",
+            "u": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOV0hPbXBld2JqbEU3RllxeUh2YVpfU0xtbVBmUHd1RkxvM0RSU3ZJTm5Wc21uUEQ5Rl90QUtoN3A2UElpcFl0Z3U2WUMzbFE0d2dPUFZHdVFzc2FDZmhZTGR6VEM3SjM5MncxU1lMaW1uN2VRMTdGTnd0a05KZlpNaTlyMzc3bFhjalYydmlrYkJmakFwMnNaMmRGYWxjZFVKMUU4RnB6TGVLa0RFVGUtT0t4QzhfdWM?oc=5",
+            "s": "ESG Today",
+            "d": "2026-09-22"
+          }
+        ]
+      },
+      {
+        "type": "참고",
+        "tag": "CBAM 탄소국경",
+        "title": "WTO, CBAM 검토 패널 설치 동의 — 제도 시행은 그대로",
+        "body": "WTO 분쟁해결기구가 러시아의 요청에 따라 EU의 CBAM과 배출권거래제를 검토하는 패널 설치에 동의했습니다. 분쟁 결과가 나오기까지는 시간이 걸리며, 그 사이 CBAM 시행 일정 자체는 그대로 진행됩니다. EU 집행위의 새 CBAM 지침도 같은 주에 공개됐습니다.",
+        "refs": [
+          {
+            "t": "WTO 분쟁기구, EU 탄소국경 부과금에 대한 러시아 패널 요청에 동의",
+            "u": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNa3dGeGdiNXVGQkRHV3dDM29rak9SSFZRTVFjV1ZTS0JfR0dLR1NzQVFaY0dVZ0Z1U28yLW1GUE1GMUFmNkFfcndERmlZTU1XMkFJX01TRVU1WXNPcXh3NUtwQTdyMUFrZWdMdW1uSklaSWVnOThMMWlkMWZlWkFNVDVCMW9MS3NZNTRJOFVVNXU2Tm9TODM2WGwtQXZ4bzRVWExRVXdpUTdaVG1PV180LVpR?oc=5",
+            "s": "Reuters",
+            "d": "2026-09-25"
+          }
+        ]
+      },
+      {
+        "type": "참고",
+        "tag": "PPWR 포장재",
+        "title": "PPWR 적용 초기 — 라벨·포장 실무 과제 보도",
+        "body": "PPWR 적용이 시작되면서 라벨 제조업계의 초기 과제, 포장팀이 지금 해야 할 일 등 실무 중심 보도가 이어졌습니다. 규정의 행정 부담을 비판하는 시각의 기사도 함께 나왔습니다.",
+        "refs": [
+          {
+            "t": "EU의 새로운 포장 규정은 관료주의적인 엉터리입니다.",
+            "u": "https://news.google.com/rss/articles/CBMingFBVV95cUxQckc4cS13Mk44S0t4aFNFS3Bzb3d3YVhweHJRWkxzU0xvOF9ISFRERzM0TVlyUlRUMFk3LWJTR3R5dGFRWm90TWJ0S0FTelY4bWJBbE03R0pWbXNaWm5mRTY1Q3JQQ0VSSUNxWllpdkRPNV9BM2FMdnFjR3FCVzF0cEF6TTF2YmhmQUJxMGI4NGtPLVItVGJnMHV4al9kUQ?oc=5",
+            "s": "The Economist",
+            "d": "2026-09-24"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-09-18",
+    "points": [
+      {
+        "type": "주의",
+        "tag": "CBAM 탄소국경",
+        "title": "유럽의회, CBAM 하류 철강·알루미늄 완제품 확대 표결",
+        "body": "유럽의회가 CBAM 적용 대상을 하류 철강·알루미늄 완제품으로 확대하고 우회 방지 규칙을 강화하는 입장을 채택했습니다. 이사회와의 협상이 남아 있지만, 확정되면 신고 대상 품목이 늘어나 자동차 부품에 더 가까워지는 방향입니다. 철강·알루미늄 부품 수출 기업은 자사 품목의 포함 여부를 계속 확인할 필요가 있습니다.",
+        "refs": [
+          {
+            "t": "EU 의회는 제품 목록을 확대하고 CBAM 탄소 수입세의 허점을 없애기로 투표했습니다.",
+            "u": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPWEM1R2tIXzZDT3BfZDAzWE04Mlo5MnVyTmJFOVNGcnMyMFJWNXhxZkVuaHgzUGRWd0h3RDBQdzJYQ2VDZktyVjBwakVXODllQ2Q4a21DMGVPRXgwYTd0ZnFGZE9EcVQzUWJ6WHlkN0hMM3d5eDJDLW9MNlZGRGxIZEVadVhxdGlPSXJjOEpjaXhFSW9SV2NxeXltZVNyTFlEbGNvMnNwU2Z5Zmo3QlJV?oc=5",
+            "s": "ESG Today",
+            "d": "2026-09-15"
+          },
+          {
+            "t": "유럽의회, CBAM을 완제품으로 확대 승인",
+            "u": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQLWhtYnFwZTk5RlpxUUFRWHF0UVd2aWxRdHNGc2tMRFAxLWdqb2dtVGxqQ3ZHM1I5eFBURnVaMV9IS0hxTGtYM3NMdEd5c1hKbTBXdllEN2o3T09BVTNsRi1ENThNbHpCdjY2akJXSFNjQnYtdEJNNlRQb2hHUHZzcWFhZ2tqVmV1SUlubVBWUEN1dXFN?oc=5",
+            "s": "EUROMETAL",
+            "d": "2026-09-16"
+          }
+        ]
+      },
+      {
+        "type": "참고",
+        "tag": "CBAM 탄소국경",
+        "title": "한국 철강·석유화학의 CBAM 준비를 다룬 보고서 발간",
+        "body": "한국 철강·석유화학 부문의 CBAM 대비 수준과 저탄소 경쟁력을 분석한 보고서가 발간됐습니다. 국내 수출 산업 관점에서 CBAM 영향을 정리한 자료로 참고할 만합니다.",
+        "refs": [
+          {
+            "t": "CBAM을 위한 한국의 철강 및 석유화학 부문 준비: 변화하는 무역 환경에서의 저탄소 경쟁력",
+            "u": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPZS1EN1JDeTZKVUI0aWpPVTJzRVEtd3dSMk1kbzcybDc0NFFoMGNQaXJZWjczaXA1OVlaYUNWbVR6eG85NU5nSHBHUFlZdjVWX0QwYWNCeXRjRjZkVUlQUkJBVWhXbUY3eVJIenJBSHhTbW1HYndMVTM0c3RqV2NLbU5hT0ZwUkFOdXU1czNlV1ZZZm5TUVNNMGI1bXBST2JsdDNfQms1ellTamtyektsdzRYQUFXYW9IMTVuVk53?oc=5",
+            "s": "NewClimate Institute",
+            "d": "2026-09-16"
+          }
+        ]
+      },
+      {
+        "type": "참고",
+        "tag": "CSRD·ESRS 보고",
+        "title": "최종 ESRS 기준 2027년 보고 준비 분석 이어져",
+        "body": "확정된 최종 ESRS가 2027년 보고의 기준이 된다는 분석과 함께, 비EU 본사 기업용 표준에 대비하는 방법을 다룬 기사가 나왔습니다. 고객사가 요구하는 데이터 항목이 새 표준 기준으로 정리될 수 있으니 공지를 확인하시기 바랍니다."
       }
     ]
   },
@@ -241,6 +553,71 @@
     ]
   },
   {
+    "date": "2026-08-14",
+    "points": [
+      {
+        "type": "주의",
+        "tag": "PPWR 포장재",
+        "title": "PPWR 주요 의무 8월 12일 적용 개시",
+        "body": "포장재·포장폐기물 규정(PPWR)의 주요 의무가 2026년 8월 12일부터 적용되기 시작했습니다. 완성품 포장뿐 아니라 부품 운송 포장(파렛트·상자·완충재)에도 단계적으로 요구가 적용되는 구조이므로, EU향 수출 포장 사양을 점검하시기 바랍니다.",
+        "refs": [
+          {
+            "t": "여기에 있습니다: EU PPWR 요구 사항이 단계적으로 시작됩니다.",
+            "u": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOMnI4RmdUZURja1ZHSDB6TmxCRUQ4SUV2TGIyNXdaQXdLRGR6SzBCTUV4eVFER1RCQlVSNmJXNXRaZWFiUDJFamtwZTlnZDJmeEdVRWgwZHd5RWxUR09hM0QtV2VYMW4yMXNDR0JreU5kOEIzYW12blBDWjhXYjZ4SHZqVTJFd084bGJHT053?oc=5",
+            "s": "Packaging Dive",
+            "d": "2026-08-12"
+          },
+          {
+            "t": "포장에 관한 새로운 EU 규정이 적용됩니다 - EU 집행위 환경총국",
+            "u": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOdS1FRmRVZEtIZFA2Yng4czVjUkZqVjkzblhXRHIxcXFOSF9IMzVSQ0FiY2kxaUhZOEV3VVZJNDV5ZkRxM0JMcllnVlJvLXM5elpWVXpQUktocTdtRWxMa3lMLTg0UkN1aDd2ZHhHaWN5UzgtRVJTSUFzVjhXdmE0d0NzcnpHZXVFMDVzdnROYkVhMzFwMGlB?oc=5",
+            "s": "EU 집행위",
+            "d": "2026-08-11"
+          }
+        ]
+      },
+      {
+        "type": "주의",
+        "tag": "ELV 폐차·순환",
+        "title": "EU 자동차 순환성(ELV) 신규 규정 8월 13일 발효",
+        "body": "보다 순환적인 자동차 부문을 위한 EU의 새 ELV 규정이 8월 13일 발효됐다는 보도가 나왔습니다. 세부 의무는 단계적으로 적용되며, 차량 설계 단계의 재활용 고려와 재생 플라스틱 사용 요구가 차량 인증과 연결되는 규제여서, 완성차가 부품 사양으로 협력사에 요구하는 방식으로 이어질 수 있습니다. 적용 일정 경과를 확인해 둘 필요가 있습니다.",
+        "refs": [
+          {
+            "t": "EU 자동차 재활용 규정이 8월 13일 발효되어 순환성이 강화됩니다.",
+            "u": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNbHJkRXdyX0t5bndrZE5pR1dRejAtcmpHWndmSFh1WnhKQ2F1Z1FaUkh6cTZ4bDRTZ3VhOVA4ZVhJa0t3dW1RVDh4Z2c2MGhwZWpIZUJzcUZaZ2syTmRQd3IweW15dnZ5bW84ZWdQOTFFZkl4azlvWGwtY3NEUms1RFIwU2cyRmhaU3JvY3U4ZkhGNkNNeFFXWmxESUs4VTAySTZXeW91TVJJNm5BQzZuTE9uNm1uREl2aXZzMXZMZGJIX1ZWaGhaWVdUYjZFQmMtT2ZnVDNvVTQ3SjRYUjRF?oc=5",
+            "s": "INSIGHT EU MONITORING",
+            "d": "2026-08-12"
+          },
+          {
+            "t": "보다 순환적인 유럽 자동차 부문을 위한 새로운 규칙 - EU 집행위 환경총국",
+            "u": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQQVV6dmZKSnpkdXhfVGtBaTlidjIybzdsYUFCalYyc3hIRTMwZU9lcVFRRUFyWk9ZQk91M2ZnZkZpanQxa2VmWVNnX0hFQWp1TWJ3Z19pSGY2alphN3ItYzU3bkl2TnhNbXBiZXR2T0QwQzhRZHlUQ2ZIUHdRVXBpdTVNQXN4Ym45RXFEMnZPSm1Gc1JwNEJrSzN1Mk9sYkEwSjBrUA?oc=5",
+            "s": "EU 집행위",
+            "d": "2026-08-12"
+          }
+        ]
+      },
+      {
+        "type": "권고",
+        "tag": "강제노동",
+        "title": "강제노동 규정 6월 지침 분석 계속 — 한국 기업 대응 자료도",
+        "body": "EU 집행위의 2026년 6월 강제노동 규정 지침에 대한 법률 분석이 이어지고 있으며, 한국 기업의 공급망 관리 체계 구축 방안을 다룬 국내 자료도 나왔습니다. 원자재 조달 이력 문서화가 공통적으로 강조되고 있습니다.",
+        "refs": [
+          {
+            "t": "EU 강제노동 규정 – EU 집행위의 2026년 6월 지침의 주요 내용",
+            "u": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNaFpiSWJacHBnMVpYaE9LaWxtOFZmUjRtVEVKZVJOamdnQ1VGNE1rOF9VMHVJck1uU2NxaXFRSjV4N19zd0ZwSHNvTjcyZlJLczRxU1Zaei0zXzZ6dFRPQmd3VWd5eHBDOWZqaVpXYmdKalc1MjVTbnFaUDdJdWZjQ2pTN251WXowdjRUdmtOSlhHYnFBLWRtdW90MWh5Z1ppTWFuZVNGM1I4NWZ1Nl9wSkd0MFZIR29Bdy1qUmphY0s1RE1BaWhF?oc=5",
+            "s": "Hogan Lovells",
+            "d": "2026-08-12"
+          }
+        ]
+      },
+      {
+        "type": "참고",
+        "tag": "CSRD·ESRS 보고",
+        "title": "미국, EU에 지속가능성 규제 완화 압박 보도",
+        "body": "미·EU 무역 합의 이행을 두고 미국이 EU에 기업 지속가능성 규칙 완화를 압박하고 있다는 보도가 나왔습니다. CSRD·CSDDD의 최종 적용 범위에 변동 요인이 될 수 있는 배경 동향입니다."
+      }
+    ]
+  },
+  {
     "date": "2026-08-04",
     "points": [
       {
@@ -293,6 +670,409 @@
         "tag": "탄소·기후",
         "title": "자동차 공급망: 저탄소 소재 요구 확대",
         "body": "메르세데스-벤츠가 차량용 저탄소 알루미늄 장기 구매 계약을 체결했습니다. 완성차 OEM의 저탄소 소재·부품 조달 요구가 계속 확대되고 있어 부품업계의 탄소 관리 압력으로 이어질 전망입니다."
+      }
+    ]
+  },
+  {
+    "date": "2026-07-24",
+    "points": [
+      {
+        "type": "권고",
+        "tag": "ESPR 에코디자인",
+        "title": "EU, 디지털 제품 여권(DPP) 레지스트리 등록 개시",
+        "body": "EU가 2027년 본격 도입에 앞서 디지털 제품 여권 등록(레지스트리)을 시작했다는 보도가 나왔습니다. 철강·알루미늄·타이어가 우선 품목으로 거론되는 만큼, 제품 소재·재활용 정보를 전자적으로 제출하는 체계가 가시화되고 있다는 신호로 참고하시기 바랍니다.",
+        "refs": [
+          {
+            "t": "EU의 디지털 제품 여권 등록이 시작됩니다",
+            "u": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWm9TdGhlMTM3MzR3d09ZeUZ4d1Q3Nm1pZU9OMFI1UWJKalZkRER5al8yVERTYW1vazZkUHZKdGp3Q2VSYlczVThSTWQ2WUdkS0gyRjJnc3pPd3Vnd09YQU1iT1hQYjQ0R2t4Nzh1S2R2SnFNZUc4VF9SZXc1RHdRd29WS05XN1pVTjlqZUkzSFVpTnR0aTFBcQ?oc=5",
+            "s": "EU NEIGHBOURS east",
+            "d": "2026-07-21"
+          },
+          {
+            "t": "EU는 2027년 출시 전에 디지털 제품 여권 등록을 시작합니다.",
+            "u": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQUy1Zc21MVEFVcml6V0N2ZlFHeDNzaGJMbXdVeXhhaG1nQkk2amxEd2E2dzZheUdlU1YzUVNxNHQtTFA1OEl0OEFsV1ZOOXJKWlQ2aDF5VS1YeTU2SUNMMUlRTjJnM0tUMzJTNGh6NUJnVElYdUtXZmFXcVpHRk9YclBjR2xGbVdBSllHU2kzdFdoNVNISEstZDlUZFJJZElHekN1eW1VeHU5OFB0QUx6S0p6cUE?oc=5",
+            "s": "Open Access Government",
+            "d": "2026-07-24"
+          }
+        ]
+      },
+      {
+        "type": "참고",
+        "tag": "CBAM 탄소국경",
+        "title": "러시아, CBAM 관련 WTO 분쟁 패널 요청",
+        "body": "러시아가 EU의 CBAM과 배출권거래제에 대해 WTO 분쟁 패널을 요청했습니다. 통상 분쟁이 시작되더라도 CBAM 시행 일정 자체는 그대로 진행됩니다.",
+        "refs": [
+          {
+            "t": "러시아는 EU 탄소 국경 조정 및 배출권 거래 계획에 대한 분쟁 패널을 요청합니다",
+            "u": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9CTldRSkFwR3A3WFNVSERSbHpyTkxUazBtXy1SbWdXdHBKWG5BcmxILXlWZWRMQ2dYM0s1M0x4ME92dzRpRm5fWlpUSzhkT1ZHalBhMkxBb2h2bUxyYjBGYkVmVzBfWmYtTDQ2RG5jcFVsX28?oc=5",
+            "s": "WTO",
+            "d": "2026-07-24"
+          }
+        ]
+      },
+      {
+        "type": "참고",
+        "tag": "강제노동",
+        "title": "강제노동 규정 — 각국 수출업계 대비 보도 확산",
+        "body": "중국·태국 등 각국 수출업계에 EU 강제노동 규정 대비를 권고하는 보도가 이어지고 있으며, 규정의 실효성을 둘러싼 논쟁 기사도 나왔습니다. 2027년 12월 시행을 앞두고 글로벌 공급망 전반에서 준비가 시작되는 분위기입니다."
+      }
+    ]
+  },
+  {
+    "date": "2026-07-17",
+    "points": [
+      {
+        "type": "주의",
+        "tag": "EUDR 산림전용",
+        "title": "EUDR 제품 범위 확정 — 가죽은 적용 대상에서 제외",
+        "body": "EU 집행위가 EUDR의 제품 범위에 관한 위임법과 정보시스템 시행법을 채택하면서 적용 조건이 사실상 확정됐습니다. 이번 위임법에서 가죽이 적용 대상에서 제외됐다는 보도가 나왔습니다. 가죽시트 관련 기업에는 부담이 줄어드는 변화이고, 타이어·고무 등 나머지 대상 원자재는 그대로 12월 30일 준수 시작입니다.",
+        "refs": [
+          {
+            "t": "유럽연합 집행위원회는 가죽을 제외하는 EUDR 위임법을 채택했습니다.",
+            "u": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNMkJxQnhNclAzbkhwM0QyMDlsZ1ZxNkNrWkc5MG5xNExQdEZvVFZTbmlPY3QtR0ZhQTVXZldPX2kyaGlpZEIwQ0tMdWhjeXgzQjk1V1VORGFTMzcycTZuVXE2ZEpxRTQyeER3UFVLVXM1REdRQldMVFViV05RbGVZeTlVTGV5Z0ZQLUVNdE9QTWdUUWZ3N2FMZ0ZZMWpPMmJaWnlEVlZuN0lmQQ?oc=5",
+            "s": "Responsible Investor",
+            "d": "2026-07-13"
+          },
+          {
+            "t": "EU 산림전용 규제: 위원회는 제품 범위에 관한 위임법 및 정보 시스템 시행법을 채택했습니다.",
+            "u": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQWXJ6SWkzVGFsX0NtX0ZrZWNkbTJ6eHdrTkJndm5RRUVSLWJ2VGN1STMwT2d3NGk3Wmd4U181RERfTVRocUhWN3JEVTQwOG1ob0hDanBmd1JtdTVkeE0xMzU0U0VpRFdHaHNPV0wzVlZ2dXZ2bWJ1aUROZ1FaeEpNTlpobktOZV8ybWNUaFhqNmZZRG5mYW9sekJKVHdSdG1iTld5LXZfcncxVWt2T29UOXczMy00dDZrXy1oM0J6T3FTVkZYcGZzTTlvX3JWNE9h?oc=5",
+            "s": "Linklaters",
+            "d": "2026-07-15"
+          }
+        ]
+      },
+      {
+        "type": "참고",
+        "tag": "CSRD·ESRS 보고",
+        "title": "최종 ESRS·자발적 표준 게시에 대한 분석 이어져",
+        "body": "7월 초 채택된 최종 개정 ESRS와 자발적 보고 표준(VESRS)에 대한 법률·회계 업계의 분석 자료가 계속 나오고 있습니다. 변경된 공시 항목이 고객사의 데이터 요구에 반영되기까지는 시간이 걸리므로, 고객사 공지를 기준으로 대응하시면 됩니다."
+      },
+      {
+        "type": "참고",
+        "tag": "SFDR 공시",
+        "title": "SFDR 2.0 의회 표결 지연",
+        "body": "SFDR 2.0에 대한 유럽의회 표결이 타협안 조율 난항으로 지연되고 있다는 보도가 나왔습니다. 금융회사 대상 규제로 부품사 직접 영향은 없습니다."
+      }
+    ]
+  },
+  {
+    "date": "2026-07-10",
+    "points": [
+      {
+        "type": "주의",
+        "tag": "CSRD·ESRS 보고",
+        "title": "집행위, 최종 개정 ESRS 채택",
+        "body": "EU 집행위가 간소화된 최종 개정 ESRS(유럽 지속가능성 보고 표준)를 채택했습니다. 공시 항목을 줄이는 방향이지만, 보고 기업이 가치사슬 정보를 담는 구조는 유지되므로 고객사의 협력사 데이터 요구 양식이 새 표준 기준으로 바뀔 수 있습니다.",
+        "refs": [
+          {
+            "t": "EU 집행위, 최종 기업 지속가능성 보고 표준 채택",
+            "u": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQYnA5TkdOcDEyMWp3enltTGsxV3RnRWRkVkxpMHNWcG1CTXhMck1uTnlQRlFvbjlYTEk4aW1JR0EwOWM3QXpTUUpEaUdyd2xkUC1HTUVmZi1MLV9jVmNFR0wxNmF4NXRHLVBHNnhYVjJBSS1SSkZDNGVIby01bVk1MU5QZGdTMDdKdkNMeXY1YmJfY01nUU12bHR2cXFWRktlTUd2cVRhOUlqZGs?oc=5",
+            "s": "ESG Today",
+            "d": "2026-07-06"
+          }
+        ]
+      },
+      {
+        "type": "주의",
+        "tag": "CBAM 탄소국경",
+        "title": "CBAM 하류 확대 표결 — 완성차협회 성명 발표",
+        "body": "EU 의회에서 CBAM 적용 제품 목록 확대 표결이 진행됐고, 유럽 완성차협회(ACEA)는 하류 확장 제안에 대한 성명을 발표했습니다. CBAM이 자동차 가치사슬로 확대될 가능성을 두고 업계 논의가 본격화되고 있습니다.",
+        "refs": [
+          {
+            "t": "EU 국회의원들, CBAM 탄소수입세에 따른 제품 목록 확대에 투표",
+            "u": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPc1dGWnNzaHR0dEp5d0UwYzFzRlQtdFpZTDVOTVhiTUlBb1ZpZ1diUHlqeFRZcDV1emxnV1FROUNtclBiWFpON1U0QmhGSXUxTGsxbjhZSHNGMnAxeU9pSFk0aW5zS2hBUTBVNVJjMTNrMkE4YnRpb2VWcG0xS0ZRTk1nODVVdGtJNlZvZUJmdTQzcnptM3ZoVnlsZ2dOc0hC?oc=5",
+            "s": "ESG Today",
+            "d": "2026-07-07"
+          },
+          {
+            "t": "CBAM 다운스트림 확장 제안에 대한 ACEA 성명",
+            "u": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQeFViWVhCY0ZwTlNpdTNqTDFPSC1STTl4MXRKeUJhNjMwbEFRZWk5R3JWUmJhLUFLY2RHbmhUMlJSdTAxV0JrLTVENWFHUTc1RXBTcFFoODVvOXVPc0JfTjUzd3dCRFR5YlN1WG5FVDhmVmVZNU92MS1FR3FsS1ltTUNWUnBIeDdEM0lmLVVkSFRLVzg?oc=5",
+            "s": "ACEA",
+            "d": "2026-07-06"
+          }
+        ]
+      },
+      {
+        "type": "참고",
+        "tag": "배터리 규정",
+        "title": "배터리 여권 준비 사례 확산 — 중국 첫 파일럿 여권 발급",
+        "body": "중국 기업이 Bureau Veritas로부터 첫 파일럿 배터리 여권을 받았다는 보도가 나왔습니다. 2027년 2월 의무화를 앞두고 각국에서 배터리 여권 준비 사례가 늘고 있습니다.",
+        "refs": [
+          {
+            "t": "Poweroad는 Bureau Veritas로부터 중국 최초의 파일럿 배터리 여권을 받았습니다.",
+            "u": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTE43ZUFMQThxck03UGF3dURTaGxPSGRpcEd0QW9YRm5YSGlVVnJGWTdlcVhUM1E1TTNNWXowX24xWjRwcmYzX1dDV3dBRlpKRU0tamlIWDdPUEJUTnVpbmdqNzBlWlR0eEhvV0VaZ0VEOEF5cTZDT3NfMUxEM3l5TlBUSDFPdkxMRThGUlktcUtYSmt4R3ZGZEdNNE54VW5abEszSnhmV2VIeWhOSDZEbnY4Yw?oc=5",
+            "s": "pv magazine",
+            "d": "2026-07-06"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-07-03",
+    "points": [
+      {
+        "type": "주의",
+        "tag": "Omnibus 간소화",
+        "title": "이사회·의회, CSRD·CSDDD 옴니버스 간소화 임시 합의",
+        "body": "EU 이사회와 유럽의회가 CSRD·CSDDD 의무를 완화하는 옴니버스 간소화 패키지에 임시 합의했다는 분석이 나왔습니다. 적용 대상 기준과 실사 범위가 조정되는 내용으로, 최종 확정 내용에 따라 고객사의 보고·실사 요구 범위가 달라질 수 있습니다.",
+        "refs": [
+          {
+            "t": "EU – 이사회와 의회는 CSRD 및 CSDDD를 위한 옴니버스 단순화 패키지에 대한 임시 합의에 도달했습니다. 무엇이 변경되었습니까?",
+            "u": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWVg5cHVURE9vRmdfUnZZMzZQNnpOR09UZ3ZyTFl6WWVEUkd1X0Z0VlViV0Q5X0txVDhZZDZkazJZWU5yVjY4eXlmUktTNHhhQ2JrbXNiMWlOOGdfR3NOY01iMDRoRjRmRy1ZYU5oT3RFc0k1dUJUdXA3WC1WX3BqT0Z3ZjB1ZnEwUXBQRGh1UzM2ZWg0eG12LTlNZXpxWkZKTjhqMW5vaU9pVkxVSkcxc0FhbnpwZw?oc=5",
+            "s": "Hogan Lovells",
+            "d": "2026-07-02"
+          }
+        ]
+      },
+      {
+        "type": "권고",
+        "tag": "강제노동",
+        "title": "집행위, 강제노동 규정 지침 발표",
+        "body": "EU 집행위가 강제노동 규정(2024/3015)에 관한 지침을 발표했다는 법률 분석이 이어졌습니다. 조사 시 원료 조달 이력 제출이 요구되는 구조이므로, 소싱 이력 문서화 수준을 미리 점검해 두시기 바랍니다.",
+        "refs": [
+          {
+            "t": "EU 집행위, EU 강제노동 규정에 관한 지침 발표",
+            "u": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxON0RhYXhGMXJrOUVCTy1LYUZBSWFZSm11bWFjZENLWXZ2LW1JcDRIRGE1eU11VVVoMk1CUjBxQ2tobDF5cnNBMWI2ekdnUUZpQTZUYmxoUUhnQUowd0tfQVFTV19yUlAxOXZIZmNoTlhtSnpSX3ZqU3ZWaVp4ckRiQTM3MHYyWEhVTGpBOUtfWnZFbnNGNmtHTi1LTkhiM3BTUzdqUzRYRlg1QQ?oc=5",
+            "s": "Latham & Watkins",
+            "d": "2026-07-02"
+          }
+        ]
+      },
+      {
+        "type": "참고",
+        "tag": "EUDR 산림전용",
+        "title": "EUDR 12월 적용 앞두고 간소화 패키지 발표",
+        "body": "집행위가 2026년 12월 적용일에 앞서 EUDR 절차 간소화 패키지를 발표했습니다. 적용 시점 자체는 유지되므로, 대상 원자재를 취급하는 기업의 원산지 정보 준비는 계획대로 진행해야 합니다."
+      }
+    ]
+  },
+  {
+    "date": "2026-06-26",
+    "points": [
+      {
+        "type": "권고",
+        "tag": "배터리 규정",
+        "title": "디지털 배터리 여권 테스트 환경 공개",
+        "body": "디지털 배터리 여권의 테스트 환경이 온라인으로 공개됐다는 보도가 나왔습니다. 2027년 2월 의무화 전에 요구되는 데이터 항목과 입력 방식을 미리 확인해 볼 수 있는 기회입니다.",
+        "refs": [
+          {
+            "t": "디지털 배터리 여권 테스트 환경이 온라인으로 전환됩니다.",
+            "u": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNTkhmNlRkMkVMZVpjMEVxS3hwNnhFNVBmSTY2RGg3b19fRUY3b2hyUWVKT0Zoem5qMGhHNVRPampWb0s4cEhGMmt5RFo2S0ZRMzF1eUVvUUJtMFY5RXgzSTVVcm05dmZicVloWlV3MkpOYi1HV3BFX3lDYzJPdk9NLUp3NHB6TElHeU82UGg2TThKVS1wMEE?oc=5",
+            "s": "electrive",
+            "d": "2026-06-25"
+          }
+        ]
+      },
+      {
+        "type": "참고",
+        "tag": "SFDR 공시",
+        "title": "SFDR 2.0 전환 기금 범주 놓고 회원국 이견",
+        "body": "SFDR 2.0의 새 '전환 기금' 범주에서 화석연료 기업 제외 조항을 삭제하자는 회원국 제안이 보도되는 등 개정 방향을 둘러싼 논의가 이어졌습니다. 금융회사 대상 규제로 부품사 직접 영향은 없습니다."
+      },
+      {
+        "type": "참고",
+        "tag": "그린워싱·표시",
+        "title": "회원국 단위 그린워싱 금지 이행 입법 진행",
+        "body": "오스트리아가 소비자 권한 부여 지침(EmpCo)을 이행하는 법안 초안을 내놓는 등 회원국 단위의 그린워싱 금지 입법이 진행되고 있습니다. EU 지침이 각국 국내법으로 구체화되는 단계입니다."
+      }
+    ]
+  },
+  {
+    "date": "2026-06-19",
+    "points": [
+      {
+        "type": "주의",
+        "tag": "ELV 폐차·순환",
+        "title": "EU, 폐차(ELV) 신규 규정 채택",
+        "body": "유럽 폐기물 업계 단체(FEAD)가 환영 성명을 낼 만큼 주목받은 EU의 새 폐차(ELV) 규정이 채택됐다는 보도가 나왔습니다. 차량 설계 단계부터 재활용을 고려하고 재생 플라스틱을 일정 비율 사용하도록 하는 내용으로, 발효·적용 일정이 확정되는 대로 부품 사양 요구로 이어질 수 있는 규제입니다.",
+        "refs": [
+          {
+            "t": "유럽 ELV 규정 승인: 순환 차량 재활용을 위한 역사적인 단계",
+            "u": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdEF5dXQzM2hybnJUakNUbm1VekRGck5SSVBsbDFOZ0dxOTlobFYyVjdJU0NhZXlINVZONi1sbFM5aG9TSExrVU1xQVJOc21aQ2tMbGtWWkNpU0xEekJrRHRuaXZ4bE96X0RaQlJRZUJVZ1hXVEFFVG1OckpiSjdKdlBrcUotaktMVFVUSkJpOXMtUWR4ZXVPcHJMZ3lmdElJamJDYUNNMXBwOHRFT3ZsRg?oc=5",
+            "s": "Auto Recycling World",
+            "d": "2026-06-19"
+          }
+        ]
+      },
+      {
+        "type": "권고",
+        "tag": "CSDDD 공급망실사",
+        "title": "집행위, CSDDD 이행 지침 협의 시작",
+        "body": "EU 집행위가 CSDDD 이행 지침 마련을 위한 협의를 시작했습니다. 완성차의 실사 요구가 협력사로 내려오는 방식이 이 지침에서 구체화되는 만큼, 지침 확정 경과를 확인할 필요가 있습니다.",
+        "refs": [
+          {
+            "t": "EU 집행위, 향후 CSDDD 지침에 대한 협의 시작",
+            "u": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNcFc2ZDlyMlVJRUU2YWExR0tlU3QybGt0UTNMV1NDRTlvc1Y0MTBRLXMxTTAwMDYzZ1BPRHBUQlZXbC1LeHdFbjlDSmxMeHNfcVdfYVhZZTBnRUtVY2JLLWRrVUFHOGZUbVpnOFNneDdDOVg3LWtENFA4c1VNaVAwb3hiak1KZ01YUXRJMFlEQ3ZEU1VuZzZ3UDJoUHY?oc=5",
+            "s": "Latham & Watkins",
+            "d": "2026-06-17"
+          }
+        ]
+      },
+      {
+        "type": "참고",
+        "tag": "CSRD·ESRS 보고",
+        "title": "비EU 기업용 지속가능성 보고 표준 초안 발표",
+        "body": "EU가 비EU 본사 기업에 적용될 지속가능성 보고 표준 초안을 발표했다는 보도가 나왔습니다. 한국 본사 기업에 적용될 수 있는 기준이 만들어지는 과정이므로 확정 내용을 지켜볼 필요가 있습니다.",
+        "refs": [
+          {
+            "t": "EU, 미국 기업을 위한 지속가능성 보고 표준 초안 발표",
+            "u": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOMC14R0s0OVFENk5TcUp2Q2ppMnBoUk9SdnhPOEZnTWV1eWQyWVk1a3lxcGZUM3o5MUszbmJhaWY1S2JLQ3paSTdneTlsWlFPVzB3Y2dpVm42MGtuNHFHaVFkZkU3cVZpbGZqT2h1bXJQcUNpbzhhV2R6MnM3ZlhmMzN2azMzN0NvdUZzR1BXVy1vc3RObGEwaVU3YkVscjIwbm5IaUc3a0pxeHlSV0xGUXFIYmxUX2hnNDVaSkJMU3BOek1DYk5DdWR4SHpsQQ?oc=5",
+            "s": "Forbes",
+            "d": "2026-06-16"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-06-12",
+    "points": [
+      {
+        "type": "권고",
+        "tag": "배터리 규정",
+        "title": "완성차의 배터리 여권 준비 가시화 — 혼다 파트너십 보도",
+        "body": "혼다가 2027년 EU 기한에 앞서 디지털 배터리 여권 시스템 구축을 위한 파트너십을 맺었다는 보도가 나왔습니다. 독일 자동차산업협회(VDA)는 단계적 도입을 요구했습니다. 완성차 단계의 준비가 시작되면 배터리 소재·부품 공급 기업에 대한 데이터 요구도 뒤따르는 구조입니다.",
+        "refs": [
+          {
+            "t": "Honda는 EU의 2027년 기한을 앞두고 디지털 배터리 여권 시스템을 구축하기 위해 Circularise와 파트너십을 맺었습니다.",
+            "u": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPenF5LVpBTGVTb0M5RGJ5WERTX3otS2dMZXN6Q3l0eUxXa2I0LUlTNkdmVktqMjRlVXB1UmlBZXMyZUpKMnpjWk5KTnlyemlQUFhsNVFFTkxTTGE1OFRCaXo2NlRqaU1hU1FNcVQ1eUhsR3g3YktpdHR3b2NlM19tMTNkeUl4VmVraFBpaHRuVUZ5T2F1QmM5X25rckNCMFktR1czeEV5NzN5ZUhwRjNjcFY1VnlnQjRZNlAyWnJEdVRuMDB6SVJGano3WVM?oc=5",
+            "s": "Charged EVs",
+            "d": "2026-06-11"
+          },
+          {
+            "t": "VDA는 EU 배터리 패스포트 구현을 위한 '단계적 접근 방식'을 요구합니다",
+            "u": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTWEyV2NoY0E4dnFsekJaakJlT3pwdGhndXdGVVFyc2p0MHVKR2F6VGpTbGQxN1h6NXR6eGR2RTZsc2Iybkd0UlNCVTJVQnNtRVpTdWItZ0tXbHFMM29oSFY3NDR4anpYLXJPQk5GcmFqZmRxMFphUW0zVzktQnB5Yl9iWWVCOUI0cnNKZDNUNjFCS0tYV2Zj?oc=5",
+            "s": "Energy-Storage.News",
+            "d": "2026-06-11"
+          }
+        ]
+      },
+      {
+        "type": "참고",
+        "tag": "EUDR 산림전용",
+        "title": "EUDR 간소화 — \"서류는 줄지만 책임은 그대로\" 분석",
+        "body": "EUDR 간소화 업데이트에 대해 '관료적 부담은 줄지만 기업의 실사 책임 자체는 줄지 않는다'는 분석이 나왔습니다. 원산지 정보 확보 체계는 간소화와 무관하게 필요합니다."
+      },
+      {
+        "type": "참고",
+        "tag": "CBAM 탄소국경",
+        "title": "CBAM이 철강 무역 흐름을 바꾸기 시작했다는 연구",
+        "body": "CBAM이 EU-인도 철강 무역을 재편하기 시작했다는 초기 징후를 다룬 연구가 발표됐습니다. 탄소 비용이 실제 무역 구조에 반영되기 시작했다는 참고 신호입니다."
+      }
+    ]
+  },
+  {
+    "date": "2026-06-05",
+    "points": [
+      {
+        "type": "주의",
+        "tag": "그린워싱·표시",
+        "title": "집행위, 20개 회원국에 그린워싱 금지 이행 지연 경고",
+        "body": "EU 집행위가 그린워싱 금지 규정(소비자 권한 부여 지침)의 국내법 이행이 늦은 20개 회원국에 경고했습니다. 제도 시행을 위한 압박이 진행되고 있다는 신호로, 제품·홍보물의 친환경 문구에 근거 자료를 갖추는 준비는 계속 필요합니다.",
+        "refs": [
+          {
+            "t": "EU 위원회, 20개 회원국에 Greenwashing 금지 규정 이행 실패 경고",
+            "u": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQVEwycDMwWVNwWUNyVF96UHJiODdoeGg3QnRndzYydDlWUm5SVWtpNHV4WUxfQ0ZJQXB2RWR3RS1sYUp1LUQ0LVRfbnVFSFc1RGhMZXBqMzBya0x1TlpReTdGVkVLeU03R1Z1bVhoVTkxbkNZSXZXbXZzSlp6ZG10UFFwOGxpbzREQVlVcExFNVlUSm5qVGV6V0IydTZxSjJzU3FCczRuc3hYVmpodnNFd2xn?oc=5",
+            "s": "ESG Today",
+            "d": "2026-06-02"
+          }
+        ]
+      },
+      {
+        "type": "참고",
+        "tag": "CBAM 탄소국경",
+        "title": "제3국 탄소 가격 공제 시행 규칙 초안 발표",
+        "body": "EU 집행위가 수출국에서 이미 지불한 탄소 가격을 CBAM에서 공제하는 시행 규칙 초안을 발표했습니다. 한국에서 지불한 탄소 비용이 어디까지 인정되는지가 이 규칙에서 정해지는 구조이므로, 확정 내용을 확인할 필요가 있습니다.",
+        "refs": [
+          {
+            "t": "EU 집행위, CBAM 탄소 가격 공제에 대한 시행 규칙 초안 발표",
+            "u": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTTFtRS1KX0t1bUtzU0NvN2NVYWpuclNYTjVKaVlJSnpHZ1kyVjFDNG1aQWcyMkZPakxGQ0k5MjJtQzk0MlhORV9DRkEzUHdMOE5zc2V1cmlWZVNldGh4NGlwMW85NURjNTdYNERHQktYbWU0TFlSRDFicDY0NHZHdHdEcUs2Qkt2WXlnakdJQmI5azladzhleWZjRXdUQ3BybFNpUFdhQ3dOVzl0ZVlwenA5dy1qd2k4bkVHdjdR?oc=5",
+            "s": "globalelr.com",
+            "d": "2026-06-04"
+          }
+        ]
+      },
+      {
+        "type": "참고",
+        "tag": "EUDR 산림전용",
+        "title": "EUDR 테스트런에서 드러난 기업 준비 과제",
+        "body": "EUDR 시행 전 테스트런에서 얻은 기업 준비 인사이트를 정리한 법률 자료가 나왔습니다. 신고 시스템 입력과 원산지 좌표 데이터 품질이 주요 과제로 꼽힙니다."
+      }
+    ]
+  },
+  {
+    "date": "2026-05-29",
+    "points": [
+      {
+        "type": "참고",
+        "tag": "택소노미",
+        "title": "녹색금융 기준 활용을 둘러싼 금융권 분석",
+        "body": "은행권이 EU 녹색채권 기준을 적극 수용하지 않는 이유를 다룬 분석과 지속가능성 보고 흐름을 짚은 칼럼이 나온 조용한 주간이었습니다. 금융권 중심 동향으로 부품사 직접 영향은 없습니다.",
+        "refs": [
+          {
+            "t": "은행들이 EU의 녹색채권 기준을 수용하지 않는 이유 - ING",
+            "u": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOSUQ1ajNEd0lZUGpPZ3phUmdhbHhDMENUMWZHS0tQakZpVDlVY3NiSVQ4NGI2cWZGTm5adnlWOURrTmNSQXFWMUFiOHJCX0FwcU1qeHlvVXFtaURiLURhWkxFb2Y2bU1PUHFoU1RsY2tMN1MwZk9DVENvcTlpcGhNRW9fSzh1MDZZdkJkQ0tYcnZxUFI1d3JF?oc=5",
+            "s": "ING",
+            "d": "2026-05-27"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-05-22",
+    "points": [
+      {
+        "type": "권고",
+        "tag": "배터리 규정",
+        "title": "자동차용 배터리 여권 요구사항·일정 정리 자료",
+        "body": "자동차 분야 배터리 여권의 요구 데이터, 타임라인, 준수 단계를 정리한 실무 자료가 보도됐습니다. 2027년 2월 의무화에 대비해 요구 항목을 미리 파악해 두는 데 참고할 수 있습니다.",
+        "refs": [
+          {
+            "t": "EU 배터리 패스포트 설명: 자동차에 대한 요구 사항, 타임라인 및 규정 준수 단계",
+            "u": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQdmFKTFJfbGlSX0tlQUZ2Nnh5MVNVMzNEZG1BVEJxODZOWTdFMWdKa0ZHMHpEQzVnNHo3V1dJMVZJLXVDaGxGamItVWJndU80T1REM0cyNVBUUGdiSkxFU2tFRVNjRHFkeHc0cmR5a0VOSnJybHpBd05QUHc4Zm5rZkRHSVZtM1RSTlJSbmQ2a3dSOFNicFR0dnZPb25SbXNUVnlXek5ZVUFiYkd0RkFzQUEtbHNFTXBtUl81SldDeXQyYzZoUnIzclFrbUx0Y2tjNllmUjQ3Ylk?oc=5",
+            "s": "Automotive IQ",
+            "d": "2026-05-19"
+          }
+        ]
+      },
+      {
+        "type": "참고",
+        "tag": "EUDR 산림전용",
+        "title": "EUDR 간소화가 규정 준수에 미치는 영향 분석",
+        "body": "EUDR 간소화 논의가 실제 규정 준수 부담에 어떤 영향을 주는지 분석한 기사가 나왔습니다. 간소화 여부와 무관하게 원산지 추적 체계의 기본 틀은 유지됩니다."
+      }
+    ]
+  },
+  {
+    "date": "2026-05-15",
+    "points": [
+      {
+        "type": "참고",
+        "tag": "CSDDD 공급망실사",
+        "title": "CSDDD의 비EU 기업 영향 정리 자료",
+        "body": "CSDDD가 비EU 기업에 적용되는 조건과 영향을 정리한 법률·컨설팅 자료가 나왔습니다. 한국 본사 기업의 직접 적용 여부 판단과, 적용 대상 고객사로부터 내려올 실사 요구를 가늠하는 데 참고할 수 있습니다.",
+        "refs": [
+          {
+            "t": "EU 기업 지속가능성 실사 지침: CSDDD가 비 EU 기업에 미치는 영향 - Linklaters",
+            "u": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOczZnVEVrOW9qdDA4SXBETEdXcHQyNWF6U2h5VnNfdU9Sa01JYWVza2J3WUJ1Nm53ZU5OMVZ3aTBRZFYtRXBycWM5WWxVRVZtY3VqaEtOVDFHTHpfcXozcnNzMGlfRGhrRVJZWHo0aTZjdXhZWjF0TExScEYwZGJKbVd6OE1WTFotZkZYUEdrc0JuUi1MbUctNklzQnh2VkZmdzhYZERZVDBKRHlkZ3Bndjg0VTlMNl9BbWl2WGkzbEk2cTBTckV5d1VQRzBqclBy?oc=5",
+            "s": "Linklaters",
+            "d": "2026-05-12"
+          }
+        ]
+      },
+      {
+        "type": "참고",
+        "tag": "CSRD·ESRS 보고",
+        "title": "집행위, 개정 ESRS·자발적 보고 표준 제안",
+        "body": "EU 집행위가 간소화된 개정 ESRS와 새 자발적 지속가능성 보고 표준안을 제안했습니다. 공시 항목을 줄이는 방향의 제안 단계 소식으로, 이후 채택 경과를 확인하면 됩니다."
+      },
+      {
+        "type": "참고",
+        "tag": "ESPR 에코디자인",
+        "title": "EU 디지털 제품 여권(DPP) 개요 자료",
+        "body": "EU 디지털 제품 여권 제도의 구조와 적용 방향을 정리한 법률 자료가 나왔습니다. 품목별 세부 규정 확정 전 단계에서 제도 전반을 파악하는 데 참고할 수 있습니다."
       }
     ]
   }
