@@ -3,7 +3,7 @@
 :root {
   --ink:       #131719;
   --ink-2:     #4c5459;
-  --ink-3:     #7b8489;
+  --ink-3:     #646d72; /* 작은 메타 글자도 흰 바탕·베이지 바탕에서 4.5:1 이상 */
   --bg:        #f2f1ee;
   --bg-0:      rgba(242, 241, 238, 0);
   --surface:   #ffffff;
@@ -21,8 +21,9 @@
   --ok-wash:   #e7f0ea;
   --warn:      #8f5a10;
   --warn-wash: #f7eeda;
-  --idle:      #6d7880;
+  --idle:      #5d686f; /* idle-wash 위 4.5:1 이상 */
   --idle-wash: #ecece7;
+  --sel:       rgba(28, 69, 104, .2);
   --urgent:    #a92d10;
   --urgent-wash:#f8e9e3;
   --shadow:    0 1px 2px rgba(14, 34, 64, .04), 0 6px 20px rgba(14, 34, 64, .06);
@@ -31,12 +32,13 @@
 }
 @media (prefers-color-scheme: dark) {
   :root {
-    --ink: #ebeceb; --ink-2: #a8b0b4; --ink-3: #7d868b;
+    --ink: #ebeceb; --ink-2: #a8b0b4; --ink-3: #8a9297;
     --bg: #101416; --bg-0: rgba(16, 20, 22, 0); --surface: #191f23; --surface-0: rgba(25, 31, 35, 0); --line: #2c3438; --line-soft: #232a2e;
     --brand: #85a9c8; --brand-ink: #a3c0da; --brand-wash: #1c2833;
     --nav: #0a1a31; --nav-ink: #ffffff; --nav-sub: #8298b4; --nav-line: #1a3252;
     --ok: #5aa87b; --ok-wash: #16281d; --warn: #c9963c; --warn-wash: #2e2513;
-    --idle: #7d868b; --idle-wash: #1e2529;
+    --idle: #8a9297; --idle-wash: #1e2529;
+    --sel: rgba(133, 169, 200, .32);
     --urgent: #d97a5c; --urgent-wash: #331b12;
     --shadow: 0 1px 2px rgba(0, 0, 0, .25), 0 6px 20px rgba(0, 0, 0, .3);
     --shadow-up: 0 4px 10px rgba(0, 0, 0, .35), 0 18px 40px rgba(0, 0, 0, .5);
@@ -44,8 +46,10 @@
 }
 
 * { box-sizing: border-box; }
-html { scroll-behavior: smooth; }
-::selection { background: rgba(28, 69, 104, .18); }
+@media (prefers-reduced-motion: no-preference) {
+  html { scroll-behavior: smooth; }
+}
+::selection { background: var(--sel); }
 body {
   margin: 0; background: var(--bg); color: var(--ink);
   font-family: "Pretendard Variable", Pretendard, "Apple SD Gothic Neo",
@@ -54,6 +58,9 @@ body {
   -webkit-text-size-adjust: 100%; text-size-adjust: 100%;
 }
 a { color: inherit; }
+/* 키보드 포커스 링 — 개별 규칙이 없는 요소의 기본값 (:where = 우선순위 0이라 개별 규칙이 이김) */
+:where(a, button, select, input, summary):focus-visible { outline: 2px solid var(--brand); outline-offset: 2px; }
+.nav :focus-visible, .phead :focus-visible, .dhead :focus-visible, footer :focus-visible { outline-color: #7fa4c4; }
 .wrap { max-width: 1180px; margin: 0 auto; padding: 0 28px; }
 @media (max-width: 640px) {
   .wrap { padding: 0 16px; }
@@ -647,6 +654,9 @@ footer .fn { margin-top: 18px; padding-top: 15px; border-top: 1px solid var(--na
 
   footer { font-size: .85rem; }
   footer li { padding: 5px 0; }
+
+  /* iOS는 16px 미만 입력란에 포커스하면 화면을 확대한다 */
+  input.search, select.sort { font-size: 16px; }
 }
 
 /* 아주 좁은 화면 (아이폰 SE 등) */
