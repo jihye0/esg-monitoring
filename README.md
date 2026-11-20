@@ -1,5 +1,7 @@
 # EU ESG 규제 모니터링
 
+[![총 방문 수](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fkmbridge-esg.goatcounter.com%2Fcounter%2FTOTAL.json&query=count&label=%EC%B4%9D%20%EB%B0%A9%EB%AC%B8&color=1c4568&cacheSeconds=3600)](https://esg-monitoring.kmbridge.org)
+
 > 자동차부품사를 위한 EU ESG 규제 자동 모니터링 — 매주 월요일 스스로 수집·분석·배포되는 정적 웹 서비스
 >
 > **운영 중인 사이트 → <https://esg-monitoring.kmbridge.org>**
@@ -84,7 +86,7 @@ EU ESG 규제 대응을 지원하기 위해 운영합니다. 기획부터 개발
 | 화면 | 순수 HTML/CSS/JS (프레임워크·빌드 도구 없음) | 데이터 파일 교체만으로 갱신, 누구든 파일을 열어 고칠 수 있음 |
 | 배포 | GitHub Pages + 커스텀 도메인 | 서버 운영비 0, git push가 곧 배포 |
 | 자동화 | Windows 작업 스케줄러 + PowerShell(`run_weekly.ps1`) | 담당자 PC에서 무인 주간 실행 |
-| 방문 통계 | GoatCounter | 스크립트 한 줄, 개인정보 수집 없음 |
+| 방문 통계 | GoatCounter | 스크립트 한 줄, 개인정보 수집 없음 — 위의 총 방문 수 배지가 여기서 나옵니다 |
 
 비밀키·API 키는 사용하지 않습니다(공개 RSS·공개 번역 엔드포인트만 사용).
 수집하는 것은 RSS가 제공하는 **제목·요약·링크**이며 기사 본문은 저장하지 않습니다.
