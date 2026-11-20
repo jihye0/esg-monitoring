@@ -1,10 +1,19 @@
+<div align="center">
+
 # EU ESG 규제 모니터링
 
+**자동차부품사를 위해 매주 월요일 스스로 수집·번역·분석·배포하는 EU ESG 규제 모니터링 서비스**
+
+[![라이브 사이트](https://img.shields.io/website?url=https%3A%2F%2Fesg-monitoring.kmbridge.org&label=%EB%9D%BC%EC%9D%B4%EB%B8%8C%20%EC%82%AC%EC%9D%B4%ED%8A%B8&up_message=%EC%9A%B4%EC%98%81%20%EC%A4%91&up_color=2e7d32)](https://esg-monitoring.kmbridge.org)
+[![마지막 업데이트](https://img.shields.io/github/last-commit/jihye0/esg-monitoring?label=%EB%A7%88%EC%A7%80%EB%A7%89%20%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8&color=1c4568)](https://github.com/jihye0/esg-monitoring/commits/main)
+[![수집 기사](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fesg-monitoring.kmbridge.org%2Fdata.json&query=%24.items.length&label=%EC%88%98%EC%A7%91%20%EA%B8%B0%EC%82%AC&suffix=%EA%B1%B4&color=1c4568&cacheSeconds=3600)](https://esg-monitoring.kmbridge.org/weekly.html)
 [![총 방문 수](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fkmbridge-esg.goatcounter.com%2Fcounter%2FTOTAL.json&query=count&label=%EC%B4%9D%20%EB%B0%A9%EB%AC%B8&color=1c4568&cacheSeconds=3600)](https://esg-monitoring.kmbridge.org)
 
-> 자동차부품사를 위한 EU ESG 규제 자동 모니터링 — 매주 월요일 스스로 수집·분석·배포되는 정적 웹 서비스
->
-> **운영 중인 사이트 → <https://esg-monitoring.kmbridge.org>**
+**[esg-monitoring.kmbridge.org →](https://esg-monitoring.kmbridge.org)**
+
+<a href="https://esg-monitoring.kmbridge.org"><img src="docs/shot-index.png" alt="규제 현황 화면 — 마지막 수집 시각과 확인 필요 건수, 우리 회사 기준 필터, 규제 시행 캘린더" width="90%"></a>
+
+</div>
 
 K-Mobility 브릿지 재단(자동차부품산업진흥재단)에서 현대차그룹 협력사(자동차부품사)의
 EU ESG 규제 대응을 지원하기 위해 운영합니다. 기획부터 개발·배포·운영 자동화까지
@@ -54,6 +63,8 @@ EU ESG 규제 대응을 지원하기 위해 운영합니다. 기획부터 개발
 | [주간 동향](https://esg-monitoring.kmbridge.org/weekly.html) | 주차별 아카이브 + 재단 이슈 브리핑(근거 기사 링크 포함) |
 | [규제 상세](https://esg-monitoring.kmbridge.org/reg.html?id=cbam) | 적용 대상·시행 일정·벌칙, 완성차 고객사를 거쳐 협력사로 내려오는 요구 구조 해설 |
 | [시스템 소개](https://esg-monitoring.kmbridge.org/about.html) | 수집 방식과 데이터 출처 |
+
+<a href="https://esg-monitoring.kmbridge.org/weekly.html"><img src="docs/shot-weekly.png" alt="주간 동향 화면 — 주차별 탭, 재단 이슈 브리핑 카드(근거 기사 링크 포함), 규제별 기사 목록" width="100%"></a>
 
 <details>
 <summary>감시 중인 규제 14종 펼쳐 보기</summary>
