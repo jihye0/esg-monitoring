@@ -1,5 +1,90 @@
 [
   {
+    "date": "2026-11-20",
+    "points": [
+      {
+        "type": "주의",
+        "tag": "EUDR 산림전용",
+        "title": "EUDR 대기업 적용 임박 — 집행 체계 둘러싼 움직임 보도",
+        "body": "EUDR의 대기업 적용(12월 30일)을 앞두고, 집행위가 자국 내 집행·감독 체계가 미비한 4개 회원국을 상대로 절차를 개시했다는 보도가 나왔습니다. 포장재 기업의 펄프 추적성 준비 등 공급망 추적 대응 보도도 이어졌습니다. 고무·목재 등 대상 원자재를 취급하는 기업은 조달처의 원산지 추적 준비 상황을 확인해 보시기 바랍니다.",
+        "refs": [
+          {
+            "t": "누가 EUDR을 감시할 것인가 — 브뤼셀, 4개 회원국 상대 절차 개시",
+            "u": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5lVUZzUU1idTRVZGV4NmlSRE9UdURXUVNKMGs0U2lBdlNINkVkQjBnblBjOWVJeDZvV1VmVzdjdmZnSnBYaVBTeTk3TXQwM0x1b0diZUs4Q1p1d0JDR0MxSUg1Mk9pOFUxS01Z?oc=5",
+            "s": "Wood Central",
+            "d": "2026-11-21"
+          },
+          {
+            "t": "Tetra Pak, EUDR 기한 앞두고 펄프 추적성 강조",
+            "u": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOUlpBU1RmSHBvd005Vm9OYWlia0REdHpIQU5JdzVNYmRrajZ4clltNGtSUkxOdFdoSGZlMXdDaUIyeDl4MWE2QlltV2R4QkdnMG0wYmxGY0Y2VGVPNTlMdDhtSWhPYVdFMXpUaHM3aW9OYmY5TFVma1l2ZU5rczA0UzVFaHlvTE5NWVNsTkVEUE8?oc=5",
+            "s": "Packaging Insights",
+            "d": "2026-11-17"
+          }
+        ]
+      },
+      {
+        "type": "권고",
+        "tag": "배터리 규정",
+        "title": "배터리 여권, 2027년 2월 18일 전기차 적용 — 디지털 여권 기술 자료 공표",
+        "body": "전기차 배터리 여권이 2027년 2월 18일부터 적용된다는 점을 짚는 보도가 이어졌고, 상용차 업체의 대응 솔루션 도입 보도도 나왔습니다. 같은 주 집행위는 디지털 제품 여권(DPP) 레지스트리에 연결하려는 기업을 위한 기술 지침과 자료를 공표했습니다. 배터리·전장 부품을 다루는 기업은 고객사의 데이터 요구가 구체화될 수 있으므로 공표된 기술 자료를 확인해 볼 만합니다.",
+        "refs": [
+          {
+            "t": "유럽 배터리 여권, 2027년 2월 18일부터 전기차에 적용",
+            "u": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZ3hWanRHV0hHZTRYUXlZdXNCX2YxdlZmb0pOaURYV1lvX3VzN1JnRnlWNnlaaUY5R3lUUTRSMHFZNXNqQ1g0NVdrUFhBT05vcGJ2bDR1TkpHU1JZckN4QWVIby1sQUw5elRlQi1pWGowdkNINUVoTjdtd1A0N3RFRmpYSE5OVUVEQko2bS1NeFJkQUM2T0pIcEVGY0huVDdDU3ZxN3EyYXRSUXN3RUE?oc=5",
+            "s": "energynews.pro",
+            "d": "2026-11-19"
+          },
+          {
+            "t": "집행위, 디지털 제품 여권 레지스트리 기술 지침 공표",
+            "u": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOQ3V1QVFTYnVwT3JhOXpTZWtuckJpQzdLSy15TTUwVnB3akxfTEk2RmJGaXE0UTlWdU5DZWlsWDV6amwwSjlEcjVrSDRCeERNSmFXMGUxTl9feEdpSUtnVWs0ODRsWnVTcFJuSk5pZ280alUtaUFDLVBiWk11cGJDSG1OTGNQVUpwOGd5eWZ3MWo4aTI5Ykh4dDdkV3VSTG9US3RGYnVwZHdmdWdnWUNnM3hfRlh1Mmt3OXFrQ2t1MzJBcnhVbm1iY3RLYlROa1B4RWU2YkdEb1BOLWRxZUpFd3FJRmFhZ2lGejlBODdLc3lacFFsbVAzSVpBRFpDOHgxMkhz?oc=5",
+            "s": "EU Reporter",
+            "d": "2026-11-17"
+          }
+        ]
+      },
+      {
+        "type": "참고",
+        "tag": "CBAM 탄소국경",
+        "title": "CBAM, 2027년부터 노르웨이·아이슬란드 확대 — 운영 세부도 잇따라 확정",
+        "body": "2027년 1월부터 CBAM이 노르웨이·아이슬란드로 확대 적용된다는 보도가 나왔습니다. 알바니아·몬테네그로·세르비아의 자국 탄소가격을 CBAM 비용 산정에서 인정하고, 제6조 국제 탄소 크레딧 사용에는 10% 상한을 둔다는 보도도 있었습니다. EU에 철강·알루미늄 제품을 수출하는 기업은 비용 산정 규칙이 구체화되는 흐름을 참고하시기 바랍니다.",
+        "refs": [
+          {
+            "t": "EU, 2027년 1월부터 CBAM을 노르웨이·아이슬란드로 확대",
+            "u": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQclpjRFJoUmhkeXpWWGVLRmRPRGlzbU91WXlPSGprYVRpclZDWVk2WDQ5V092S1JOUFdWRVZvamRvYlRzWC10WE1mblR6MGFQclZIYkxTMzFiakJmSWVqb0hPZHdVOFpldkJtazhmWjJZazhRV28tYnRHTE01ZzlnX1BhVXItcjdOcHpfcm94UjNmb3pwcjJiMk9tTy1WbzFIODROb0txTU9WQ01rcFNVYnhUNUhrYWV5YVg4?oc=5",
+            "s": "SteelOrbis",
+            "d": "2026-11-19"
+          },
+          {
+            "t": "EU, 알바니아·몬테네그로·세르비아 탄소가격을 CBAM에서 인정",
+            "u": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQlNfbjVPOUFQUzByVnpkZU5tWHB3aVo3ZUd3NU92M0wtRDVldkJLRFhxcTkwaWFTR1hmWHVIeGQyeEdnTS1fQlpTT0RWZURYdVdlVWVGNUUzOXA3NUxiTmVGNDdZQXlUS0gxQnNWQjczcnpaM0pTWks2UkN3S0hhZVRXR0hsLTZiOEtIdFQtQW9nLUx1ZTJTT3EwLW1yLXRhMjRPU3pZdw?oc=5",
+            "s": "Balkan Green Energy News",
+            "d": "2026-11-20"
+          },
+          {
+            "t": "EU, CBAM 비용 경감용 제6조 크레딧에 10% 상한",
+            "u": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOUmhkZGh0OU1Kc25rVlBnM2tPMC1sY29vMUZYQVR6ZEV6YkZVc3Rqc3Eyc2Z2SFdyLWY2emRwaFR3QmNfaDFmZjJuUFlURVpJaXpwNjI3WGhDT19oLWZ0amRhUm0zM0p0S2xnNExqWFJwZ25XclYzMk1QWkpTOERWS2hURWVVQjJoeTI2X0FBRVl2c1JUNnlPRQ?oc=5",
+            "s": "Carbon Herald",
+            "d": "2026-11-17"
+          }
+        ]
+      },
+      {
+        "type": "참고",
+        "tag": "SFDR 공시",
+        "title": "이사회·의회, SFDR 개정(2.0) 잠정 합의",
+        "body": "EU 이사회와 유럽의회가 지속가능금융 공시 규정(SFDR) 개정에 잠정 합의했다고 발표했습니다. 금융상품의 지속가능성 공시를 단순화하고 상품 분류 체계를 명확히 하는 방향입니다. 부품사에 직접 적용되는 규정은 아니지만, 지속가능 금융·투자와 연결되는 공시 환경 변화로 참고할 만합니다.",
+        "refs": [
+          {
+            "t": "이사회·의회, 금융상품 투명성 규칙 단순화 합의 (이사회 보도자료)",
+            "u": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOaTdBX3FjVGJGVjFfTHNNWTZsdTZRQ3FLS0VXQTFZVFRSNFJlckEzaDVZNHE2WXhKM3JmdkUxdEg3Zk5faW9VQlRxUkNLZG9kV05ITHZyQXNuU0ZMZnhBMnNhU09MMFQwZjF5OFkxeW9VYzdfRXpNMU9saWRBZHIyeDZpTTIyNXNpY1RKZmF0Qk9aWFF4OE11MUc2ZmttVDVob0dmWnJuX1NzT2NyenpnVFYwdHd3SnpBX1FOSHdaSVdKRzR5dGF4dmw0QVFhNW1LVnVaOTJDaGNWN2gxVmtxVzNGN1QydGxJX0tiV1QwdF9DS3VhWVZrNmh6UFZkZw?oc=5",
+            "s": "Council of the EU",
+            "d": "2026-11-19"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-11-13",
     "points": [
       {
